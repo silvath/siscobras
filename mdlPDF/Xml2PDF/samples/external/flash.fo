@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format" font-family="Helvetica" font-size="10pt">
+	<fo:layout-master-set>
+		<fo:simple-page-master master-name="all-pages" page-height="29.7cm" page-width="21cm" margin="1cm">
+			<fo:region-body region-name="xsl-region-body" background-color="white" margin-bottom="2cm" margin-top="2cm"/>
+			<fo:region-before region-name="xsl-region-before" background-color="#EFF0D7" extent="1cm" border="1pt solid #660000"/>
+			<fo:region-after region-name="xsl-region-after" background-color="#EFF0D7" extent="1cm" border="1pt solid #660000"/>
+		</fo:simple-page-master>
+	</fo:layout-master-set>
+	<fo:page-sequence master-reference="all-pages">
+		<fo:static-content flow-name="xsl-region-before">
+			<fo:block text-align="justify" text-align-last="justify" padding="0.25cm">
+				<fo:wrapper color="#660000" font-size="12pt" font-weight="bold">ALTSOFT</fo:wrapper>
+				<fo:leader/>XSL-FO testsuite
+			</fo:block>
+		</fo:static-content>
+		<fo:static-content flow-name="xsl-region-after">
+			<fo:block text-align="justify" text-align-last="justify" padding="0.25cm">
+				<fo:basic-link external-destination="url(http://www.alt-soft.com/)">
+					<fo:inline color="#660000" text-decoration="underline">http://www.alt-soft.com/</fo:inline>
+				</fo:basic-link>
+				<fo:leader/>
+				<fo:inline wrap-option="no-wrap">© Altsoft, 2003</fo:inline>
+			</fo:block>
+		</fo:static-content>
+		<fo:flow flow-name="xsl-region-body" font-family="Courier" font-size="10pt">
+			<fo:block margin-left="1.5cm" margin-right="1.5cm" text-align="justify" text-align-last="left">
+				<fo:block>
+					An example of using Macromedia Flash file format as an external graphics.
+					The flash is inserted to the output document as a Media Clip Object. In order
+					to view the result correctly Macromedia Flash Viewer is required.
+				</fo:block>
+				<fo:block padding="5mm" text-align="center" text-align-last="center">
+					<fo:external-graphic width="16cm" height="6cm" src="url('img/alt.swf')"/>
+				</fo:block>
+			</fo:block>
+		</fo:flow>
+		
+	</fo:page-sequence>
+
+</fo:root>

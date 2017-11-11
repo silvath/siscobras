@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiscoConfig", "SiscoConfig\SiscoConfig.csproj", "{997A09A6-7597-4275-B799-5F1228501E0C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {FD0A8C0C-E418-44C6-A34A-D531263774FA}
+		SccProjectUniqueName1 = SiscoConfig\\SiscoConfig.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = SiscoConfig\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{997A09A6-7597-4275-B799-5F1228501E0C}.Debug.ActiveCfg = Debug|.NET
+		{997A09A6-7597-4275-B799-5F1228501E0C}.Debug.Build.0 = Debug|.NET
+		{997A09A6-7597-4275-B799-5F1228501E0C}.Release.ActiveCfg = Release|.NET
+		{997A09A6-7597-4275-B799-5F1228501E0C}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

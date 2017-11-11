@@ -1,0 +1,767 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.2292"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{B0878FE2-CF46-4048-BA37-0DEBDE9AABCC}"
+        SccProjectName = "SAK"
+        SccLocalPath = "SAK"
+        SccAuxPath = "SAK"
+        SccProvider = "SAK"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "mdlDataBaseData"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = "sn -R $(TargetPath) $(TargetDir)..\\Siscobras.snk"
+                RootNamespace = "mdlDataBaseData"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "..\..\BINARIOS\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "..\..\BINARIOS\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "clsIdentificacao.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Leiame.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Dados\XmlTbCertificadosOrigemNormas.xml"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dados\XmlTbEstadosBrasileiros.xml"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dados\XmlTbIdiomas.xml"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dados\XmlTbIdiomasTextos.xml"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dados\XmlTbMoedas.xml"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dados\XmlTbPaises.xml"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dados\XmlTbRelatorioCamposBD.xml"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dados\XmlTbRelatorioCirculos.xml"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dados\XmlTbRelatorioEtiquetas.xml"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dados\XmlTbRelatorioImagens.xml"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dados\XmlTbRelatorioLinhas.xml"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dados\XmlTbRelatorioRetangulos.xml"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dados\XmlTbRelatorios.xml"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dados\XmlTbRelatoriosCamposBDPreRequisitos.xml"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dados\XmlTbRelatoriosCamposBDRelatorios.xml"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dados\XmlTbRelatoriosTodosCamposBD.xml"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dados\XmlTbRelatorioTipo.xml"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dados\XmlTbStatisticDataManipulators.xml"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dados\XmlTbStatisticReports.xml"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dados\XmlTbUnidadesEspaco.xml"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dados\XmlTbUnidadesEspacoIdioma.xml"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dados\XmlTbUnidadesMassa.xml"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dados\XmlTbUnidadesMassaIdioma.xml"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dados\XmlTbUsuariosConcessoes.xml"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dados\XmlTbUsuariosConcessoesPermissoes.xml"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dados\XmlTbUsuariosPermissoes.xml"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dados\XmlTbVolumes.xml"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbCertificadosOrigemNormas.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "XsdTbCertificadosOrigemNormas.cs"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbCertificadosOrigemNormas.cs"
+                    DependentUpon = "XsdTbCertificadosOrigemNormas.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbCertificadosOrigemNormas.xsx"
+                    DependentUpon = "XsdTbCertificadosOrigemNormas.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbIdiomas.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "XsdTbIdiomas.cs"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbIdiomas.cs"
+                    DependentUpon = "XsdTbIdiomas.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbIdiomas.xsx"
+                    DependentUpon = "XsdTbIdiomas.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbIdiomasTextos.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "XsdTbIdiomasTextos.cs"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbIdiomasTextos.cs"
+                    DependentUpon = "XsdTbIdiomasTextos.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbIdiomasTextos.xsx"
+                    DependentUpon = "XsdTbIdiomasTextos.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbIncoterms.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "XsdTbIncoterms.cs"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbIncoterms.cs"
+                    DependentUpon = "XsdTbIncoterms.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbIncoterms.xsx"
+                    DependentUpon = "XsdTbIncoterms.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbMoedas.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "XsdTbMoedas.cs"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbMoedas.cs"
+                    DependentUpon = "XsdTbMoedas.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbMoedas.xsx"
+                    DependentUpon = "XsdTbMoedas.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbPaises.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "XsdTbPaises.cs"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbPaises.cs"
+                    DependentUpon = "XsdTbPaises.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbPaises.xsx"
+                    DependentUpon = "XsdTbPaises.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatorioCamposBD.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "XsdTbRelatorioCamposBD.cs"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatorioCamposBD.cs"
+                    DependentUpon = "XsdTbRelatorioCamposBD.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatorioCamposBD.xsx"
+                    DependentUpon = "XsdTbRelatorioCamposBD.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatorioCirculos.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "XsdTbRelatorioCirculos.cs"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatorioCirculos.cs"
+                    DependentUpon = "XsdTbRelatorioCirculos.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatorioCirculos.xsx"
+                    DependentUpon = "XsdTbRelatorioCirculos.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatorioEtiquetas.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "XsdTbRelatorioEtiquetas.cs"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatorioEtiquetas.cs"
+                    DependentUpon = "XsdTbRelatorioEtiquetas.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatorioEtiquetas.xsx"
+                    DependentUpon = "XsdTbRelatorioEtiquetas.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatorioImagens.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "XsdTbRelatorioImagens.cs"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatorioImagens.cs"
+                    DependentUpon = "XsdTbRelatorioImagens.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatorioImagens.xsx"
+                    DependentUpon = "XsdTbRelatorioImagens.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatorioLinhas.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "XsdTbRelatorioLinhas.cs"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatorioLinhas.cs"
+                    DependentUpon = "XsdTbRelatorioLinhas.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatorioLinhas.xsx"
+                    DependentUpon = "XsdTbRelatorioLinhas.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatorioRetangulos.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "XsdTbRelatorioRetangulos.cs"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatorioRetangulos.cs"
+                    DependentUpon = "XsdTbRelatorioRetangulos.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatorioRetangulos.xsx"
+                    DependentUpon = "XsdTbRelatorioRetangulos.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatorios.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "XsdTbRelatorios.cs"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatorios.cs"
+                    DependentUpon = "XsdTbRelatorios.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatorios.xsx"
+                    DependentUpon = "XsdTbRelatorios.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatoriosCamposBDPreRequisitos.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "XsdTbRelatoriosCamposBDPreRequisitos.cs"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatoriosCamposBDPreRequisitos.cs"
+                    DependentUpon = "XsdTbRelatoriosCamposBDPreRequisitos.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatoriosCamposBDPreRequisitos.xsx"
+                    DependentUpon = "XsdTbRelatoriosCamposBDPreRequisitos.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatoriosCamposBDRelatorios.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "XsdTbRelatoriosCamposBDRelatorios.cs"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatoriosCamposBDRelatorios.cs"
+                    DependentUpon = "XsdTbRelatoriosCamposBDRelatorios.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatoriosCamposBDRelatorios.xsx"
+                    DependentUpon = "XsdTbRelatoriosCamposBDRelatorios.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatoriosTodosCamposBD.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "XsdTbRelatoriosTodosCamposBD.cs"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatoriosTodosCamposBD.cs"
+                    DependentUpon = "XsdTbRelatoriosTodosCamposBD.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatoriosTodosCamposBD.xsx"
+                    DependentUpon = "XsdTbRelatoriosTodosCamposBD.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatorioTipo.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "XsdTbRelatorioTipo.cs"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatorioTipo.cs"
+                    DependentUpon = "XsdTbRelatorioTipo.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbRelatorioTipo.xsx"
+                    DependentUpon = "XsdTbRelatorioTipo.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbStatisticDataManipulators.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "XsdTbStatisticDataManipulators.cs"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbStatisticDataManipulators.cs"
+                    DependentUpon = "XsdTbStatisticDataManipulators.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbStatisticDataManipulators.xsx"
+                    DependentUpon = "XsdTbStatisticDataManipulators.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbStatisticReports.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "XsdTbStatisticReports.cs"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbStatisticReports.cs"
+                    DependentUpon = "XsdTbStatisticReports.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbStatisticReports.xsx"
+                    DependentUpon = "XsdTbStatisticReports.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbTipoCO.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "XsdTbTipoCO.cs"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbTipoCO.cs"
+                    DependentUpon = "XsdTbTipoCO.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbTipoCO.xsx"
+                    DependentUpon = "XsdTbTipoCO.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbTransportes.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "XsdTbTransportes.cs"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbTransportes.cs"
+                    DependentUpon = "XsdTbTransportes.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbTransportes.xsx"
+                    DependentUpon = "XsdTbTransportes.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbUnidadesEspaco.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "XsdTbUnidadesEspaco.cs"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbUnidadesEspaco.cs"
+                    DependentUpon = "XsdTbUnidadesEspaco.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbUnidadesEspaco.xsx"
+                    DependentUpon = "XsdTbUnidadesEspaco.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbUnidadesEspacoIdioma.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "XsdTbUnidadesEspacoIdioma.cs"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbUnidadesEspacoIdioma.cs"
+                    DependentUpon = "XsdTbUnidadesEspacoIdioma.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbUnidadesEspacoIdioma.xsx"
+                    DependentUpon = "XsdTbUnidadesEspacoIdioma.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbUnidadesMassa.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "XsdTbUnidadesMassa.cs"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbUnidadesMassa.cs"
+                    DependentUpon = "XsdTbUnidadesMassa.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbUnidadesMassa.xsx"
+                    DependentUpon = "XsdTbUnidadesMassa.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbUnidadesMassaIdioma.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "XsdTbUnidadesMassaIdioma.cs"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbUnidadesMassaIdioma.cs"
+                    DependentUpon = "XsdTbUnidadesMassaIdioma.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbUnidadesMassaIdioma.xsx"
+                    DependentUpon = "XsdTbUnidadesMassaIdioma.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbUsuariosConcessoes.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "XsdTbUsuariosConcessoes.cs"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbUsuariosConcessoes.cs"
+                    DependentUpon = "XsdTbUsuariosConcessoes.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbUsuariosConcessoes.xsx"
+                    DependentUpon = "XsdTbUsuariosConcessoes.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbUsuariosConcessoesPermissoes.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "XsdTbUsuariosConcessoesPermissoes.cs"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbUsuariosConcessoesPermissoes.cs"
+                    DependentUpon = "XsdTbUsuariosConcessoesPermissoes.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbUsuariosConcessoesPermissoes.xsx"
+                    DependentUpon = "XsdTbUsuariosConcessoesPermissoes.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbUsuariosPermissoes.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "XsdTbUsuariosPermissoes.cs"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbUsuariosPermissoes.cs"
+                    DependentUpon = "XsdTbUsuariosPermissoes.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbUsuariosPermissoes.xsx"
+                    DependentUpon = "XsdTbUsuariosPermissoes.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbVolumes.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "XsdTbVolumes.cs"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbVolumes.cs"
+                    DependentUpon = "XsdTbVolumes.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Tabelas\XsdTbVolumes.xsx"
+                    DependentUpon = "XsdTbVolumes.xsd"
+                    BuildAction = "None"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mdlData>
+	<clsData>
+		<Tarefas>10-06-2003#Roberto#Compilando em Vs2003</Tarefas>
+		<Problemas>Nenhum</Problemas>
+	</clsData>
+	<clsData>
+		<Tarefas>14-10-2003#Roberto#Criado booleano m_bDataNula para retornar string vazia caso data não exista no BD</Tarefas>
+		<Problemas>Só incluído funcionalidade nas Faturas</Problemas>
+	</clsData>
+	<frmFData>
+		<Tarefas>10-06-2003#Roberto#Compilando em Vs2003</Tarefas>
+		<Problemas>Nenhum</Problemas>
+	</frmFData>
+	<frmFDataConfiguracao>
+		<Tarefas>10-06-2003#Roberto#Compilando em Vs2003</Tarefas>
+		<Problemas>Nenhum</Problemas>
+	</frmFDataConfiguracao>
+</mdlData>

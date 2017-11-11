@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mdlIncoterm>
+	<clsIncoterm>
+		<Tarefas>17-06-2003#Roberto#Compilando em VS2003!
+</Tarefas>
+		<Problemas>OK!
+</Problemas>
+	</clsIncoterm>
+	<frmFIncoterm>
+		<Tarefas>20-06-2003#Roberto#Alterando métodos de retornaValores</Tarefas>
+		<Problemas>Problemas com os radio buttons, o frame seleciona automaticamente um quando termina o método load!</Problemas>
+	</frmFIncoterm>
+	<clsIncoterm>
+		<Tarefas>18-07-2003#Roberto#Criado valores de desconto!
+</Tarefas>
+		<Problemas>OK!
+</Problemas>
+	</clsIncoterm>
+	<frmFIncoterm>
+		<Tarefas>18-07-2003#Roberto#Alterado interface para suportar desconto</Tarefas>
+		<Problemas>OK!</Problemas>
+	</frmFIncoterm>
+</mdlIncoterm>

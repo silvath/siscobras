@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{02EC4C5D-8836-466A-B69B-6CAD9C1D189D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{192B725D-CDB1-4D0D-84C3-28EF2A805D4B} = {192B725D-CDB1-4D0D-84C3-28EF2A805D4B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlInstrucoesPagamento", "mdlInstrucoesPagamento\mdlInstrucoesPagamento.csproj", "{192B725D-CDB1-4D0D-84C3-28EF2A805D4B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {851BF088-DFA5-4B80-AE6A-D75F6547FDAF}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlInstrucoesPagamento\\mdlInstrucoesPagamento.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlInstrucoesPagamento\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{02EC4C5D-8836-466A-B69B-6CAD9C1D189D}.Debug.ActiveCfg = Debug|.NET
+		{02EC4C5D-8836-466A-B69B-6CAD9C1D189D}.Debug.Build.0 = Debug|.NET
+		{02EC4C5D-8836-466A-B69B-6CAD9C1D189D}.Release.ActiveCfg = Release|.NET
+		{02EC4C5D-8836-466A-B69B-6CAD9C1D189D}.Release.Build.0 = Release|.NET
+		{192B725D-CDB1-4D0D-84C3-28EF2A805D4B}.Debug.ActiveCfg = Debug|.NET
+		{192B725D-CDB1-4D0D-84C3-28EF2A805D4B}.Debug.Build.0 = Debug|.NET
+		{192B725D-CDB1-4D0D-84C3-28EF2A805D4B}.Release.ActiveCfg = Release|.NET
+		{192B725D-CDB1-4D0D-84C3-28EF2A805D4B}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		mdlInstrucoesPagamento\mdlInstrucoesPagamento.vsd = mdlInstrucoesPagamento\mdlInstrucoesPagamento.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

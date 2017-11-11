@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{6987CCAE-DFBE-4F70-AB99-240A77AE078E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CDAE21FF-60A7-41A0-AD35-EF617966E64F} = {CDAE21FF-60A7-41A0-AD35-EF617966E64F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlRelatoriosJanelas", "mdlRelatoriosJanelas\mdlRelatoriosJanelas.csproj", "{CDAE21FF-60A7-41A0-AD35-EF617966E64F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {40E188D6-13F3-4BC7-A12C-C8957E1D7277}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlRelatoriosJanelas\\mdlRelatoriosJanelas.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlRelatoriosJanelas\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{6987CCAE-DFBE-4F70-AB99-240A77AE078E}.Debug.ActiveCfg = Debug|.NET
+		{6987CCAE-DFBE-4F70-AB99-240A77AE078E}.Debug.Build.0 = Debug|.NET
+		{6987CCAE-DFBE-4F70-AB99-240A77AE078E}.Release.ActiveCfg = Release|.NET
+		{6987CCAE-DFBE-4F70-AB99-240A77AE078E}.Release.Build.0 = Release|.NET
+		{CDAE21FF-60A7-41A0-AD35-EF617966E64F}.Debug.ActiveCfg = Debug|.NET
+		{CDAE21FF-60A7-41A0-AD35-EF617966E64F}.Debug.Build.0 = Debug|.NET
+		{CDAE21FF-60A7-41A0-AD35-EF617966E64F}.Release.ActiveCfg = Release|.NET
+		{CDAE21FF-60A7-41A0-AD35-EF617966E64F}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		mdlRelatoriosJanelas.vsd = mdlRelatoriosJanelas.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

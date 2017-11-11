@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{BECEC141-D583-4CC8-BC18-39E90BDABCF5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7D7E6283-9DD6-459F-8DF8-43D8DCFA3D0C} = {7D7E6283-9DD6-459F-8DF8-43D8DCFA3D0C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlProdutosRomaneio", "mdlProdutosRomaneio\mdlProdutosRomaneio.csproj", "{7D7E6283-9DD6-459F-8DF8-43D8DCFA3D0C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {E5031F7A-E1DF-4B40-AA4C-BC9F2FD01380}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlProdutosRomaneio\\mdlProdutosRomaneio.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlProdutosRomaneio\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{BECEC141-D583-4CC8-BC18-39E90BDABCF5}.Debug.ActiveCfg = Debug|.NET
+		{BECEC141-D583-4CC8-BC18-39E90BDABCF5}.Debug.Build.0 = Debug|.NET
+		{BECEC141-D583-4CC8-BC18-39E90BDABCF5}.Release.ActiveCfg = Release|.NET
+		{BECEC141-D583-4CC8-BC18-39E90BDABCF5}.Release.Build.0 = Release|.NET
+		{7D7E6283-9DD6-459F-8DF8-43D8DCFA3D0C}.Debug.ActiveCfg = Debug|.NET
+		{7D7E6283-9DD6-459F-8DF8-43D8DCFA3D0C}.Debug.Build.0 = Debug|.NET
+		{7D7E6283-9DD6-459F-8DF8-43D8DCFA3D0C}.Release.ActiveCfg = Release|.NET
+		{7D7E6283-9DD6-459F-8DF8-43D8DCFA3D0C}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		mdlProdutosRomaneio.vsd = mdlProdutosRomaneio.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

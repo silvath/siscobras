@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbRelatoriosCamposBDPreRequisitos" targetNamespace="http://tempuri.org/XsdTbRelatoriosCamposBDPreRequisitos.xsd" elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbRelatoriosCamposBDPreRequisitos.xsd" xmlns:mstns="http://tempuri.org/XsdTbRelatoriosCamposBDPreRequisitos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbRelatoriosCamposBDPreRequisitos" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbRelatoriosCamposBDPreRequisitos">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nIdCampoBD" type="xs:int" />
+							<xs:element name="nIdCampoBDPreRequisitado" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbRelatoriosCamposBDPreRequisitosKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbRelatoriosCamposBDPreRequisitos" />
+			<xs:field xpath="mstns:nIdCampoBD" />
+			<xs:field xpath="mstns:nIdCampoBDPreRequisitado" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

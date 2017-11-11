@@ -1,0 +1,150 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.2292"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{0C4C7A0B-97AA-4ADE-B4E8-4C7C17C7D642}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "mdlIcones"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = "sn -R $(TargetPath) $(TargetDir)Siscobras.snk"
+                RootNamespace = "mdlIcones"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "..\..\Binarios\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "..\..\Binarios\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "E:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "E:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "E:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "E:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "mdlConstantes"
+                    AssemblyName = "mdlConstantes"
+                    HintPath = "..\..\Binarios\mdlConstantes.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Siscobras\Icones\clsManipuladorIcones.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Siscobras\Icones\Relatorios\Bodero.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Siscobras\Icones\Relatorios\CertificadoOrigem.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Siscobras\Icones\Relatorios\FaturaComercial.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Siscobras\Icones\Relatorios\FaturaProforma.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Siscobras\Icones\Relatorios\InstrucoesEmbarque.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Siscobras\Icones\Relatorios\Personalizavel.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Siscobras\Icones\Relatorios\ProcessoExportacao.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Siscobras\Icones\Relatorios\Romaneio.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Siscobras\Icones\Relatorios\Saque.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Siscobras\Icones\Relatorios\Sumario.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

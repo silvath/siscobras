@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mdlBancos>
+	<clsBancoExportador>
+		<Tarefas>10-06-2003#Roberto#Compilando em VS2003</Tarefas>
+		<Problemas>Não aceitou criar as pastas para organizar o código</Problemas>
+	</clsBancoExportador>
+	<frmFBancoExportador>
+		<Tarefas>10-06-2003#Roberto#Compilando em VS2003</Tarefas>
+		<Problemas>Nenhum</Problemas>
+	</frmFBancoExportador>
+	<frmFBancoExportadorCadEdit>
+		<Tarefas>10-06-2003#Roberto#Compilando em VS2003</Tarefas>
+		<Problemas>Nenhum</Problemas>
+	</frmFBancoExportadorCadEdit>
+	<clsBancoImportador>
+		<Tarefas>10-06-2003#Roberto#Compilando em VS2003</Tarefas>
+		<Problemas>Não aceitou criar as pastas para organizar o código</Problemas>
+	</clsBancoImportador>
+	<frmFBancoImportador>
+		<Tarefas>10-06-2003#Roberto#Compilando em VS2003</Tarefas>
+		<Problemas>Nenhum</Problemas>
+	</frmFBancoImportador>
+	<frmFBancoImportadorCadEdit>
+		<Tarefas>10-06-2003#Roberto#Compilando em VS2003</Tarefas>
+		<Problemas>Nenhum</Problemas>
+	</frmFBancoImportadorCadEdit>
+</mdlBancos>

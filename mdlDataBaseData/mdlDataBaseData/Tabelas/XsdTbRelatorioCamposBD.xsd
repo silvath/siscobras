@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbRelatorioCamposBD" targetNamespace="http://tempuri.org/XsdTbRelatorioCamposBD.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbRelatorioCamposBD.xsd"
+	xmlns:mstns="http://tempuri.org/XsdTbRelatorioCamposBD.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbRelatorioCamposBD" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbRelatorioCamposBD">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nIdExportador" type="xs:int" />
+							<xs:element name="nIdRelatorio" type="xs:int" />
+							<xs:element name="nIdCampoBD" type="xs:int" />
+							<xs:element name="nIdTipo" type="xs:int" />
+							<xs:element name="nZIndex" type="xs:int" />
+							<xs:element name="nGrupo" type="xs:short" />
+							<xs:element name="nX1" type="xs:int" />
+							<xs:element name="nY1" type="xs:int" />
+							<xs:element name="nX2" type="xs:int" />
+							<xs:element name="nY2" type="xs:int" />
+							<xs:element name="nCorR" type="xs:short" minOccurs="0" />
+							<xs:element name="nCorG" type="xs:short" minOccurs="0" />
+							<xs:element name="nCorB" type="xs:short" minOccurs="0" />
+							<xs:element name="strFonteFamilia" type="xs:string" minOccurs="0" />
+							<xs:element name="nFonteSize" type="xs:int" minOccurs="0" />
+							<xs:element name="bFonteNegrito" type="xs:boolean" minOccurs="0" />
+							<xs:element name="bFonteItalico" type="xs:boolean" minOccurs="0" />
+							<xs:element name="bFonteStrikeOut" type="xs:boolean" minOccurs="0" />
+							<xs:element name="bFonteSublinhada" type="xs:boolean" minOccurs="0" />
+							<xs:element name="bVisivelImpressao" type="xs:boolean" minOccurs="0" />
+							<xs:element name="nCorRGB" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbRelatorioCamposBDKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbRelatorioCamposBD" />
+			<xs:field xpath="mstns:nIdExportador" />
+			<xs:field xpath="mstns:nIdRelatorio" />
+			<xs:field xpath="mstns:nIdCampoBD" />
+			<xs:field xpath="mstns:nIdTipo" />
+			<xs:field xpath="mstns:nZIndex" />
+			<xs:field xpath="mstns:nGrupo" />
+			<xs:field xpath="mstns:nX1" />
+			<xs:field xpath="mstns:nY1" />
+			<xs:field xpath="mstns:nX2" />
+			<xs:field xpath="mstns:nY2" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

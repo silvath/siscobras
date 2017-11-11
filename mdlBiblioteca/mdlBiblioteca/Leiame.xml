@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mdlBiblioteca>
+	<clsBiblioteca>
+		<Tarefas>09-06-2003#Roberto#Compilando no VS2003</Tarefas>
+		<Problemas>Aparentemente nenhum!</Problemas>
+	</clsBiblioteca>
+	<clsBiblioteca>
+		<Tarefas>10-06-2003#Roberto#Criado método Close e invocado SendToBack quando formulário é mostrado</Tarefas>
+		<Problemas>Testar no principal</Problemas>
+	</clsBiblioteca>
+	<frmFBiblioteca>
+		<Tarefas>22-10-2003#Roberto#Arrumar exceção nos eventos mouse enter e mouse leave do banner</Tarefas>
+		<Problemas>Excluído tratamento de exceções, devido à instabilidade do mscorlib</Problemas>
+	</frmFBiblioteca>
+</mdlBiblioteca>

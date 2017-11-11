@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mdlInet>
+	<clsInet>
+		<tarefas>09/07/2003 # Urso # Código referente ao protocolo ICMP foi separado de mdlSysAtualizacao e o projeto mdlInet foi criado.</tarefas>
+		<problemas>09/07/2003 # Urso # Utilizar comunicação assíncrona (DONE)</problemas>
+	</clsInet>
+	<clsInet>
+		<tarefas>15/07/2003 # Urso # Adicionado o suporte a medição de tempo</tarefas>
+		<problemas>15/07/2003 # Urso # Inserir o host na ordem do TR (DONE)</problemas>
+	</clsInet>
+</mdlInet>

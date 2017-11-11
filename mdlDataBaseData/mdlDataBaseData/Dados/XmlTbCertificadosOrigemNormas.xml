@@ -1,0 +1,807 @@
+<?xml version="1.0" standalone="yes"?>
+<XsdTbCertificadosOrigemNormas xmlns="http://tempuri.org/XsdTbCertificadosOrigemNormas.xsd">
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>1</nIdTipoCO>
+    <nIdNorma>0</nIdNorma>
+    <mstrNome>VIII PROTOCOLO ADICIONAL, ANEXO I, CAPÍTULO III, ARTIGO 3º, INCISO a)</mstrNome>
+    <mstrDescricao>Produtos elaborados integralmente no território de qualquer dos Estados Partes, quando em sua elaboração foram utilizados, única e exclusivamente, materiais originários dos Estados Partes.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>2</nIdTipoCO>
+    <nIdNorma>0</nIdNorma>
+    <mstrNome>Anexo 9, Artigo 3, Item a)</mstrNome>
+    <mstrDescricao>As mercadorias elaborados integralmente em território de uma ou mais das Partes Signatárias, quando em sua elaboração foram utilizados única e exclusivamente materiais originários das Partes Signatárias</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>3</nIdTipoCO>
+    <nIdNorma>0</nIdNorma>
+    <mstrNome>Anexo 13, Artigo 3, Número 1</mstrNome>
+    <mstrDescricao>As mercadorias elaborados integralmente em território de uma ou mais das Partes Signatárias, quando em sua elaboração foram utilizados única e exclusivamente materiais originários das Partes Signatárias</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>4</nIdTipoCO>
+    <nIdNorma>0</nIdNorma>
+    <mstrNome>Capítulo I, Artigo PRIMEIRO, letra a) da Resolução 78</mstrNome>
+    <mstrDescricao>As mercadorias elaboradas integralmente em seus territórios, quando em sua elaboração forem utilizados exclusivamente materiais de qualquer um dos países participantes do Acordo, exceto quando essas mercadorias resultarem de processos que consistam em simples montagens ou ensamblagens, embalagens, fracionamento em lotes, peças e volumes, seleção e classificação, marcação e composição de sortimentos de mercadorias ou outras operações que não impliquem um processo de transformação substancial nos termos da letra c) parágrafo primeiro.</mstrDescricao>
+    <dtFim>1999-08-04T00:00:00.0000000-03:00</dtFim>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>5</nIdTipoCO>
+    <nIdNorma>0</nIdNorma>
+    <mstrNome>Capítulo I, Artigo PRIMEIRO, letra a) da Resolução 78</mstrNome>
+    <mstrDescricao>As mercadorias elaboradas integralmente em seus territórios, quando em sua elaboração forem utilizados exclusivamente materiais de qualquer um dos países participantes do Acordo, exceto quando essas mercadorias resultarem de processos que consistam em simples montagens ou ensamblagens, embalagens, fracionamento em lotes, peças e volumes, seleção e classificação, marcação e composição de sortimentos de mercadorias ou outras operações que não impliquem um processo de transformação substancial nos termos da letra c) parágrafo primeiro.</mstrDescricao>
+    <dtFim>1999-08-04T00:00:00.0000000-03:00</dtFim>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>1</nIdTipoCO>
+    <nIdNorma>1</nIdNorma>
+    <mstrNome>VIII PROTOCOLO ADICIONAL, ANEXO I, CAPÍTULO III, ARTIGO 3º, INCISO b)</mstrNome>
+    <mstrDescricao>Produtos dos reinos mineral, vegetal e animal incluindo os de caça e da pesca, extraídos, colhidos ou recolhidos, nascidos ou criados em seu território ou em suas águas territoriais, patrimoniais e zonas econômicas exclusivas e os produtos do mar extraídos fora de suas águas patrimoniais e zonas exclusivas por barcos de sua bandeira ou arrendados por empresas estabelecidas em seu território e processados em suas zonas econômicas, ainda quando tenham sido submetidas a processos primários de embalagens e conservação, necessários para sua comercialização e que não implique mudança na classificação da nomenclatura.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>2</nIdTipoCO>
+    <nIdNorma>1</nIdNorma>
+    <mstrNome>Anexo 9, Artigo 3, Item b)</mstrNome>
+    <mstrDescricao>As mercadorias dos reinos mineral, vegetal e animal, incluindo as de caça e da pesca, extraídas, colhidas ou apanhadas, nascidas e criadas nos territórios das Partes Signatárias, dentro ou fora de suas águas territoriais, patrimoniais e zonas econômicas exclusivas</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>3</nIdTipoCO>
+    <nIdNorma>1</nIdNorma>
+    <mstrNome>Anexo 13, Artigo 3, Número 2</mstrNome>
+    <mstrDescricao>As mercadorias dos reinos mineral, vegetal e animal, incluindo as de caça e da pesca, extraídas, colhidas ou apanhadas, nascidas e criadas nos territórios das Partes Signatárias, dentro ou fora de suas águas territoriais, patrimoniais e zonas econômicas exclusivas. Os produtos do mar extraídos fora de suas águas territoriais, patrimoniais ou zonas econômicas exclusivas, por barcos de suas bandeiras ou alugados por empresas estabelecidas em seus territórios e processadas em suas zonas econômicas, mesmo quando tenham sido submetidos a processos primários de embalagem e conservação, necessários para sua comercialização.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>4</nIdTipoCO>
+    <nIdNorma>1</nIdNorma>
+    <mstrNome>Capítulo I, Artigo PRIMEIRO, letra b) da Resolução 78</mstrNome>
+    <mstrDescricao>Os produtos dos reinos mineral, vegetal e animal (incluido os da caça e da pesca), extraídos, colhidos ou apanhados, nascidos em seu território ou em suas águas territoriais, patrimoniais e zonas econômicas exclusivas;
+
+Os produtos de mar extraídos fora de suas águas territoriais, patrimoniais e zonas econômicas exclusivas, por navios de sua bandeira ou alugados por empresas legalmente estabelecidas em seu território; e
+
+Os produtos resultantes de operações ou processos efetuados em seu território, pelos quais adquiram a forma final em que serão comercializados, exceto quando se tratar das operações ou processos previstos no segundo parágrafo da letra c).</mstrDescricao>
+    <dtFim>1999-08-04T00:00:00.0000000-03:00</dtFim>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>5</nIdTipoCO>
+    <nIdNorma>1</nIdNorma>
+    <mstrNome>Capítulo I, Artigo PRIMEIRO, letra b) da Resolução 78</mstrNome>
+    <mstrDescricao>Os produtos dos reinos mineral, vegetal e animal (incluido os da caça e da pesca), extraídos, colhidos ou apanhados, nascidos em seu território ou em suas águas territoriais, patrimoniais e zonas econômicas exclusivas;
+
+Os produtos de mar extraídos fora de suas águas territoriais, patrimoniais e zonas econômicas exclusivas, por navios de sua bandeira ou alugados por empresas legalmente estabelecidas em seu território; e
+
+Os produtos resultantes de operações ou processos efetuados em seu território, pelos quais adquiram a forma final em que serão comercializados, exceto quando se tratar das operações ou processos previstos no segundo parágrafo da letra c).</mstrDescricao>
+    <dtFim>1999-08-04T00:00:00.0000000-03:00</dtFim>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>1</nIdTipoCO>
+    <nIdNorma>2</nIdNorma>
+    <mstrNome>VIII PROTOCOLO ADICIONAL, ANEXO I, CAPÍTULO III, ARTIGO 3º, INCISO c)  1º parágrafo</mstrNome>
+    <mstrDescricao>Produtos em cuja elaboração se utilizem materiais não originários dos Estados Partes, quando resultem de um processo de transformação realizados em seu território, que lhes confira uma nova individualidade caracterizada pelo fato de estar classificados na Nomenclatura Comum do Mercosul em posição (quatro dígitos do sistema harmonizado) diferente dos mencionados materiais.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>2</nIdTipoCO>
+    <nIdNorma>2</nIdNorma>
+    <mstrNome>Anexo 9, Artigo 3, Item c)</mstrNome>
+    <mstrDescricao>Os produtos do mar extraídos fora de suas águas territoriais, patrimoniais ou zonas econômicas exclusivas, por barcos de suas bandeiras ou alugados por empresas estabelecidas em seus territórios e processadas em suas zonas econômicas, mesmo quando tenham sido submetidos a processos primários de embalagem e conservação, necessários para sua comercialização.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>3</nIdTipoCO>
+    <nIdNorma>2</nIdNorma>
+    <mstrNome>Anexo 13, Artigo 3, Número 3</mstrNome>
+    <mstrDescricao>As mercadorias produzidas a bordo de navios-fábricas a partir de peixes, crustáceos e outras espécies marinhas, obtidos do mar por barcos registrados ou matriculados por uma das Partes Signatárias e que levam a sua bandeira.
+
+</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>4</nIdTipoCO>
+    <nIdNorma>2</nIdNorma>
+    <mstrNome>Capítulo I, Artigo PRIMEIRO, letra c) da Resolução 78</mstrNome>
+    <mstrDescricao>As mercadorias elaboradas em seus territórios utilizando materiais de países não participantes do acordo, sempre que resultantes de um processo de transformação realizada em algum dos países participantes que lhe outorgue uma nova individualidade caracterizada pelo fato de ficar classificados na NALADI em posição diferente à desses materiais.
+
+Não serão originárias dos países participantes as mercadorias obtidas por processos ou operações pelas quais adquiram a forma final em que serão comercializadas, quando nesses processos forem utilizados materiais de países não-membros e consistam apenas em simples montagens ou ensamblagens, embalagem, fracionamento em lotes, pelas ou volumes, seleção e classificação, marcação, composição de sortimentos de mercadorias ou outras operações que não impliquem um processo de transformação substancial dos termos do parágrafo primeiro desta letra.</mstrDescricao>
+    <dtFim>1999-08-04T00:00:00.0000000-03:00</dtFim>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>5</nIdTipoCO>
+    <nIdNorma>2</nIdNorma>
+    <mstrNome>Capítulo I, Artigo PRIMEIRO, letra c) da Resolução 78</mstrNome>
+    <mstrDescricao>As mercadorias elaboradas em seus territórios utilizando materiais de países não participantes do acordo, sempre que resultantes de um processo de transformação realizada em algum dos países participantes que lhe outorgue uma nova individualidade caracterizada pelo fato de ficar classificados na NALADI em posição diferente à desses materiais.
+
+Não serão originárias dos países participantes as mercadorias obtidas por processos ou operações pelas quais adquiram a forma final em que serão comercializadas, quando nesses processos forem utilizados materiais de países não-membros e consistam apenas em simples montagens ou ensamblagens, embalagem, fracionamento em lotes, pelas ou volumes, seleção e classificação, marcação, composição de sortimentos de mercadorias ou outras operações que não impliquem um processo de transformação substancial dos termos do parágrafo primeiro desta letra.</mstrDescricao>
+    <dtFim>1999-08-04T00:00:00.0000000-03:00</dtFim>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>1</nIdTipoCO>
+    <nIdNorma>3</nIdNorma>
+    <mstrNome>VIII PROTOCOLO ADICIONAL, ANEXO I, CAPÍTULO III, ARTIGO 3º, INCISO c)  2º parágrafo</mstrNome>
+    <mstrDescricao>Os produtos em cuja elaboração se utilizem materiais não originários dos Estados Partes, quando resultem de um processo de transformação, realizados em seu território, que lhes confira uma nova individualidade caracterizada pelo fato de estarem classificados na Nomenclatura Comum do Mercosul em posição (quatro dígitos do sistema harmonizado) diferente à dos mencionados materiais e para os quais haja considerado necessário, além da mudança de posição tarifária (quatro dígitos do sistema harmonizado), um valor agregado de sessenta por cento (60%).
+
+Nota:- Verificar a relação de produtos constantes no Anexo I do 22º Protocolo Adicional ao ACE-18.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>2</nIdTipoCO>
+    <nIdNorma>3</nIdNorma>
+    <mstrNome>Anexo 9, Artigo 3, Item d)</mstrNome>
+    <mstrDescricao>As mercadorias produzidas a bordo de navios-fábricas a partir de peixes, crustáceos e outras espécies marinhas, obtidos do mar por barcos registrados ou matriculados por uma das Partes Signatárias e que levam a sua bandeira.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>3</nIdTipoCO>
+    <nIdNorma>3</nIdNorma>
+    <mstrNome>Anexo 13, Artigo 3, Número 4</mstrNome>
+    <mstrDescricao>As mercadorias obtidas, por uma das Partes Signatárias, do leito ou do subsolo marinho fora das águas territoriais, sempre que essa Parte ou pessoa tenha direito a explorar esse leito ou subsolo marinho.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>4</nIdTipoCO>
+    <nIdNorma>3</nIdNorma>
+    <mstrNome>Capítulo I, Artigo PRIMEIRO, letra d) da Resolução 78</mstrNome>
+    <mstrDescricao>As mercadorias resultantes de operações de ensamblagem ou montagem realizadas no território de um país signatário utilizando materiais originários dos países participantes do acordo e de terceiros países, quando o valor CIF porto de destino ou CIF porto marítimo dos materiais originários de terceiros países não exceda 50 (cinqüenta) por cento do valor FOB de exportação dessas mercadorias.</mstrDescricao>
+    <dtFim>1999-08-04T00:00:00.0000000-03:00</dtFim>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>5</nIdTipoCO>
+    <nIdNorma>3</nIdNorma>
+    <mstrNome>Capítulo I, Artigo PRIMEIRO, letra d) da Resolução 78</mstrNome>
+    <mstrDescricao>As mercadorias resultantes de operações de ensamblagem ou montagem realizadas no território de um país signatário utilizando materiais originários dos países participantes do acordo e de terceiros países, quando o valor CIF porto de destino ou CIF porto marítimo dos materiais originários de terceiros países não exceda 50 (cinqüenta) por cento do valor FOB de exportação dessas mercadorias.</mstrDescricao>
+    <dtFim>1999-08-04T00:00:00.0000000-03:00</dtFim>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>1</nIdTipoCO>
+    <nIdNorma>4</nIdNorma>
+    <mstrNome>VIII PROTOCOLO ADICIONAL, ANEXO I, CAPÍTULO III, ARTIGO 3º, INCISO d)</mstrNome>
+    <mstrDescricao>Produtos para os quais o requisito estabelecido no INCISO C) 1º parágrafo não possa ser cumprido porque o processo de transformação operado não implica mudança de posição (quatro dígitos do sistema harmonizado) na Nomenclatura Comum do Mercosul bastará que o valor CIF porto de destino ou CIF porto marítimo dos insumos de terceiros países não exceda a quarenta por cento (40%) do valor FOB das mercadorias de que se trate.
+Nota:- Verificar a relação de produtos constantes no Anexo I do 22º Protocolo Adicional ao ACE-18.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>2</nIdTipoCO>
+    <nIdNorma>4</nIdNorma>
+    <mstrNome>Anexo 9, Artigo 3, Item e)</mstrNome>
+    <mstrDescricao>As mercadorias obtidas, por uma das Partes Signatárias, do leito ou do subsolo marinho fora das águas territoriais, sempre que essa Parte ou pessoa tenha direito a explorar esse leito ou subsolo marinho.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>3</nIdTipoCO>
+    <nIdNorma>4</nIdNorma>
+    <mstrNome>Anexo 13, Artigo 3, Número 5</mstrNome>
+    <mstrDescricao>As mercadorias obtidas do espaço extraterrestre, desde que obtidas por uma das Partes Signatárias  ou por uma pessoa de uma Parte Signatária e processadas em alguma dessas Partes.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>4</nIdTipoCO>
+    <nIdNorma>4</nIdNorma>
+    <mstrNome>Capítulo I, Artigo PRIMEIRO, letra e) da Resolução 78</mstrNome>
+    <mstrDescricao>As mercadorias que além de serem produzidas em seu território, cumpram com os requisitos específicos estabelecidos no Anexo 2 desta Resolução.
+
+O Comitê de Representantes poderá estabelecer, mediante Resolução, requisitos específicos de origem para os produtos negociados, bem como modificar os que tiverem sido estabelecidos.
+
+Outrossim, a pedido da parte, o Comitê poderá estabelecer requisitos específicos de origem para a qualificação de mercadorias elaboradas ou processadas em países não membros utilizando materiais originários dos países-membros em percentagem igual ou superior a 50 (cinqüenta) por cento do valor FOB de exportação do produto acabado.
+
+Os requisitos específicos prevalecerão sobre os critérios gerais da presente Resolução. .(Nota: - A Resolução 78 foi atualizada através da Resolução 252 – Decreto Nº 3.325 de 30/12/99).</mstrDescricao>
+    <dtFim>1999-08-04T00:00:00.0000000-03:00</dtFim>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>5</nIdTipoCO>
+    <nIdNorma>4</nIdNorma>
+    <mstrNome>Capítulo I, Artigo PRIMEIRO, letra e) da Resolução 78</mstrNome>
+    <mstrDescricao>As mercadorias que além de serem produzidas em seu território, cumpram com os requisitos específicos estabelecidos no Anexo 2 desta Resolução.
+
+O Comitê de Representantes poderá estabelecer, mediante Resolução, requisitos específicos de origem para os produtos negociados, bem como modificar os que tiverem sido estabelecidos.
+
+Outrossim, a pedido da parte, o Comitê poderá estabelecer requisitos específicos de origem para a qualificação de mercadorias elaboradas ou processadas em países não membros utilizando materiais originários dos países-membros em percentagem igual ou superior a 50 (cinqüenta) por cento do valor FOB de exportação do produto acabado.
+
+Os requisitos específicos prevalecerão sobre os critérios gerais da presente Resolução. .(Nota: - A Resolução 78 foi atualizada através da Resolução 252 – Decreto Nº 3.325 de 30/12/99).</mstrDescricao>
+    <dtFim>1999-08-04T00:00:00.0000000-03:00</dtFim>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>1</nIdTipoCO>
+    <nIdNorma>5</nIdNorma>
+    <mstrNome>VIII PROTOCOLO ADICIONAL, ANEXO I, CAPÍTULO III, ARTIGO 3º, INCISO e) </mstrNome>
+    <mstrDescricao>Produtos resultantes de operação de ensamblagem ou montagem realizadas no território de um país do Mercosul, utilizando materiais originários de terceiros países, e quando o valor CIF porto de destino ou CIF porto marítimo desses materiais não exceda a quarenta por cento (40%) do valor FOB.
+Nota:- Verificar a relação de produtos constantes no Anexo I do 22º Protocolo Adicional ao ACE-18.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>2</nIdTipoCO>
+    <nIdNorma>5</nIdNorma>
+    <mstrNome>Anexo 9, Artigo 3, Item f)</mstrNome>
+    <mstrDescricao>As mercadorias obtidas do espaço extraterrestre, desde que obtidas por uma das Partes Signatárias  ou por uma pessoa de uma Parte Signatária e processadas em alguma dessas Partes.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>3</nIdTipoCO>
+    <nIdNorma>5</nIdNorma>
+    <mstrNome>Anexo 13, Artigo 3, Número 6</mstrNome>
+    <mstrDescricao>Mercadorias elaboradas com materiais não originários, desde que resultem de um processo de transformação, realizado nos territórios das Partes Signatárias, que lhes confira uma nova individualidade</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>4</nIdTipoCO>
+    <nIdNorma>5</nIdNorma>
+    <mstrNome>Capítulo I, Artigo SEGUNDO da Resolução 78</mstrNome>
+    <mstrDescricao>Nos casos em que o requisito estabelecido na letra c) do artigo primeiro não possa ser cumprido porque o processo de transformação operado não implica mudança de posição na nomenclatura bastará com que o valor CIF porto de destino ou CIF porto marítimo dos materiais de países não participantes do Acordo exceda 50 (cinquenta) por cento do valor FOB de exportação das mercadorias de que se tratar.</mstrDescricao>
+    <dtFim>1999-08-04T00:00:00.0000000-03:00</dtFim>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>5</nIdTipoCO>
+    <nIdNorma>5</nIdNorma>
+    <mstrNome>Capítulo I, Artigo segundO da Resolução 78</mstrNome>
+    <mstrDescricao>Nos casos em que o requisito estabelecido na letra c) do artigo primeiro não possa ser cumprido porque o processo de transformação operado não implica mudança de posição na nomenclatura bastará com que o valor CIF porto de destino ou CIF porto marítimo dos materiais de países não participantes do Acordo exceda 50 (cinquenta) por cento do valor FOB de exportação das mercadorias de que se tratar.</mstrDescricao>
+    <dtFim>1999-08-04T00:00:00.0000000-03:00</dtFim>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>1</nIdTipoCO>
+    <nIdNorma>6</nIdNorma>
+    <mstrNome>VIII PROTOCOLO ADICIONAL, ANEXO I, CAPÍTULO III, ARTIGO 3º, INCISO f)</mstrNome>
+    <mstrDescricao>Bens de Capital que deverão cumprir com um valor agregado regional de sessenta por cento (60%) quando utilizem em sua elaboração insumos não originários dos Estados Partes. Nota:- Verificar a relação de produtos constantes no Anexo I do 22º Protocolo Adicional ao ACE-18.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>2</nIdTipoCO>
+    <nIdNorma>6</nIdNorma>
+    <mstrNome>Anexo 9, Artigo 3, Item g)</mstrNome>
+    <mstrDescricao>Mercadorias elaboradas com materiais não originários, desde que resultem de um processo de transformação, realizado nos territórios das Partes Signatárias, que lhes confira uma nova individualidade</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>3</nIdTipoCO>
+    <nIdNorma>6</nIdNorma>
+    <mstrNome>Anexo 13, Artigo 3, Número 7</mstrNome>
+    <mstrDescricao>Caso não se possa cumprir o estabelecido no ponto 6 (Chile) e letra g) (Bolívia) precedente, porque o processo de transformação não implica salto de posição na nomenclatura NALADI/SH, bastará que o valor CIF porto de destino ou CIF porto marítimo dos materiais não originários não exceda 40% do valor FOB de exportação da mercadoria final.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>4</nIdTipoCO>
+    <nIdNorma>6</nIdNorma>
+    <mstrNome>Capítulo I, Artigo TERCEIRO da Resolução 78</mstrNome>
+    <mstrDescricao>Para os países de menor desenvolvimento econômico relativo a percentagem estebelecida na letra d) do artigo primeiro e no artigo segundo será de 60 (sessenta) por cento. O presente Regime atinge, igualmente aqueles acordos nos quais as concessões pactuadas entre seus signatários sejam automaticamente estendidas aos países de menor desenvolvimento econômico relativo, sem a outorga de compensações e independente de negociação ou adesão aos mesmos.</mstrDescricao>
+    <dtFim>1999-08-04T00:00:00.0000000-03:00</dtFim>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>5</nIdTipoCO>
+    <nIdNorma>6</nIdNorma>
+    <mstrNome>Capítulo I, Artigo TERCEIRO da Resolução 78</mstrNome>
+    <mstrDescricao>Para os países de menor desenvolvimento econômico relativo a percentagem estebelecida na letra d) do artigo primeiro e no artigo segundo será de 60 (sessenta) por cento. O presente Regime atinge, igualmente aqueles acordos nos quais as concessões pactuadas entre seus signatários sejam automaticamente estendidas aos países de menor desenvolvimento econômico relativo, sem a outorga de compensações e independente de negociação ou adesão aos mesmos.</mstrDescricao>
+    <dtFim>1999-08-04T00:00:00.0000000-03:00</dtFim>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>1</nIdTipoCO>
+    <nIdNorma>7</nIdNorma>
+    <mstrNome>22o  PROTOCOLO ADICIONAL - ANEXO II - 1</mstrNome>
+    <mstrDescricao>Setor Lácteo - Deverão ser elaborados a partir de leite produzido nos Estados Partes.
+
+</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>2</nIdTipoCO>
+    <nIdNorma>7</nIdNorma>
+    <mstrNome>Anexo 9, Artigo 3, Item h)</mstrNome>
+    <mstrDescricao>Caso não se possa cumprir o estabelecido no ponto 6 (Chile) e letra g) (Bolívia) precedente, porque o processo de transformação não implica salto de posição na nomenclatura NALADI/SH, bastará que o valor CIF porto de destino ou CIF porto marítimo dos materiais não originários não exceda 40% do valor FOB de exportação da mercadoria final.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>3</nIdTipoCO>
+    <nIdNorma>7</nIdNorma>
+    <mstrNome>Anexo 13, Artigo 3, Número 8</mstrNome>
+    <mstrDescricao>As mercadorias resultantes de operações de montagem ou ensamblagem realizadas no território de uma das Partes Signatárias, não obstante cumprirem salto de posição, utilizado materiais não originários quando o valor CIF porto de destino ou CIF porto marítimo desses materiais não exceda 40% do valor FOB da mercadoria final.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>4</nIdTipoCO>
+    <nIdNorma>7</nIdNorma>
+    <mstrNome>Capítulo I, Artigo PRIMEIRO, letra a) da Resolução 252</mstrNome>
+    <mstrDescricao>As mercadorias elaboradas integralmente em seus territórios, quando em sua elaboração forem utilizados exclusivamente materiais de qualquer um dos países participantes do Acordo, exceto quando essas mercadorias resultarem de processos que consistam em simples montagens ou ensamblagens, embalagens, fracionamento em lotes, peças e volumes, seleção e classificação, marcação e composição de sortimentos de mercadorias ou outras operações que não impliquem um processo de transformação substancial nos termos da letra c) parágrafo primeiro.</mstrDescricao>
+    <dtInicio>1999-08-04T00:00:00.0000000-03:00</dtInicio>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>5</nIdTipoCO>
+    <nIdNorma>7</nIdNorma>
+    <mstrNome>Capítulo I, Artigo PRIMEIRO, letra a) da Resolução 252</mstrNome>
+    <mstrDescricao>As mercadorias elaboradas integralmente em seus territórios, quando em sua elaboração forem utilizados exclusivamente materiais de qualquer um dos países participantes do Acordo, exceto quando essas mercadorias resultarem de processos que consistam em simples montagens ou ensamblagens, embalagens, fracionamento em lotes, peças e volumes, seleção e classificação, marcação e composição de sortimentos de mercadorias ou outras operações que não impliquem um processo de transformação substancial nos termos da letra c) parágrafo primeiro.</mstrDescricao>
+    <dtInicio>1999-08-04T00:00:00.0000000-03:00</dtInicio>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>29</nIdTipoCO>
+    <nIdNorma>7</nIdNorma>
+    <mstrNome>Capítulo I, Artigo PRIMEIRO, letra a) da Resolução 252</mstrNome>
+    <mstrDescricao>As mercadorias elaboradas integralmente em seus territórios, quando em sua elaboração forem utilizados exclusivamente materiais de qualquer um dos países participantes do Acordo, exceto quando essas mercadorias resultarem de processos que consistam em simples montagens ou ensamblagens, embalagens, fracionamento em lotes, peças e volumes, seleção e classificação, marcação e composição de sortimentos de mercadorias ou outras operações que não impliquem um processo de transformação substancial nos termos da letra c) parágrafo primeiro.</mstrDescricao>
+    <dtInicio>1999-08-04T00:00:00.0000000-03:00</dtInicio>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>1</nIdTipoCO>
+    <nIdNorma>8</nIdNorma>
+    <mstrNome>22o  PROTOCOLO ADICIONAL - ANEXO II - 2</mstrNome>
+    <mstrDescricao>Setor Químico - Os produtos devem cumprir com o requisito de origem estabelecido na letra "c", do Artigo 3º, do Regime Geral e serem obtidos através de um processo produtivo que traduza uma modificação molecular resultante de substancial transformação e que crie uma nova identidade química</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>2</nIdTipoCO>
+    <nIdNorma>8</nIdNorma>
+    <mstrNome>Anexo 9, Artigo 3, Item i)</mstrNome>
+    <mstrDescricao>As mercadorias resultantes de operações de montagem ou ensamblagem realizadas no território de uma das Partes Signatárias, não obstante cumprirem salto de posição, utilizado materiais não originários quando o valor CIF porto de destino ou CIF porto marítimo desses materiais não exceda 40% do valor FOB da mercadoria final.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>3</nIdTipoCO>
+    <nIdNorma>8</nIdNorma>
+    <mstrNome>Anexo 13, Artigo 3, Número 9</mstrNome>
+    <mstrDescricao>As mercadorias que cumpram com os requisitos específicos, de acordo com o Artigo 4.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>4</nIdTipoCO>
+    <nIdNorma>8</nIdNorma>
+    <mstrNome>Capítulo I, Artigo PRIMEIRO, letra b) da Resolução 252</mstrNome>
+    <mstrDescricao>Os produtos dos reinos mineral, vegetal e animal (incluido os da caça e da pesca), extraídos, colhidos ou apanhados, nascidos em seu território ou em suas águas territoriais, patrimoniais e zonas econômicas exclusivas;
+
+Os produtos de mar extraídos fora de suas águas territoriais, patrimoniais e zonas econômicas exclusivas, por navios de sua bandeira ou alugados por empresas legalmente estabelecidas em seu território; e
+
+Os produtos resultantes de operações ou processos efetuados em seu território, pelos quais adquiram a forma final em que serão comercializados, exceto quando se tratar das operações ou processos previstos no segundo parágrafo da letra c).</mstrDescricao>
+    <dtInicio>1999-08-04T00:00:00.0000000-03:00</dtInicio>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>5</nIdTipoCO>
+    <nIdNorma>8</nIdNorma>
+    <mstrNome>Capítulo I, Artigo PRIMEIRO, letra b) da Resolução 252</mstrNome>
+    <mstrDescricao>Os produtos dos reinos mineral, vegetal e animal (incluido os da caça e da pesca), extraídos, colhidos ou apanhados, nascidos em seu território ou em suas águas territoriais, patrimoniais e zonas econômicas exclusivas;
+
+Os produtos de mar extraídos fora de suas águas territoriais, patrimoniais e zonas econômicas exclusivas, por navios de sua bandeira ou alugados por empresas legalmente estabelecidas em seu território; e
+
+Os produtos resultantes de operações ou processos efetuados em seu território, pelos quais adquiram a forma final em que serão comercializados, exceto quando se tratar das operações ou processos previstos no segundo parágrafo da letra c).</mstrDescricao>
+    <dtInicio>1999-08-04T00:00:00.0000000-03:00</dtInicio>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>29</nIdTipoCO>
+    <nIdNorma>8</nIdNorma>
+    <mstrNome>Capítulo I, Artigo PRIMEIRO, letra b) da Resolução 252</mstrNome>
+    <mstrDescricao>Os produtos dos reinos mineral, vegetal e animal (incluido os da caça e da pesca), extraídos, colhidos ou apanhados, nascidos em seu território ou em suas águas territoriais, patrimoniais e zonas econômicas exclusivas;
+
+Os produtos de mar extraídos fora de suas águas territoriais, patrimoniais e zonas econômicas exclusivas, por navios de sua bandeira ou alugados por empresas legalmente estabelecidas em seu território; e
+
+Os produtos resultantes de operações ou processos efetuados em seu território, pelos quais adquiram a forma final em que serão comercializados, exceto quando se tratar das operações ou processos previstos no segundo parágrafo da letra c).</mstrDescricao>
+    <dtInicio>1999-08-04T00:00:00.0000000-03:00</dtInicio>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>1</nIdTipoCO>
+    <nIdNorma>9</nIdNorma>
+    <mstrNome>22o  PROTOCOLO ADICIONAL - ANEXO II - 3 a</mstrNome>
+    <mstrDescricao>Setor Siderúrgico - Devem ser produzidos a partir dos produtos incluídos nas posições 7206 ou 7207, fundidos e moldados ou colados nos Estados Partes.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>2</nIdTipoCO>
+    <nIdNorma>9</nIdNorma>
+    <mstrNome>Anexo 9, Artigo 3, Item j)</mstrNome>
+    <mstrDescricao>As mercadorias que cumpram com os requisitos específicos, de acordo com o Artigo 4.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>3</nIdTipoCO>
+    <nIdNorma>9</nIdNorma>
+    <mstrNome>Anexo 13, Artigo 3, Número 6, Parágrafo 1, Apêndice Nº 1 (B)</mstrNome>
+    <mstrDescricao>No Apêndice Nº 1 (B) estão incluídos os casos em que se considera necessário o critério de salto de posição e conteúdo regional, calculado de acordo com o estipulado no Ponto 7 do presente Artigo.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>4</nIdTipoCO>
+    <nIdNorma>9</nIdNorma>
+    <mstrNome>Capítulo I, Artigo PRIMEIRO, letra c) da Resolução 252</mstrNome>
+    <mstrDescricao>As mercadorias elaboradas em seus territórios utilizando materiais de países não participantes do acordo, sempre que resultantes de um processo de transformação realizada em algum dos países participantes que lhe outorgue uma nova individualidade caracterizada pelo fato de ficar classificados na NALADI em posição diferente à desses materiais.
+
+Não serão originárias dos países participantes as mercadorias obtidas por processos ou operações pelas quais adquiram a forma final em que serão comercializadas, quando nesses processos forem utilizados materiais de países não-membros e consistam apenas em simples montagens ou ensamblagens, embalagem, fracionamento em lotes, pelas ou volumes, seleção e classificação, marcação, composição de sortimentos de mercadorias ou outras operações que não impliquem um processo de transformação substancial dos termos do parágrafo primeiro desta letra.</mstrDescricao>
+    <dtInicio>1999-08-04T00:00:00.0000000-03:00</dtInicio>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>5</nIdTipoCO>
+    <nIdNorma>9</nIdNorma>
+    <mstrNome>Capítulo I, Artigo PRIMEIRO, letra c) da Resolução 252</mstrNome>
+    <mstrDescricao>As mercadorias elaboradas em seus territórios utilizando materiais de países não participantes do acordo, sempre que resultantes de um processo de transformação realizada em algum dos países participantes que lhe outorgue uma nova individualidade caracterizada pelo fato de ficar classificados na NALADI em posição diferente à desses materiais.
+
+Não serão originárias dos países participantes as mercadorias obtidas por processos ou operações pelas quais adquiram a forma final em que serão comercializadas, quando nesses processos forem utilizados materiais de países não-membros e consistam apenas em simples montagens ou ensamblagens, embalagem, fracionamento em lotes, pelas ou volumes, seleção e classificação, marcação, composição de sortimentos de mercadorias ou outras operações que não impliquem um processo de transformação substancial dos termos do parágrafo primeiro desta letra.</mstrDescricao>
+    <dtInicio>1999-08-04T00:00:00.0000000-03:00</dtInicio>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>29</nIdTipoCO>
+    <nIdNorma>9</nIdNorma>
+    <mstrNome>Capítulo I, Artigo PRIMEIRO, letra c) da Resolução 252</mstrNome>
+    <mstrDescricao>As mercadorias elaboradas em seus territórios utilizando materiais de países não participantes do acordo, sempre que resultantes de um processo de transformação realizada em algum dos países participantes que lhe outorgue uma nova individualidade caracterizada pelo fato de ficar classificados na NALADI em posição diferente à desses materiais.
+
+Não serão originárias dos países participantes as mercadorias obtidas por processos ou operações pelas quais adquiram a forma final em que serão comercializadas, quando nesses processos forem utilizados materiais de países não-membros e consistam apenas em simples montagens ou ensamblagens, embalagem, fracionamento em lotes, pelas ou volumes, seleção e classificação, marcação, composição de sortimentos de mercadorias ou outras operações que não impliquem um processo de transformação substancial dos termos do parágrafo primeiro desta letra.</mstrDescricao>
+    <dtInicio>1999-08-04T00:00:00.0000000-03:00</dtInicio>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>1</nIdTipoCO>
+    <nIdNorma>10</nIdNorma>
+    <mstrNome>22o  PROTOCOLO ADICIONAL - ANEXO II - 3 b</mstrNome>
+    <mstrDescricao>Setor Siderúrgico - Devem ser produzidos a partir dos produtos incluídos na posição 7218, fundidos e moldados ou colados nos Estados Partes.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>3</nIdTipoCO>
+    <nIdNorma>10</nIdNorma>
+    <mstrNome>Anexo 13, Artigo 4, Apêndice Nº 3, Número 1</mstrNome>
+    <mstrDescricao>Elaborado direta ou indiretamente a partir de leite fresco produzido em sua totalidade no território dos países signatários.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>4</nIdTipoCO>
+    <nIdNorma>10</nIdNorma>
+    <mstrNome>Capítulo I, Artigo PRIMEIRO, letra d) da Resolução 252</mstrNome>
+    <mstrDescricao>As mercadorias resultantes de operações de ensamblagem ou montagem realizadas no território de um país signatário utilizando materiais originários dos países participantes do acordo e de terceiros países, quando o valor CIF porto de destino ou CIF porto marítimo dos materiais originários de terceiros países não exceda 50 (cinqüenta) por cento do valor FOB de exportação dessas mercadorias.</mstrDescricao>
+    <dtInicio>1999-08-04T00:00:00.0000000-03:00</dtInicio>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>5</nIdTipoCO>
+    <nIdNorma>10</nIdNorma>
+    <mstrNome>Capítulo I, Artigo PRIMEIRO, letra d) da Resolução 252</mstrNome>
+    <mstrDescricao>As mercadorias resultantes de operações de ensamblagem ou montagem realizadas no território de um país signatário utilizando materiais originários dos países participantes do acordo e de terceiros países, quando o valor CIF porto de destino ou CIF porto marítimo dos materiais originários de terceiros países não exceda 50 (cinqüenta) por cento do valor FOB de exportação dessas mercadorias.</mstrDescricao>
+    <dtInicio>1999-08-04T00:00:00.0000000-03:00</dtInicio>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>29</nIdTipoCO>
+    <nIdNorma>10</nIdNorma>
+    <mstrNome>Capítulo I, Artigo PRIMEIRO, letra d) da Resolução 252</mstrNome>
+    <mstrDescricao>As mercadorias resultantes de operações de ensamblagem ou montagem realizadas no território de um país signatário utilizando materiais originários dos países participantes do acordo e de terceiros países, quando o valor CIF porto de destino ou CIF porto marítimo dos materiais originários de terceiros países não exceda 50 (cinqüenta) por cento do valor FOB de exportação dessas mercadorias.</mstrDescricao>
+    <dtInicio>1999-08-04T00:00:00.0000000-03:00</dtInicio>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>1</nIdTipoCO>
+    <nIdNorma>11</nIdNorma>
+    <mstrNome>22o  PROTOCOLO ADICIONAL - ANEXO II - 3 c</mstrNome>
+    <mstrDescricao>Setor Siderúrgico - Devem ser produzidos a partir dos produtos incluídos na posição 7224, fundidos e moldados ou colados nos Estados Partes.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>3</nIdTipoCO>
+    <nIdNorma>11</nIdNorma>
+    <mstrNome>Anexo 13, Artigo 4, Apêndice Nº 3, Número 2</mstrNome>
+    <mstrDescricao>Elaborado a partir de trigo produzido no território dos países signatários.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>4</nIdTipoCO>
+    <nIdNorma>11</nIdNorma>
+    <mstrNome>Capítulo I, Artigo PRIMEIRO, letra e) da Resolução 252</mstrNome>
+    <mstrDescricao>As mercadorias que além de serem produzidas em seu território, cumpram com os requisitos específicos estabelecidos no Anexo 2 desta Resolução.
+
+O Comitê de Representantes poderá estabelecer, mediante Resolução, requisitos específicos de origem para os produtos negociados, bem como modificar os que tiverem sido estabelecidos.
+
+Outrossim, a pedido da parte, o Comitê poderá estabelecer requisitos específicos de origem para a qualificação de mercadorias elaboradas ou processadas em países não membros utilizando materiais originários dos países-membros em percentagem igual ou superior a 50 (cinqüenta) por cento do valor FOB de exportação do produto acabado.
+
+Os requisitos específicos prevalecerão sobre os critérios gerais da presente Resolução. .(Nota: - A Resolução 78 foi atualizada através da Resolução 252 – Decreto Nº 3.325 de 30/12/99).</mstrDescricao>
+    <dtInicio>1999-08-04T00:00:00.0000000-03:00</dtInicio>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>5</nIdTipoCO>
+    <nIdNorma>11</nIdNorma>
+    <mstrNome>Capítulo I, Artigo PRIMEIRO, letra e) da Resolução 252</mstrNome>
+    <mstrDescricao>As mercadorias que além de serem produzidas em seu território, cumpram com os requisitos específicos estabelecidos no Anexo 2 desta Resolução.
+
+O Comitê de Representantes poderá estabelecer, mediante Resolução, requisitos específicos de origem para os produtos negociados, bem como modificar os que tiverem sido estabelecidos.
+
+Outrossim, a pedido da parte, o Comitê poderá estabelecer requisitos específicos de origem para a qualificação de mercadorias elaboradas ou processadas em países não membros utilizando materiais originários dos países-membros em percentagem igual ou superior a 50 (cinqüenta) por cento do valor FOB de exportação do produto acabado.
+
+Os requisitos específicos prevalecerão sobre os critérios gerais da presente Resolução. .(Nota: - A Resolução 78 foi atualizada através da Resolução 252 – Decreto Nº 3.325 de 30/12/99).</mstrDescricao>
+    <dtInicio>1999-08-04T00:00:00.0000000-03:00</dtInicio>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>29</nIdTipoCO>
+    <nIdNorma>11</nIdNorma>
+    <mstrNome>Capítulo I, Artigo PRIMEIRO, letra e) da Resolução 252</mstrNome>
+    <mstrDescricao>As mercadorias que além de serem produzidas em seu território, cumpram com os requisitos específicos estabelecidos no Anexo 2 desta Resolução.
+
+O Comitê de Representantes poderá estabelecer, mediante Resolução, requisitos específicos de origem para os produtos negociados, bem como modificar os que tiverem sido estabelecidos.
+
+Outrossim, a pedido da parte, o Comitê poderá estabelecer requisitos específicos de origem para a qualificação de mercadorias elaboradas ou processadas em países não membros utilizando materiais originários dos países-membros em percentagem igual ou superior a 50 (cinqüenta) por cento do valor FOB de exportação do produto acabado.
+
+Os requisitos específicos prevalecerão sobre os critérios gerais da presente Resolução. .(Nota: - A Resolução 78 foi atualizada através da Resolução 252 – Decreto Nº 3.325 de 30/12/99).</mstrDescricao>
+    <dtInicio>1999-08-04T00:00:00.0000000-03:00</dtInicio>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>1</nIdTipoCO>
+    <nIdNorma>12</nIdNorma>
+    <mstrNome>22o  PROTOCOLO ADICIONAL - ANEXO II - 3 d</mstrNome>
+    <mstrDescricao>Setor Siderúrgico - Devem ser produzidos a partir dos produtos incluídos nas posições 7206, 7207, 7218 ou 7224, fundidos e moldados ou colados nos Estados Partes.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>3</nIdTipoCO>
+    <nIdNorma>12</nIdNorma>
+    <mstrNome>Anexo 13, Artigo 4, Apêndice Nº 3, Número 3</mstrNome>
+    <mstrDescricao>Elaborada a partir de cevada produzida no território dos países signatários.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>4</nIdTipoCO>
+    <nIdNorma>12</nIdNorma>
+    <mstrNome>Capítulo I, Artigo SEGUNDO da Resolução 252</mstrNome>
+    <mstrDescricao>Nos casos em que o requisito estabelecido na letra c) do artigo primeiro não possa ser cumprido porque o processo de transformação operado não implica mudança de posição na nomenclatura bastará com que o valor CIF porto de destino ou CIF porto marítimo dos materiais de países não participantes do Acordo exceda 50 (cinquenta) por cento do valor FOB de exportação das mercadorias de que se tratar.</mstrDescricao>
+    <dtInicio>1999-08-04T00:00:00.0000000-03:00</dtInicio>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>5</nIdTipoCO>
+    <nIdNorma>12</nIdNorma>
+    <mstrNome>Capítulo I, Artigo SEGUNDO da Resolução 252</mstrNome>
+    <mstrDescricao>Nos casos em que o requisito estabelecido na letra c) do artigo primeiro não possa ser cumprido porque o processo de transformação operado não implica mudança de posição na nomenclatura bastará com que o valor CIF porto de destino ou CIF porto marítimo dos materiais de países não participantes do Acordo exceda 50 (cinquenta) por cento do valor FOB de exportação das mercadorias de que se tratar.</mstrDescricao>
+    <dtInicio>1999-08-04T00:00:00.0000000-03:00</dtInicio>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>29</nIdTipoCO>
+    <nIdNorma>12</nIdNorma>
+    <mstrNome>Capítulo I, Artigo SEGUNDO da Resolução 252</mstrNome>
+    <mstrDescricao>Nos casos em que o requisito estabelecido na letra c) do artigo primeiro não possa ser cumprido porque o processo de transformação operado não implica mudança de posição na nomenclatura bastará com que o valor CIF porto de destino ou CIF porto marítimo dos materiais de países não participantes do Acordo exceda 50 (cinquenta) por cento do valor FOB de exportação das mercadorias de que se tratar.</mstrDescricao>
+    <dtInicio>1999-08-04T00:00:00.0000000-03:00</dtInicio>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>1</nIdTipoCO>
+    <nIdNorma>13</nIdNorma>
+    <mstrNome>22º PROTOCOLO ADICIONAL - ANEXO II - 4</mstrNome>
+    <mstrDescricao>Setor Telecomunicações - Devem cumprir com o requisito de origem previsto no Artigo 3º, letra 'c', e o seguinte processo produtivo:
+Montagem de no mínimo 80% das placas de circuito impresso, por produto;
+Montagem e solda de todos os componentes na placa de circuito impresso;
+Montagem das partes elétricas e mecânicas totalmente desagregadas em nível básico de componentes, e
+Integração das placas de circuito impresso e das partes elétricas e mecânicas na formação do produto final.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>3</nIdTipoCO>
+    <nIdNorma>13</nIdNorma>
+    <mstrNome>Anexo 13, Artigo 4, Apêndice Nº 3, Número 4</mstrNome>
+    <mstrDescricao>Elaborada com malte produzido a partir da cevada originária dos países signatários.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>4</nIdTipoCO>
+    <nIdNorma>13</nIdNorma>
+    <mstrNome>Capítulo I, Artigo TERCEIRO da Resolução 252</mstrNome>
+    <mstrDescricao>Para os países de menor desenvolvimento econômico relativo a percentagem estebelecida na letra d) do artigo primeiro e no artigo segundo será de 60 (sessenta) por cento. O presente Regime atinge, igualmente aqueles acordos nos quais as concessões pactuadas entre seus signatários sejam automaticamente estendidas aos países de menor desenvolvimento econômico relativo, sem a outorga de compensações e independente de negociação ou adesão aos mesmos.</mstrDescricao>
+    <dtInicio>1999-08-04T00:00:00.0000000-03:00</dtInicio>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>5</nIdTipoCO>
+    <nIdNorma>13</nIdNorma>
+    <mstrNome>Capítulo I, Artigo TERCEIRO da Resolução 252</mstrNome>
+    <mstrDescricao>Para os países de menor desenvolvimento econômico relativo a percentagem estebelecida na letra d) do artigo primeiro e no artigo segundo será de 60 (sessenta) por cento. O presente Regime atinge, igualmente aqueles acordos nos quais as concessões pactuadas entre seus signatários sejam automaticamente estendidas aos países de menor desenvolvimento econômico relativo, sem a outorga de compensações e independente de negociação ou adesão aos mesmos.</mstrDescricao>
+    <dtInicio>1999-08-04T00:00:00.0000000-03:00</dtInicio>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>29</nIdTipoCO>
+    <nIdNorma>13</nIdNorma>
+    <mstrNome>Capítulo I, Artigo TERCEIRO da Resolução 252</mstrNome>
+    <mstrDescricao>Para os países de menor desenvolvimento econômico relativo a percentagem estebelecida na letra d) do artigo primeiro e no artigo segundo será de 60 (sessenta) por cento. O presente Regime atinge, igualmente aqueles acordos nos quais as concessões pactuadas entre seus signatários sejam automaticamente estendidas aos países de menor desenvolvimento econômico relativo, sem a outorga de compensações e independente de negociação ou adesão aos mesmos.</mstrDescricao>
+    <dtInicio>1999-08-04T00:00:00.0000000-03:00</dtInicio>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>1</nIdTipoCO>
+    <nIdNorma>14</nIdNorma>
+    <mstrNome>22º PROTOCOLO ADICIONAL - ANEXO II - 5.1</mstrNome>
+    <mstrDescricao>Setor de Informática - Deverão cumprir com o seguinte processo produtivo:
+
+Montagem e soldagem de todos os componentes nas placas de circuito impresso.
+Montagem das partes elétricas e mecânicas, totalmente desagregadas, em nível básico de componentes.
+Integração das placas de circuito impresso e das partes elétricas e mecânicas na formação do produto final de acordo com os itens ‘A’ e ‘B’ acima.
+
+Ficam dispensados da montagem os seguintes módulos ou subconjuntos:
+
+Mecanismos da posição 8473.30.22 para impressoras da posição 8471.49.3 e 8471.60.2;
+Mecanismos da posição 8517.90.91 para aparelhos de ‘facsímile’ das posições 8517.21.10 e 8517.21.20;
+Banco de martelos das posições 8473.30.23 e 8473.50.31 para impressoras de linha das posições 8471.49.21 e 8471.60.11.
+
+Será admitida a utilização de subconjuntos montados nos Estados Partes por terceiros, desde que a produção dos mesmos atenda o estabelecido nos itens ‘A’ e ‘B’.
+
+Não descaracteriza o atendimento ao Regime de Origem definido, a inclusão em um mesmo corpo ou gabinete de unidades de discos magnéticos, ópticos e fonte de alimentação.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>3</nIdTipoCO>
+    <nIdNorma>14</nIdNorma>
+    <mstrNome>Anexo 13, Artigo 4, Apêndice Nº 3, Número 5</mstrNome>
+    <mstrDescricao>No caso do sabão elaborado com óleo de amêndoa de palma, este óleo deve ser originário dos países signatários.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>1</nIdTipoCO>
+    <nIdNorma>15</nIdNorma>
+    <mstrNome>22o  PROTOCOLO ADICIONAL - ANEXO II - 5.2</mstrNome>
+    <mstrDescricao>Microcomputadores Portáteis - Deverão cumprir com o seguinte processo produtivo:
+
+Montagem e soldagem de todos os componentes nas placas de circuito impresso que implementam as funções de processamento e memória, as controladoras de periféricos para teclado, vídeo e unidades de discos magnéticos rígidos e as interfaces de comunicação serial e paralela comulativamente. 
+
+Quando as unidades centrais de processamento incorporarem no mesmo corpo ou gabinete, placas de circuito impresso que implementem as funções de rede local ou emulação de terminal, estas placas também deverão ter a montagem e soldagem de todos os componentes nas placas de circuito impresso.
+
+Montagem das partes elétricas e mecânicas, totalmente desagregadas, em nível básico de componentes.
+
+Integração das placas de circuito impresso e das partes elétricas e mecânicas na formação do produto final de acordo com os itens ‘A’ e ‘B’ acima.
+
+Ficam dispensados da montagem os seguintes módulos ou subconjuntos: 
+
+Visor (‘display’) (posição 8473.30.91 e 8473.30.92) 
+Teclado (8471.60.52)
+
+Não descaracteriza o atendimento ao Regime de Origem definido, a inclusão em um mesmo corpo ou gabinete de unidades de discos magnéticos, ópticos e fonte de alimentação.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>3</nIdTipoCO>
+    <nIdNorma>15</nIdNorma>
+    <mstrNome>Anexo 13, Artigo 4, Apêndice Nº 3, Número 6</mstrNome>
+    <mstrDescricao>O processo emulsivo fotossensível sobre a base deverá ser efetuado no território dos países signatários</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>1</nIdTipoCO>
+    <nIdNorma>16</nIdNorma>
+    <mstrNome>22o  PROTOCOLO ADICIONAL - ANEXO II - 5.3</mstrNome>
+    <mstrDescricao>Unidades digitais de processamento de computadores de pequena capacidade - Deverão cumprir com o seguinte processo produtivo:
+
+Montagem e soldagem de todos os componentes nas placas de circuito impresso que implementam as funções de processamento e memória e as seguintes interfaces: serial, paralela, de unidades de discos magnéticos, de teclado e de vídeo, cumulativamente. Quando as unidades centrais de processamento incorporarem no mesmo corpo ou gabinete, placas de circuito impresso que implementem as funções de rede local ou emulação de terminal, estas placas também deverão ter a montagem e soldagem de todos os componentes nas placas de circuito impresso. Nas unidades digitais de processamento do tipo "diskless" destinadas a interconexão em redes locais, a montagem da placa que implementa a interface de rede local poderá substituir a montagem das placas que implementam as interfaces serial, paralela e de unidades de discos magnéticos.
+
+Montagem das partes elétricas e mecânicas, totalmente desagregadas, em nível básico de componentes.
+
+Integração das placas de circuito impresso e das partes elétricas e mecânicas na formação do produto final de acordo com os itens ‘A’ e ‘B’ acima.
+
+Não descaracteriza o atendimento ao Regime de Origem definido, a inclusão em um mesmo corpo ou gabinete de unidades de discos magnéticos, ópticos e fonte de alimentação.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>3</nIdTipoCO>
+    <nIdNorma>16</nIdNorma>
+    <mstrNome>Anexo 13, Artigo 4, Apêndice Nº 3, Número 7</mstrNome>
+    <mstrDescricao>Elaborados com base em princípios ativos produzidos no território dos países signatários.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>1</nIdTipoCO>
+    <nIdNorma>17</nIdNorma>
+    <mstrNome>22o  PROTOCOLO ADICIONAL - ANEXO II - 5.4</mstrNome>
+    <mstrDescricao>Unidades digitais de computadores de média e de grande capacidades - Deverão cumprir com o seguinte processo produtivo:
+
+Montagem e soldagem de todos os componentes no conjunto de placas de circuito impresso que implementem, no mínimo, 3 (três) das 5 (cinco) seguintes funções: a) processamento central; b) memória; c) unidade de controle integrada/interface ou controladoras de periféricos; d) suporte e diagnóstico de sistema; e) canal ou interface de comunicação com unidade de entrada e saída de dados e periféricos; ou, alternativamente, a montagem de, no mínimo, 4 (quatro) placas de circuito impresso que implementem quaisquer destas funções;
+
+Montagem e integração das placas de circuito impresso e dos conjuntos elétricos e mecânicos na formação do produto final;
+
+Quanto a montagem do produto for realizada com conjuntos em forma de gaveta, estes conjuntos deverão ser montados a partir de seus subconjuntos, tais como: fonte de alimentação, placa de circuito impresso e cabos.
+
+Quando a empresa optar pela montagem do número de placas de circuito impresso, estabelecida no item ‘A’, caso utilize placas que sejam padrões do mercado como por exemplo, placas de memória do tipo ‘SIMM’ da posição 8473.30.42 ou 8473.50.50, será considerada uma placa por função, independentemente da quantidade de placas montadas para implementar a função.
+
+Para o cumprimento do disposto será admitida a utilização de subconjuntos montados nos Estados Partes por terceiros, desde que a produção dos mesmos atenda ao estabelecido nos itens ‘A’, ‘B’ e ‘C’.
+
+O disposto neste Regime, também se aplica às unidades de controle de periféricos, tais como controladores de discos, de fitas, de impressoras e de leitores ópticos e/ou magnéticos as expansões das funções mencionadas no item ‘A’, mesmo quando não se apresentarem no mesmo corpo ou gabinete das unidades digitais de processamento.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>3</nIdTipoCO>
+    <nIdNorma>17</nIdNorma>
+    <mstrNome>Anexo 13, Artigo 4, Apêndice Nº 3, Número 8</mstrNome>
+    <mstrDescricao>Impressos e laminados sobre películas de polietileno, poli-pro-pileno, mono ou biorientado ou PVC, produzidos no território dos países signatários.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>1</nIdTipoCO>
+    <nIdNorma>18</nIdNorma>
+    <mstrNome>22o  PROTOCOLO ADICIONAL - ANEXO II - 5.5</mstrNome>
+    <mstrDescricao>Unidades digitais de computadores de muito grande capacidade - Deverão cumprir com o seguinte processo produtivo:
+
+Montagem e soldagem de todos os componentes no conjunto de placas de circuito impresso que implementem no mínimo duas das cinco seguintes funções: 
+canal de comunicação;
+memória
+processamento central; 
+unidade de controle integrada/interface
+suporte e diagnóstico de sistema,
+ou, alternativa, a montagem de, no mínimo, 3 (três) placas de circuitos impressos que implementem quaisquer destas funções.
+
+Montagem e integração das placas de circuito impresso e dos conjuntos elétricos e mecânicos na formação do produto final.
+ Quando a montagem do produto for realizada com conjuntos em forma de gaveta, estes conjuntos deverão ser montados a partir de seus subconjuntos, tais como: fontes de alimentação, placa de circuito impresso e cabos. 
+
+Quando a empresa optar pela montagem do número de placas de circuito impresso, estabelecida no item ‘A’, caso utilize placas que sejam padrões de mercado, como por exemplo, placas de memória do tipo ‘SIMM’ da posição 8473.30.42 ou 8473.50.50, será considerada uma placa por função, independente da quantidade de placas montadas para implementar a função.
+
+Para o cumprimento do disposto será admitida a utilização de subconjuntos montados nos Estados Partes por terceiros, desde que a produção dos mesmos atenda ao estabelecido nos itens ‘A’, ‘B’ e ‘C’.
+
+O disposto neste Regime, também se aplica às unidades de controle e periféricos, tais como controladores de discos, de fitas, de impressoras e de leitores ópticos ou magnéticos e as expansões das funções mencionadas no item ‘A’ quando não se apresentarem no mesmo corpo ou gabinete das unidades digitais de processamento.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>3</nIdTipoCO>
+    <nIdNorma>18</nIdNorma>
+    <mstrNome>Anexo 13, Artigo 4, Apêndice Nº 3, Número 9</mstrNome>
+    <mstrDescricao>Impressos ou laminados sobre películas de polietileno, copolí-me-ros acrílicos e folha de alumínio produzidos no terri-tório dos países signatários.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>1</nIdTipoCO>
+    <nIdNorma>19</nIdNorma>
+    <mstrNome>22o  PROTOCOLO ADICIONAL - ANEXO II - 5.6</mstrNome>
+    <mstrDescricao>Discos Rígidos - Deverão cumprir com o seguinte processo produtivo:
+
+Montagem e soldagem de todos os componentes nas placas de circuito impresso.
+Montagem das partes elétricas e mecânicas, totalmente desagregadas, em nível básico de componentes.
+Integração das placas de circuito impresso e das partes elétricas e mecânicas na formação do produto final de acordo com os itens ‘A’ e ‘B’ acima.
+Será admitida a utilização de subconjuntos montados nos Estados Partes, por terceiros, desde que a produção dos mesmo atenda ao estabelecido nos itens ‘A’ e ‘B’.
+Para a produção de discos magnéticos com capacidade de armazenamento superior a 1 GBYTES por HDA (Head Disk Assembly) não formatado, poderá ser feita a opção entre cumprir o disposto nos itens "A" ou "B" sendo que no caso do cumprimento do disposto no item ‘A’ deverão ser soldados e montados todos os componentes nas placas de circuito impresso que implementem pelo menos duas das seguintes funções:
+comunicação com a unidade controladora de disco;
+posicionamento dos conjuntos de leitura e gravação; ou 
+leitura e gravação.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>3</nIdTipoCO>
+    <nIdNorma>19</nIdNorma>
+    <mstrNome>Anexo 13, Artigo 4, Apêndice Nº 3, Número 10</mstrNome>
+    <mstrDescricao>Elaborado a partir de papel Kraft produzido no território dos países signatários. Este requisito será de aplicação transi-tória até 31 de dezembro do ano 2000.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>1</nIdTipoCO>
+    <nIdNorma>20</nIdNorma>
+    <mstrNome>22o  PROTOCOLO ADICIONAL - ANEXO II - 5.7</mstrNome>
+    <mstrDescricao>Circuitos impressos montados com componentes elétricos ou eletrônicos - Montagem e soldagem nas placas de circuito impressos de todos os componentes, desde que estes não partam da posição 8473.30.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>3</nIdTipoCO>
+    <nIdNorma>20</nIdNorma>
+    <mstrNome>Anexo 13, Artigo 4, Apêndice Nº 3, Número 11</mstrNome>
+    <mstrDescricao>Elaborado a partir de papel cristal produzido no território dos países signatários que contenham dióxido de titânio. Este requisito será de aplicação transitória até 31 dezembro do ano 2000.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>1</nIdTipoCO>
+    <nIdNorma>21</nIdNorma>
+    <mstrNome>22o  PROTOCOLO ADICIONAL - ANEXO II - 5.8</mstrNome>
+    <mstrDescricao>Placas (Módulos de Memória) com uma superfície inferior ou igual a 50 cm2. - Montagem da pastilha semicondutora não encapsulada
+Encapsulamento da pastilha
+Teste (ensaio) elétrico
+Marcação (identificação) do componente (memória)
+Montagem e soldagem dos componentes semicondutores (memória) no circuito impresso.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>3</nIdTipoCO>
+    <nIdNorma>21</nIdNorma>
+    <mstrNome>Anexo 13, Artigo 4, Apêndice Nº 3, Número 12</mstrNome>
+    <mstrDescricao>Elaborado a partir de papéis, polietileno e alumínio, produzidos no território dos países signatários. Este requisito será de aplicação transitória até 31 de dezembro do ano 2000.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>1</nIdTipoCO>
+    <nIdNorma>22</nIdNorma>
+    <mstrNome>22º PROTOCOLO ADICIONAL - ANEXO II - 5.9</mstrNome>
+    <mstrDescricao>Componentes Semicondutores e Dispositivos Optoeletrônicos - Montagem da pastilha semicondutora não encapsulada.
+Encapsulamento da pastilha montada.
+Teste (ensaio) elétrico ou optoeletrônico.
+Marcação (identificação)
+Os circuitos integrados bipolares com tecnologia maior que cinco micrômetros (micra) e os diodos de potência deverão também realizar o processamento físico-químico da pastilha semicondutora.
+Os circuito integrados monolíticos projetados em um dos Estados Partes ficam dispensados de realizar as fases ‘A’ e ‘B’ acima.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>3</nIdTipoCO>
+    <nIdNorma>22</nIdNorma>
+    <mstrNome>Anexo 13, Artigo 4, Apêndice Nº 3, Número 13</mstrNome>
+    <mstrDescricao>Elaborados a partir de fios produzidos no território dos países signatários.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>1</nIdTipoCO>
+    <nIdNorma>23</nIdNorma>
+    <mstrNome>22o  PROTOCOLO ADICIONAL - ANEXO II - 5.10</mstrNome>
+    <mstrDescricao>Componentes a filme espesso ou a filme fino - Processamento físico-químico sobre substrato
+Teste (ensaio) elétrico ou optoeletrônico
+Marcação (identificação)
+Para a produção de circuitos integrados híbridos, ficam dispensados de atender os itens ‘A’, ‘B’ e ‘C’, os componentes semicondutores utilizados como insumos na produção dos mesmos.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>3</nIdTipoCO>
+    <nIdNorma>23</nIdNorma>
+    <mstrNome>Anexo 13, Artigo 4, Apêndice Nº 3, Número 14</mstrNome>
+    <mstrDescricao>Elaborados a partir de tecidos internos e externos produzi-dos em territórios dos países signatários.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>1</nIdTipoCO>
+    <nIdNorma>24</nIdNorma>
+    <mstrNome>22o  PROTOCOLO ADICIONAL - ANEXO II - 5.11</mstrNome>
+    <mstrDescricao>Células Fotovoltáicas - Processamento físico-químico, referente a etapas de divisão, texturização e metalização.
+Encapsulamento da pastilha montada.
+Teste (ensaio) elétrico ou optoeletrônico.
+Marcação (identificação).</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>3</nIdTipoCO>
+    <nIdNorma>24</nIdNorma>
+    <mstrNome>Anexo 13, Artigo 4, Apêndice Nº 3, Número 15</mstrNome>
+    <mstrDescricao>Elaborado a partir de ferro fundido ou forjado no território dos países signatários.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>1</nIdTipoCO>
+    <nIdNorma>25</nIdNorma>
+    <mstrNome>22o  PROTOCOLO ADICIONAL - ANEXO II - 5.12</mstrNome>
+    <mstrDescricao>Cabos ópticos - Pintura de fibras. Reunião de fibras em grupos. Reunião para formação de núcleo. Extrusão da capa ou aplicação de armação metálica e marcação. Será admitida a realização das atividades descritas nos itens ‘A’ e ‘B’, por terceiros, desde que efetuadas em um dos Estados Partes. As empresas deverão realizar atividades de engenharia referentes ao desenvolvimento e adaptação do produto à sua fabricação e testes (ensaios) de aceitação operacional.
+
+Os cabos ópticos deverão utilizar fibras ópticas que atendam o requisito específico de origem definido para as mesmas.
+
+Reunião de fibras em grupos.
+Reunião para formação de núcleo.
+Extrusão da capa ou aplicação de armação metálica e marcação.
+
+Será admitida a realização das atividades descritas nos itens ‘A’ e ‘B’, por terceiros, desde que efetuadas em um dos Estados Partes.
+
+As empresas deverão realizar atividades de engenharia referentes ao desenvolvimento e adaptação do produto à sua fabricação e testes (ensaios) de aceitação operacional.
+
+Os cabos ópticos deverão utilizar fibras ópticas que atendam o requisito específico de origem definido para as mesmas.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>3</nIdTipoCO>
+    <nIdNorma>25</nIdNorma>
+    <mstrNome>Anexo 13, Artigo 4, Apêndice Nº 3, Número 16</mstrNome>
+    <mstrDescricao>Impressos ou laminados sobre folha de alumínio produzido no território dos países signatários.</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+  <tbCertificadosOrigemNormas>
+    <nIdTipoCO>1</nIdTipoCO>
+    <nIdNorma>26</nIdNorma>
+    <mstrNome>22o  PROTOCOLO ADICIONAL - ANEXO II - 5.13</mstrNome>
+    <mstrDescricao>Fibras Ópticas - Processamento físico-químico que resulte na obtenção da preforma.
+Puxamento da fibra.
+Testes.
+Embalagem.
+
+Será admitida a realização da atividade descrita no item ‘A’ por terceiros, desde que efetuada em um dos Estados Partes.
+
+As empresas deverão realizar atividades de engenharia referentes ao desenvolvimento e adaptação do produto à sua fabricação e testes (ensaios).</mstrDescricao>
+  </tbCertificadosOrigemNormas>
+</XsdTbCertificadosOrigemNormas>

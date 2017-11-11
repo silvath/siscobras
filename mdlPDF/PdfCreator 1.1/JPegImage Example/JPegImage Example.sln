@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JPegImage Example", "JPegImage Example.csproj", "{A48011D4-594F-4B2F-94A1-97D3D2B5CFD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A48011D4-594F-4B2F-94A1-97D3D2B5CFD9}.Debug.ActiveCfg = Debug|.NET
+		{A48011D4-594F-4B2F-94A1-97D3D2B5CFD9}.Debug.Build.0 = Debug|.NET
+		{A48011D4-594F-4B2F-94A1-97D3D2B5CFD9}.Release.ActiveCfg = Release|.NET
+		{A48011D4-594F-4B2F-94A1-97D3D2B5CFD9}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

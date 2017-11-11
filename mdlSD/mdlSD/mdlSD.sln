@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{52FC5D31-80FC-4C1A-8A19-13EC743D95AD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{79244171-3BCF-4C20-A7E1-D617C5617789} = {79244171-3BCF-4C20-A7E1-D617C5617789}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlSD", "mdlSD\mdlSD.csproj", "{79244171-3BCF-4C20-A7E1-D617C5617789}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {236A7FA3-C4E9-4945-B0FD-6EE9CCEE78C4}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlSD\\mdlSD.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlSD\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{52FC5D31-80FC-4C1A-8A19-13EC743D95AD}.Debug.ActiveCfg = Debug|.NET
+		{52FC5D31-80FC-4C1A-8A19-13EC743D95AD}.Debug.Build.0 = Debug|.NET
+		{52FC5D31-80FC-4C1A-8A19-13EC743D95AD}.Release.ActiveCfg = Release|.NET
+		{52FC5D31-80FC-4C1A-8A19-13EC743D95AD}.Release.Build.0 = Release|.NET
+		{79244171-3BCF-4C20-A7E1-D617C5617789}.Debug.ActiveCfg = Debug|.NET
+		{79244171-3BCF-4C20-A7E1-D617C5617789}.Debug.Build.0 = Debug|.NET
+		{79244171-3BCF-4C20-A7E1-D617C5617789}.Release.ActiveCfg = Release|.NET
+		{79244171-3BCF-4C20-A7E1-D617C5617789}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

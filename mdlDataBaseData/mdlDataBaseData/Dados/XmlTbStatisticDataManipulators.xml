@@ -1,0 +1,223 @@
+<?xml version="1.0" standalone="yes"?>
+<XsdTbStatisticDataManipulators xmlns="http://tempuri.org/XsdTbStatisticDataManipulators.xsd">
+  <tbStatisticDataManipulators>
+    <nIdDataManipulator>1</nIdDataManipulator>
+    <strName>Total FOB entre 2002 e 2005</strName>
+    <mstrData>&lt;SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"&gt;
+&lt;SOAP-ENV:Body&gt;
+&lt;a1:DataManipulator id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;
+&lt;Name id="ref-3"&gt;Total FOB entre 2002 e 2005&lt;/Name&gt;
+&lt;DataManipulatorColumnCollection href="#ref-4"/&gt;
+&lt;Operation xsi:type="a1:Operation" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;Sum&lt;/Operation&gt;
+&lt;Show xsi:type="a1:Show" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;All&lt;/Show&gt;
+&lt;ShowValue&gt;5&lt;/ShowValue&gt;
+&lt;Table xsi:type="xsd:anyType" xsi:null="1"/&gt;
+&lt;/a1:DataManipulator&gt;
+&lt;a1:DataManipulatorColumnCollection id="ref-4" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;
+&lt;DataManipulatorColumn0 href="#ref-5"/&gt;
+&lt;DataManipulatorColumn1 href="#ref-6"/&gt;
+&lt;/a1:DataManipulatorColumnCollection&gt;
+&lt;a1:DataManipulatorColumn id="ref-5" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;
+&lt;DataManipulatorColumnField href="#ref-7"/&gt;
+&lt;Visible&gt;true&lt;/Visible&gt;
+&lt;/a1:DataManipulatorColumn&gt;
+&lt;a1:DataManipulatorColumn id="ref-6" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;
+&lt;DataManipulatorColumnField href="#ref-8"/&gt;
+&lt;Visible&gt;true&lt;/Visible&gt;
+&lt;/a1:DataManipulatorColumn&gt;
+&lt;a1:DataManipulatorColumnField id="ref-7" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;
+&lt;DataColumnFullName id="ref-9"&gt;Exportação.tbFaturasComerciais.SubTotal&lt;/DataColumnFullName&gt;
+&lt;DataManipulatorColumnFieldFilter xsi:type="xsd:anyType" xsi:null="1"/&gt;
+&lt;DataManipulatorColumnFieldFilterDateTime xsi:type="xsd:anyType" xsi:null="1"/&gt;
+&lt;DataManipulatorColumnPeriod xsi:type="xsd:anyType" xsi:null="1"/&gt;
+&lt;/a1:DataManipulatorColumnField&gt;
+&lt;a1:DataManipulatorColumnField id="ref-8" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;
+&lt;DataColumnFullName id="ref-10"&gt;Exportação.tbFaturasComerciais.dataEmissao&lt;/DataColumnFullName&gt;
+&lt;DataManipulatorColumnFieldFilter xsi:type="xsd:anyType" xsi:null="1"/&gt;
+&lt;DataManipulatorColumnFieldFilterDateTime xsi:type="xsd:anyType" xsi:null="1"/&gt;
+&lt;DataManipulatorColumnPeriod href="#ref-11"/&gt;
+&lt;/a1:DataManipulatorColumnField&gt;
+&lt;a1:DataManipulatorColumnPeriod id="ref-11" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;
+&lt;DateTimeStart id="ref-12"&gt;2002/01/01&lt;/DateTimeStart&gt;
+&lt;DateTimeEnd id="ref-13"&gt;2005/12/31&lt;/DateTimeEnd&gt;
+&lt;IntervalData href="#ref-14"/&gt;
+&lt;IntervalBetween xsi:type="xsd:anyType" xsi:null="1"/&gt;
+&lt;/a1:DataManipulatorColumnPeriod&gt;
+&lt;a1:DataManipulatorColumnPeriodInterval id="ref-14" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;
+&lt;Time&gt;2&lt;/Time&gt;
+&lt;Count&gt;1&lt;/Count&gt;
+&lt;OnlyWorkDays&gt;false&lt;/OnlyWorkDays&gt;
+&lt;/a1:DataManipulatorColumnPeriodInterval&gt;
+&lt;/SOAP-ENV:Body&gt;
+&lt;/SOAP-ENV:Envelope&gt;
+</mstrData>
+  </tbStatisticDataManipulators>
+  <tbStatisticDataManipulators>
+    <nIdDataManipulator>2</nIdDataManipulator>
+    <strName>Total FOB por Importador (10+)</strName>
+    <mstrData>&lt;SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"&gt;
+&lt;SOAP-ENV:Body&gt;
+&lt;a1:DataManipulator id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;
+&lt;Name id="ref-3"&gt;Total FOB por Importador (10+)&lt;/Name&gt;
+&lt;DataManipulatorColumnCollection href="#ref-4"/&gt;
+&lt;Operation xsi:type="a1:Operation" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;Sum&lt;/Operation&gt;
+&lt;Show xsi:type="a1:Show" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;Highers&lt;/Show&gt;
+&lt;ShowValue&gt;10&lt;/ShowValue&gt;
+&lt;Table href="#ref-5"/&gt;
+&lt;/a1:DataManipulator&gt;
+&lt;a1:DataManipulatorColumnCollection id="ref-4" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;
+&lt;DataManipulatorColumn0 href="#ref-6"/&gt;
+&lt;DataManipulatorColumn1 href="#ref-7"/&gt;
+&lt;/a1:DataManipulatorColumnCollection&gt;
+&lt;a1:Table id="ref-5" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;
+&lt;Name id="ref-8"&gt;&lt;/Name&gt;
+&lt;Row0&gt;0&lt;/Row0&gt;
+&lt;Column0&gt;0&lt;/Column0&gt;
+&lt;Data0 id="ref-9"&gt;Importador.Nome&lt;/Data0&gt;
+&lt;Row1&gt;0&lt;/Row1&gt;
+&lt;Column1&gt;1&lt;/Column1&gt;
+&lt;Data1 id="ref-10"&gt;Produto da Fatura Comercial.SubTotal&lt;/Data1&gt;
+&lt;Row2&gt;1&lt;/Row2&gt;
+&lt;Column2&gt;0&lt;/Column2&gt;
+&lt;Data2 id="ref-11"&gt;Americano&lt;/Data2&gt;
+&lt;Row3&gt;1&lt;/Row3&gt;
+&lt;Column3&gt;1&lt;/Column3&gt;
+&lt;Data3&gt;7810&lt;/Data3&gt;
+&lt;Row4&gt;2&lt;/Row4&gt;
+&lt;Column4&gt;0&lt;/Column4&gt;
+&lt;Data4 id="ref-12"&gt;Vega&lt;/Data4&gt;
+&lt;Row5&gt;2&lt;/Row5&gt;
+&lt;Column5&gt;1&lt;/Column5&gt;
+&lt;Data5&gt;1400&lt;/Data5&gt;
+&lt;Row6&gt;3&lt;/Row6&gt;
+&lt;Column6&gt;0&lt;/Column6&gt;
+&lt;Data6 id="ref-13"&gt;Ken&lt;/Data6&gt;
+&lt;Row7&gt;3&lt;/Row7&gt;
+&lt;Column7&gt;1&lt;/Column7&gt;
+&lt;Data7&gt;8550&lt;/Data7&gt;
+&lt;Row8&gt;4&lt;/Row8&gt;
+&lt;Column8&gt;0&lt;/Column8&gt;
+&lt;Data8 id="ref-14"&gt;Dalshim&lt;/Data8&gt;
+&lt;Row9&gt;4&lt;/Row9&gt;
+&lt;Column9&gt;1&lt;/Column9&gt;
+&lt;Data9&gt;1600&lt;/Data9&gt;
+&lt;Row10&gt;5&lt;/Row10&gt;
+&lt;Column10&gt;0&lt;/Column10&gt;
+&lt;Data10 id="ref-15"&gt;Sagat&lt;/Data10&gt;
+&lt;Row11&gt;5&lt;/Row11&gt;
+&lt;Column11&gt;1&lt;/Column11&gt;
+&lt;Data11&gt;1450&lt;/Data11&gt;
+&lt;Row12&gt;6&lt;/Row12&gt;
+&lt;Column12&gt;0&lt;/Column12&gt;
+&lt;Data12 id="ref-16"&gt;Zangief&lt;/Data12&gt;
+&lt;Row13&gt;6&lt;/Row13&gt;
+&lt;Column13&gt;1&lt;/Column13&gt;
+&lt;Data13&gt;5400&lt;/Data13&gt;
+&lt;/a1:Table&gt;
+&lt;a1:DataManipulatorColumn id="ref-6" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;
+&lt;DataManipulatorColumnField href="#ref-17"/&gt;
+&lt;Visible&gt;true&lt;/Visible&gt;
+&lt;/a1:DataManipulatorColumn&gt;
+&lt;a1:DataManipulatorColumn id="ref-7" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;
+&lt;DataManipulatorColumnField href="#ref-18"/&gt;
+&lt;Visible&gt;true&lt;/Visible&gt;
+&lt;/a1:DataManipulatorColumn&gt;
+&lt;a1:DataManipulatorColumnField id="ref-17" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;
+&lt;DataColumnFullName id="ref-19"&gt;Exportação.tbImportadores.nmCli&lt;/DataColumnFullName&gt;
+&lt;DataManipulatorColumnFieldFilter xsi:type="xsd:anyType" xsi:null="1"/&gt;
+&lt;DataManipulatorColumnFieldFilterDateTime xsi:type="xsd:anyType" xsi:null="1"/&gt;
+&lt;DataManipulatorColumnPeriod xsi:type="xsd:anyType" xsi:null="1"/&gt;
+&lt;/a1:DataManipulatorColumnField&gt;
+&lt;a1:DataManipulatorColumnField id="ref-18" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;
+&lt;DataColumnFullName id="ref-20"&gt;Exportação.tbProdutosFaturaComercial.SubTotal&lt;/DataColumnFullName&gt;
+&lt;DataManipulatorColumnFieldFilter xsi:type="xsd:anyType" xsi:null="1"/&gt;
+&lt;DataManipulatorColumnFieldFilterDateTime xsi:type="xsd:anyType" xsi:null="1"/&gt;
+&lt;DataManipulatorColumnPeriod xsi:type="xsd:anyType" xsi:null="1"/&gt;
+&lt;/a1:DataManipulatorColumnField&gt;
+&lt;/SOAP-ENV:Body&gt;
+&lt;/SOAP-ENV:Envelope&gt;
+</mstrData>
+  </tbStatisticDataManipulators>
+  <tbStatisticDataManipulators>
+    <nIdDataManipulator>3</nIdDataManipulator>
+    <strName>Total FOB por Pais (10+)</strName>
+    <mstrData>&lt;SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"&gt;
+&lt;SOAP-ENV:Body&gt;
+&lt;a1:DataManipulator id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;
+&lt;Name id="ref-3"&gt;Total FOB por Pais (10+)&lt;/Name&gt;
+&lt;DataManipulatorColumnCollection href="#ref-4"/&gt;
+&lt;Operation xsi:type="a1:Operation" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;Sum&lt;/Operation&gt;
+&lt;Show xsi:type="a1:Show" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;Highers&lt;/Show&gt;
+&lt;ShowValue&gt;10&lt;/ShowValue&gt;
+&lt;Table xsi:type="xsd:anyType" xsi:null="1"/&gt;
+&lt;/a1:DataManipulator&gt;
+&lt;a1:DataManipulatorColumnCollection id="ref-4" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;
+&lt;DataManipulatorColumn0 href="#ref-5"/&gt;
+&lt;DataManipulatorColumn1 href="#ref-6"/&gt;
+&lt;/a1:DataManipulatorColumnCollection&gt;
+&lt;a1:DataManipulatorColumn id="ref-5" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;
+&lt;DataManipulatorColumnField href="#ref-7"/&gt;
+&lt;Visible&gt;true&lt;/Visible&gt;
+&lt;/a1:DataManipulatorColumn&gt;
+&lt;a1:DataManipulatorColumn id="ref-6" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;
+&lt;DataManipulatorColumnField href="#ref-8"/&gt;
+&lt;Visible&gt;true&lt;/Visible&gt;
+&lt;/a1:DataManipulatorColumn&gt;
+&lt;a1:DataManipulatorColumnField id="ref-7" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;
+&lt;DataColumnFullName id="ref-9"&gt;Exportação.tbPaises.nmPais&lt;/DataColumnFullName&gt;
+&lt;DataManipulatorColumnFieldFilter xsi:type="xsd:anyType" xsi:null="1"/&gt;
+&lt;DataManipulatorColumnFieldFilterDateTime xsi:type="xsd:anyType" xsi:null="1"/&gt;
+&lt;DataManipulatorColumnPeriod xsi:type="xsd:anyType" xsi:null="1"/&gt;
+&lt;/a1:DataManipulatorColumnField&gt;
+&lt;a1:DataManipulatorColumnField id="ref-8" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;
+&lt;DataColumnFullName id="ref-10"&gt;Exportação.tbProdutosFaturaComercial.SubTotal&lt;/DataColumnFullName&gt;
+&lt;DataManipulatorColumnFieldFilter xsi:type="xsd:anyType" xsi:null="1"/&gt;
+&lt;DataManipulatorColumnFieldFilterDateTime xsi:type="xsd:anyType" xsi:null="1"/&gt;
+&lt;DataManipulatorColumnPeriod xsi:type="xsd:anyType" xsi:null="1"/&gt;
+&lt;/a1:DataManipulatorColumnField&gt;
+&lt;/SOAP-ENV:Body&gt;
+&lt;/SOAP-ENV:Envelope&gt;
+</mstrData>
+  </tbStatisticDataManipulators>
+  <tbStatisticDataManipulators>
+    <nIdDataManipulator>4</nIdDataManipulator>
+    <strName>Total FOB por Produtos (10+)</strName>
+    <mstrData>&lt;SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"&gt;
+&lt;SOAP-ENV:Body&gt;
+&lt;a1:DataManipulator id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;
+&lt;Name id="ref-3"&gt;Total FOB por Produtos (10+)&lt;/Name&gt;
+&lt;DataManipulatorColumnCollection href="#ref-4"/&gt;
+&lt;Operation xsi:type="a1:Operation" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;Sum&lt;/Operation&gt;
+&lt;Show xsi:type="a1:Show" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;Highers&lt;/Show&gt;
+&lt;ShowValue&gt;10&lt;/ShowValue&gt;
+&lt;Table xsi:type="xsd:anyType" xsi:null="1"/&gt;
+&lt;/a1:DataManipulator&gt;
+&lt;a1:DataManipulatorColumnCollection id="ref-4" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;
+&lt;DataManipulatorColumn0 href="#ref-5"/&gt;
+&lt;DataManipulatorColumn1 href="#ref-6"/&gt;
+&lt;/a1:DataManipulatorColumnCollection&gt;
+&lt;a1:DataManipulatorColumn id="ref-5" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;
+&lt;DataManipulatorColumnField href="#ref-7"/&gt;
+&lt;Visible&gt;true&lt;/Visible&gt;
+&lt;/a1:DataManipulatorColumn&gt;
+&lt;a1:DataManipulatorColumn id="ref-6" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;
+&lt;DataManipulatorColumnField href="#ref-8"/&gt;
+&lt;Visible&gt;true&lt;/Visible&gt;
+&lt;/a1:DataManipulatorColumn&gt;
+&lt;a1:DataManipulatorColumnField id="ref-7" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;
+&lt;DataColumnFullName id="ref-9"&gt;Exportação.tbProdutos.mstrDescricao&lt;/DataColumnFullName&gt;
+&lt;DataManipulatorColumnFieldFilter xsi:type="xsd:anyType" xsi:null="1"/&gt;
+&lt;DataManipulatorColumnFieldFilterDateTime xsi:type="xsd:anyType" xsi:null="1"/&gt;
+&lt;DataManipulatorColumnPeriod xsi:type="xsd:anyType" xsi:null="1"/&gt;
+&lt;/a1:DataManipulatorColumnField&gt;
+&lt;a1:DataManipulatorColumnField id="ref-8" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/fmkStatistic.Data/fmkStatistic%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dcf446e8ec2fe23ae"&gt;
+&lt;DataColumnFullName id="ref-10"&gt;Exportação.tbProdutosFaturaComercial.SubTotal&lt;/DataColumnFullName&gt;
+&lt;DataManipulatorColumnFieldFilter xsi:type="xsd:anyType" xsi:null="1"/&gt;
+&lt;DataManipulatorColumnFieldFilterDateTime xsi:type="xsd:anyType" xsi:null="1"/&gt;
+&lt;DataManipulatorColumnPeriod xsi:type="xsd:anyType" xsi:null="1"/&gt;
+&lt;/a1:DataManipulatorColumnField&gt;
+&lt;/SOAP-ENV:Body&gt;
+&lt;/SOAP-ENV:Envelope&gt;
+</mstrData>
+  </tbStatisticDataManipulators>
+</XsdTbStatisticDataManipulators>

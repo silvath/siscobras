@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v5 rel. 3 U (http://www.xmlspy.com) by 2 (1) -->
+<letter>
+	<address>Altsoft n.v.
+Drabstrrat 28
+2640 Mortsel
+Belgium</address>
+	<date>December 24, 2003</date>
+	<name>Prof. Leopold Verstraelen</name>
+	<begin>Mr. Joe Smith
+2345 Princess St.
+Edinburgh, EH1 1AA</begin>
+	<opening>Dear Joe,</opening>
+	<body>Taking into account your proposals we would like to invite you to our Altsoft office in Belgium. You may visit us on any date most convenient for you in the period from September 15, 2003 to April 30, 2004.
+
+All your local expenses related to this visit including accommodation, living expenses and medical insurance will be covered by Altsoft.</body>
+	<closing>With very best regards,</closing>
+	<ps>Do not forget that we are closed from December 25, 2003 to January 5, 2004</ps>
+	<cc>Kate Schechter
+Rob McKenna</cc>
+	<encl>Draft of the preliminary agreement</encl>
+</letter>

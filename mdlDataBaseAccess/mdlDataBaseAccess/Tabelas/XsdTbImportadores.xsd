@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbImportadores" targetNamespace="http://tempuri.org/XsdTbImportadores.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbImportadores.xsd"
+	xmlns:mstns="http://tempuri.org/XsdTbImportadores.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbImportadores" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbImportadores">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="idExportador" type="xs:int" />
+							<xs:element name="idImportador" type="xs:int" />
+							<xs:element name="nmCli" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrEndCli" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrCompEndCli" type="xs:string" minOccurs="0" />
+							<xs:element name="cidadeCli" type="xs:string" minOccurs="0" />
+							<xs:element name="estadoCli" type="xs:string" minOccurs="0" />
+							<xs:element name="idPaisCli" type="xs:int" minOccurs="0" />
+							<xs:element name="mstrTelCli" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrTel2Cli" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrFaxCli" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrCelCli" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrEmailCli" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrSiteCli" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrObsCli" type="xs:string" minOccurs="0" />
+							<xs:element name="idUltimoBanco" type="xs:int" minOccurs="0" />
+							<xs:element name="idConsignatario" type="xs:int" minOccurs="0" />
+							<xs:element name="idUltimoEnderecoEntrega" type="xs:int" minOccurs="0" />
+							<xs:element name="ultimoLocalColeta" type="xs:string" minOccurs="0" />
+							<xs:element name="ultimoLocalDespacho" type="xs:string" minOccurs="0" />
+							<xs:element name="ultimoLocalDestino" type="xs:string" minOccurs="0" />
+							<xs:element name="ultimoLocalEmbarque" type="xs:string" minOccurs="0" />
+							<xs:element name="ultimoLocalEntrega" type="xs:string" minOccurs="0" />
+							<xs:element name="ultimaNotificacao1" type="xs:string" minOccurs="0" />
+							<xs:element name="ultimaNotificacao2" type="xs:string" minOccurs="0" />
+							<xs:element name="ultimoEmailUtilizado" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbImportadoresKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbImportadores" />
+			<xs:field xpath="mstns:idExportador" />
+			<xs:field xpath="mstns:idImportador" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

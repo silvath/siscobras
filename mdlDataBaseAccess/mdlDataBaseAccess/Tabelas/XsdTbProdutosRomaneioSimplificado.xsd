@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbProdutosRomaneioSimplificado" targetNamespace="http://tempuri.org/XsdTbProdutosRomaneioSimplificado.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbProdutosRomaneioSimplificado.xsd"
+	xmlns:mstns="http://tempuri.org/XsdTbProdutosRomaneioSimplificado.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbProdutosRomaneioSimplificado" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbProdutosRomaneioSimplificado">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="IdExportador" type="xs:int" />
+							<xs:element name="idPE" type="xs:string" />
+							<xs:element name="nIdOrdem" type="xs:int" />
+							<xs:element name="nIdOrdemProduto" type="xs:int" minOccurs="0" />
+							<xs:element name="dQuantidadeProduto" type="xs:double" minOccurs="0" />
+							<xs:element name="dQuantidadeVolumes" type="xs:double" minOccurs="0" />
+							<xs:element name="dPesoLiquidoUnitario" type="xs:double" minOccurs="0" />
+							<xs:element name="dPesoBrutoUnitario" type="xs:double" minOccurs="0" />
+							<xs:element name="nUnidadeMassaPesoLiquido" type="xs:int" minOccurs="0" />
+							<xs:element name="nUnidadeMassaPesoBruto" type="xs:int" minOccurs="0" />
+							<xs:element name="nlTipoVolume" type="xs:int" minOccurs="0" />
+							<xs:element name="strTipoPopular" type="xs:string" minOccurs="0" />
+							<xs:element name="dLargura" type="xs:double" minOccurs="0" />
+							<xs:element name="dAltura" type="xs:double" minOccurs="0" />
+							<xs:element name="dComprimento" type="xs:double" minOccurs="0" />
+							<xs:element name="dVolume" type="xs:double" minOccurs="0" />
+							<xs:element name="nUnidadeLargura" type="xs:int" minOccurs="0" />
+							<xs:element name="nUnidadeAltura" type="xs:int" minOccurs="0" />
+							<xs:element name="nUnidadeComprimento" type="xs:int" minOccurs="0" />
+							<xs:element name="nUnidadeVolume" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbProdutosRomaneioSimplificadoKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbProdutosRomaneioSimplificado" />
+			<xs:field xpath="mstns:IdExportador" />
+			<xs:field xpath="mstns:idPE" />
+			<xs:field xpath="mstns:nIdOrdem" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

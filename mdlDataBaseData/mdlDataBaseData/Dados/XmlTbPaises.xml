@@ -1,0 +1,951 @@
+<?xml version="1.0" standalone="yes"?>
+<XsdTbPaises xmlns="http://tempuri.org/XsdTbPaises.xsd">
+  <tbPaises>
+    <idPais>13</idPais>
+    <nmPais>Afeganistao</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>17</idPais>
+    <nmPais>Albania, Republica da</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>23</idPais>
+    <nmPais>Alemanha</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>31</idPais>
+    <nmPais>Burkina Faso</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>37</idPais>
+    <nmPais>Andorra</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>40</idPais>
+    <nmPais>Angola</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>41</idPais>
+    <nmPais>Anguilla</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>43</idPais>
+    <nmPais>Antigua e Barbuda</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>47</idPais>
+    <nmPais>Antilhas Holandesas</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>53</idPais>
+    <nmPais>Arabia Saudita</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>59</idPais>
+    <nmPais>Argelia</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>63</idPais>
+    <nmPais>Argentina</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>64</idPais>
+    <nmPais>Armenia, Republica da</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>65</idPais>
+    <nmPais>Aruba</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>69</idPais>
+    <nmPais>Australia</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>72</idPais>
+    <nmPais>Austria</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>73</idPais>
+    <nmPais>Azerbaijao, Republica do</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>77</idPais>
+    <nmPais>Bahamas, Ilhas</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>80</idPais>
+    <nmPais>Bahrein, Ilhas</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>81</idPais>
+    <nmPais>Bangladesh</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>83</idPais>
+    <nmPais>Barbados</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>85</idPais>
+    <nmPais>Belarus, Republica da</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>87</idPais>
+    <nmPais>Belgica</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>88</idPais>
+    <nmPais>Belize</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>90</idPais>
+    <nmPais>Bermudas</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>93</idPais>
+    <nmPais>Mianmar (Birmania)</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>97</idPais>
+    <nmPais>Bolivia</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>98</idPais>
+    <nmPais>Bósnia</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>101</idPais>
+    <nmPais>Botsuana</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>105</idPais>
+    <nmPais>Brasil</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>108</idPais>
+    <nmPais>Brunei</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>111</idPais>
+    <nmPais>Bulgaria, Republica da</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>115</idPais>
+    <nmPais>Burundi</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>119</idPais>
+    <nmPais>Butao</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>127</idPais>
+    <nmPais>Cabo Verde, Republica de</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>137</idPais>
+    <nmPais>Cayman, Ilhas</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>141</idPais>
+    <nmPais>Camboja</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>145</idPais>
+    <nmPais>Camaroes</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>149</idPais>
+    <nmPais>Canada</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>151</idPais>
+    <nmPais>Canarias, Ilhas</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>153</idPais>
+    <nmPais>Cazaquistao, Republica do</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>154</idPais>
+    <nmPais>Catar</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>158</idPais>
+    <nmPais>Chile</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>160</idPais>
+    <nmPais>China, Republica Popular</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>161</idPais>
+    <nmPais>Formosa (Taiwan)</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>163</idPais>
+    <nmPais>Chipre</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>165</idPais>
+    <nmPais>Cocos, Ilhas</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>169</idPais>
+    <nmPais>Colombia</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>173</idPais>
+    <nmPais>Comores, Ilhas</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>177</idPais>
+    <nmPais>Congo</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>183</idPais>
+    <nmPais>Cook, Ilhas</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>187</idPais>
+    <nmPais>Coreia, Rep. Pop. Democratica</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>190</idPais>
+    <nmPais>Coreia, Republica da</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>193</idPais>
+    <nmPais>Costa do Marfim</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>195</idPais>
+    <nmPais>Croacia, Republica da</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>196</idPais>
+    <nmPais>Costa Rica</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>198</idPais>
+    <nmPais>Coveite</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>199</idPais>
+    <nmPais>Cuba</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>229</idPais>
+    <nmPais>Benin</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>232</idPais>
+    <nmPais>Dinamarca</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>235</idPais>
+    <nmPais>Dominica, Ilha</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>239</idPais>
+    <nmPais>Equador</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>240</idPais>
+    <nmPais>Egito</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>244</idPais>
+    <nmPais>Emirados Arabes Unidos</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>245</idPais>
+    <nmPais>Espanha</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>246</idPais>
+    <nmPais>Eslovenia, Republica da</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>247</idPais>
+    <nmPais>Eslovaca, Republica</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>249</idPais>
+    <nmPais>Estados Unidos</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>251</idPais>
+    <nmPais>Estonia, Republica da</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>253</idPais>
+    <nmPais>Etiopia</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>255</idPais>
+    <nmPais>Falkland (Ilhas Malvinas)</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>259</idPais>
+    <nmPais>Feroe, Ilhas</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>267</idPais>
+    <nmPais>Filipinas</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>271</idPais>
+    <nmPais>Finlandia</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>275</idPais>
+    <nmPais>Franca</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>281</idPais>
+    <nmPais>Gabao</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>285</idPais>
+    <nmPais>Gambia</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>289</idPais>
+    <nmPais>Gana</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>291</idPais>
+    <nmPais>Georgia, Republica da</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>293</idPais>
+    <nmPais>Gibraltar</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>297</idPais>
+    <nmPais>Granada</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>301</idPais>
+    <nmPais>Grecia</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>305</idPais>
+    <nmPais>Groenlandia</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>309</idPais>
+    <nmPais>Guadalupe</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>313</idPais>
+    <nmPais>Guam</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>317</idPais>
+    <nmPais>Guatemala</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>325</idPais>
+    <nmPais>Guiana Francesa</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>329</idPais>
+    <nmPais>Guine</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>331</idPais>
+    <nmPais>Guine-Equatorial</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>334</idPais>
+    <nmPais>Guine-Bissau</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>337</idPais>
+    <nmPais>Guiana</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>341</idPais>
+    <nmPais>Haiti</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>345</idPais>
+    <nmPais>Honduras</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>351</idPais>
+    <nmPais>Hong Kong</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>355</idPais>
+    <nmPais>Hungria, Republica da</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>357</idPais>
+    <nmPais>Iemen</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>361</idPais>
+    <nmPais>India</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>365</idPais>
+    <nmPais>Indonesia</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>369</idPais>
+    <nmPais>Iraque</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>372</idPais>
+    <nmPais>Ira, Republica Islamica do</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>375</idPais>
+    <nmPais>Irlanda</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>379</idPais>
+    <nmPais>Islandia</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>383</idPais>
+    <nmPais>Israel</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>386</idPais>
+    <nmPais>Italia</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>388</idPais>
+    <nmPais>Iugoslavia, Rep. Fed. da</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>391</idPais>
+    <nmPais>Jamaica</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>396</idPais>
+    <nmPais>Johnston, Ilhas</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>399</idPais>
+    <nmPais>Japao</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>403</idPais>
+    <nmPais>Jordania</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>411</idPais>
+    <nmPais>Kiribati</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>420</idPais>
+    <nmPais>Laos, Rep. Pop. Democr. do</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>423</idPais>
+    <nmPais>Lebuan, Ilhas</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>426</idPais>
+    <nmPais>Lesoto</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>427</idPais>
+    <nmPais>Letonia, Republica da</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>431</idPais>
+    <nmPais>Libano</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>434</idPais>
+    <nmPais>Liberia</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>438</idPais>
+    <nmPais>Libia</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>440</idPais>
+    <nmPais>Liechtenstein</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>442</idPais>
+    <nmPais>Lituania, Republica da</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>445</idPais>
+    <nmPais>Luxemburgo</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>447</idPais>
+    <nmPais>Macau</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>449</idPais>
+    <nmPais>Macedonia, Ant. Rep. Iugoslava</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>450</idPais>
+    <nmPais>Madagascar</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>455</idPais>
+    <nmPais>Malasia</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>458</idPais>
+    <nmPais>Malavi</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>461</idPais>
+    <nmPais>Maldivas</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>464</idPais>
+    <nmPais>Mali</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>467</idPais>
+    <nmPais>Malta</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>472</idPais>
+    <nmPais>Marianas do Norte</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>474</idPais>
+    <nmPais>Marrocos</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>476</idPais>
+    <nmPais>Marshall, Ilhas</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>477</idPais>
+    <nmPais>Martinica</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>485</idPais>
+    <nmPais>Mauricio</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>488</idPais>
+    <nmPais>Mauritania</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>490</idPais>
+    <nmPais>Midway, Ilhas</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>493</idPais>
+    <nmPais>Mexico</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>494</idPais>
+    <nmPais>Moldova, Republica da</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>495</idPais>
+    <nmPais>Monaco</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>497</idPais>
+    <nmPais>Mongolia</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>499</idPais>
+    <nmPais>Micronesia</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>501</idPais>
+    <nmPais>Montserrat, Ilhas</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>505</idPais>
+    <nmPais>Mocambique</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>507</idPais>
+    <nmPais>Namibia</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>508</idPais>
+    <nmPais>Nauru</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>511</idPais>
+    <nmPais>Christmas, Ilhas</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>517</idPais>
+    <nmPais>Nepal</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>521</idPais>
+    <nmPais>Nicaragua</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>525</idPais>
+    <nmPais>Niger</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>528</idPais>
+    <nmPais>Nigeria</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>531</idPais>
+    <nmPais>Niue, Ilha</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>535</idPais>
+    <nmPais>Norfolk, Ilha</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>538</idPais>
+    <nmPais>Noruega</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>542</idPais>
+    <nmPais>Nova Caledonia</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>545</idPais>
+    <nmPais>Papua Nova Guine</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>548</idPais>
+    <nmPais>Nova Zelandia</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>551</idPais>
+    <nmPais>Vanuatu</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>556</idPais>
+    <nmPais>Oma</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>566</idPais>
+    <nmPais>Pacifico,ilhas do (Possessao dos Eua)</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>573</idPais>
+    <nmPais>Paises Baixos (Holanda)</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>575</idPais>
+    <nmPais>Palau</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>576</idPais>
+    <nmPais>Paquistao</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>580</idPais>
+    <nmPais>Panama</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>586</idPais>
+    <nmPais>Paraguai</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>589</idPais>
+    <nmPais>Peru</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>593</idPais>
+    <nmPais>Pitcairn, Ilha</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>599</idPais>
+    <nmPais>Polinesia Francesa</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>603</idPais>
+    <nmPais>Polonia, Republica da</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>607</idPais>
+    <nmPais>Portugal</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>611</idPais>
+    <nmPais>Porto Rico</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>623</idPais>
+    <nmPais>Quenia</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>625</idPais>
+    <nmPais>Quirguiz, Republica</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>628</idPais>
+    <nmPais>Reino Unido</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>640</idPais>
+    <nmPais>Republica Centro-africana</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>647</idPais>
+    <nmPais>Republica Dominicana</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>660</idPais>
+    <nmPais>Reuniao, Ilha</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>665</idPais>
+    <nmPais>Zimbabue</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>670</idPais>
+    <nmPais>Romenia</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>675</idPais>
+    <nmPais>Ruanda</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>676</idPais>
+    <nmPais>Russia, Federacao da</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>677</idPais>
+    <nmPais>Salomao, Ilhas</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>685</idPais>
+    <nmPais>Saara Ocidental</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>687</idPais>
+    <nmPais>El Salvador</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>690</idPais>
+    <nmPais>Samoa</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>691</idPais>
+    <nmPais>Samoa Americana</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>695</idPais>
+    <nmPais>São Cristovao e Neves, Ilhas</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>697</idPais>
+    <nmPais>San Marino</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>700</idPais>
+    <nmPais>São Pedro e Miquelon</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>705</idPais>
+    <nmPais>São Vicente e Granadinas</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>710</idPais>
+    <nmPais>Santa Helena</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>715</idPais>
+    <nmPais>Santa Lucia</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>720</idPais>
+    <nmPais>São Tome e Principe, Ilhas</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>728</idPais>
+    <nmPais>Senegal</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>731</idPais>
+    <nmPais>Seychelles</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>735</idPais>
+    <nmPais>Serra Leoa</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>741</idPais>
+    <nmPais>Cingapura</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>744</idPais>
+    <nmPais>Siria, Republica Arabe da</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>748</idPais>
+    <nmPais>Somalia</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>750</idPais>
+    <nmPais>Sri Lanka</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>754</idPais>
+    <nmPais>Suazilandia</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>756</idPais>
+    <nmPais>Africa do sul</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>759</idPais>
+    <nmPais>Sudao</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>764</idPais>
+    <nmPais>Suecia</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>767</idPais>
+    <nmPais>Suica</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>770</idPais>
+    <nmPais>Suriname</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>772</idPais>
+    <nmPais>Tadjiquistao, Republica do</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>776</idPais>
+    <nmPais>Tailandia</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>780</idPais>
+    <nmPais>Tanzania, Rep. Unida da</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>782</idPais>
+    <nmPais>Territorio Brit. Oc. Indico</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>783</idPais>
+    <nmPais>Djibuti</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>788</idPais>
+    <nmPais>Chade</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>791</idPais>
+    <nmPais>Tcheca, Republica</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>795</idPais>
+    <nmPais>Timor Leste</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>800</idPais>
+    <nmPais>Togo</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>805</idPais>
+    <nmPais>Toquelau, Ilhas</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>810</idPais>
+    <nmPais>Tonga</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>815</idPais>
+    <nmPais>Trinidad e Tobago</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>820</idPais>
+    <nmPais>Tunisia</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>823</idPais>
+    <nmPais>Turcas e Caicos, Ilhas</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>824</idPais>
+    <nmPais>Turcomenistao, Republica do</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>827</idPais>
+    <nmPais>Turquia</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>828</idPais>
+    <nmPais>Tuvalu</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>831</idPais>
+    <nmPais>Ucrania</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>833</idPais>
+    <nmPais>Uganda</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>845</idPais>
+    <nmPais>Uruguai</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>847</idPais>
+    <nmPais>Uzbequistao, Republica do</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>848</idPais>
+    <nmPais>Vaticano, Est.da Cidade do</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>850</idPais>
+    <nmPais>Venezuela</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>858</idPais>
+    <nmPais>Vietna</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>863</idPais>
+    <nmPais>Virgens, Ilhas (britanicas)</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>866</idPais>
+    <nmPais>Virgens, Ilhas (e.u.a.)</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>870</idPais>
+    <nmPais>Fiji</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>873</idPais>
+    <nmPais>Wake, Ilha</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>875</idPais>
+    <nmPais>Wallis e Futuna, Ilhas</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>888</idPais>
+    <nmPais>Zaire</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>890</idPais>
+    <nmPais>Zambia</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>895</idPais>
+    <nmPais>Zona do Canal do Panama</nmPais>
+  </tbPaises>
+  <tbPaises>
+    <idPais>990</idPais>
+    <nmPais>Provisao de Navios e Aeronaves</nmPais>
+  </tbPaises>
+</XsdTbPaises>

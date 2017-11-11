@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlConstantes", "mdlConstantes\mdlConstantes.csproj", "{DF4F34E7-6B6E-4994-9DDB-5F9F3680B5FF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {8BCE55F3-3D46-4190-B674-E5B3D0A885AB}
+		SccProjectUniqueName1 = mdlConstantes\\mdlConstantes.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = mdlConstantes\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{DF4F34E7-6B6E-4994-9DDB-5F9F3680B5FF}.Debug.ActiveCfg = Debug|.NET
+		{DF4F34E7-6B6E-4994-9DDB-5F9F3680B5FF}.Debug.Build.0 = Debug|.NET
+		{DF4F34E7-6B6E-4994-9DDB-5F9F3680B5FF}.Release.ActiveCfg = Release|.NET
+		{DF4F34E7-6B6E-4994-9DDB-5F9F3680B5FF}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

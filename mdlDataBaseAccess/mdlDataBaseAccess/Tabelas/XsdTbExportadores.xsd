@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbExportadores" targetNamespace="http://tempuri.org/XsdTbExportadores.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbExportadores.xsd"
+	xmlns:mstns="http://tempuri.org/XsdTbExportadores.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbExportadores" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbExportadores">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="idExportador" type="xs:int" />
+							<xs:element name="idImportador" type="xs:int" minOccurs="0" />
+							<xs:element name="nmEmp" type="xs:string" minOccurs="0" />
+							<xs:element name="marca" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrEndEmp" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrTelEmp" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrFaxEmp" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrTel2Emp" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrCelEmp" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrEmailEmp" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrSiteEmp" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrBairroEmp" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrCidadeEmp" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrCepEmp" type="xs:string" minOccurs="0" />
+							<xs:element name="idEstadoEmp" type="xs:int" minOccurs="0" />
+							<xs:element name="mstrCnpj" type="xs:string" minOccurs="0" />
+							<xs:element name="idRelatorioCotacao" type="xs:int" minOccurs="0" />
+							<xs:element name="idRelatorioFaturaProforma" type="xs:int" minOccurs="0" />
+							<xs:element name="idRelatorioFaturaComercial" type="xs:int" minOccurs="0" />
+							<xs:element name="idRelatorioCertificadoOrigemMercosul" type="xs:int" minOccurs="0" />
+							<xs:element name="idRelatorioCertificadoOrigemMercosulChile" type="xs:int" minOccurs="0" />
+							<xs:element name="idRelatorioCertificadoOrigemMercosulBolivia" type="xs:int" minOccurs="0" />
+							<xs:element name="idRelatorioCertificadoOrigemAladiAptr04" type="xs:int" minOccurs="0" />
+							<xs:element name="idRelatorioCertificadoOrigemAladiAce39" type="xs:int" minOccurs="0" />
+							<xs:element name="idRelatorioCertificadoOrigemAnexoIII" type="xs:int" minOccurs="0" />
+							<xs:element name="idRelatorioCertificadoOrigemComum" type="xs:int" minOccurs="0" />
+							<xs:element name="idRelatorioBordero" type="xs:int" minOccurs="0" />
+							<xs:element name="idRelatorioSaque" type="xs:int" minOccurs="0" />
+							<xs:element name="idRelatorioRomaneio" type="xs:int" minOccurs="0" />
+							<xs:element name="idRelatorioInstrucaoEmbarque" type="xs:int" minOccurs="0" />
+							<xs:element name="idRelatorioDocBancInstrucaoDeRemessa" type="xs:int" minOccurs="0" />
+							<xs:element name="idRelatorioSumario" type="xs:int" minOccurs="0" />
+							<xs:element name="idUltimoBanco" type="xs:int" minOccurs="0" />
+							<xs:element name="idUltimaMoeda" type="xs:int" minOccurs="0" />
+							<xs:element name="idUltimoIdioma" type="xs:int" minOccurs="0" />
+							<xs:element name="condPagPostUltimaQuantTempo" type="xs:int" minOccurs="0" />
+							<xs:element name="condPagPostUltimaUnidadeTempo" type="xs:int" minOccurs="0" />
+							<xs:element name="condPagPostUltimaCondicao" type="xs:int" minOccurs="0" />
+							<xs:element name="condPagPostUltimaQuantParcelas" type="xs:int" minOccurs="0" />
+							<xs:element name="condPagPostUltimoIntervalo" type="xs:int" minOccurs="0" />
+							<xs:element name="colunaCodigo" type="xs:int" minOccurs="0" />
+							<xs:element name="tamanhoColunaCodigo" type="xs:int" minOccurs="0" />
+							<xs:element name="colunaDescricao" type="xs:int" minOccurs="0" />
+							<xs:element name="tamanhoColunaDescricao" type="xs:int" minOccurs="0" />
+							<xs:element name="colunaDescricaoLinguaEstrangeira" type="xs:int" minOccurs="0" />
+							<xs:element name="tamanhoColunaDescricaoLinguaEstrangeira" type="xs:int" minOccurs="0" />
+							<xs:element name="colunaQuantidade" type="xs:int" minOccurs="0" />
+							<xs:element name="tamanhoColunaQuantidade" type="xs:int" minOccurs="0" />
+							<xs:element name="colunaPrecoUnitario" type="xs:int" minOccurs="0" />
+							<xs:element name="tamanhoColunaPrecoUnitario" type="xs:int" minOccurs="0" />
+							<xs:element name="colunaUnidade" type="xs:int" minOccurs="0" />
+							<xs:element name="tamanhoColunaUnidade" type="xs:int" minOccurs="0" />
+							<xs:element name="pesoUnidade" type="xs:string" minOccurs="0" />
+							<xs:element name="idUltimaAssinatura" type="xs:int" minOccurs="0" />
+							<xs:element name="formatoNumero" type="xs:string" minOccurs="0" />
+							<xs:element name="formatoDataCO" type="xs:string" minOccurs="0" />
+							<xs:element name="formatoDataFatura" type="xs:string" minOccurs="0" />
+							<xs:element name="formatoNumeroSaque" type="xs:string" minOccurs="0" />
+							<xs:element name="formadoNumeroInstrucaoEmbarque" type="xs:string" minOccurs="0" />
+							<xs:element name="strFormatoNumeroBordero" type="xs:string" minOccurs="0" />
+							<xs:element name="strFormatoNumeroRomaneio" type="xs:string" minOccurs="0" />
+							<xs:element name="ultimoTransitTimePrevisto" type="xs:int" minOccurs="0" />
+							<xs:element name="ultimoEmailUtilizado" type="xs:string" minOccurs="0" />
+							<xs:element name="nProdutosUltimoIdioma" type="xs:int" minOccurs="0" />
+							<xs:element name="bProdutosVisualizarNcm" type="xs:boolean" minOccurs="0" />
+							<xs:element name="bProdutosVisualizarNaladi" type="xs:boolean" minOccurs="0" />
+							<xs:element name="nColunaDetalharProdutos" type="xs:int" minOccurs="0" />
+							<xs:element name="nTamanhoColunaDetalharProdutos" type="xs:int" minOccurs="0" />
+							<xs:element name="nColunaOrdemLancamento" type="xs:int" minOccurs="0" />
+							<xs:element name="nTamanhoColunaOrdemLancamento" type="xs:int" minOccurs="0" />
+							<xs:element name="strUltimoPeUtilizado" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbExportadoresKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbExportadores" />
+			<xs:field xpath="mstns:idExportador" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{2363C69D-03A0-4533-979E-DADD002B4A45}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8F415C39-2419-4F17-B4CF-888A11118FAB} = {8F415C39-2419-4F17-B4CF-888A11118FAB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlRelatoriosFaturaProforma", "mdlRelatoriosFaturaProforma\mdlRelatoriosFaturaProforma.csproj", "{8F415C39-2419-4F17-B4CF-888A11118FAB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {09285595-7655-4A31-81EF-E0989440934B}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlRelatoriosFaturaProforma\\mdlRelatoriosFaturaProforma.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlRelatoriosFaturaProforma\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2363C69D-03A0-4533-979E-DADD002B4A45}.Debug.ActiveCfg = Debug|.NET
+		{2363C69D-03A0-4533-979E-DADD002B4A45}.Debug.Build.0 = Debug|.NET
+		{2363C69D-03A0-4533-979E-DADD002B4A45}.Release.ActiveCfg = Release|.NET
+		{2363C69D-03A0-4533-979E-DADD002B4A45}.Release.Build.0 = Release|.NET
+		{8F415C39-2419-4F17-B4CF-888A11118FAB}.Debug.ActiveCfg = Debug|.NET
+		{8F415C39-2419-4F17-B4CF-888A11118FAB}.Debug.Build.0 = Debug|.NET
+		{8F415C39-2419-4F17-B4CF-888A11118FAB}.Release.ActiveCfg = Release|.NET
+		{8F415C39-2419-4F17-B4CF-888A11118FAB}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		mdlRelatoriosFaturaProforma.vsd = mdlRelatoriosFaturaProforma.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

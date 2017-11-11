@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbRelatorioTipo" targetNamespace="http://tempuri.org/XsdTbRelatorioTipo.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbRelatorioTipo.xsd"
+	xmlns:mstns="http://tempuri.org/XsdTbRelatorioTipo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbRelatorioTipo" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbRelatorioTipo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nIdTipo" type="xs:int" />
+							<xs:element name="strNomeRelatorio" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbRelatorioTipoKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbRelatorioTipo" />
+			<xs:field xpath="mstns:nIdTipo" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

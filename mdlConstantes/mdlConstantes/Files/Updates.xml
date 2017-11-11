@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Revisions>
+	<R2005-09-20-14-00>
+		<Name>2005-09-20-14-00</Name>
+		<Date>20/09/2005</Date>
+	</R2005-09-20-14-00>
+	<R2005-05-10-14-34>
+		<Name>2005-05-10-14-34</Name>
+		<Date>10/05/2005</Date>
+	</R2005-05-10-14-34>
+	<R2004-10-22-15-30>
+		<Name>2004-10-22-15-30</Name>
+		<Date>22/10/2004</Date>
+	</R2004-10-22-15-30>
+	<R2004-09-14-14-22>
+		<Name>2004-09-14-14-22</Name>
+		<Date>14/09/2004</Date>
+	</R2004-09-14-14-22>
+	<R2004-08-02-03-01>
+		<Name>2004-08-02-03-01</Name>
+		<Date>02/08/2004</Date>
+	</R2004-08-02-03-01>
+	<R2004-06-19-03-06>
+		<Name>2004-06-19-03-06</Name>
+		<Date>20/05/2004</Date>
+	</R2004-06-19-03-06>
+	<R2004-03-03-15-36>
+		<Name>2004-03-03-15-36</Name>
+		<Date>03/03/2004</Date>
+	</R2004-03-03-15-36>
+	<R2004-02-10-17-15>
+		<Name>2004-02-10-17-15</Name>
+		<Date>10/02/2004</Date>
+	</R2004-02-10-17-15>
+	<R2004-02-03-16-46>
+		<Name>2004-02-03-16-46</Name>
+		<Date>03/02/2004</Date>
+	</R2004-02-03-16-46>
+	<R2004-01-15-17-42>
+		<Name>2004-01-15-17-42</Name>
+		<Date>15/01/2004</Date>
+	</R2004-01-15-17-42>
+	<R2002-12-14-18-47>
+		<Name>2002-12-14-18-47</Name>
+		<Date>14/12/2003</Date>
+	</R2002-12-14-18-47>
+	<R2002-12-03-09-49>
+		<Name>2002-12-03-09-49</Name>
+		<Date>03/12/2003</Date>
+	</R2002-12-03-09-49>
+	<R2002-12-01-20-55>
+		<Name>2002-12-01-20-55</Name>
+		<Date>01/12/2003</Date>
+	</R2002-12-01-20-55>
+	<R2002-12-01-20-55>
+		<Update>Lançamento do Siscobras Exporta Fácil. Um sistema gestor em comércio exterior para a emissão de documentos.</Update>
+	</R2002-12-01-20-55>
+	<R2002-12-01-20-55>
+		<Update>Documentos: </Update>
+	</R2002-12-01-20-55>
+	<R2002-12-01-20-55>
+		<Update>   - Cotação </Update>
+	</R2002-12-01-20-55>
+	<R2004-06-19-03-06>
+		<Update>   - Novos relatórios:  Reserva (Booking), Guia de Entrada no porto.</Update>
+	</R2004-06-19-03-06>
+	<R2004-06-19-03-06>
+		<Update>   - Formatação de datas adicionais, de acordo com o idioma e/ou dias da semana.</Update>
+	</R2004-06-19-03-06>
+	<R2004-06-19-03-06>
+		<Update>   - Novos banco de dados: pode-se utilizar o MSDE ou SQLServer, além do Access.</Update>
+	</R2004-06-19-03-06>
+	<R2004-06-19-03-06>
+		<Update>   - Peso: configuração do número de casas decimais do peso líquido e bruto na fatura comercial e romaneio.</Update>
+	</R2004-06-19-03-06>
+	<R2004-06-19-03-06>
+		<Update>   - Novo Recurso: SiscoMensagem. Um dispositivo que avisa você sobre os deadlines existentes.</Update>
+	</R2004-06-19-03-06>
+	<R2004-06-19-03-06>
+		<Update>   - Novo design: configuração para exportador e prestador de serviço.</Update>
+	</R2004-06-19-03-06>
+	<R2004-03-03-15-36>
+		<Update>   - Proxy: possibilidade de configurar a conexão do Siscobras com a internet utilizando-se um proxy com autenticação</Update>
+	</R2004-03-03-15-36>
+	<R2004-02-10-17-15>
+		<Update>   - Proxy: possibilidade de configurar a conexão do Siscobras com a internet utilizando-se um proxy</Update>
+	</R2004-02-10-17-15>
+	<R2004-02-03-16-46>
+		<Update>   - Protocolos de Comunicação: substituição dos protocolos de comunicação diferentes do HTTP</Update>
+	</R2004-02-03-16-46>
+	<R2004-01-15-17-42>
+		<Update>   - Cadastro de Importadores: alterações.</Update>
+	</R2004-01-15-17-42>
+	<R2002-12-14-18-47>
+		<Update>   - Manipulador gráfico de relatórios: alterações.</Update>
+	</R2002-12-14-18-47>
+	<R2002-12-03-09-49>
+		<Update>   - Processos de Exportação (PE): alterações quanto à forma como são criados.</Update>
+	</R2002-12-03-09-49>
+	<R2002-12-01-20-55>
+		<Update>   - Fatura Proforma	</Update>
+	</R2002-12-01-20-55>
+	<R2002-12-01-20-55>
+		<Update>   - Fatura Comercial</Update>
+	</R2002-12-01-20-55>
+	<R2002-12-01-20-55>
+		<Update>   - Certificado de Origem Mercosul</Update>
+	</R2002-12-01-20-55>
+	<R2002-12-01-20-55>
+		<Update>   - Certificado de Origem Mercosul / Bolívia</Update>
+	</R2002-12-01-20-55>
+	<R2002-12-01-20-55>
+		<Update>   - Certificado de Origem Mercosul / Chile</Update>
+	</R2002-12-01-20-55>
+	<R2002-12-01-20-55>
+		<Update>   - Certificado de Origem Aladi Aptr 04</Update>
+	</R2002-12-01-20-55>
+	<R2002-12-01-20-55>
+		<Update>   - Certificado de Origem Aladi Ace 39</Update>
+	</R2002-12-01-20-55>
+	<R2002-12-01-20-55>
+		<Update>   - Certificado de Origem Comum</Update>
+	</R2002-12-01-20-55>
+	<R2002-12-01-20-55>
+		<Update>   - Romaneio</Update>
+	</R2002-12-01-20-55>
+	<R2002-12-01-20-55>
+		<Update>   - Saque</Update>
+	</R2002-12-01-20-55>
+	<R2002-12-01-20-55>
+		<Update>   - Ordem de embarque</Update>
+	</R2002-12-01-20-55>
+	<R2002-12-01-20-55>
+		<Update>   - Borderô</Update>
+	</R2002-12-01-20-55>
+	<R2002-12-01-20-55>
+		<Update>   - Sumário</Update>
+	</R2002-12-01-20-55>
+	<R2002-12-01-20-55>
+		<Update>   - Relatórios personalizáveis</Update>
+	</R2002-12-01-20-55>
+	<R2002-12-01-20-55>
+		<Update>Cadastros:</Update>
+	</R2002-12-01-20-55>
+	<R2002-12-01-20-55>
+		<Update>   - Importadores</Update>
+	</R2002-12-01-20-55>
+	<R2002-12-01-20-55>
+		<Update>   - Produtos</Update>
+	</R2002-12-01-20-55>
+	<R2002-12-01-20-55>
+		<Update>   - Bancos do Exportador</Update>
+	</R2002-12-01-20-55>
+	<R2002-12-01-20-55>
+		<Update>   - Bancos do Importador</Update>
+	</R2002-12-01-20-55>
+	<R2002-12-01-20-55>
+		<Update>Gerenciamento:</Update>
+	</R2002-12-01-20-55>
+	<R2002-12-01-20-55>
+		<Update>   - Contratos de Câmbio</Update>
+	</R2002-12-01-20-55>
+	<R2002-12-01-20-55>
+		<Update>Funcionalidades:</Update>
+	</R2002-12-01-20-55>
+	<R2002-12-01-20-55>
+		<Update>   - Atualização automática do sistema pela internet</Update>
+	</R2002-12-01-20-55>
+	<R2002-12-03-09-49>
+		<Update>   - Cadastro de produtos: adição de novos requisitos.</Update>
+	</R2002-12-03-09-49>
+	<R2002-12-03-09-49>
+		<Update>   - Saque: adição de novos requisitos.</Update>
+	</R2002-12-03-09-49>
+	<R2002-12-14-18-47>
+		<Update>   - Registro do sistema: alterações.</Update>
+	</R2002-12-14-18-47>
+	<R2002-12-14-18-47>
+		<Update>   - Cadastro dos bancos: alterações.</Update>
+	</R2002-12-14-18-47>
+	<R2004-01-15-17-42>
+		<Update>   - Erros de sistema: modificação na forma do tratamento.</Update>
+	</R2004-01-15-17-42>
+	<R2004-02-03-16-46>
+		<Update>   - Romaneio: Criação de um novo modelo de romaneio, o simplificado.</Update>
+	</R2004-02-03-16-46>
+	<R2004-02-10-17-15>
+		<Update>   - Cadastro de Agentes: alteração</Update>
+	</R2004-02-10-17-15>
+	<R2004-08-02-03-01>
+		<Update>   - Possibilidade de Exportar os documentos para PDF.</Update>
+	</R2004-08-02-03-01>
+	<R2004-08-02-03-01>
+		<Update>   - Maior flexibilidade no Relatório do Saque.</Update>
+	</R2004-08-02-03-01>
+	<R2004-09-14-14-22>
+		<Update>   - Maior flexibilidade nos Relatórios dos Romaneios.</Update>
+	</R2004-09-14-14-22>
+	<R2004-09-14-14-22>
+		<Update>   - Maior flexibilidade nos Relatórios dos Certificados de Origem.</Update>
+	</R2004-09-14-14-22>
+	<R2004-09-14-14-22>
+		<Update>   - Novos assistentes.</Update>
+	</R2004-09-14-14-22>
+	<R2004-10-22-15-30>
+		<Update>   - Vinculação de mais de um RE por processo.</Update>
+	</R2004-10-22-15-30>
+	<R2004-10-22-15-30>
+		<Update>   - Novos relatórios padrões.</Update>
+	</R2004-10-22-15-30>
+	<R2004-10-22-15-30>
+		<Update>   - Criação de agrupamentos personalizáveis de produtos na fatura comercial.</Update>
+	</R2004-10-22-15-30>
+	<R2004-10-22-15-30>
+		<Update>   - Edição das denominações das classificações tarifárias e dos produtos do certificados de origem</Update>
+	</R2004-10-22-15-30>
+	<R2004-10-22-15-30>
+		<Update>   - Visualização dos "produtos filhos" quando agrupados por NCM ou NALADI nas faturas.</Update>
+	</R2004-10-22-15-30>
+	<R2004-10-22-15-30>
+		<Update>   - Inserção de um único produto várias vezes no mesmo romaneio (packing list) simplificado.</Update>
+	</R2004-10-22-15-30>
+	<R2004-10-22-15-30>
+		<Update>   - Campo de Observações (&lt;PE&gt;Observações) replicável em todos os documentos.</Update>
+	</R2004-10-22-15-30>
+	<R2004-10-22-15-30>
+		<Update>   - Campo de Observações da Carta de Crédito (&lt;CartaCrédito&gt;Observações) replicável em todos os documentos.</Update>
+	</R2004-10-22-15-30>
+	<R2005-05-10-14-34>
+		<Update>   - Criação do Gerenciador Estatístico. Um módulo que lhe permite criar gráficos flexíveis e dinâmicos com os dados do Siscobras.</Update>
+	</R2005-05-10-14-34>
+	<R2005-05-10-14-34>
+		<Update>   - Criação da uma opção a qual pode impossibilitar o  usuário de editar os códigos e descrições dos produtos das faturas </Update>
+	</R2005-05-10-14-34>
+	<R2005-05-10-14-34>
+		<Update>   - Novos relatórios padrões.</Update>
+	</R2005-05-10-14-34>
+	<R2005-09-20-14-00>
+		<Update>   - Novos relatórios padrões.</Update>
+	</R2005-09-20-14-00>
+	<R2005-09-20-14-00>
+		<Update>   - TecSiscobras foi inserido ao Siscobras</Update>
+	</R2005-09-20-14-00>
+	<R2005-09-20-14-00>
+		<Update>   - Novo Relatório: Certificado de Origem Aladi Ace 59</Update>
+	</R2005-09-20-14-00>
+	<R2005-09-20-14-00>
+		<Update>   - Novo Relatório: Certificado de Origem Form A</Update>
+	</R2005-09-20-14-00>
+	<R2005-09-20-14-00>
+		<Update>   - Nova base dados: MySQL  ( beta )</Update>
+	</R2005-09-20-14-00>
+</Revisions>

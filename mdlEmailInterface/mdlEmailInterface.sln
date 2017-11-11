@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{02EC4C5D-8836-466A-B69B-6CAD9C1D189D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C925AC5E-9F38-44AD-9A5D-8DBB5933D261} = {C925AC5E-9F38-44AD-9A5D-8DBB5933D261}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlEmailInterface", "mdlEmailInterface\mdlEmailInterface.csproj", "{C925AC5E-9F38-44AD-9A5D-8DBB5933D261}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {B46C560D-5B2E-423A-A456-49D9006AE3DE}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlEmailInterface\\mdlEmailInterface.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlEmailInterface\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{02EC4C5D-8836-466A-B69B-6CAD9C1D189D}.Debug.ActiveCfg = Debug|.NET
+		{02EC4C5D-8836-466A-B69B-6CAD9C1D189D}.Debug.Build.0 = Debug|.NET
+		{02EC4C5D-8836-466A-B69B-6CAD9C1D189D}.Release.ActiveCfg = Release|.NET
+		{02EC4C5D-8836-466A-B69B-6CAD9C1D189D}.Release.Build.0 = Release|.NET
+		{C925AC5E-9F38-44AD-9A5D-8DBB5933D261}.Debug.ActiveCfg = Debug|.NET
+		{C925AC5E-9F38-44AD-9A5D-8DBB5933D261}.Debug.Build.0 = Debug|.NET
+		{C925AC5E-9F38-44AD-9A5D-8DBB5933D261}.Release.ActiveCfg = Release|.NET
+		{C925AC5E-9F38-44AD-9A5D-8DBB5933D261}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		mdlEmailInterface\mdlEmailInterface.vsd = mdlEmailInterface\mdlEmailInterface.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

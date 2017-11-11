@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{02C4C0BA-9EDC-46A6-9111-A26E323D0525}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C316C141-59C2-4004-8C91-57C19828CCDB} = {C316C141-59C2-4004-8C91-57C19828CCDB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlNotaFiscal", "mdlNotaFiscal\mdlNotaFiscal.csproj", "{C316C141-59C2-4004-8C91-57C19828CCDB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {A215878F-AEAA-4551-8C67-4265FEA79640}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlNotaFiscal\\mdlNotaFiscal.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlNotaFiscal\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{02C4C0BA-9EDC-46A6-9111-A26E323D0525}.Debug.ActiveCfg = Debug|.NET
+		{02C4C0BA-9EDC-46A6-9111-A26E323D0525}.Debug.Build.0 = Debug|.NET
+		{02C4C0BA-9EDC-46A6-9111-A26E323D0525}.Release.ActiveCfg = Release|.NET
+		{02C4C0BA-9EDC-46A6-9111-A26E323D0525}.Release.Build.0 = Release|.NET
+		{C316C141-59C2-4004-8C91-57C19828CCDB}.Debug.ActiveCfg = Debug|.NET
+		{C316C141-59C2-4004-8C91-57C19828CCDB}.Debug.Build.0 = Debug|.NET
+		{C316C141-59C2-4004-8C91-57C19828CCDB}.Release.ActiveCfg = Release|.NET
+		{C316C141-59C2-4004-8C91-57C19828CCDB}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

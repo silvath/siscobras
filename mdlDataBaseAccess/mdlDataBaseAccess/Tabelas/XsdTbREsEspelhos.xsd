@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbREsEspelhos" targetNamespace="http://tempuri.org/XsdTbREsEspelhos.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbREsEspelhos.xsd"
+	xmlns:mstns="http://tempuri.org/XsdTbREsEspelhos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbREsEspelhos" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbREsEspelhos">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nIdExportador" type="xs:int" />
+							<xs:element name="nIdReEspelho" type="xs:int" />
+							<xs:element name="nEstado" type="xs:int" minOccurs="0" />
+							<xs:element name="bModificado" type="xs:boolean" minOccurs="0" />
+							<xs:element name="mstrMensagemSiscomex" type="xs:string" minOccurs="0" />
+							<xs:element name="dtCriacao" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="dtEmissao" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="mstrImagemTela001" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrImagemTela006" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrImagemTela026" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrImagemTela027" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrImagemTela028" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrNumero" type="xs:string" minOccurs="0" />
+							<xs:element name="strIdPE" type="xs:string" minOccurs="0" />
+							<xs:element name="strCNPJ" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrExportadorNome" type="xs:string" minOccurs="0" />
+							<xs:element name="strEnqOpCodigo1" type="xs:string" minOccurs="0" />
+							<xs:element name="strEnqOpCodigo2" type="xs:string" minOccurs="0" />
+							<xs:element name="strEnqOpCodigo3" type="xs:string" minOccurs="0" />
+							<xs:element name="strEnqOpCodigo4" type="xs:string" minOccurs="0" />
+							<xs:element name="strEnqOpCodigo5" type="xs:string" minOccurs="0" />
+							<xs:element name="strEnqOpCodigo6" type="xs:string" minOccurs="0" />
+							<xs:element name="strEnqOpNumRV" type="xs:string" minOccurs="0" />
+							<xs:element name="strEnqOpNumRC" type="xs:string" minOccurs="0" />
+							<xs:element name="strEnqOpGEDEREVin" type="xs:string" minOccurs="0" />
+							<xs:element name="strEnqOpDIRIVinc" type="xs:string" minOccurs="0" />
+							<xs:element name="strEnqOpDataLimite" type="xs:string" minOccurs="0" />
+							<xs:element name="strEnqOpMargemNSacada" type="xs:string" minOccurs="0" />
+							<xs:element name="strEnqOpNumeroProcesso" type="xs:string" minOccurs="0" />
+							<xs:element name="strUnidadeRFDespacho" type="xs:string" minOccurs="0" />
+							<xs:element name="strUnidadeRFEmbarque" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrImportadorNome" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrImportadorEndereco" type="xs:string" minOccurs="0" />
+							<xs:element name="strImportadorPais" type="xs:string" minOccurs="0" />
+							<xs:element name="strPaisDestinoFinal" type="xs:string" minOccurs="0" />
+							<xs:element name="strInstrumentoNegociacao" type="xs:string" minOccurs="0" />
+							<xs:element name="strCodigoCondicaoVenda" type="xs:string" minOccurs="0" />
+							<xs:element name="dcEsqPagTotal" type="xs:double" minOccurs="0" />
+							<xs:element name="strEsqPagModalidadeTransacao" type="xs:string" minOccurs="0" />
+							<xs:element name="strEsqPagMoeda" type="xs:string" minOccurs="0" />
+							<xs:element name="dcEsqPagValorPagoAntecipado" type="xs:double" minOccurs="0" />
+							<xs:element name="dcEsqPagValorPagoAVista" type="xs:double" minOccurs="0" />
+							<xs:element name="nEsqPagNumeroParcelas" type="xs:int" minOccurs="0" />
+							<xs:element name="strEsqPagIndicador" type="xs:string" minOccurs="0" />
+							<xs:element name="nEsqPagPeriodicidade" type="xs:int" minOccurs="0" />
+							<xs:element name="dcEsqPagValorParcela" type="xs:double" minOccurs="0" />
+							<xs:element name="dcEsqPagValorMargemNaoSacada" type="xs:double" minOccurs="0" />
+							<xs:element name="dcEsqPagValorConsignacao" type="xs:double" minOccurs="0" />
+							<xs:element name="dcEsqPagValorSemCoberturaCambio" type="xs:double" minOccurs="0" />
+							<xs:element name="dcEsqPagValorFinanciamentoRC" type="xs:double" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbREsEspelhosKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbREsEspelhos" />
+			<xs:field xpath="mstns:nIdExportador" />
+			<xs:field xpath="mstns:nIdReEspelho" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

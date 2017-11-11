@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mdlManipuladorArquivo>
+	<clsManipuladorArquivoIni>
+		<Tarefas>10-06-2003#Thiago#Conversao para VS.NET2003</Tarefas>
+		<Problemas></Problemas>
+	</clsManipuladorArquivoIni>
+	<ProjetoVisio>
+		<Tarefas></Tarefas>
+		<Problemas></Problemas>
+	</ProjetoVisio>
+	<clsManipuladorArquivoIni>
+		<Tarefas>10-06-2003#Thiago#Modificacao de sistema .INI para XML feita </Tarefas>
+	</clsManipuladorArquivoIni>
+</mdlManipuladorArquivo>

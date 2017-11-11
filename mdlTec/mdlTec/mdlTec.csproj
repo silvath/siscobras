@@ -1,0 +1,381 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.2292"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{D1B1E039-A37A-40D4-AC7C-58092E1FA7DC}"
+        SccProjectName = "SAK"
+        SccLocalPath = "SAK"
+        SccAuxPath = "SAK"
+        SccProvider = "SAK"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "..\..\Resources\Icones\TecSiscobras.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "mdlTec"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = "sn -R $(TargetPath) $(TargetDir)Siscobras.snk"
+                RootNamespace = "mdlTec"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "..\..\Binarios\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "..\..\Binarios\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "E:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "E:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "E:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "mdlDataBaseAccess"
+                    AssemblyName = "mdlDataBaseAccess"
+                    HintPath = "..\..\Binarios\mdlDataBaseAccess.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "E:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "E:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "mdlPaletaDeCores"
+                    AssemblyName = "mdlPaletaDeCores"
+                    HintPath = "..\..\Binarios\mdlPaletaDeCores.dll"
+                />
+                <Reference
+                    Name = "mdlManipuladorArquivo"
+                    AssemblyName = "mdlManipuladorArquivo"
+                    HintPath = "..\..\Binarios\mdlManipuladorArquivo.dll"
+                />
+                <Reference
+                    Name = "mdlConstantes"
+                    AssemblyName = "mdlConstantes"
+                    HintPath = "..\..\Binarios\mdlConstantes.dll"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "E:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.Services.dll"
+                />
+                <Reference
+                    Name = "mdlMensagens"
+                    AssemblyName = "mdlMensagens"
+                    HintPath = "..\..\Binarios\mdlMensagens.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlSysWebServicesProxy"
+                    AssemblyName = "mdlSysWebServicesProxy"
+                    HintPath = "..\..\Binarios\mdlSysWebServicesProxy.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlComponentesGraficos"
+                    AssemblyName = "mdlComponentesGraficos"
+                    HintPath = "..\..\Binarios\mdlComponentesGraficos.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlValidacao"
+                    AssemblyName = "mdlValidacao"
+                    HintPath = "..\..\Binarios\mdlValidacao.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlInet"
+                    AssemblyName = "mdlInet"
+                    HintPath = "..\..\Binarios\mdlInet.dll"
+                    Private = "False"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "app.config"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "clsBanner.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "clsRegistro.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "clsTec.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "clsWebServiceTec.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Banners\bn_sisco_vertical_01.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Banners\bn_sisco_vertical_02.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Banners\bn_sisco_vertical_03.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Banners\bn_sisco_vertical_04.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Banners\bn_sisco_vertical_05.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Banners\bn_sisco_vertical_06.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Banners\bn_sisco_vertical_07.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Banners\bn_sisco_vertical_08.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Banners\bn_sisco_vertical_09.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Banners\bn_sisco_vertical_10.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Banners\bn_sisco_vertical_11.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Banners\bn_sisco_vertical_12.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Banners\bn_sisco_vertical_13.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Banners\bn_sisco_vertical_14.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Banners\bn_sisco_vertical_15.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Banners\bn_sisco_vertical_16.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Banners\bn_sisco_vertical_17.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Banners\bn_sisco_vertical_18.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Formularios\frmFPesquisaInformacoes.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Formularios\frmFPesquisaInformacoes.resx"
+                    DependentUpon = "frmFPesquisaInformacoes.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Formularios\frmFProcurar.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Formularios\frmFProcurar.resx"
+                    DependentUpon = "frmFProcurar.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Formularios\frmFRegistro.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Formularios\frmFRegistro.resx"
+                    DependentUpon = "frmFRegistro.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Formularios\frmFTec.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Formularios\frmFTec.resx"
+                    DependentUpon = "frmFTec.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Formularios\frmFTecAliquotas.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Formularios\frmFTecAliquotas.resx"
+                    DependentUpon = "frmFTecAliquotas.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Formularios\frmFTecCadastrarClassificacaoTarifaria.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Formularios\frmFTecCadastrarClassificacaoTarifaria.resx"
+                    DependentUpon = "frmFTecCadastrarClassificacaoTarifaria.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Formularios\frmFTecDatasAtualizacoes.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Formularios\frmFTecDatasAtualizacoes.resx"
+                    DependentUpon = "frmFTecDatasAtualizacoes.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Formularios\frmFTecInformacoes.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Formularios\frmFTecInformacoes.resx"
+                    DependentUpon = "frmFTecInformacoes.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Formularios\frmFTecNesh.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Formularios\frmFTecNesh.resx"
+                    DependentUpon = "frmFTecNesh.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web References\wbsvSiscoTec\Reference.map"
+                    BuildAction = "None"
+                    Generator = "MSDiscoCodeGenerator"
+                    LastGenOutput = "Reference.cs"
+                />
+                <File
+                    RelPath = "Web References\wbsvSiscoTec\Reference.cs"
+                    DependentUpon = "Reference.map"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Web References\wbsvSiscoTec\wbsvSiscoTec.disco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web References\wbsvSiscoTec\wbsvSiscoTec.wsdl"
+                    BuildAction = "None"
+                />
+                <Folder
+                    RelPath = "Web References\wbsvSiscoTec\"
+                    WebReferenceUrl = "http://10.1.1.51/wbsvSiscoTec/wbsvSiscoTec.asmx"
+                    UrlBehavior = "Dynamic"
+                />
+                <Folder
+                    RelPath = "Web References\"
+                    WebReferences = "TRUE"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

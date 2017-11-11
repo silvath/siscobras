@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mdlLocais>
+	<clsLocais>
+		<Tarefas>03/06/2003 - Roberto - Criando TypDatSet</Tarefas>
+		<Problemas>Classes OK! Exceto pelo SetTb que está dando problemas de concorrência devido a chamada a Incoterms!</Problemas>
+	</clsLocais>
+	<clsLocaisFaturaCotacao>
+		<Tarefas>Criando TypDatSet e carregamento dos Dados</Tarefas>
+		<Problemas>OK! Exceto pelo descrito na classe abstrata!</Problemas>
+	</clsLocaisFaturaCotacao>
+	<clsLocaisFaturaComercial>
+		<Tarefas>Criando TypDatSet e carregamento dos Dados</Tarefas>
+		<Problemas>OK! Exceto pelo descrito na classe abstrata!</Problemas>
+	</clsLocaisFaturaComercial>
+	<clsLocaisFaturaProforma>
+		<Tarefas>Criando TypDatSet e carregamento dos Dados</Tarefas>
+		<Problemas>OK! Exceto pelo descrito na classe abstrata!</Problemas>
+	</clsLocaisFaturaProforma>
+	<frmFLocais>
+		<Tarefas>03/06/2003 - Roberto - Atualizado LAYOUT para o padrão!</Tarefas>
+		<Problemas></Problemas>
+	</frmFLocais>
+</mdlLocais>

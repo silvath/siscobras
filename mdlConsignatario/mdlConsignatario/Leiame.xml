@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mdlConsignatario>
+	<clsConsignatario>
+		<Tarefas>20-06-2003#Roberto#Compilando em VS 2003</Tarefas>
+		<Problemas>Nenhum!</Problemas>
+	</clsConsignatario>
+	<frmFConsignatario>
+		<Tarefas></Tarefas>
+		<Problemas></Problemas>
+	</frmFConsignatario>
+	<frmFConsignatarioCadEdit>
+		<Tarefas></Tarefas>
+		<Problemas></Problemas>
+	</frmFConsignatarioCadEdit>
+</mdlConsignatario>

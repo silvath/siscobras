@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbBorderos" targetNamespace="http://tempuri.org/XsdTbBorderos.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbBorderos.xsd" xmlns:mstns="http://tempuri.org/XsdTbBorderos.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbBorderos" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbBorderos">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="idExportador" type="xs:int" />
+							<xs:element name="idPE" type="xs:string" />
+							<xs:element name="idRelatorio" type="xs:int" minOccurs="0" />
+							<xs:element name="dtDataEmissao" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="mstrObservacao" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrCompromisso" type="xs:string" minOccurs="0" />
+							<xs:element name="nQtdeDocOriginalFaturaComercial" type="xs:int" minOccurs="0" />
+							<xs:element name="nQtdeDocOriginalConhecimentoEmbarque" type="xs:int" minOccurs="0" />
+							<xs:element name="nQtdeDocOriginalSeguro" type="xs:int" minOccurs="0" />
+							<xs:element name="nQtdeDocOriginalCertificadoOrigem" type="xs:int" minOccurs="0" />
+							<xs:element name="nQtdeDocOriginalRomaneio" type="xs:int" minOccurs="0" />
+							<xs:element name="nQtdeDocOriginalCertificadoPeso" type="xs:int" minOccurs="0" />
+							<xs:element name="nQtdeDocOriginalCertificadoAnalise" type="xs:int" minOccurs="0" />
+							<xs:element name="nQtdeDocOriginalSaque" type="xs:int" minOccurs="0" />
+							<xs:element name="nQtdeDocOriginalFitoSanitario" type="xs:int" minOccurs="0" />
+							<xs:element name="nQtdeDocCopiaFaturaComercial" type="xs:int" minOccurs="0" />
+							<xs:element name="nQtdeDocCopialConhecimentoEmbarque" type="xs:int" minOccurs="0" />
+							<xs:element name="nQtdeDocCopialSeguro" type="xs:int" minOccurs="0" />
+							<xs:element name="nQtdeDocCopialCertificadoOrigem" type="xs:int" minOccurs="0" />
+							<xs:element name="nQtdeDocCopialRomaneio" type="xs:int" minOccurs="0" />
+							<xs:element name="nQtdeDocCopialCertificadoPeso" type="xs:int" minOccurs="0" />
+							<xs:element name="nQtdeDocCopialCertificadoAnalise" type="xs:int" minOccurs="0" />
+							<xs:element name="nQtdeDocCopialSaque" type="xs:int" minOccurs="0" />
+							<xs:element name="nQtdeDocCopialFitoSanitario" type="xs:int" minOccurs="0" />
+							<xs:element name="mstrEsquemaPagamento" type="xs:string" minOccurs="0" />
+							<xs:element name="nEntregaDocumentos" type="xs:int" minOccurs="0" />
+							<xs:element name="nCobrancaDiasVencimento" type="xs:int" minOccurs="0" />
+							<xs:element name="bCobrancaProtestar" type="xs:boolean" minOccurs="0" />
+							<xs:element name="nIdAssinatura" type="xs:int" minOccurs="0" />
+							<xs:element name="strNumero" type="xs:string" minOccurs="0" />
+							<xs:element name="strFormatoNumero" type="xs:string" minOccurs="0" />
+							<xs:element name="nIdBancoExportadorAtual" type="xs:int" minOccurs="0" />
+							<xs:element name="nImpressoes" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbBorderosKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbBorderos" />
+			<xs:field xpath="mstns:idExportador" />
+			<xs:field xpath="mstns:idPE" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

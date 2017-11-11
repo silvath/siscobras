@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mdlEmailInterface>
+	<clsEmailInterface>
+		<Tarefas>09-06-2003#Roberto#classe criada e testada</Tarefas>
+		<Problemas>Ainda falta configurador de SMTP</Problemas>
+	</clsEmailInterface>
+	<frmFEmailInterface>
+		<Tarefas>09-06-2003#Roberto#Classe criada e testada</Tarefas>
+		<Problemas>Aparentemente nenhum problema</Problemas>
+	</frmFEmailInterface>
+	<frmFEnviandoEmail>
+		<Tarefas>09-06-2003#Roberto#classe criada e testada</Tarefas>
+		<Problemas>problemas com a  localização da janela</Problemas>
+	</frmFEnviandoEmail>
+	<frmFEmailConfiguracao>
+		<Tarefas>09-06-2003#Roberto#Frame Criado, falta definir BD
+	</Tarefas>
+		<Problemas>Definir melhor dicas ao usuário
+	</Problemas>
+	</frmFEmailConfiguracao>
+	<clsEmailInterface>
+		<Tarefas>10-06-2003#Roberto#Criando frame para configuração de SMTP!</Tarefas>
+		<Problemas>Falta BD!</Problemas>
+	</clsEmailInterface>
+	<clsEmailInterface>
+		<Tarefas>10-07-2003#Roberto#Criado acesso ao BD e inserido criptografia na senha de envio de e-mail</Tarefas>
+		<Problemas>OK!!!!!!!!!!!!</Problemas>
+	</clsEmailInterface>
+</mdlEmailInterface>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mdlWebServiceEnviaDados>
+	<clsWebServiceEnviaDadosErros>
+		<Tarefas></Tarefas>
+		<Problemas></Problemas>
+	</clsWebServiceEnviaDadosErros>
+	<ProjetoVisio>
+		<Tarefas></Tarefas>
+		<Problemas></Problemas>
+	</ProjetoVisio>
+</mdlWebServiceEnviaDados>

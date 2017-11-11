@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbContratosCambio" targetNamespace="http://tempuri.org/XsdTbContratosCambio.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbContratosCambio.xsd"
+	xmlns:mstns="http://tempuri.org/XsdTbContratosCambio.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbContratosCambio" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbContratosCambio">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nIdExportador" type="xs:int" />
+							<xs:element name="nIdExportadorBanco" type="xs:int" />
+							<xs:element name="nIdContratoCambio" type="xs:int" />
+							<xs:element name="nTipoContrato" type="xs:int" minOccurs="0" />
+							<xs:element name="nTipoContratacao" type="xs:int" minOccurs="0" />
+							<xs:element name="strNumero" type="xs:string" minOccurs="0" />
+							<xs:element name="dtEmissao" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="dtVencimento" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="dTaxaCambial" type="xs:double" minOccurs="0" />
+							<xs:element name="nIdMoeda" type="xs:int" minOccurs="0" />
+							<xs:element name="dValor" type="xs:double" minOccurs="0" />
+							<xs:element name="dSaldoCancelado" type="xs:double" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbContratosCambioKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbContratosCambio" />
+			<xs:field xpath="mstns:nIdExportador" />
+			<xs:field xpath="mstns:nIdExportadorBanco" />
+			<xs:field xpath="mstns:nIdContratoCambio" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

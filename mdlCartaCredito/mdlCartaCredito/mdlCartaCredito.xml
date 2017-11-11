@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>mdlCartaCredito</name>
+    </assembly>
+    <members>
+        <member name="T:mdlCartaCredito.Frames.frmFCartaCredito">
+            <summary>
+            Summary description for frmFCartaCredito.
+            </summary>
+        </member>
+        <member name="M:mdlCartaCredito.Frames.frmFCartaCredito.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:mdlCartaCredito.Frames.frmFCartaCredito.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:mdlCartaCredito.Frames.frmFCartaCredito.trocaCor">
+            <summary>
+            Troca a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="M:mdlCartaCredito.Frames.frmFCartaCredito.mostraCor">
+            <summary>
+            Mostra a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="T:mdlCartaCredito.Frames.frmFCartaCreditoCadEdit">
+            <summary>
+            Summary description for frmFCartaCreditoCadEdit.
+            </summary>
+        </member>
+        <member name="F:mdlCartaCredito.Frames.frmFCartaCreditoCadEdit.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:mdlCartaCredito.Frames.frmFCartaCreditoCadEdit.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:mdlCartaCredito.Frames.frmFCartaCreditoCadEdit.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:mdlCartaCredito.Frames.frmFCartaCreditoCadEdit.trocaCor">
+            <summary>
+            Troca a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="M:mdlCartaCredito.Frames.frmFCartaCreditoCadEdit.mostraCor">
+            <summary>
+            Mostra a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="T:mdlCartaCredito.PE.clsCartaCreditoPE">
+            <summary>
+            Summary description for clsCartaCreditoPE.
+            </summary>
+        </member>
+        <member name="T:mdlCartaCredito.clsCartaCredito">
+            <summary>
+            Summary description for clsCartaCredito.
+            </summary>
+        </member>
+        <member name="T:mdlCartaCredito.clsCartaCreditoGeral">
+            <summary>
+            Summary description for clsCartaCreditoGeral.
+            </summary>
+        </member>
+    </members>
+</doc>

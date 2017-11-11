@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiscoMensagem", "SiscoMensagem\SiscoMensagem.csproj", "{02040295-3A1B-4ABA-954B-62CA0D5C0C53}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {4F586252-DFA4-4BF7-94B2-342CC00260DE}
+		SccProjectUniqueName1 = SiscoMensagem\\SiscoMensagem.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = SiscoMensagem\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{02040295-3A1B-4ABA-954B-62CA0D5C0C53}.Debug.ActiveCfg = Debug|.NET
+		{02040295-3A1B-4ABA-954B-62CA0D5C0C53}.Debug.Build.0 = Debug|.NET
+		{02040295-3A1B-4ABA-954B-62CA0D5C0C53}.Release.ActiveCfg = Release|.NET
+		{02040295-3A1B-4ABA-954B-62CA0D5C0C53}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

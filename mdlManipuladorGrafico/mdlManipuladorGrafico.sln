@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{281BD56F-E6A2-4B23-8CC8-FB2ADFAB075E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8791719C-B41C-4EA6-BFCB-1F7F0EDC7B54} = {8791719C-B41C-4EA6-BFCB-1F7F0EDC7B54}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlManipuladorGrafico", "mdlManipuladorGrafico\mdlManipuladorGrafico.csproj", "{8791719C-B41C-4EA6-BFCB-1F7F0EDC7B54}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {D239F2E5-F01D-4542-B306-A4705DC90213}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlManipuladorGrafico\\mdlManipuladorGrafico.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlManipuladorGrafico\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{281BD56F-E6A2-4B23-8CC8-FB2ADFAB075E}.Debug.ActiveCfg = Debug|.NET
+		{281BD56F-E6A2-4B23-8CC8-FB2ADFAB075E}.Debug.Build.0 = Debug|.NET
+		{281BD56F-E6A2-4B23-8CC8-FB2ADFAB075E}.Release.ActiveCfg = Release|.NET
+		{281BD56F-E6A2-4B23-8CC8-FB2ADFAB075E}.Release.Build.0 = Release|.NET
+		{8791719C-B41C-4EA6-BFCB-1F7F0EDC7B54}.Debug.ActiveCfg = Debug|.NET
+		{8791719C-B41C-4EA6-BFCB-1F7F0EDC7B54}.Debug.Build.0 = Debug|.NET
+		{8791719C-B41C-4EA6-BFCB-1F7F0EDC7B54}.Release.ActiveCfg = Release|.NET
+		{8791719C-B41C-4EA6-BFCB-1F7F0EDC7B54}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		mdlManipuladorGrafico.vsd = mdlManipuladorGrafico.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mdlRegistro>
+	<clsRegistro>
+		<Tarefas>12-06-2003#Thiago#Objeto Criado</Tarefas>
+		<Problemas>12-06-2003#Thiago#Nenhum método de checagem do Registro foi feito.</Problemas>
+	</clsRegistro>
+	<ProjetoVisio>
+		<Tarefas>12-06-2003#Thiago#Objeto Criado</Tarefas>
+		<Problemas></Problemas>
+	</ProjetoVisio>
+	<clsRegistro>
+		<Tarefas>13-08-2003#Thiago#</Tarefas>
+		<Problemas>13-08-2003#Thiago#Resta fazer PF PrestadorServico </Problemas>
+	</clsRegistro>
+</mdlRegistro>

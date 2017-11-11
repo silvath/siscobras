@@ -1,0 +1,423 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>mdlManipuladorGrafico</name>
+    </assembly>
+    <members>
+        <member name="T:DrawingCanvasPackage.Win32Support">
+            <summary>
+            Summary description for Win32Support.
+            Win32Support is a wrapper class that imports all the necessary
+            functions that are used in old double-buffering technique
+            for smooth animation.
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.Win32Support.CreateCompatibleDC(System.IntPtr)">
+            <summary>
+            CreateCompatibleDC
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.Win32Support.DeleteDC(System.IntPtr)">
+            <summary>
+            DeleteDC
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.Win32Support.SelectObject(System.IntPtr,System.IntPtr)">
+            <summary>
+            SelectObject
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.Win32Support.DeleteObject(System.IntPtr)">
+            <summary>
+            DeleteObject
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.Win32Support.CreateCompatibleBitmap(System.IntPtr,System.Int32,System.Int32)">
+            <summary>
+            CreateCompatibleBitmap
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.Win32Support.BitBlt(System.IntPtr,System.Int32,System.Int32,System.Int32,System.Int32,System.IntPtr,System.Int32,System.Int32,DrawingCanvasPackage.Win32Support.TernaryRasterOperations)">
+            <summary>
+            BitBlt
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.Win32Support.GetTextExtentPoint32(System.IntPtr,System.String@,System.Int32,System.Drawing.Size@)">
+            <summary>
+            GetTextExtentPoint32
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.Win32Support.GetTextCharacterExtra(System.IntPtr)">
+            <summary>
+            GetTextCharacterExtra
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.Win32Support.GetCharWidth32(System.IntPtr,System.UInt32,System.UInt32,System.Int32[])">
+            <summary>
+            GetCharWidth32
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.Win32Support.GetDeviceCaps(System.IntPtr,System.Int32)">
+            <summary>
+            GetDeviceCaps
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.Win32Support.GetTextMetrics(System.IntPtr,DrawingCanvasPackage.Win32Support.TEXTMETRIC@)">
+            <summary>
+            GetTextMetrics
+            </summary>
+        </member>
+        <member name="F:DrawingCanvasPackage.Win32Support.Bool.False">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:DrawingCanvasPackage.Win32Support.Bool.True">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:DrawingCanvasPackage.Win32Support.TernaryRasterOperations">
+            <summary>
+            Enumeration for the raster operations used in BitBlt.
+            In C++ these are actually #define. But to use these
+            constants with C#, a new enumeration type is defined.
+            </summary>
+        </member>
+        <member name="F:DrawingCanvasPackage.Win32Support.TernaryRasterOperations.SRCCOPY">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:DrawingCanvasPackage.Win32Support.TernaryRasterOperations.SRCPAINT">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:DrawingCanvasPackage.UndoOperation">
+            <summary>
+            The type of Undo/Redo operation
+            </summary>
+        </member>
+        <member name="T:DrawingCanvasPackage.UndoRedoObject">
+            <summary>
+            UndoRedoObject
+            </summary>
+        </member>
+        <member name="T:DrawingCanvasPackage.UndoMoveResize">
+            <summary>
+            UndoMove
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.dcMouseDoubleClick(System.Object,System.EventArgs)">
+            <summary>
+            dcMouseDoubleClick - Activate properties from object 
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.bUndo">
+            <summary>
+            bUndo:
+            Undo the last operation.
+            </summary>
+            <returns>True if there is some operation to undo. Otherwise, returns false.</returns>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.bRedo">
+            <summary>
+            bRedo:
+            Redo the last operation.
+            </summary>
+            <returns>True if there is some operation to redo. Otherwise, returns false.</returns>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.bDeleteObj">
+            <summary>
+            bDeleteObj:
+            Deletes the objects selected.
+            </summary>
+            <returns>True if there is at least one object selected. Otherwise, returns false.</returns>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.bGroupObjects">
+            <summary>
+            bGroupObjects:
+            Groups the selected objects.
+            </summary>
+            <returns>Returns false if there is no objects selected. Otherwise, returns true</returns>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.bUngroupObjects">
+            <summary>
+            bUngroupObjects:
+            Ungroups the selected group.
+            </summary>
+            <returns>Returns false if there is no groups (or object) selected. Otherwise, returns true</returns>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.nSelectionSize">
+            <summary>
+            nSelectionSize:
+            Returns the number of selected items.
+            </summary>
+            <returns>The number of selected objects</returns>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.X_World2Screen(System.Int32)">
+            <summary>
+            X_World2Screen:
+            Maps a point from the world to the drawing screen.
+            </summary>
+            <param name="x"></param>
+            <returns>The mapped point to the screen</returns>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.X_Screen2World(System.Int32)">
+            <summary>
+            X_Screen2World:
+            Maps a point from the screen to the world.
+            </summary>
+            <param name="x_line"></param>
+            <returns>The mapped point to the world.</returns>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.Y_World2Screen(System.Int32)">
+            <summary>
+            Y_World2Screen:
+            Maps a point from the world to the drawing screen.
+            </summary>
+            <param name="y"></param>
+            <returns>The mapped point to the screen</returns>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.Y_Screen2World(System.Int32)">
+            <summary>
+            Y_Screen2World:
+            Maps a point from the screen to the world.
+            </summary>
+            <param name="y_line"></param>
+            <returns>The mapped point to the world.</returns>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.RestoreUndoGroup(DrawingCanvasPackage.UndoGroup@)">
+            <summary>
+            RestoreUndoGroup:
+            Restores the previous state before a group operation.
+            </summary>
+            <param name="ugUndo"></param>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.SaveUndoGroupStatus(System.Collections.ArrayList@)">
+            <summary>
+            SaveUndoGroupStatus:
+            Saves the status before grouping some objects
+            </summary>
+            <param name="arlstrGroups"></param>
+            <param name="arlstrNotGroupedObj"></param>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.addRedoGroup">
+            <summary>
+            addRedoGroup:
+            Creates a redo entry for a group operation
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.addUndoGroup(System.Boolean)">
+            <summary>
+            addUndoGroup:
+            Creates an undo entry for a group operation
+            </summary>
+            <param name="bNewUndo"></param>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.SaveUndoAttributeStatus(System.Collections.ArrayList@,DrawingCanvasPackage.AttributeChanged)">
+            <summary>
+            SaveUndoAttributeStatus:
+            Saves the status of objects before changing an attribute
+            </summary>
+            <param name="arlstrObjs"></param>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.RestoreUndoAttribute(DrawingCanvasPackage.UndoAttribute@)">
+            <summary>
+            RestoreUndoAttribute:
+            Restores the previous state of the attributes
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.addUndoRedoAttributeEntry(System.Collections.IList@,DrawingCanvasPackage.AttributeChanged)">
+            <summary>
+            addUndoRedoAttributeEntry:
+            Adds an entry for an undo/redo operation
+            </summary>
+            <param name="?"></param>
+            <param name="?"></param>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.addUndoAttribute(System.Boolean)">
+            <summary>
+            addUndoAttribute:
+            Creates an undo operation when changing an attribute
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.addRedoAttribute">
+            <summary>
+            addRedoAttribute:
+            Creates a redo operation when changing an attribute
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.SaveUndoOrderStatus(System.Collections.ArrayList@)">
+            <summary>
+            SaveUndoOrderStatus:
+            Saves the status of the object with changed order.
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.addUndoOrder(System.Boolean)">
+            <summary>
+            addUndoOrder:
+            Createa an undo operation of change the order of objects.
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.addRedoOrder">
+            <summary>
+            addRedoOrder:
+            Createa a redo operation of change the order of objects.
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.RestoreUndoOrder(DrawingCanvasPackage.UndoOrder@)">
+            <summary>
+            RestoreUndoOrder:
+            Restores an undo order operation.
+            </summary>
+            <param name="uoUndo"></param>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.SaveUndoRemoveStatus(System.Collections.ArrayList@)">
+            <summary>
+            SaveUndoRemoveStatus:
+            Saves the status of the removed object.
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.addUndoRemove(System.Boolean)">
+            <summary>
+            addUndoRemove:
+            Createa an undo operation of removeing an object.
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.addRedoRemove">
+            <summary>
+            addRedoRemove:
+            Createa an redo operation of removeing an object.
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.RestoreUndoRemove(DrawingCanvasPackage.UndoRemove@)">
+            <summary>
+            RestoreUndoRemove:
+            Undo a remove operation.
+            </summary>
+            <param name="urUndo"></param>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.RestoreRedoRemove(DrawingCanvasPackage.UndoRemove@)">
+            <summary>
+            RestoreRedoRemove:
+            Redo a remove operation.
+            </summary>
+            <param name="urRedo"></param>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.addUndoInsert(System.Boolean)">
+            <summary>
+            addUndoInsert:
+            Createa an undo operation of adding an object.
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.addRedoInsert">
+            <summary>
+            addRedoInsert:
+            Createa an redo operation of adding an object.
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.RestoreUndoInsert(DrawingCanvasPackage.UndoInsert@)">
+            <summary>
+            RestoreUndoInsert:
+            Undo an insert operation.
+            </summary>
+            <param name="uiUndo"></param>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.RestoreRedoInsert(DrawingCanvasPackage.UndoInsert@)">
+            <summary>
+            RestoreRedoInsert:
+            Redo an insert operation.
+            </summary>
+            <param name="uiUndo"></param>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.RestoreUndoMoveResize(DrawingCanvasPackage.UndoMoveResize@)">
+            <summary>
+            RestoreUndoMoveResize:
+            Undo a move operation.
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.addUndoMoveResize(System.Boolean)">
+            <summary>
+            addUndoMoveResize:
+            Createa an undo operation from the selected objects for the move or resize operation 
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.RemoveFirstUndo">
+            <summary>
+            RemoveFirstUndo
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.RemoveFirstRedo">
+            <summary>
+            RemoveFirstRedo
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.RemoveFirstFromStack(System.Collections.Stack@)">
+            <summary>
+            RemoveFirstFromStack
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.CleanRedo">
+            <summary>
+            CleanRedo:
+            Cleans the redo stack and collect unused objects from memory.
+            When a new undo operation is poped-up to the undo stack, the redo stack becomes unuseful
+            </summary>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.UpdateDeletion(System.Int32)">
+            <summary>
+            UpdateDeletion:
+            Since object of index nFromIndex was deleted, the values in z-order and selection lists
+            must be updated to maintain consistency.
+            </summary>
+            <param name="nFromIndex"></param>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.DeleteObjGroup(System.Int32)">
+            <summary>
+            DeleteObjGroup:
+            Deletes a group of objects from the list of groups.
+            </summary>
+            <param name="nGroupIndex"></param>
+        </member>
+        <member name="M:DrawingCanvasPackage.DrawingCanvas.IsAllGroupInside(System.Int32,System.Drawing.Rectangle@)">
+            <summary>
+            IsAllGroupInside:
+            Checks if all the objects in the group nGroupIndex are inside the rectangle rect.
+            </summary>
+            <param name="nGroupIndex"></param>
+            <param name="rect"></param>
+            <returns>True if all the objects are inside the rectangle. Otherwise, returns false.</returns>
+        </member>
+        <member name="T:ReportCanvasPackage.ReportCanvas">
+            <summary>
+            Summary description for ReportCanvas.
+            </summary>
+        </member>
+        <member name="F:ReportCanvasPackage.ReportCanvas.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ReportCanvasPackage.ReportCanvas.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ReportCanvasPackage.ReportCanvas.PaintRestrictions(System.Drawing.Graphics@)">
+            <summary>
+            Restrictions off the Siscobras Exporta Facil
+            </summary>
+            <param name="e"></param>
+            <param name="r"></param>
+        </member>
+    </members>
+</doc>

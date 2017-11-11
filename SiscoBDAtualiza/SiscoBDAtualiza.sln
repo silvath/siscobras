@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiscoBDAtualiza", "SiscoBDAtualiza\SiscoBDAtualiza.csproj", "{2E7A19DC-462F-44C6-B4F6-C0925FC39D97}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {789B1A50-8CFF-4974-A259-EDBE8C5579E3}
+		SccProjectUniqueName1 = SiscoBDAtualiza\\SiscoBDAtualiza.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = SiscoBDAtualiza\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2E7A19DC-462F-44C6-B4F6-C0925FC39D97}.Debug.ActiveCfg = Debug|.NET
+		{2E7A19DC-462F-44C6-B4F6-C0925FC39D97}.Debug.Build.0 = Debug|.NET
+		{2E7A19DC-462F-44C6-B4F6-C0925FC39D97}.Release.ActiveCfg = Release|.NET
+		{2E7A19DC-462F-44C6-B4F6-C0925FC39D97}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

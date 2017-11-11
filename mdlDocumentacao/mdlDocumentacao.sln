@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{13674679-F833-489B-A1B2-40D5173DD536}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A2D63989-1C4A-481A-A733-55D5A15C15CA} = {A2D63989-1C4A-481A-A733-55D5A15C15CA}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlDocumentacao", "mdlDocumentacao\mdlDocumentacao.csproj", "{A2D63989-1C4A-481A-A733-55D5A15C15CA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {D9AB0A51-0D20-4054-802E-9F8C1E2106FB}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlDocumentacao\\mdlDocumentacao.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlDocumentacao\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{13674679-F833-489B-A1B2-40D5173DD536}.Debug.ActiveCfg = Debug|.NET
+		{13674679-F833-489B-A1B2-40D5173DD536}.Debug.Build.0 = Debug|.NET
+		{13674679-F833-489B-A1B2-40D5173DD536}.Release.ActiveCfg = Release|.NET
+		{13674679-F833-489B-A1B2-40D5173DD536}.Release.Build.0 = Release|.NET
+		{A2D63989-1C4A-481A-A733-55D5A15C15CA}.Debug.ActiveCfg = Debug|.NET
+		{A2D63989-1C4A-481A-A733-55D5A15C15CA}.Debug.Build.0 = Debug|.NET
+		{A2D63989-1C4A-481A-A733-55D5A15C15CA}.Release.ActiveCfg = Release|.NET
+		{A2D63989-1C4A-481A-A733-55D5A15C15CA}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		mdlDocumentacao\mdlDocumentacao.vsd = mdlDocumentacao\mdlDocumentacao.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

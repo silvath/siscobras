@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+	<fo:layout-master-set>
+		<fo:simple-page-master master-name="1stpage" page-height="29.7cm" page-width="21cm" margin="1cm">
+			<fo:region-body   region-name="xsl-region-body"   background-color="white" margin-bottom="1cm" margin-top="1cm"/>
+			<fo:region-before region-name="xsl-region-before"  background-color="#EFF0D7" extent="1cm" border="1pt solid #660000"/>
+			<fo:region-after  region-name="xsl-region-after"  background-color="#EFF0D7" extent="1cm" border="1pt solid #660000"/>
+		</fo:simple-page-master>
+		<fo:simple-page-master master-name="default-page-layout">
+			<fo:region-body display-align="center"/>
+		</fo:simple-page-master>
+		<fo:simple-page-master master-name="default-fonts">
+			<fo:region-body/>
+		</fo:simple-page-master>
+		<fo:simple-page-master master-name="default-borders">
+			<fo:region-body/>
+		</fo:simple-page-master>
+	</fo:layout-master-set>
+
+	<fo:page-sequence master-reference="1stpage">
+		<fo:static-content flow-name="xsl-region-before">
+			<fo:block text-align="justify" text-align-last="justify" padding="0.25cm">
+				<fo:wrapper color="#660000" font-size="12pt" font-weight="bold">ALTSOFT</fo:wrapper><fo:leader/>XSL-FO testsuite
+			</fo:block>
+		</fo:static-content>
+		<fo:static-content flow-name="xsl-region-after">
+			<fo:block text-align="justify" text-align-last="justify" padding="0.25cm">
+				<fo:basic-link external-destination="url(http://www.alt-soft.com/)"><fo:inline color="#660000" text-decoration="underline">http://www.alt-soft.com/</fo:inline></fo:basic-link><fo:leader/><fo:inline wrap-option="no-wrap">&#x00a9;Altsoft, 2003</fo:inline>
+			</fo:block>
+		</fo:static-content>
+		<fo:flow flow-name="xsl-region-body" font-family="Courier" font-size="12pt">
+			<fo:block margin="1.5cm" text-align="justify" text-align-last="left">
+				<fo:block padding-bottom="1cm">This file shows default
+settings of the formatter, such as default page layout, relative font
+size values, auto margins, thin/medium/thick borders, etc</fo:block>
+			</fo:block>
+		</fo:flow>
+	</fo:page-sequence>
+	
+	<fo:page-sequence master-reference="default-page-layout">
+		<fo:flow flow-name="xsl-region-body">
+			<fo:block font-size="20pt" text-align="center" space-after="20pt">Default page Layout</fo:block>
+<fo:block font-size="12pt" font-style="italic" text-align="justify" space-after="12pt">The
+text below should fit into one Letter, A4, or Legal page, but will
+spread on two pages for A5 or B5 page layouts.</fo:block>
+<fo:block font-size="14pt" font-weight="bold" text-align="left"
+space-after="14pt">Why XML</fo:block>
+<fo:block font-size="12pt" text-align="justify" space-after="12pt">Extensible Markup 
+Language (XML) is a simple and very flexible text format for describing hierarchical 
+data, applicable
+to a wide range of applications such as databases, e-commerce, web
+development, searching any many others. It does not matter if the data
+is exchanged between companies, between company and individual, inside
+company or among branch office, sales office, local office, and head
+office; in all cases XML is an obvious choice.</fo:block>
+<fo:block font-size="12pt" text-align="justify"  space-after="12pt">Moreover, there
+is a variety of free and commercial XML tool that allow you saving any
+data in XML format and retrieving them on the other side of the
+communication. For example, Microsoft .NET platform includes a
+standard XML parser ready for use in any .NET solution.</fo:block>
+<fo:block font-size="12pt" text-align="justify"  space-after="12pt">Although XML has
+a very simple structure, it is aimed mostly for computers. Most users
+prefer a more convenient data representation in form of readable text,
+diagram or just table. However, to share this view with other person,
+one needs to either synchronize the data and client software or have a
+data presentation in the persistent form. And this is what PDF format
+is aimed for.</fo:block>
+<fo:block font-size="14pt" font-weight="bold" text-align="left"
+space-after="14pt">Why PDF</fo:block>
+<fo:block font-size="12pt" text-align="justify"  space-after="12pt">
+Free Adobe Reader guarantees that PDF will be viewed identically on
+virtually any operating system including Microsoft Windows, Linux,
+MacOS or even PalmOS. On top of that PDF has an extended security
+mechanism, which guarantees that your document will not be forged and
+the recipient will be sure that it came right from you.
+</fo:block>
+<fo:block font-size="12pt" text-align="justify"  space-after="12pt">
+So, in short, XML is data exchange format while PDF is a persistent
+and robust way to distribute, view or print your data.
+</fo:block>
+<fo:block font-size="14pt" font-weight="bold" text-align="left"
+space-after="14pt">What are Formatting Objects</fo:block>
+<fo:block font-size="12pt" text-align="justify" space-after="12pt">
+XSL Formatting Objects (XSL-FO) is a free W3C (World Wide Web
+Consortium) standard. It is a special vocabulary that specifies how to
+layout text and other objects on the page. This includes page layouts,
+fonts, colors, footers and headers and many other things needed for
+high-end formatting.</fo:block>
+<fo:block font-size="12pt" text-align="justify" space-after="12pt">
+In practice XSL-FO is not used directly but via XSL transform that
+defines the presentation style of your XML data.
+</fo:block>
+		</fo:flow>
+	</fo:page-sequence>
+	<fo:page-sequence master-reference="default-fonts">
+		<fo:flow flow-name="xsl-region-body">
+			<fo:block font-size="20pt" text-align="center" space-after="20pt">Default font sizes</fo:block>
+			<fo:block font-size="xx-small" space-after="12pt">This line is written in xx-small font size</fo:block>
+			<fo:block font-size="x-small" space-after="12pt">This line is written in x-small font size</fo:block>
+			<fo:block font-size="small" space-after="12pt">This line is written in small font size</fo:block>
+			<fo:block font-size="medium" space-after="12pt">This line is written in medium font size</fo:block>
+			<fo:block font-size="large" space-after="12pt">This line is written in large font size</fo:block>
+			<fo:block font-size="x-large" space-after="12pt">This line is written in x-large font size</fo:block>
+			<fo:block font-size="xx-large" space-after="12pt">This line is written in xx-large font size</fo:block>
+		</fo:flow>
+	</fo:page-sequence>
+	<fo:page-sequence master-reference="default-borders">
+		<fo:flow flow-name="xsl-region-body">
+			<fo:block font-size="20pt" text-align="center"
+space-after="20pt">Default margins and borders</fo:block>
+			<fo:block border="1pt solid red" space-after="10pt"><fo:block margin="auto" border="1pt solid green">Auto margin between red-bordered and green-bordered blocks</fo:block></fo:block>
+			<fo:block border="thin solid green" space-after="10pt">Block with border="thin solid green"</fo:block>
+			<fo:block border="medium solid green" space-after="10pt">Block with border="medium solid green"</fo:block>
+			<fo:block border="thick solid green" space-after="10pt">Block with border="thick solid green"</fo:block>
+		</fo:flow>
+	</fo:page-sequence>
+</fo:root>
+
+
+
+
+

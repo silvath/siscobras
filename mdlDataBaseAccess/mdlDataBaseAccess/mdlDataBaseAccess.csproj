@@ -1,0 +1,1731 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>7.10.2292</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7B0328D4-E59A-48BA-BC2B-27E0FF1D8714}</ProjectGuid>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon />
+    <AssemblyKeyContainerName />
+    <AssemblyName>mdlDataBaseAccess</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>mdlDataBaseAccess</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>15.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\..\BINARIOS\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\..\BINARIOS\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <Name>ICSharpCode.SharpZipLib</Name>
+      <HintPath>..\..\Binarios\ICSharpCode.SharpZipLib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mdlConstantes">
+      <Name>mdlConstantes</Name>
+      <HintPath>..\..\Binarios\mdlConstantes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mdlDataBaseData">
+      <Name>mdlDataBaseData</Name>
+      <HintPath>..\..\BINARIOS\mdlDataBaseData.dll</HintPath>
+    </Reference>
+    <Reference Include="mdlTratamentoErro">
+      <Name>mdlTratamentoErro</Name>
+      <HintPath>..\..\mdlTratamentoErro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDataBaseAccess.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataBaseAccessFireBird\clsDataBaseAccessFireBird.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataBaseAccessMySql\clsDataBaseAccessMySql.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataBaseAccessOleDbJet40\clsDataBaseAccessOleDbJet40.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataBaseAccessOracle\clsDataBaseAccessOracle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataBaseAccessPostgreSQL\clsDataBaseAccessPostgreSQL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataBaseAccessSqlServer\clsDataBaseAccessSqlServer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmFConnectionError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmFFillError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmFUpdateError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\CharSetMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\command.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\CommandBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\CommandResult.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\Common\DBConnectionString.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\Common\NamedPipeStream.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\Common\NativeMethods.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\Common\Platform.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\Common\Resources.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\Common\SocketStream.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\Common\StreamCreator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\Common\utility.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\Common\version.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\CompressedStream.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\Connection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\ConnectionString.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\crypt.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\dataadapter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\datareader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\driver.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\Exception.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\field.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\logger.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\MySqlDefs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\MySqlError.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\MySqlHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\MySqlPool.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\MySqlPoolManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\NativeDriver.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\PacketReader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\PacketWriter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\parameter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\parameter_collection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\PreparedStatement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\SharedMemoryStream.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\StoredProcedure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\Transaction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\Types\MySqlBinary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\Types\MySqlBit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\Types\MySqlByte.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\Types\MySqlConversionException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\Types\MySqlDateTime.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\Types\MySqlDecimal.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\Types\MySqlDouble.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\Types\MySqlInt16.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\Types\MySqlInt32.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\Types\MySqlInt64.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\Types\MySqlSingle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\Types\MySqlString.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\Types\MySqlTime.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\Types\MySqlUByte.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\Types\MySqlUInt16.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\Types\MySqlUInt32.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\Types\MySqlUInt64.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MySqlClient\Types\MySqlValue.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbAgentesCargas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbAgentesCargas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbAgentesCargasContatos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbAgentesCargasContatos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbArmadores.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbArmadores.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbArmadoresNavios.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbArmadoresNavios.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbAssinaturas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbAssinaturas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbBorderos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbBorderos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbBorderosSecundarios.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbBorderosSecundarios.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbCartasCredito.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbCartasCredito.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbCertificadosOrigem.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbCertificadosOrigem.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbCertificadosOrigemNormas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbCertificadosOrigemNormas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbConfiguracoes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbConfiguracoes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbContratosCambio.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbContratosCambio.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbDespachantes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbDespachantes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbDespachantesContatos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbDespachantesContatos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbDSEs.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbDSEs.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbDSEsPEs.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbDSEsPEs.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbErros.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbErros.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbEstadosBrasileiros.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbEstadosBrasileiros.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbExportadores.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbExportadores.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbExportadoresAgentesVendas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbExportadoresAgentesVendas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbExportadoresAgentesVendasBancos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbExportadoresAgentesVendasBancos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbExportadoresBancos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbExportadoresBancos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbExportadoresBancosAgencias.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbExportadoresBancosAgencias.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbExportadoresBancosAgenciasContas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbExportadoresBancosAgenciasContas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbExportadoresColunas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbExportadoresColunas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbExportadoresVolumes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbExportadoresVolumes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbFaturasComerciais.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbFaturasComerciais.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbFaturasComerciaisColunas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbFaturasComerciaisColunas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbFaturasCotacoes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbFaturasCotacoes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbFaturasCotacoesColunas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbFaturasCotacoesColunas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbFaturasProformas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbFaturasProformas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbFaturasProformasColunas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbFaturasProformasColunas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbGuiasEntrada.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbGuiasEntrada.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbIdiomas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbIdiomas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbIdiomasTextos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbIdiomasTextos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbImagens.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbImagens.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbImportadores.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbImportadores.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbImportadoresBancos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbImportadoresBancos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbImportadoresConsignatarios.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbImportadoresConsignatarios.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbImportadoresEndEntrega.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbImportadoresEndEntrega.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbInstrucoesEmbarque.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbInstrucoesEmbarque.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbLogMedicaoTempo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbLogMedicaoTempo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbMaquinas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbMaquinas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbMensagens.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbMensagens.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbModulos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbModulos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbMoedas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbMoedas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbNotasFiscais.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbNotasFiscais.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbPaises.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbPaises.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbPaisesIdiomas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbPaisesIdiomas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbPes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbPes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbProcessosContainers.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbProcessosContainers.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbProdutos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbProdutos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbProdutosBordero.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbProdutosBordero.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbProdutosCategorias.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbProdutosCategorias.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbProdutosCertificadoOrigem.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbProdutosCertificadoOrigem.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbProdutosCertificadoOrigemFormA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbProdutosCertificadoOrigemFormA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbProdutosCertificadoOrigemFormARE.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbProdutosCertificadoOrigemFormARE.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbProdutosFaturaComercial.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbProdutosFaturaComercial.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbProdutosFaturaComercialPropriedades.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbProdutosFaturaComercialPropriedades.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbProdutosFaturaCotacao.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbProdutosFaturaCotacao.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbProdutosFaturaCotacaoPropriedades.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbProdutosFaturaCotacaoPropriedades.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbProdutosFaturaProforma.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbProdutosFaturaProforma.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbProdutosFaturaProformaPropriedades.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbProdutosFaturaProformaPropriedades.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbProdutosIdiomas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbProdutosIdiomas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbProdutosNaladi.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbProdutosNaladi.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbProdutosNcm.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbProdutosNcm.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbProdutosParents.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbProdutosParents.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbProdutosRomaneioEmbalagens.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbProdutosRomaneioEmbalagens.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbProdutosRomaneioEmbalagensProdutos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbProdutosRomaneioEmbalagensProdutos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbProdutosRomaneioSimplificado.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbProdutosRomaneioSimplificado.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbProdutosRomaneioVolumes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbProdutosRomaneioVolumes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbProdutosRomaneioVolumesProdutos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbProdutosRomaneioVolumesProdutos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbPropriedadesProdutos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbPropriedadesProdutos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbRelatorioCamposBD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbRelatorioCamposBD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbRelatorioCirculos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbRelatorioCirculos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbRelatorioEtiquetas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbRelatorioEtiquetas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbRelatorioImagens.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbRelatorioImagens.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbRelatorioLinhas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbRelatorioLinhas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbRelatorioRetangulos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbRelatorioRetangulos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbRelatorios.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbRelatorios.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbRelatoriosCamposBDPreRequisitos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbRelatoriosCamposBDPreRequisitos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbRelatoriosCamposBDRelatorios.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbRelatoriosCamposBDRelatorios.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbRelatoriosTodosCamposBD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbRelatoriosTodosCamposBD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbRelatorioTipo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbRelatorioTipo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbREs.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbREs.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbReservas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbReservas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbREsEspelhos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbREsEspelhos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbREsEspelhosAnexos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbREsEspelhosAnexos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbREsPEs.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbREsPEs.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbRomaneios.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbRomaneios.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbRomaneiosSecundarios.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbRomaneiosSecundarios.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbSaques.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbSaques.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbSDs.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbSDs.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbStatisticDataManipulators.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbStatisticDataManipulators.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbStatisticReports.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbStatisticReports.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbSumarios.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbSumarios.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbTerminais.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbTerminais.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbTerminaisContatos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbTerminaisContatos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbTransportadoras.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbTransportadoras.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbTransportadorasContatos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbTransportadorasContatos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbTransportadorasMotoristas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbTransportadorasMotoristas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbTransportadorasVeiculos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbTransportadorasVeiculos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbUnidadesEspaco.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbUnidadesEspaco.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbUnidadesEspacoIdioma.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbUnidadesEspacoIdioma.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbUnidadesMassa.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbUnidadesMassa.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbUnidadesMassaIdioma.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbUnidadesMassaIdioma.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbUsuarios.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbUsuarios.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbUsuariosConcessoes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbUsuariosConcessoes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbUsuariosConcessoesPermissoes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbUsuariosConcessoesPermissoes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbUsuariosPermissoes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbUsuariosPermissoes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbUsuariosPermissoesConcessoes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbUsuariosPermissoesConcessoes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbVersao.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbVersao.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbVersaoModulo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbVersaoModulo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbVolumes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbVolumes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbWebServiceServicos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbWebServiceServicos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbWebServiceServidores.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbWebServiceServidores.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tabelas\XsdTbWebServiceServidoresServicos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XsdTbWebServiceServidoresServicos.xsd</DependentUpon>
+    </Compile>
+    <Content Include="Leiame.xml" />
+    <Content Include="Tabelas\XsdTbAgentesCargas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbAgentesCargas.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbAgentesCargasContatos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbAgentesCargasContatos.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbArmadores.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbArmadores.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbArmadoresNavios.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbArmadoresNavios.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbAssinaturas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbAssinaturas.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbBorderos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbBorderos.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbBorderosSecundarios.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbBorderosSecundarios.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbCartasCredito.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbCartasCredito.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbCertificadosOrigem.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbCertificadosOrigem.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbCertificadosOrigemNormas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbCertificadosOrigemNormas.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbConfiguracoes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbConfiguracoes.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbContratosCambio.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbContratosCambio.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbDespachantes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbDespachantes.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbDespachantesContatos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbDespachantesContatos.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbDSEs.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbDSEs.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbDSEsPEs.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbDSEsPEs.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbErros.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbErros.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbEstadosBrasileiros.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbEstadosBrasileiros.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbExportadores.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbExportadores.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbExportadoresAgentesVendas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbExportadoresAgentesVendas.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbExportadoresAgentesVendasBancos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbExportadoresAgentesVendasBancos.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbExportadoresBancos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbExportadoresBancos.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbExportadoresBancosAgencias.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbExportadoresBancosAgencias.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbExportadoresBancosAgenciasContas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbExportadoresBancosAgenciasContas.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbExportadoresVolumes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbExportadoresVolumes.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbFaturasComerciais.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbFaturasComerciais.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbFaturasCotacoes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbFaturasCotacoes.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbFaturasProformas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbFaturasProformas.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbGuiasEntrada.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbGuiasEntrada.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbIdiomas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbIdiomas.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbIdiomasTextos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbIdiomasTextos.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbImagens.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbImagens.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbImportadores.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbImportadores.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbImportadoresBancos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbImportadoresBancos.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbImportadoresConsignatarios.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbImportadoresConsignatarios.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbImportadoresEndEntrega.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbImportadoresEndEntrega.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbInstrucoesEmbarque.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbInstrucoesEmbarque.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbLogMedicaoTempo.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbLogMedicaoTempo.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbMaquinas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbMaquinas.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbMensagens.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbMensagens.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbModulos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbModulos.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbMoedas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbMoedas.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbNotasFiscais.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbNotasFiscais.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbPaises.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbPaises.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbPaisesIdiomas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbPaisesIdiomas.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbPes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbPes.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbProcessosContainers.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbProcessosContainers.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbProdutos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbProdutos.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbProdutosBordero.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbProdutosBordero.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbProdutosCategorias.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbProdutosCategorias.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbProdutosCertificadoOrigem.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbProdutosCertificadoOrigem.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbProdutosCertificadoOrigemFormA.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbProdutosCertificadoOrigemFormA.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbProdutosCertificadoOrigemFormARE.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbProdutosCertificadoOrigemFormARE.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbProdutosFaturaComercial.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbProdutosFaturaComercial.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbProdutosFaturaCotacao.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbProdutosFaturaCotacao.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbProdutosFaturaProforma.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbProdutosFaturaProforma.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbProdutosIdiomas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbProdutosIdiomas.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbProdutosNaladi.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbProdutosNaladi.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbProdutosNcm.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbProdutosNcm.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbProdutosParents.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbProdutosParents.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbProdutosRomaneioEmbalagens.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbProdutosRomaneioEmbalagens.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbProdutosRomaneioEmbalagensProdutos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbProdutosRomaneioEmbalagensProdutos.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbProdutosRomaneioSimplificado.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbProdutosRomaneioSimplificado.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbProdutosRomaneioVolumes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbProdutosRomaneioVolumes.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbProdutosRomaneioVolumesProdutos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbProdutosRomaneioVolumesProdutos.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbRelatorioCamposBD.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbRelatorioCamposBD.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbRelatorioCirculos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbRelatorioCirculos.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbRelatorioEtiquetas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbRelatorioEtiquetas.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbRelatorioImagens.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbRelatorioImagens.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbRelatorioLinhas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbRelatorioLinhas.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbRelatorioRetangulos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbRelatorioRetangulos.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbRelatorios.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbRelatorios.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbRelatoriosCamposBDPreRequisitos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbRelatoriosCamposBDPreRequisitos.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbRelatoriosCamposBDRelatorios.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbRelatoriosCamposBDRelatorios.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbRelatoriosTodosCamposBD.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbRelatoriosTodosCamposBD.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbRelatorioTipo.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbRelatorioTipo.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbREs.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbREs.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbReservas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbReservas.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbREsEspelhos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbREsEspelhos.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbREsEspelhosAnexos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbREsEspelhosAnexos.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbREsPEs.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbREsPEs.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbRomaneios.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbRomaneios.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbRomaneiosSecundarios.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbRomaneiosSecundarios.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbSaques.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbSaques.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbSDs.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbSDs.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbStatisticDataManipulators.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbStatisticDataManipulators.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbStatisticReports.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbStatisticReports.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbSumarios.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbSumarios.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbTerminais.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbTerminais.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbTerminaisContatos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbTerminaisContatos.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbTransportadoras.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbTransportadoras.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbTransportadorasContatos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbTransportadorasContatos.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbTransportadorasMotoristas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbTransportadorasMotoristas.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbTransportadorasVeiculos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbTransportadorasVeiculos.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbUnidadesEspaco.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbUnidadesEspaco.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbUnidadesEspacoIdioma.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbUnidadesEspacoIdioma.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbUnidadesMassa.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbUnidadesMassa.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbUnidadesMassaIdioma.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbUnidadesMassaIdioma.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbUsuarios.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbUsuarios.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbUsuariosConcessoes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbUsuariosConcessoes.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbUsuariosConcessoesPermissoes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbUsuariosConcessoesPermissoes.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbUsuariosPermissoes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbUsuariosPermissoes.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbUsuariosPermissoesConcessoes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbUsuariosPermissoesConcessoes.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbVersao.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbVersao.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbVersaoModulo.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbVersaoModulo.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbVolumes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbVolumes.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbWebServiceServicos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbWebServiceServicos.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbWebServiceServidores.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbWebServiceServidores.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tabelas\XsdTbWebServiceServidoresServicos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbWebServiceServidoresServicos.Designer.cs</LastGenOutput>
+    </Content>
+    <EmbeddedResource Include="Formularios\frmFConnectionError.resx">
+      <DependentUpon>frmFConnectionError.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmFFillError.resx">
+      <DependentUpon>frmFFillError.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmFUpdateError.resx">
+      <DependentUpon>frmFUpdateError.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabelas\XsdTbExportadoresColunas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbExportadoresColunas.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabelas\XsdTbFaturasComerciaisColunas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbFaturasComerciaisColunas.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabelas\XsdTbFaturasCotacoesColunas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbFaturasCotacoesColunas.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabelas\XsdTbFaturasProformasColunas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbFaturasProformasColunas.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabelas\XsdTbProdutosFaturaComercialPropriedades.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbProdutosFaturaComercialPropriedades.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabelas\XsdTbProdutosFaturaCotacaoPropriedades.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbProdutosFaturaCotacaoPropriedades.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabelas\XsdTbProdutosFaturaProformaPropriedades.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbProdutosFaturaProformaPropriedades.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabelas\XsdTbPropriedadesProdutos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>XsdTbPropriedadesProdutos.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Tabelas\XsdTbAgentesCargas.xsx">
+      <DependentUpon>XsdTbAgentesCargas.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbAgentesCargasContatos.xsx">
+      <DependentUpon>XsdTbAgentesCargasContatos.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbArmadores.xsx">
+      <DependentUpon>XsdTbArmadores.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbArmadoresNavios.xsx">
+      <DependentUpon>XsdTbArmadoresNavios.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbAssinaturas.xsx">
+      <DependentUpon>XsdTbAssinaturas.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbBorderos.xsx">
+      <DependentUpon>XsdTbBorderos.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbBorderosSecundarios.xsx">
+      <DependentUpon>XsdTbBorderosSecundarios.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbCartasCredito.xsx">
+      <DependentUpon>XsdTbCartasCredito.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbCertificadosOrigem.xsx">
+      <DependentUpon>XsdTbCertificadosOrigem.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbCertificadosOrigemNormas.xsx">
+      <DependentUpon>XsdTbCertificadosOrigemNormas.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbConfiguracoes.xsx">
+      <DependentUpon>XsdTbConfiguracoes.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbContratosCambio.xsx">
+      <DependentUpon>XsdTbContratosCambio.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbDespachantes.xsx">
+      <DependentUpon>XsdTbDespachantes.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbDespachantesContatos.xsx">
+      <DependentUpon>XsdTbDespachantesContatos.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbDSEs.xsx">
+      <DependentUpon>XsdTbDSEs.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbDSEsPEs.xsx">
+      <DependentUpon>XsdTbDSEsPEs.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbErros.xsx">
+      <DependentUpon>XsdTbErros.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbEstadosBrasileiros.xsx">
+      <DependentUpon>XsdTbEstadosBrasileiros.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbExportadores.xsx">
+      <DependentUpon>XsdTbExportadores.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbExportadoresAgentesVendas.xsx">
+      <DependentUpon>XsdTbExportadoresAgentesVendas.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbExportadoresAgentesVendasBancos.xsx">
+      <DependentUpon>XsdTbExportadoresAgentesVendasBancos.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbExportadoresBancos.xsx">
+      <DependentUpon>XsdTbExportadoresBancos.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbExportadoresBancosAgencias.xsx">
+      <DependentUpon>XsdTbExportadoresBancosAgencias.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbExportadoresBancosAgenciasContas.xsx">
+      <DependentUpon>XsdTbExportadoresBancosAgenciasContas.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbExportadoresColunas.xsx">
+      <DependentUpon>XsdTbExportadoresColunas.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbExportadoresVolumes.xsx">
+      <DependentUpon>XsdTbExportadoresVolumes.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbFaturasComerciais.xsx">
+      <DependentUpon>XsdTbFaturasComerciais.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbFaturasComerciaisColunas.xsx">
+      <DependentUpon>XsdTbFaturasComerciaisColunas.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbFaturasCotacoes.xsx">
+      <DependentUpon>XsdTbFaturasCotacoes.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbFaturasCotacoesColunas.xsx">
+      <DependentUpon>XsdTbFaturasCotacoesColunas.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbFaturasProformas.xsx">
+      <DependentUpon>XsdTbFaturasProformas.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbFaturasProformasColunas.xsx">
+      <DependentUpon>XsdTbFaturasProformasColunas.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbGuiasEntrada.xsx">
+      <DependentUpon>XsdTbGuiasEntrada.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbIdiomas.xsx">
+      <DependentUpon>XsdTbIdiomas.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbIdiomasTextos.xsx">
+      <DependentUpon>XsdTbIdiomasTextos.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbImagens.xsx">
+      <DependentUpon>XsdTbImagens.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbImportadores.xsx">
+      <DependentUpon>XsdTbImportadores.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbImportadoresBancos.xsx">
+      <DependentUpon>XsdTbImportadoresBancos.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbImportadoresConsignatarios.xsx">
+      <DependentUpon>XsdTbImportadoresConsignatarios.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbImportadoresEndEntrega.xsx">
+      <DependentUpon>XsdTbImportadoresEndEntrega.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbInstrucoesEmbarque.xsx">
+      <DependentUpon>XsdTbInstrucoesEmbarque.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbLogMedicaoTempo.xsx">
+      <DependentUpon>XsdTbLogMedicaoTempo.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbMaquinas.xsx">
+      <DependentUpon>XsdTbMaquinas.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbMensagens.xsx">
+      <DependentUpon>XsdTbMensagens.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbModulos.xsx">
+      <DependentUpon>XsdTbModulos.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbMoedas.xsx">
+      <DependentUpon>XsdTbMoedas.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbNotasFiscais.xsx">
+      <DependentUpon>XsdTbNotasFiscais.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbPaises.xsx">
+      <DependentUpon>XsdTbPaises.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbPaisesIdiomas.xsx">
+      <DependentUpon>XsdTbPaisesIdiomas.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbPes.xsx">
+      <DependentUpon>XsdTbPes.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbProcessosContainers.xsx">
+      <DependentUpon>XsdTbProcessosContainers.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbProdutos.xsx">
+      <DependentUpon>XsdTbProdutos.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbProdutosBordero.xsx">
+      <DependentUpon>XsdTbProdutosBordero.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbProdutosCategorias.xsx">
+      <DependentUpon>XsdTbProdutosCategorias.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbProdutosCertificadoOrigem.xsx">
+      <DependentUpon>XsdTbProdutosCertificadoOrigem.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbProdutosCertificadoOrigemFormA.xsx">
+      <DependentUpon>XsdTbProdutosCertificadoOrigemFormA.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbProdutosCertificadoOrigemFormARE.xsx">
+      <DependentUpon>XsdTbProdutosCertificadoOrigemFormARE.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbProdutosFaturaComercial.xsx">
+      <DependentUpon>XsdTbProdutosFaturaComercial.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbProdutosFaturaComercialPropriedades.xsx">
+      <DependentUpon>XsdTbProdutosFaturaComercialPropriedades.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbProdutosFaturaCotacao.xsx">
+      <DependentUpon>XsdTbProdutosFaturaCotacao.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbProdutosFaturaCotacaoPropriedades.xsx">
+      <DependentUpon>XsdTbProdutosFaturaCotacaoPropriedades.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbProdutosFaturaProforma.xsx">
+      <DependentUpon>XsdTbProdutosFaturaProforma.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbProdutosFaturaProformaPropriedades.xsx">
+      <DependentUpon>XsdTbProdutosFaturaProformaPropriedades.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbProdutosIdiomas.xsx">
+      <DependentUpon>XsdTbProdutosIdiomas.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbProdutosNaladi.xsx">
+      <DependentUpon>XsdTbProdutosNaladi.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbProdutosNcm.xsx">
+      <DependentUpon>XsdTbProdutosNcm.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbProdutosParents.xsx">
+      <DependentUpon>XsdTbProdutosParents.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbProdutosRomaneioEmbalagens.xsx">
+      <DependentUpon>XsdTbProdutosRomaneioEmbalagens.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbProdutosRomaneioEmbalagensProdutos.xsx">
+      <DependentUpon>XsdTbProdutosRomaneioEmbalagensProdutos.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbProdutosRomaneioSimplificado.xsx">
+      <DependentUpon>XsdTbProdutosRomaneioSimplificado.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbProdutosRomaneioVolumes.xsx">
+      <DependentUpon>XsdTbProdutosRomaneioVolumes.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbProdutosRomaneioVolumesProdutos.xsx">
+      <DependentUpon>XsdTbProdutosRomaneioVolumesProdutos.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbPropriedadesProdutos.xsx">
+      <DependentUpon>XsdTbPropriedadesProdutos.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbRelatorioCamposBD.xsx">
+      <DependentUpon>XsdTbRelatorioCamposBD.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbRelatorioCirculos.xsx">
+      <DependentUpon>XsdTbRelatorioCirculos.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbRelatorioEtiquetas.xsx">
+      <DependentUpon>XsdTbRelatorioEtiquetas.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbRelatorioImagens.xsx">
+      <DependentUpon>XsdTbRelatorioImagens.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbRelatorioLinhas.xsx">
+      <DependentUpon>XsdTbRelatorioLinhas.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbRelatorioRetangulos.xsx">
+      <DependentUpon>XsdTbRelatorioRetangulos.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbRelatorios.xsx">
+      <DependentUpon>XsdTbRelatorios.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbRelatoriosCamposBDPreRequisitos.xsx">
+      <DependentUpon>XsdTbRelatoriosCamposBDPreRequisitos.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbRelatoriosCamposBDRelatorios.xsx">
+      <DependentUpon>XsdTbRelatoriosCamposBDRelatorios.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbRelatoriosTodosCamposBD.xsx">
+      <DependentUpon>XsdTbRelatoriosTodosCamposBD.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbRelatorioTipo.xsx">
+      <DependentUpon>XsdTbRelatorioTipo.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbREs.xsx">
+      <DependentUpon>XsdTbREs.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbReservas.xsx">
+      <DependentUpon>XsdTbReservas.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbREsEspelhos.xsx">
+      <DependentUpon>XsdTbREsEspelhos.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbREsEspelhosAnexos.xsx">
+      <DependentUpon>XsdTbREsEspelhosAnexos.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbREsPEs.xsx">
+      <DependentUpon>XsdTbREsPEs.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbRomaneios.xsx">
+      <DependentUpon>XsdTbRomaneios.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbRomaneiosSecundarios.xsx">
+      <DependentUpon>XsdTbRomaneiosSecundarios.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbSaques.xsx">
+      <DependentUpon>XsdTbSaques.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbSDs.xsx">
+      <DependentUpon>XsdTbSDs.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbStatisticDataManipulators.xsx">
+      <DependentUpon>XsdTbStatisticDataManipulators.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbStatisticReports.xsx">
+      <DependentUpon>XsdTbStatisticReports.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbSumarios.xsx">
+      <DependentUpon>XsdTbSumarios.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbTerminais.xsx">
+      <DependentUpon>XsdTbTerminais.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbTerminaisContatos.xsx">
+      <DependentUpon>XsdTbTerminaisContatos.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbTransportadoras.xsx">
+      <DependentUpon>XsdTbTransportadoras.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbTransportadorasContatos.xsx">
+      <DependentUpon>XsdTbTransportadorasContatos.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbTransportadorasMotoristas.xsx">
+      <DependentUpon>XsdTbTransportadorasMotoristas.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbTransportadorasVeiculos.xsx">
+      <DependentUpon>XsdTbTransportadorasVeiculos.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbUnidadesEspaco.xsx">
+      <DependentUpon>XsdTbUnidadesEspaco.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbUnidadesEspacoIdioma.xsx">
+      <DependentUpon>XsdTbUnidadesEspacoIdioma.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbUnidadesMassa.xsx">
+      <DependentUpon>XsdTbUnidadesMassa.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbUnidadesMassaIdioma.xsx">
+      <DependentUpon>XsdTbUnidadesMassaIdioma.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbUsuarios.xsx">
+      <DependentUpon>XsdTbUsuarios.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbUsuariosConcessoes.xsx">
+      <DependentUpon>XsdTbUsuariosConcessoes.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbUsuariosConcessoesPermissoes.xsx">
+      <DependentUpon>XsdTbUsuariosConcessoesPermissoes.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbUsuariosPermissoes.xsx">
+      <DependentUpon>XsdTbUsuariosPermissoes.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbUsuariosPermissoesConcessoes.xsx">
+      <DependentUpon>XsdTbUsuariosPermissoesConcessoes.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbVersao.xsx">
+      <DependentUpon>XsdTbVersao.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbVersaoModulo.xsx">
+      <DependentUpon>XsdTbVersaoModulo.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbVolumes.xsx">
+      <DependentUpon>XsdTbVolumes.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbWebServiceServicos.xsx">
+      <DependentUpon>XsdTbWebServiceServicos.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbWebServiceServidores.xsx">
+      <DependentUpon>XsdTbWebServiceServidores.xsd</DependentUpon>
+    </None>
+    <None Include="Tabelas\XsdTbWebServiceServidoresServicos.xsx">
+      <DependentUpon>XsdTbWebServiceServidoresServicos.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent>sn -R $(TargetPath) $(TargetDir)..\\Siscobras.snk</PostBuildEvent>
+  </PropertyGroup>
+</Project>

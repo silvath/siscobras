@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>mdlClassificacao</name>
+    </assembly>
+    <members>
+        <member name="T:mdlClassificacao.Frames.frmFClassificacao">
+            <summary>
+            Summary description for frmFClassificacao.
+            </summary>
+        </member>
+        <member name="M:mdlClassificacao.Frames.frmFClassificacao.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:mdlClassificacao.Frames.frmFClassificacao.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:mdlClassificacao.Frames.frmFClassificacao.trocaCor">
+            <summary>
+            Troca a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="M:mdlClassificacao.Frames.frmFClassificacao.mostraCor">
+            <summary>
+            Mostra a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="T:mdlClassificacao.clsClassificao">
+            <summary>
+            Summary description for clsClassificao.
+            </summary>
+        </member>
+        <member name="T:mdlClassificacao.clsNaladi">
+            <summary>
+            Summary description for clsNaladi.
+            </summary>
+        </member>
+        <member name="T:mdlClassificacao.clsNcm">
+            <summary>
+            Summary description for clsNcm.
+            </summary>
+        </member>
+    </members>
+</doc>

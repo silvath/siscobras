@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<XsdTbUsuariosPermissoes xmlns="http://tempuri.org/XsdTbUsuariosPermissoes.xsd">
+  <tbUsuariosPermissoes>
+    <nIdPermissao>1</nIdPermissao>
+    <strNome>Leitura</strNome>
+    <strDescricao>Possibilita a leitura da concessao.</strDescricao>
+  </tbUsuariosPermissoes>
+  <tbUsuariosPermissoes>
+    <nIdPermissao>2</nIdPermissao>
+    <strNome>Adicionar</strNome>
+    <strDescricao>Possibilita o usuário adicionar novos itens da concessao.</strDescricao>
+  </tbUsuariosPermissoes>
+  <tbUsuariosPermissoes>
+    <nIdPermissao>3</nIdPermissao>
+    <strNome>Modificar</strNome>
+    <strDescricao>Possibilita o usuário modificar itens existentes da concessao.</strDescricao>
+  </tbUsuariosPermissoes>
+  <tbUsuariosPermissoes>
+    <nIdPermissao>4</nIdPermissao>
+    <strNome>Apagar</strNome>
+    <strDescricao>Possibilita o usuário apagar itens existentes da concessao.</strDescricao>
+  </tbUsuariosPermissoes>
+</XsdTbUsuariosPermissoes>

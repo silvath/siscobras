@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbProdutosCategorias" targetNamespace="http://tempuri.org/XsdTbProdutosCategorias.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbProdutosCategorias.xsd"
+	xmlns:mstns="http://tempuri.org/XsdTbProdutosCategorias.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbProdutosCategorias" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbProdutosCategorias">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nIdExportador" type="xs:int" />
+							<xs:element name="nIdCategoria" type="xs:int" />
+							<xs:element name="mstrNomeCategoria" type="xs:string" minOccurs="0" />
+							<xs:element name="nIdSuperCategoria" type="xs:int" minOccurs="0" />
+							<xs:element name="bMostrarCodigoProduto" type="xs:boolean" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbProdutosCategoriasKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbProdutosCategorias" />
+			<xs:field xpath="mstns:nIdExportador" />
+			<xs:field xpath="mstns:nIdCategoria" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

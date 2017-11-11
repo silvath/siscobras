@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbPaises" targetNamespace="http://tempuri.org/XsdTbPaises.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbPaises.xsd" xmlns:mstns="http://tempuri.org/XsdTbPaises.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbPaises" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbPaises">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="idPais" type="xs:int" />
+							<xs:element name="nmPais" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbPaisesKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbPaises" />
+			<xs:field xpath="mstns:idPais" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{CAE8047C-6AE1-42A0-A493-5DE58FBA1A12}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8CFD9B0F-400C-4D14-AC59-44B64D51C721} = {8CFD9B0F-400C-4D14-AC59-44B64D51C721}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlRelatoriosSaque", "mdlRelatoriosSaque\mdlRelatoriosSaque.csproj", "{8CFD9B0F-400C-4D14-AC59-44B64D51C721}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {E09251DB-1926-465D-809F-A5DDEC9614C8}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlRelatoriosSaque\\mdlRelatoriosSaque.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlRelatoriosSaque\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{CAE8047C-6AE1-42A0-A493-5DE58FBA1A12}.Debug.ActiveCfg = Debug|.NET
+		{CAE8047C-6AE1-42A0-A493-5DE58FBA1A12}.Debug.Build.0 = Debug|.NET
+		{CAE8047C-6AE1-42A0-A493-5DE58FBA1A12}.Release.ActiveCfg = Debug|.NET
+		{CAE8047C-6AE1-42A0-A493-5DE58FBA1A12}.Release.Build.0 = Debug|.NET
+		{8CFD9B0F-400C-4D14-AC59-44B64D51C721}.Debug.ActiveCfg = Debug|.NET
+		{8CFD9B0F-400C-4D14-AC59-44B64D51C721}.Debug.Build.0 = Debug|.NET
+		{8CFD9B0F-400C-4D14-AC59-44B64D51C721}.Release.ActiveCfg = Debug|.NET
+		{8CFD9B0F-400C-4D14-AC59-44B64D51C721}.Release.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		mdlRelatoriosSaque\mdlRelatoriosSaque.vsd = mdlRelatoriosSaque\mdlRelatoriosSaque.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

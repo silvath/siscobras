@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{96C5219B-BD56-4CB5-BEF5-F674B0808CD6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{19C77368-F352-4013-A233-B3231D3EC68A} = {19C77368-F352-4013-A233-B3231D3EC68A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlCompactacao", "mdlCompactacao\mdlCompactacao.csproj", "{19C77368-F352-4013-A233-B3231D3EC68A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {12AA74F3-0785-4D6A-A581-52B2631E79C1}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlCompactacao\\mdlCompactacao.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlCompactacao\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{96C5219B-BD56-4CB5-BEF5-F674B0808CD6}.Debug.ActiveCfg = Debug|.NET
+		{96C5219B-BD56-4CB5-BEF5-F674B0808CD6}.Debug.Build.0 = Debug|.NET
+		{96C5219B-BD56-4CB5-BEF5-F674B0808CD6}.Release.ActiveCfg = Release|.NET
+		{96C5219B-BD56-4CB5-BEF5-F674B0808CD6}.Release.Build.0 = Release|.NET
+		{19C77368-F352-4013-A233-B3231D3EC68A}.Debug.ActiveCfg = Debug|.NET
+		{19C77368-F352-4013-A233-B3231D3EC68A}.Debug.Build.0 = Debug|.NET
+		{19C77368-F352-4013-A233-B3231D3EC68A}.Release.ActiveCfg = Release|.NET
+		{19C77368-F352-4013-A233-B3231D3EC68A}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		mdlCompactacao.vsd = mdlCompactacao.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mdlManipuladorGrafico>
+	<DrawingCanvas>
+		<Tarefas></Tarefas>
+		<Problemas>01-12-2003#Thiago#Problemas com a nao visualizacao de linhas e retangullos. Ele se "perde" no calculo de paginas</Problemas>
+	</DrawingCanvas>
+	<ReportCanvas>
+		<Tarefas></Tarefas>
+		<Problemas></Problemas>
+	</ReportCanvas>
+	<ProjetoVisio>
+		<Tarefas></Tarefas>
+		<Problemas></Problemas>
+	</ProjetoVisio>
+</mdlManipuladorGrafico>

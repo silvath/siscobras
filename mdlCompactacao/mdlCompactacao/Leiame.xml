@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mdlCompactacao>
+	<clsCompactacao>
+		<Tarefas>14-07-2003#Roberto#Criando mdl e classe principal
+</Tarefas>
+		<Problemas>OK!
+</Problemas>
+	</clsCompactacao>
+	<clsCompactacao>
+		<Tarefas>16-07-2003#Roberto#Métodos de compressão, descompressão e retorno de lista de arquivos prontos.
+</Tarefas>
+		<Problemas>OK!
+</Problemas>
+	</clsCompactacao>
+	<clsCompactacao>
+		<Tarefas>01-10-2003#Urso#Corrigir problema na descompatação</Tarefas>
+		<Problemas>DONE</Problemas>
+	</clsCompactacao>
+</mdlCompactacao>

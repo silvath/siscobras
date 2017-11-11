@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mdlMensagens>
+	<clsMensagens>
+		<Tarefas></Tarefas>
+		<Problemas></Problemas>
+	</clsMensagens>
+	<frmFMessage>
+		<Tarefas></Tarefas>
+		<Problemas></Problemas>
+	</frmFMessage>
+	<clsRepositorioMensagens>
+		<Tarefas>06-08-2003#Thiago#Objeto Criado</Tarefas>
+		<Problemas></Problemas>
+	</clsRepositorioMensagens>
+	<Mensagens.resx>
+		<Tarefas>06-08-2003#Thiago#Internaciolizacao em Portugues Criada</Tarefas>
+		<Problemas></Problemas>
+	</Mensagens.resx>
+	<MensagensEn.resx>
+		<Tarefas>06-08-2003#Thiago#Internaciolizacao em Ingles Criada</Tarefas>
+		<Problemas></Problemas>
+	</MensagensEn.resx>
+	<Mensagens.resx>
+		<Tarefas>19-11-2003#RobertoESilvio#Revisão De Mensagens</Tarefas>
+		<Problemas>BALLOONTIP_mdlIncoterm_frmFIncoterm_SelecionarIncoterm</Problemas>
+	</Mensagens.resx>
+</mdlMensagens>

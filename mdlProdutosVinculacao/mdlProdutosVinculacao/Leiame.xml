@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mdlProdutosVinculacao>
+	<clsProdutosVinculacao>
+		<Tarefas>30-06-2003#Roberto#Criando classe e convertendo de VB para C#</Tarefas>
+		<Problemas>Faltam métodos para set o NCM e o NALADI. É necessário fazer o mdlClassificação antes!</Problemas>
+	</clsProdutosVinculacao>
+	<clsProdutosVinculacaoComercial>
+		<Tarefas>30-06-2003#Roberto#Criando classe e convertendo de VB para C#</Tarefas>
+		<Problemas></Problemas>
+	</clsProdutosVinculacaoComercial>
+	<frmFProdutosVinculacao>
+		<Tarefas>30-06-2003#Roberto#Criando classe e convertendo de VB para C#</Tarefas>
+		<Problemas></Problemas>
+	</frmFProdutosVinculacao>
+	<clsProdutosVinculacaoComercial>
+		<Tarefas>30-06-2003#Roberto#Classe pronta. Falta verificar se há necessidade de salvamento de dados!</Tarefas>
+	</clsProdutosVinculacaoComercial>
+	<clsClassificacaoTarifaria>
+		<Tarefas>06-10-2003#Roberto#Criado Frame para edição da classificação tarifária</Tarefas>
+		<Problemas>Falta campo no BD para salvar os dados</Problemas>
+	</clsClassificacaoTarifaria>
+</mdlProdutosVinculacao>

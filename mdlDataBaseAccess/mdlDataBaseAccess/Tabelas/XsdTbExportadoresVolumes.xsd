@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbExportadoresVolumes" targetNamespace="http://tempuri.org/XsdTbExportadoresVolumes.xsd" elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbExportadoresVolumes.xsd" xmlns:mstns="http://tempuri.org/XsdTbExportadoresVolumes.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbExportadoresVolumes" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbExportadoresVolumes">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="idExportador" type="xs:int" />
+							<xs:element name="nIdVolume" type="xs:int" />
+							<xs:element name="strDescricaoPopular" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbExportadoresVolumesKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbExportadoresVolumes" />
+			<xs:field xpath="mstns:idExportador" />
+			<xs:field xpath="mstns:nIdVolume" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

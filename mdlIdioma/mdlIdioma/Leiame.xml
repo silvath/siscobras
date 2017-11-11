@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mdlIdioma>
+	<clsIdioma>
+		<Tarefas>16-06-20033Roberto#Corrigindo Erros</Tarefas>
+		<Problemas>Nenhum</Problemas>
+	</clsIdioma>
+	<clsIdiomaFaturaComercial>
+		<Tarefas>16-06-20033Roberto#Corrigindo Erros</Tarefas>
+		<Problemas>Nenhum</Problemas>
+	</clsIdiomaFaturaComercial>
+	<clsIdiomaFaturasCotacao>
+		<Tarefas>16-06-20033Roberto#Corrigindo Erros</Tarefas>
+		<Problemas>Nenhum</Problemas>
+	</clsIdiomaFaturasCotacao>
+	<clsIdiomaFaturaProforma>
+		<Tarefas>16-06-20033Roberto#Corrigindo Erros</Tarefas>
+		<Problemas>Nenhum</Problemas>
+	</clsIdiomaFaturaProforma>
+	<clsIdiomaRomaneio>
+	<Tarefas>23-06-2003#Roberto#Criando classe
+	</Tarefas>
+	<Problemas>OK!
+	</Problemas>
+	</clsIdiomaRomaneio>
+	<clsIdiomaSaque>
+	<Tarefas>23-06-2003#Roberto#Criando classe
+	</Tarefas>
+	<Problemas>OK!
+	</Problemas>
+	</clsIdiomaSaque>
+	<clsPaisIdioma>
+		<Tarefas>16-06-20033Roberto#Corrigindo Erros</Tarefas>
+		<Problemas>Nenhum</Problemas>
+	</clsPaisIdioma>
+	<clsPaisIdiomaConsignatario>
+		<Tarefas>16-06-20033Roberto#Corrigindo Erros</Tarefas>
+		<Problemas>Nenhum</Problemas>
+	</clsPaisIdiomaConsignatario>
+	<clsPaisIdiomaEnderecoEntrega>
+		<Tarefas>16-06-20033Roberto#Corrigindo Erros</Tarefas>
+		<Problemas>Nenhum</Problemas>
+	</clsPaisIdiomaEnderecoEntrega>
+	<clsPaisIdiomaImportador>
+		<Tarefas>16-06-20033Roberto#Corrigindo Erros</Tarefas>
+		<Problemas>Nenhum</Problemas>
+	</clsPaisIdiomaImportador>
+	<frmFIdioma>
+		<Tarefas>16-06-20033Roberto#Corrigindo Erros</Tarefas>
+		<Problemas>Nenhum</Problemas>
+	</frmFIdioma>
+	<frmFPaisIdioma>
+		<Tarefas>16-06-20033Roberto#Corrigindo Erros</Tarefas>
+		<Problemas>Nenhum</Problemas>
+	</frmFPaisIdioma>
+</mdlIdioma>

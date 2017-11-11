@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{2455784F-C9FB-4CBE-B5DB-7D4E8B456693}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F96671B2-C774-4003-9336-37E8D3887F66} = {F96671B2-C774-4003-9336-37E8D3887F66}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlBackup", "mdlBackup\mdlBackup.csproj", "{F96671B2-C774-4003-9336-37E8D3887F66}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {453645F8-836D-4DBA-B28D-FD205AD02144}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlBackup\\mdlBackup.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlBackup\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2455784F-C9FB-4CBE-B5DB-7D4E8B456693}.Debug.ActiveCfg = Debug|.NET
+		{2455784F-C9FB-4CBE-B5DB-7D4E8B456693}.Debug.Build.0 = Debug|.NET
+		{2455784F-C9FB-4CBE-B5DB-7D4E8B456693}.Release.ActiveCfg = Release|.NET
+		{2455784F-C9FB-4CBE-B5DB-7D4E8B456693}.Release.Build.0 = Release|.NET
+		{F96671B2-C774-4003-9336-37E8D3887F66}.Debug.ActiveCfg = Debug|.NET
+		{F96671B2-C774-4003-9336-37E8D3887F66}.Debug.Build.0 = Debug|.NET
+		{F96671B2-C774-4003-9336-37E8D3887F66}.Release.ActiveCfg = Release|.NET
+		{F96671B2-C774-4003-9336-37E8D3887F66}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

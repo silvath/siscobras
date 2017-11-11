@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://tempuri.org/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="nRetornaColecaoIdErros">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="nRetornaColecaoIdErrosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="nRetornaColecaoIdErrosResult" type="s0:ArrayOfInt" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfInt">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="int" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="vErro">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strKey" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="nIdErro" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="vErroResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="dtOcorrencia" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="strNomeMaquina" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="nIdUsuario" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="strUsuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strVersaoServidor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strVersaoCliente" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="mstrExceptionSource" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="mstrExceptionMessage" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="mstrExceptionStackTrace" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="mstrExceptionTargetSite" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="mstrExceptionHelpLink" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="mstrExceptionString" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="bInsereErro">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCodigoCliente" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="dtOcorrencia" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="strNomeMaquina" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="nIdUsuario" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="strUsuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strVersaoServidor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strVersaoCliente" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="mstrExceptionSource" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="mstrExceptionMessage" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="mstrExceptionStackTrace" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="mstrExceptionTargetSite" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="mstrExceptionHelpLink" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="mstrExceptionString" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="bInsereErroResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="bInsereErroResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="vRemoveErros">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strKey" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="nIdErro" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="vRemoveErrosResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="bRemoveErros">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="bRemoveErrosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="bRemoveErrosResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ArrayOfInt" nillable="true" type="s0:ArrayOfInt" />
+      <s:element name="boolean" type="s:boolean" />
+    </s:schema>
+  </types>
+  <message name="nRetornaColecaoIdErrosSoapIn">
+    <part name="parameters" element="s0:nRetornaColecaoIdErros" />
+  </message>
+  <message name="nRetornaColecaoIdErrosSoapOut">
+    <part name="parameters" element="s0:nRetornaColecaoIdErrosResponse" />
+  </message>
+  <message name="vErroSoapIn">
+    <part name="parameters" element="s0:vErro" />
+  </message>
+  <message name="vErroSoapOut">
+    <part name="parameters" element="s0:vErroResponse" />
+  </message>
+  <message name="bInsereErroSoapIn">
+    <part name="parameters" element="s0:bInsereErro" />
+  </message>
+  <message name="bInsereErroSoapOut">
+    <part name="parameters" element="s0:bInsereErroResponse" />
+  </message>
+  <message name="vRemoveErrosSoapIn">
+    <part name="parameters" element="s0:vRemoveErros" />
+  </message>
+  <message name="vRemoveErrosSoapOut">
+    <part name="parameters" element="s0:vRemoveErrosResponse" />
+  </message>
+  <message name="bRemoveErrosSoapIn">
+    <part name="parameters" element="s0:bRemoveErros" />
+  </message>
+  <message name="bRemoveErrosSoapOut">
+    <part name="parameters" element="s0:bRemoveErrosResponse" />
+  </message>
+  <message name="nRetornaColecaoIdErrosHttpGetIn">
+    <part name="strKey" type="s:string" />
+  </message>
+  <message name="nRetornaColecaoIdErrosHttpGetOut">
+    <part name="Body" element="s0:ArrayOfInt" />
+  </message>
+  <message name="bInsereErroHttpGetIn">
+    <part name="strCodigoCliente" type="s:string" />
+    <part name="dtOcorrencia" type="s:string" />
+    <part name="strNomeMaquina" type="s:string" />
+    <part name="nIdUsuario" type="s:string" />
+    <part name="strUsuario" type="s:string" />
+    <part name="strVersaoServidor" type="s:string" />
+    <part name="strVersaoCliente" type="s:string" />
+    <part name="mstrExceptionSource" type="s:string" />
+    <part name="mstrExceptionMessage" type="s:string" />
+    <part name="mstrExceptionStackTrace" type="s:string" />
+    <part name="mstrExceptionTargetSite" type="s:string" />
+    <part name="mstrExceptionHelpLink" type="s:string" />
+    <part name="mstrExceptionString" type="s:string" />
+  </message>
+  <message name="bInsereErroHttpGetOut">
+    <part name="Body" element="s0:boolean" />
+  </message>
+  <message name="vRemoveErrosHttpGetIn">
+    <part name="strKey" type="s:string" />
+    <part name="nIdErro" type="s:string" />
+  </message>
+  <message name="vRemoveErrosHttpGetOut" />
+  <message name="bRemoveErrosHttpGetIn">
+    <part name="strKey" type="s:string" />
+  </message>
+  <message name="bRemoveErrosHttpGetOut">
+    <part name="Body" element="s0:boolean" />
+  </message>
+  <message name="nRetornaColecaoIdErrosHttpPostIn">
+    <part name="strKey" type="s:string" />
+  </message>
+  <message name="nRetornaColecaoIdErrosHttpPostOut">
+    <part name="Body" element="s0:ArrayOfInt" />
+  </message>
+  <message name="bInsereErroHttpPostIn">
+    <part name="strCodigoCliente" type="s:string" />
+    <part name="dtOcorrencia" type="s:string" />
+    <part name="strNomeMaquina" type="s:string" />
+    <part name="nIdUsuario" type="s:string" />
+    <part name="strUsuario" type="s:string" />
+    <part name="strVersaoServidor" type="s:string" />
+    <part name="strVersaoCliente" type="s:string" />
+    <part name="mstrExceptionSource" type="s:string" />
+    <part name="mstrExceptionMessage" type="s:string" />
+    <part name="mstrExceptionStackTrace" type="s:string" />
+    <part name="mstrExceptionTargetSite" type="s:string" />
+    <part name="mstrExceptionHelpLink" type="s:string" />
+    <part name="mstrExceptionString" type="s:string" />
+  </message>
+  <message name="bInsereErroHttpPostOut">
+    <part name="Body" element="s0:boolean" />
+  </message>
+  <message name="vRemoveErrosHttpPostIn">
+    <part name="strKey" type="s:string" />
+    <part name="nIdErro" type="s:string" />
+  </message>
+  <message name="vRemoveErrosHttpPostOut" />
+  <message name="bRemoveErrosHttpPostIn">
+    <part name="strKey" type="s:string" />
+  </message>
+  <message name="bRemoveErrosHttpPostOut">
+    <part name="Body" element="s0:boolean" />
+  </message>
+  <portType name="wbsvSiscoTratamentoErrosSoap">
+    <operation name="nRetornaColecaoIdErros">
+      <input message="s0:nRetornaColecaoIdErrosSoapIn" />
+      <output message="s0:nRetornaColecaoIdErrosSoapOut" />
+    </operation>
+    <operation name="vErro">
+      <input message="s0:vErroSoapIn" />
+      <output message="s0:vErroSoapOut" />
+    </operation>
+    <operation name="bInsereErro">
+      <input message="s0:bInsereErroSoapIn" />
+      <output message="s0:bInsereErroSoapOut" />
+    </operation>
+    <operation name="vRemoveErros">
+      <input message="s0:vRemoveErrosSoapIn" />
+      <output message="s0:vRemoveErrosSoapOut" />
+    </operation>
+    <operation name="bRemoveErros">
+      <input message="s0:bRemoveErrosSoapIn" />
+      <output message="s0:bRemoveErrosSoapOut" />
+    </operation>
+  </portType>
+  <portType name="wbsvSiscoTratamentoErrosHttpGet">
+    <operation name="nRetornaColecaoIdErros">
+      <input message="s0:nRetornaColecaoIdErrosHttpGetIn" />
+      <output message="s0:nRetornaColecaoIdErrosHttpGetOut" />
+    </operation>
+    <operation name="bInsereErro">
+      <input message="s0:bInsereErroHttpGetIn" />
+      <output message="s0:bInsereErroHttpGetOut" />
+    </operation>
+    <operation name="vRemoveErros">
+      <input message="s0:vRemoveErrosHttpGetIn" />
+      <output message="s0:vRemoveErrosHttpGetOut" />
+    </operation>
+    <operation name="bRemoveErros">
+      <input message="s0:bRemoveErrosHttpGetIn" />
+      <output message="s0:bRemoveErrosHttpGetOut" />
+    </operation>
+  </portType>
+  <portType name="wbsvSiscoTratamentoErrosHttpPost">
+    <operation name="nRetornaColecaoIdErros">
+      <input message="s0:nRetornaColecaoIdErrosHttpPostIn" />
+      <output message="s0:nRetornaColecaoIdErrosHttpPostOut" />
+    </operation>
+    <operation name="bInsereErro">
+      <input message="s0:bInsereErroHttpPostIn" />
+      <output message="s0:bInsereErroHttpPostOut" />
+    </operation>
+    <operation name="vRemoveErros">
+      <input message="s0:vRemoveErrosHttpPostIn" />
+      <output message="s0:vRemoveErrosHttpPostOut" />
+    </operation>
+    <operation name="bRemoveErros">
+      <input message="s0:bRemoveErrosHttpPostIn" />
+      <output message="s0:bRemoveErrosHttpPostOut" />
+    </operation>
+  </portType>
+  <binding name="wbsvSiscoTratamentoErrosSoap" type="s0:wbsvSiscoTratamentoErrosSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="nRetornaColecaoIdErros">
+      <soap:operation soapAction="http://tempuri.org/nRetornaColecaoIdErros" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="vErro">
+      <soap:operation soapAction="http://tempuri.org/vErro" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="bInsereErro">
+      <soap:operation soapAction="http://tempuri.org/bInsereErro" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="vRemoveErros">
+      <soap:operation soapAction="http://tempuri.org/vRemoveErros" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="bRemoveErros">
+      <soap:operation soapAction="http://tempuri.org/bRemoveErros" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="wbsvSiscoTratamentoErrosHttpGet" type="s0:wbsvSiscoTratamentoErrosHttpGet">
+    <http:binding verb="GET" />
+    <operation name="nRetornaColecaoIdErros">
+      <http:operation location="/nRetornaColecaoIdErros" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="bInsereErro">
+      <http:operation location="/bInsereErro" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="vRemoveErros">
+      <http:operation location="/vRemoveErros" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output />
+    </operation>
+    <operation name="bRemoveErros">
+      <http:operation location="/bRemoveErros" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="wbsvSiscoTratamentoErrosHttpPost" type="s0:wbsvSiscoTratamentoErrosHttpPost">
+    <http:binding verb="POST" />
+    <operation name="nRetornaColecaoIdErros">
+      <http:operation location="/nRetornaColecaoIdErros" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="bInsereErro">
+      <http:operation location="/bInsereErro" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="vRemoveErros">
+      <http:operation location="/vRemoveErros" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output />
+    </operation>
+    <operation name="bRemoveErros">
+      <http:operation location="/bRemoveErros" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <service name="wbsvSiscoTratamentoErros">
+    <port name="wbsvSiscoTratamentoErrosSoap" binding="s0:wbsvSiscoTratamentoErrosSoap">
+      <soap:address location="http://localhost/wbsvSiscoTratamentoErros/wbsvSiscoTratamentoErros.asmx" />
+    </port>
+    <port name="wbsvSiscoTratamentoErrosHttpGet" binding="s0:wbsvSiscoTratamentoErrosHttpGet">
+      <http:address location="http://localhost/wbsvSiscoTratamentoErros/wbsvSiscoTratamentoErros.asmx" />
+    </port>
+    <port name="wbsvSiscoTratamentoErrosHttpPost" binding="s0:wbsvSiscoTratamentoErrosHttpPost">
+      <http:address location="http://localhost/wbsvSiscoTratamentoErros/wbsvSiscoTratamentoErros.asmx" />
+    </port>
+  </service>
+</definitions>

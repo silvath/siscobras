@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mdlPreferencias>
+	<clsPreferencias>
+		<Tarefas>17-07-2003#Roberto#Criando mdl e layout da janela principal de preferências</Tarefas>
+		<Problemas>OK!</Problemas>
+	</clsPreferencias>
+	<frmFPreferencias>
+		<Tarefas>17-07-2003#Roberto#Layout do frame principal definido!</Tarefas>
+		<Problemas>OK!</Problemas>
+	</frmFPreferencias>
+	<usrCtrlGlobal>
+		<Tarefas>17-07-2003#Roberto#Definido a forma que será usada para criar os vários frames de preferências a serem usados no frame principal. UserControl.</Tarefas>
+		<Problemas>OK!</Problemas>
+	</usrCtrlGlobal>
+	<usrCtrlJanelaPrincipal>
+		<Tarefas>17-07-2003#Roberto#Definido a forma que será usada para criar os vários frames de preferências a serem usados no frame principal. UserControl.</Tarefas>
+		<Problemas>OK!</Problemas>
+	</usrCtrlJanelaPrincipal>
+</mdlPreferencias>

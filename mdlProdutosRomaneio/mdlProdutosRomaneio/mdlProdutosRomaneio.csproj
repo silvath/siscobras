@@ -1,0 +1,328 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.2292"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{7D7E6283-9DD6-459F-8DF8-43D8DCFA3D0C}"
+        SccProjectName = "SAK"
+        SccLocalPath = "SAK"
+        SccAuxPath = "SAK"
+        SccProvider = "SAK"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "mdlProdutosRomaneio"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = "sn -R $(TargetPath) $(TargetDir)Siscobras.snk"
+                RootNamespace = "mdlProdutosRomaneio"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "..\..\BINARIOS\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "..\..\BINARIOS\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.XML.dll"
+                />
+                <Reference
+                    Name = "mdlDataBaseAccess"
+                    AssemblyName = "mdlDataBaseAccess"
+                    HintPath = "..\..\BINARIOS\mdlDataBaseAccess.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlTratamentoErro"
+                    AssemblyName = "mdlTratamentoErro"
+                    HintPath = "..\..\BINARIOS\mdlTratamentoErro.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "mdlPaletaDeCores"
+                    AssemblyName = "mdlPaletaDeCores"
+                    HintPath = "..\..\BINARIOS\mdlPaletaDeCores.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlComponentesGraficos"
+                    AssemblyName = "mdlComponentesGraficos"
+                    HintPath = "..\..\BINARIOS\mdlComponentesGraficos.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlComponentesColecoes"
+                    AssemblyName = "mdlComponentesColecoes"
+                    HintPath = "..\..\BINARIOS\mdlComponentesColecoes.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlMensagens"
+                    AssemblyName = "mdlMensagens"
+                    HintPath = "..\..\BINARIOS\mdlMensagens.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlManipuladorArquivo"
+                    AssemblyName = "mdlManipuladorArquivo"
+                    HintPath = "..\..\BINARIOS\mdlManipuladorArquivo.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlConstantes"
+                    AssemblyName = "mdlConstantes"
+                    HintPath = "..\..\BINARIOS\mdlConstantes.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlConversao"
+                    AssemblyName = "mdlConversao"
+                    HintPath = "..\..\BINARIOS\mdlConversao.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlProdutosGeral"
+                    AssemblyName = "mdlProdutosGeral"
+                    HintPath = "..\..\Binarios\mdlProdutosGeral.dll"
+                    Private = "False"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "clsProdutosRomaneio.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "clsProdutosRomaneioAutomacao.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "clsProdutosRomaneioSimplificado.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Leiame.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Formularios\frmFAutomacao.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Formularios\frmFAutomacao.resx"
+                    DependentUpon = "frmFAutomacao.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Formularios\frmFEmbalagemInformacoes.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Formularios\frmFEmbalagemInformacoes.resx"
+                    DependentUpon = "frmFEmbalagemInformacoes.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Formularios\frmFEmbalagemNova.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Formularios\frmFEmbalagemNova.resx"
+                    DependentUpon = "frmFEmbalagemNova.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Formularios\frmFProdutos.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Formularios\frmFProdutos.resx"
+                    DependentUpon = "frmFProdutos.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Formularios\frmFProdutosConfiguracoes.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Formularios\frmFProdutosConfiguracoes.resx"
+                    DependentUpon = "frmFProdutosConfiguracoes.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Formularios\frmFProdutosConteudoP1C1.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Formularios\frmFProdutosConteudoP1C1.resx"
+                    DependentUpon = "frmFProdutosConteudoP1C1.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Formularios\frmFProdutosConteudoP1CN.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Formularios\frmFProdutosConteudoP1CN.resx"
+                    DependentUpon = "frmFProdutosConteudoP1CN.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Formularios\frmFProdutosSimplificado.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Formularios\frmFProdutosSimplificado.resx"
+                    DependentUpon = "frmFProdutosSimplificado.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Formularios\frmFProdutosSimplificadoVincular.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Formularios\frmFProdutosSimplificadoVincular.resx"
+                    DependentUpon = "frmFProdutosSimplificadoVincular.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Formularios\frmFVolumeInformacoes.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Formularios\frmFVolumeInformacoes.resx"
+                    DependentUpon = "frmFVolumeInformacoes.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Formularios\frmFVolumeNovaUnidade.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Formularios\frmFVolumeNovaUnidade.resx"
+                    DependentUpon = "frmFVolumeNovaUnidade.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Formularios\frmFVolumeNovo.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Formularios\frmFVolumeNovo.resx"
+                    DependentUpon = "frmFVolumeNovo.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Formularios\frmFVolumeNovoInformacaoIntervalo.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Formularios\frmFVolumeNovoInformacaoIntervalo.resx"
+                    DependentUpon = "frmFVolumeNovoInformacaoIntervalo.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Formularios\frmFVolumeTipo.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Formularios\frmFVolumeTipo.resx"
+                    DependentUpon = "frmFVolumeTipo.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

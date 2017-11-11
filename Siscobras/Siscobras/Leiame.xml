@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Siscobras>
+	<clsMAIN>
+		<Tarefas>10-06-2003#Thiago#Classe Criada no VS.NET2003</Tarefas>
+		<Problemas></Problemas>
+	</clsMAIN>
+	<clsSiscobras>
+		<Tarefas>10-06-2003#Thiago#Classe Criada no VS.NET2003</Tarefas>
+		<Problemas></Problemas>
+	</clsSiscobras>
+	<ProjetoVisio>
+		<Tarefas>10-06-2003#Thiago#Projeto Criado</Tarefas>
+		<Problemas></Problemas>
+	</ProjetoVisio>
+	<clsMAIN>
+		<Tarefas>10-06-2003#Thiago#OK </Tarefas>
+	</clsMAIN>
+	<clsSiscobras>
+		<Tarefas>10-06-2003#Thiago#Faltam Habilitar: Conexao Banco dados, Splash e Registro </Tarefas>
+	</clsSiscobras>
+</Siscobras>

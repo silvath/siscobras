@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{253BAD8D-294F-475F-A16E-A4ABCB31640B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9BCC74A8-4B47-4271-8BA6-57BD8D9CBFA7} = {9BCC74A8-4B47-4271-8BA6-57BD8D9CBFA7}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlRelatoriosInstrucaoEmbarque", "mdlRelatoriosInstrucaoEmbarque\mdlRelatoriosInstrucaoEmbarque.csproj", "{9BCC74A8-4B47-4271-8BA6-57BD8D9CBFA7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {8AC5CBE4-B044-4D64-8B5D-308EDD858E1E}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlRelatoriosInstrucaoEmbarque\\mdlRelatoriosInstrucaoEmbarque.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlRelatoriosInstrucaoEmbarque\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{253BAD8D-294F-475F-A16E-A4ABCB31640B}.Debug.ActiveCfg = Debug|.NET
+		{253BAD8D-294F-475F-A16E-A4ABCB31640B}.Debug.Build.0 = Debug|.NET
+		{253BAD8D-294F-475F-A16E-A4ABCB31640B}.Release.ActiveCfg = Release|.NET
+		{253BAD8D-294F-475F-A16E-A4ABCB31640B}.Release.Build.0 = Release|.NET
+		{9BCC74A8-4B47-4271-8BA6-57BD8D9CBFA7}.Debug.ActiveCfg = Debug|.NET
+		{9BCC74A8-4B47-4271-8BA6-57BD8D9CBFA7}.Debug.Build.0 = Debug|.NET
+		{9BCC74A8-4B47-4271-8BA6-57BD8D9CBFA7}.Release.ActiveCfg = Release|.NET
+		{9BCC74A8-4B47-4271-8BA6-57BD8D9CBFA7}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		mdlRelatoriosInstrucaoEmbarque\mdlRelatoriosInstrucaoEmbarque.vsd = mdlRelatoriosInstrucaoEmbarque\mdlRelatoriosInstrucaoEmbarque.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

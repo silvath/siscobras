@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{D46F0C30-A5EE-46B9-854C-44B0695A2AB9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D61CEE0E-74DD-4943-9938-273596EA9F8F} = {D61CEE0E-74DD-4943-9938-273596EA9F8F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlCadastros", "mdlCadastros\mdlCadastros.csproj", "{D61CEE0E-74DD-4943-9938-273596EA9F8F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {70DB7871-77A1-4480-9CA4-F9670F20453E}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlCadastros\\mdlCadastros.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlCadastros\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D46F0C30-A5EE-46B9-854C-44B0695A2AB9}.Debug.ActiveCfg = Debug|.NET
+		{D46F0C30-A5EE-46B9-854C-44B0695A2AB9}.Debug.Build.0 = Debug|.NET
+		{D46F0C30-A5EE-46B9-854C-44B0695A2AB9}.Release.ActiveCfg = Release|.NET
+		{D46F0C30-A5EE-46B9-854C-44B0695A2AB9}.Release.Build.0 = Release|.NET
+		{D61CEE0E-74DD-4943-9938-273596EA9F8F}.Debug.ActiveCfg = Debug|.NET
+		{D61CEE0E-74DD-4943-9938-273596EA9F8F}.Debug.Build.0 = Debug|.NET
+		{D61CEE0E-74DD-4943-9938-273596EA9F8F}.Release.ActiveCfg = Release|.NET
+		{D61CEE0E-74DD-4943-9938-273596EA9F8F}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

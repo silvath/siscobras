@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format" font-family="Helvetica" font-size="10pt">
+
+	<fo:layout-master-set>
+		<fo:simple-page-master master-name="all-pages" page-height="29.7cm" page-width="21cm" margin="1cm">
+			<fo:region-body   region-name="xsl-region-body"   background-color="white" margin-bottom="1cm" margin-top="1cm"/>
+			<fo:region-before region-name="xsl-region-before"  background-color="#EFF0D7" extent="1cm" border="1pt solid #660000"/>
+			<fo:region-after  region-name="xsl-region-after"  background-color="#EFF0D7" extent="1cm" border="1pt solid #660000"/>
+		</fo:simple-page-master>
+	</fo:layout-master-set>
+	
+	<fo:page-sequence master-reference="all-pages">
+		
+		<fo:static-content flow-name="xsl-region-before">
+			<fo:block text-align="justify" text-align-last="justify" padding="0.25cm">
+				<fo:wrapper color="#660000" font-size="12pt" font-weight="bold">ALTSOFT</fo:wrapper><fo:leader/>XSL-FO testsuite
+			</fo:block>
+		</fo:static-content>
+		
+		<fo:static-content flow-name="xsl-region-after">
+			<fo:block text-align="justify" text-align-last="justify" padding="0.25cm">
+				<fo:basic-link external-destination="url(http://www.alt-soft.com/)"><fo:inline color="#660000" text-decoration="underline">http://www.alt-soft.com/</fo:inline></fo:basic-link><fo:leader/><fo:inline wrap-option="no-wrap">© Altsoft, 2003</fo:inline>
+			</fo:block>
+		</fo:static-content>
+		
+		<fo:flow flow-name="xsl-region-body" font-family="Courier" font-size="10pt">
+			<fo:block margin="1.5cm" text-align="justify" text-align-last="left">
+				<fo:block padding-bottom="1cm">The following unicode symbols are written in various font-families. Some lines may be substituted with the default font if the specicied font is not found in the system. Note that some formatters may embed non-standard fonts (optional for Altsoft Xml2PDF) and as a result the generated output can be rather huge.</fo:block>
+				<fo:block font-size="24pt">
+					<fo:block font-family="Courier" space-after="14pt"><fo:wrapper color="#660000">Courier:</fo:wrapper> œ ½ Ť č ë ű Ă ®</fo:block>
+					<fo:block font-family="Helvetica" space-after="14pt"><fo:wrapper color="#660000">Helvetica:</fo:wrapper> œ ½ Ť č ë ű Ă ®	</fo:block>
+					<fo:block font-family="Times" space-after="14pt"><fo:wrapper color="#660000">Times:</fo:wrapper> œ ½ Ť č ë ű Ă ®</fo:block>
+					<fo:block font-family="Arial" space-after="14pt"><fo:wrapper color="#660000">Arial:</fo:wrapper> œ ½ Ť č ë ű Ă ®</fo:block>
+					<fo:block font-family="Comic Sans MS" space-after="14pt"><fo:wrapper color="#660000">Comic Sans MS:</fo:wrapper> œ ½ Ť č ë ű Ă ®	</fo:block>
+					<fo:block font-family="Bookman Old Style" space-after="14pt"><fo:wrapper color="#660000">Bookman Old Style:</fo:wrapper> œ ½ Ť č ë ű Ă ®</fo:block>
+					<fo:block font-family="Monotype Corsiva" space-after="14pt"><fo:wrapper color="#660000">Monotype Corsiva:</fo:wrapper> œ ½ Ť č ë ű Ă ®</fo:block>
+					<fo:block font-family="Garamond" space-after="14pt"><fo:wrapper color="#660000">Garamond:</fo:wrapper> œ ½ Ť č ë ű Ă ®</fo:block>
+					<fo:block font-family="Georgia" space-after="14pt"><fo:wrapper color="#660000">Georgia:</fo:wrapper> œ ½ Ť č ë ű Ă ®</fo:block>
+					<fo:block font-family="Tahoma" space-after="14pt"><fo:wrapper color="#660000">Tahoma:</fo:wrapper> œ ½ Ť č ë ű Ă ®</fo:block>
+					<fo:block font-family="Impact" space-after="14pt"><fo:wrapper color="#660000">Impact:</fo:wrapper> œ ½ Ť č ë ű Ă ®</fo:block>
+				</fo:block>
+			</fo:block>
+		</fo:flow>
+	</fo:page-sequence>
+</fo:root>

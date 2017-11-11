@@ -1,0 +1,24 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:FO2PDF_ConversionManager_x002B_FO2PDF_History id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/FO2PDFUI/Xml2PDF%2C%20Version%3D1.9.2.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<al_Docs href="#ref-3"/>
+<al_Sheets href="#ref-4"/>
+<s_Config id="ref-5">E:\Arquivos de programas\Altsoft\Xml2PDF\conf\default.conf</s_Config>
+<b_OpenGeneratedPDF>true</b_OpenGeneratedPDF>
+</a1:FO2PDF_ConversionManager_x002B_FO2PDF_History>
+<a2:ArrayList id="ref-3" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-6"/>
+<_size>0</_size>
+<_version>0</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-4" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-7"/>
+<_size>0</_size>
+<_version>0</_version>
+</a2:ArrayList>
+<SOAP-ENC:Array id="ref-6" SOAP-ENC:arrayType="xsd:anyType[16]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-7" SOAP-ENC:arrayType="xsd:anyType[16]">
+</SOAP-ENC:Array>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

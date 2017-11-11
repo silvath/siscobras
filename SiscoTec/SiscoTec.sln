@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiscoTec", "SiscoTec.csproj", "{B9376C41-53E6-4182-8416-33772CB99C7E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {2FCC4284-38B0-4C0E-AE76-8151838A45F8}
+		SccProjectUniqueName1 = SiscoTec.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B9376C41-53E6-4182-8416-33772CB99C7E}.Debug.ActiveCfg = Debug|.NET
+		{B9376C41-53E6-4182-8416-33772CB99C7E}.Debug.Build.0 = Debug|.NET
+		{B9376C41-53E6-4182-8416-33772CB99C7E}.Release.ActiveCfg = Release|.NET
+		{B9376C41-53E6-4182-8416-33772CB99C7E}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

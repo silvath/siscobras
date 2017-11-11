@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mdlEmail>
+	<mdlEmailSocket>
+		<Tarefas>06-06-2003#Thiago#Modulo convertido para VS2003</Tarefas>
+		<Problemas>09-06-2003#Thiago#Autenticacao por CRAM_MD5 e DIGEST_MD5 nao estao operacionais </Problemas>
+	</mdlEmailSocket>
+	<mdlEmailSocket>
+		<Tarefas>06-06-2003#Thiago#OK</Tarefas>
+		<Problemas></Problemas>
+	</mdlEmailSocket>
+	<mdlEmailSocket>
+		<Tarefas>06-06-2003#Thiago#Envio de email para varios destinatarios OK</Tarefas>
+	</mdlEmailSocket>
+	<mdlEmailSocket>
+		<Tarefas>09-06-2003#Thiago#Autenticacao por Login esta OK </Tarefas>
+	</mdlEmailSocket>
+</mdlEmail>

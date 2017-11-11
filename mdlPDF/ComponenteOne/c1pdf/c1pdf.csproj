@@ -1,0 +1,394 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.2292"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{55E9E7EC-DD27-4C5E-97F8-0A18380C471C}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "c1pdf1"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "c1pdf1"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "E:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "E:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "E:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Pdf\01.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Pdf\02.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Pdf\03.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Pdf\04.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Pdf\05.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Pdf\06.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Pdf\09.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Pdf\0A.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Pdf\0G.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Pdf\0H.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Pdf\0I.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Pdf\0K.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Pdf\0L.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Pdf\0M.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Pdf\0O.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Pdf\0P.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Pdf\0Q.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Pdf\0T.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Pdf\AttachmentIconEnum.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Pdf\C1PdfDocument.cs"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Pdf\C1PdfDocumentBase.cs"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Pdf\CompressionEnum.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Pdf\FontTypeEnum.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Pdf\ImageQualityEnum.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Pdf\ImageSizeModeEnum.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Pdf\PdfDocumentInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Pdf\PdfPage.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Pdf\PdfPageCollection.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Pdf\PdfSecurity.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Pdf\Y.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Pdf\Design\PdfDocumentDesigner.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Zip\V.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Zip\W.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Zip\X.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Zip\ZLib\I.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Zip\ZLib\J.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Zip\ZLib\K.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Zip\ZLib\L.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Zip\ZLib\N.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Zip\ZLib\O.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Zip\ZLib\P.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Zip\ZLib\Q.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Zip\ZLib\R.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Zip\ZLib\S.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Zip\ZLib\T.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\C1Zip\ZLib\U.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\Util\Localization\E.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\Util\Localization\F.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\Util\Localization\G.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\Util\Localization\H.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\Win\0.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\Win\1.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\Win\2.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\Win\3.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\Win\4.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\Win\5.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\Win\6.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\Win\7.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\Win\8.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\Win\9.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\Win\AboutForm.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\Win\B.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\Win\C.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\Win\D.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\Win\LicensingForm.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "C1\Win\ProviderInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbAssinaturas" targetNamespace="http://tempuri.org/XsdTbAssinaturas.xsd" elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbAssinaturas.xsd" xmlns:mstns="http://tempuri.org/XsdTbAssinaturas.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbAssinaturas" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbAssinaturas">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nIdAssinatura" type="xs:int" />
+							<xs:element name="strNomeAssinante" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbAssinaturasKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbAssinaturas" />
+			<xs:field xpath="mstns:nIdAssinatura" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

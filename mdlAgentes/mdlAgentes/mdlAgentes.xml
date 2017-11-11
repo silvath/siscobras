@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>mdlAgentes</name>
+    </assembly>
+    <members>
+        <member name="T:mdlAgentes.Formularios.frmFAgentesCarga">
+            <summary>
+            Summary description for frmFAgentesCarga.
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.Formularios.frmFAgentesCarga.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:mdlAgentes.Formularios.frmFAgentesCargaContatos">
+            <summary>
+            Summary description for frmFAgentesCargaContatos.
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.Formularios.frmFAgentesCargaContatos.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:mdlAgentes.Formularios.frmFAgentesCargaEdicao">
+            <summary>
+            Summary description for frmFAgentesCargaEdicao.
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.Formularios.frmFAgentesCargaEdicao.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:mdlAgentes.Formularios.frmFAgentesCargasContatosEdicao">
+            <summary>
+            Summary description for frmFAgentesCargasContatosEdicao.
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.Formularios.frmFAgentesCargasContatosEdicao.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:mdlAgentes.Frames.frmFAgenteVendaComissao">
+            <summary>
+            Summary description for frmFAgenteVendaComissao.
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.Frames.frmFAgenteVendaComissao.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.Frames.frmFAgenteVendaComissao.trocaCor">
+            <summary>
+            Troca a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.Frames.frmFAgenteVendaComissao.mostraCor">
+            <summary>
+            Mostra a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="T:mdlAgentes.Frames.frmFCadastroAgentes">
+            <summary>
+            Summary description for frmFCadastroAgentes.
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.Frames.frmFCadastroAgentes.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.Frames.frmFCadastroAgentes.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.Frames.frmFCadastroAgentes.trocaCor">
+            <summary>
+            Troca a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.Frames.frmFCadastroAgentes.mostraCor">
+            <summary>
+            Mostra a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="T:mdlAgentes.Frames.frmFCadastroAgentesVendas">
+            <summary>
+            Summary description for frmFCadastroAgentesVendas.
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.Frames.frmFCadastroAgentesVendas.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.Frames.frmFCadastroAgentesVendas.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.Frames.frmFCadastroAgentesVendas.trocaCor">
+            <summary>
+            Troca a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.Frames.frmFCadastroAgentesVendas.mostraCor">
+            <summary>
+            Mostra a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="T:mdlAgentes.Frames.frmFCadastroAgentesVendasBancos">
+            <summary>
+            Summary description for frmFCadastroAgentesVendasBancos.
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.Frames.frmFCadastroAgentesVendasBancos.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.Frames.frmFCadastroAgentesVendasBancos.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.Frames.frmFCadastroAgentesVendasBancos.trocaCor">
+            <summary>
+            Troca a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.Frames.frmFCadastroAgentesVendasBancos.mostraCor">
+            <summary>
+            Mostra a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="T:mdlAgentes.Frames.frmFCadastroContatos">
+            <summary>
+            Summary description for frmFCadastroContatos.
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.Frames.frmFCadastroContatos.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.Frames.frmFCadastroContatos.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.Frames.frmFCadastroContatos.trocaCor">
+            <summary>
+            Troca a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.Frames.frmFCadastroContatos.mostraCor">
+            <summary>
+            Mostra a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="T:mdlAgentes.Frames.frmFListaAgentes">
+            <summary>
+            Summary description for frmFListaAgentes.
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.Frames.frmFListaAgentes.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.Frames.frmFListaAgentes.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.Frames.frmFListaAgentes.trocaCor">
+            <summary>
+            Troca a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.Frames.frmFListaAgentes.mostraCor">
+            <summary>
+            Mostra a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="T:mdlAgentes.Frames.frmFListaContatos">
+            <summary>
+            Summary description for frmFListaContatos.
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.Frames.frmFListaContatos.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.Frames.frmFListaContatos.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.Frames.frmFListaContatos.trocaCor">
+            <summary>
+            Troca a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.Frames.frmFListaContatos.mostraCor">
+            <summary>
+            Mostra a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="T:mdlAgentes.clsAgenteCarga">
+            <summary>
+            Summary description for clsAgenteCarga.
+            </summary>
+        </member>
+        <member name="T:mdlAgentes.clsAgentesVenda">
+            <summary>
+            Summary description for clsAgentesVenda.
+            </summary>
+        </member>
+        <member name="M:mdlAgentes.clsAgentesVenda.ShowDialogListagemBancos">
+            <summary>
+            ShowDialogListagemBancos
+            </summary>
+        </member>
+        <member name="T:mdlAgentes.clsAgenteVendaComissao">
+            <summary>
+            Summary description for clsAgenteVendaComissao.
+            </summary>
+        </member>
+    </members>
+</doc>

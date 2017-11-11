@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlImportador", "mdlImportador\mdlImportador.csproj", "{450A13C9-90E4-4276-8820-B0F549271149}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{02EC4C5D-8836-466A-B69B-6CAD9C1D189D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{450A13C9-90E4-4276-8820-B0F549271149} = {450A13C9-90E4-4276-8820-B0F549271149}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {1F13CA1E-6AAF-4D56-AAB6-C2A5008E2A66}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlImportador\\mdlImportador.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlImportador\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{450A13C9-90E4-4276-8820-B0F549271149}.Debug.ActiveCfg = Debug|.NET
+		{450A13C9-90E4-4276-8820-B0F549271149}.Debug.Build.0 = Debug|.NET
+		{450A13C9-90E4-4276-8820-B0F549271149}.Release.ActiveCfg = Release|.NET
+		{450A13C9-90E4-4276-8820-B0F549271149}.Release.Build.0 = Release|.NET
+		{02EC4C5D-8836-466A-B69B-6CAD9C1D189D}.Debug.ActiveCfg = Debug|.NET
+		{02EC4C5D-8836-466A-B69B-6CAD9C1D189D}.Debug.Build.0 = Debug|.NET
+		{02EC4C5D-8836-466A-B69B-6CAD9C1D189D}.Release.ActiveCfg = Release|.NET
+		{02EC4C5D-8836-466A-B69B-6CAD9C1D189D}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		mdlImportador\mdlImportador.vsd = mdlImportador\mdlImportador.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

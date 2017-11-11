@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mdlProdutosGeral>
+	<clsProdutos>
+		<Tarefas>24-06-2003#Roberto#Atualizando, incluindo produtos integrantes</Tarefas>
+		<Problemas></Problemas>
+	</clsProdutos>
+	<frmFProdutos>
+		<Tarefas>30-06-2003#Roberto#verificar possibilidades de ordenar produtos</Tarefas>
+		<Problemas></Problemas>
+	</frmFProdutos>
+	<frmFProdutosCad>
+		<Tarefas></Tarefas>
+		<Problemas></Problemas>
+	</frmFProdutosCad>
+	<frmFCategoriaCadEdit>
+		<Tarefas></Tarefas>
+		<Problemas></Problemas>
+	</frmFCategoriaCadEdit>
+	<frmFClassificacoesTarifariasCadEdit>
+		<Tarefas></Tarefas>
+		<Problemas></Problemas>
+	</frmFClassificacoesTarifariasCadEdit>
+	<clsProdutos>
+		<Tarefas>25-06-2003#Roberto#Atualização até o momento OK! Falta terminar Produtos, Ncm, Naladi</Tarefas>
+		<Problemas>Até o momento nenhum!</Problemas>
+	</clsProdutos>
+	<clsProdutos>
+		<Tarefas>26-06-2003#Roberto#Parei no método EditarProdutos!!!!!!!!</Tarefas>
+		<Problemas>Até o momento nenhum!</Problemas>
+	</clsProdutos>
+	<clsProdutos>
+		<Tarefas>30-06-2003#Roberto#Falta corrigir problemas com o Accept e Reject Changes. Arrumar usando arraylist's</Tarefas>
+		<Problemas>Problemas no salvamento do BD!</Problemas>
+	</clsProdutos>
+	<frmFProdutos>
+		<Tarefas>05-07-2003#Roberto#Mudanças na interface concluída!</Tarefas>
+		<Problemas>OK!</Problemas>
+	</frmFProdutos>
+	<clsProdutos>
+		<Tarefas>30-06-2003#Roberto#Atualização para trocar classificações tarifárias</Tarefas>
+		<Problemas>linhas 1366 e 1417 com problemas............</Problemas>
+	</clsProdutos>
+	<clsProdutos>
+		<Tarefas>08-07-2003Roberto#Mdl Concluída-Executar Bateria de Testes</Tarefas>
+		<Problemas>OK!</Problemas>
+	</clsProdutos>
+	<clsProdutos>
+		<Tarefas>01-08-2003#Thiago#Refresh dos produtos arrumado. Nao estava sendo checado os campos com DBNULL</Tarefas>
+	</clsProdutos>
+	<clsProdutos>
+		<Tarefas>29-09-2003#Roberto#Solucionando problema</Tarefas>
+		<Problemas>linha 2106 e linha 2311</Problemas>
+	</clsProdutos>
+</mdlProdutosGeral>

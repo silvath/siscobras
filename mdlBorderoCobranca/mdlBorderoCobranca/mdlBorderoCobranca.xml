@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>mdlBorderoCobranca</name>
+    </assembly>
+    <members>
+        <member name="T:mdlBorderoCobranca.Frames.frmFBorderoCobranca">
+            <summary>
+            Summary description for frmFBorderoCobranca.
+            </summary>
+        </member>
+        <member name="F:mdlBorderoCobranca.Frames.frmFBorderoCobranca.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:mdlBorderoCobranca.Frames.frmFBorderoCobranca.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:mdlBorderoCobranca.Frames.frmFBorderoCobranca.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:mdlBorderoCobranca.Frames.frmFBorderoCobranca.trocaCor">
+            <summary>
+            Troca a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="M:mdlBorderoCobranca.Frames.frmFBorderoCobranca.mostraCor">
+            <summary>
+            Mostra a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="T:mdlBorderoCobranca.clsBorderoCobranca">
+            <summary>
+            Summary description for clsBorderoCobranca.
+            </summary>
+        </member>
+    </members>
+</doc>

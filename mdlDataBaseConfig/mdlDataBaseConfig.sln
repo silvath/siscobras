@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{6F352943-B7EE-462F-AA31-412FE6795250}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AE787060-0247-408D-903E-DC721C5B9EFD} = {AE787060-0247-408D-903E-DC721C5B9EFD}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlDataBaseConfig", "mdlDataBaseConfig\mdlDataBaseConfig.csproj", "{AE787060-0247-408D-903E-DC721C5B9EFD}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {BA0BEAAC-95CB-41A0-B4F3-0A7636ABEC41}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlDataBaseConfig\\mdlDataBaseConfig.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlDataBaseConfig\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{6F352943-B7EE-462F-AA31-412FE6795250}.Debug.ActiveCfg = Debug|.NET
+		{6F352943-B7EE-462F-AA31-412FE6795250}.Debug.Build.0 = Debug|.NET
+		{6F352943-B7EE-462F-AA31-412FE6795250}.Release.ActiveCfg = Release|.NET
+		{6F352943-B7EE-462F-AA31-412FE6795250}.Release.Build.0 = Release|.NET
+		{AE787060-0247-408D-903E-DC721C5B9EFD}.Debug.ActiveCfg = Debug|.NET
+		{AE787060-0247-408D-903E-DC721C5B9EFD}.Debug.Build.0 = Debug|.NET
+		{AE787060-0247-408D-903E-DC721C5B9EFD}.Release.ActiveCfg = Release|.NET
+		{AE787060-0247-408D-903E-DC721C5B9EFD}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		mdlDataBaseConfig.vsd = mdlDataBaseConfig.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

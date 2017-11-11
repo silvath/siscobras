@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<XsdTbUsuariosConcessoes xmlns="http://tempuri.org/XsdTbUsuariosConcessoes.xsd">
+  <tbUsuariosConcessoes>
+    <nIdConcessao>1</nIdConcessao>
+    <strConcessao>Usuarios</strConcessao>
+    <strDescricao>Usuários do Sistema</strDescricao>
+  </tbUsuariosConcessoes>
+  <tbUsuariosConcessoes>
+    <nIdConcessao>2</nIdConcessao>
+    <strConcessao>Contas</strConcessao>
+    <strDescricao>Contas de exportadores do Sistema</strDescricao>
+  </tbUsuariosConcessoes>
+  <tbUsuariosConcessoes>
+    <nIdConcessao>3</nIdConcessao>
+    <strConcessao>Bibliotecas</strConcessao>
+    <strDescricao>Bibliotecas de PE's (Processos de Exportacao)</strDescricao>
+  </tbUsuariosConcessoes>
+</XsdTbUsuariosConcessoes>

@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<XsdTbUnidadesMassa xmlns="http://tempuri.org/XsdTbUnidadesMassa.xsd">
+  <tbUnidadesMassa>
+    <nIdUnidadeMassa>1</nIdUnidadeMassa>
+    <strNome>Miligrama</strNome>
+    <strSigla>mg</strSigla>
+  </tbUnidadesMassa>
+  <tbUnidadesMassa>
+    <nIdUnidadeMassa>2</nIdUnidadeMassa>
+    <strNome>Grama</strNome>
+    <strSigla>g</strSigla>
+  </tbUnidadesMassa>
+  <tbUnidadesMassa>
+    <nIdUnidadeMassa>3</nIdUnidadeMassa>
+    <strNome>Kilograma</strNome>
+    <strSigla>kg</strSigla>
+  </tbUnidadesMassa>
+  <tbUnidadesMassa>
+    <nIdUnidadeMassa>4</nIdUnidadeMassa>
+    <strNome>Tonelada</strNome>
+    <strSigla>ton</strSigla>
+  </tbUnidadesMassa>
+  <tbUnidadesMassa>
+    <nIdUnidadeMassa>5</nIdUnidadeMassa>
+    <strNome>Libra</strNome>
+    <strSigla>lb</strSigla>
+  </tbUnidadesMassa>
+</XsdTbUnidadesMassa>

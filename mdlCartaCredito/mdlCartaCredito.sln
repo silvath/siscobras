@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{48803D85-7265-4455-AD84-CCABC6FBCF1A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4243A2EC-9756-4581-BE74-E6C5BE1FA842} = {4243A2EC-9756-4581-BE74-E6C5BE1FA842}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlCartaCredito", "mdlCartaCredito\mdlCartaCredito.csproj", "{4243A2EC-9756-4581-BE74-E6C5BE1FA842}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {C0DF454F-7BAF-416F-A998-73C66735608C}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlCartaCredito\\mdlCartaCredito.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlCartaCredito\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{48803D85-7265-4455-AD84-CCABC6FBCF1A}.Debug.ActiveCfg = Debug|.NET
+		{48803D85-7265-4455-AD84-CCABC6FBCF1A}.Debug.Build.0 = Debug|.NET
+		{48803D85-7265-4455-AD84-CCABC6FBCF1A}.Release.ActiveCfg = Release|.NET
+		{48803D85-7265-4455-AD84-CCABC6FBCF1A}.Release.Build.0 = Release|.NET
+		{4243A2EC-9756-4581-BE74-E6C5BE1FA842}.Debug.ActiveCfg = Debug|.NET
+		{4243A2EC-9756-4581-BE74-E6C5BE1FA842}.Debug.Build.0 = Debug|.NET
+		{4243A2EC-9756-4581-BE74-E6C5BE1FA842}.Release.ActiveCfg = Release|.NET
+		{4243A2EC-9756-4581-BE74-E6C5BE1FA842}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

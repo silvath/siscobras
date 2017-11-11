@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>mdlRelatoriosBordero</name>
+    </assembly>
+    <members>
+        <member name="T:mdlRelatoriosBordero.frmFBancoAtual">
+            <summary>
+            Summary description for frmFBancoAtual.
+            </summary>
+        </member>
+        <member name="F:mdlRelatoriosBordero.frmFBancoAtual.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:mdlRelatoriosBordero.frmFBancoAtual.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:mdlRelatoriosBordero.frmFBancoAtual.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:mdlRelatoriosBordero.frmRelatoriosBordero">
+            <summary>
+            Summary description for frmRelatoriosBordero.
+            </summary>
+        </member>
+        <member name="F:mdlRelatoriosBordero.frmRelatoriosBordero.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:mdlRelatoriosBordero.frmRelatoriosBordero.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

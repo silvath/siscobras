@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{7037194A-7FBC-4A82-AD08-4655BDBEA693}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1DA7DA41-6BE4-40D3-A13F-B4AA964FE465} = {1DA7DA41-6BE4-40D3-A13F-B4AA964FE465}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlEsquemaPagamento", "mdlEsquemaPagamento\mdlEsquemaPagamento.csproj", "{1DA7DA41-6BE4-40D3-A13F-B4AA964FE465}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {91495FD9-D695-45E5-8CFA-1282087374CB}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlEsquemaPagamento\\mdlEsquemaPagamento.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlEsquemaPagamento\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{7037194A-7FBC-4A82-AD08-4655BDBEA693}.Debug.ActiveCfg = Debug|.NET
+		{7037194A-7FBC-4A82-AD08-4655BDBEA693}.Debug.Build.0 = Debug|.NET
+		{7037194A-7FBC-4A82-AD08-4655BDBEA693}.Release.ActiveCfg = Release|.NET
+		{7037194A-7FBC-4A82-AD08-4655BDBEA693}.Release.Build.0 = Release|.NET
+		{1DA7DA41-6BE4-40D3-A13F-B4AA964FE465}.Debug.ActiveCfg = Debug|.NET
+		{1DA7DA41-6BE4-40D3-A13F-B4AA964FE465}.Debug.Build.0 = Debug|.NET
+		{1DA7DA41-6BE4-40D3-A13F-B4AA964FE465}.Release.ActiveCfg = Release|.NET
+		{1DA7DA41-6BE4-40D3-A13F-B4AA964FE465}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		mdlEsquemaPagamento.vsd = mdlEsquemaPagamento.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

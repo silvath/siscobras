@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{637641DA-3824-4CFC-8B64-57168A04BC76}"
+	ProjectSection(ProjectDependencies) = postProject
+		{69C4B7F5-8C73-48FE-8C4F-29A32501D272} = {69C4B7F5-8C73-48FE-8C4F-29A32501D272}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlContratoCambio", "mdlContratoCambio\mdlContratoCambio.csproj", "{69C4B7F5-8C73-48FE-8C4F-29A32501D272}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {68A372CA-467C-4FEB-ACF9-EAC3316A20C0}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlContratoCambio\\mdlContratoCambio.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlContratoCambio\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{637641DA-3824-4CFC-8B64-57168A04BC76}.Debug.ActiveCfg = Debug|.NET
+		{637641DA-3824-4CFC-8B64-57168A04BC76}.Debug.Build.0 = Debug|.NET
+		{637641DA-3824-4CFC-8B64-57168A04BC76}.Release.ActiveCfg = Release|.NET
+		{637641DA-3824-4CFC-8B64-57168A04BC76}.Release.Build.0 = Release|.NET
+		{69C4B7F5-8C73-48FE-8C4F-29A32501D272}.Debug.ActiveCfg = Debug|.NET
+		{69C4B7F5-8C73-48FE-8C4F-29A32501D272}.Debug.Build.0 = Debug|.NET
+		{69C4B7F5-8C73-48FE-8C4F-29A32501D272}.Release.ActiveCfg = Release|.NET
+		{69C4B7F5-8C73-48FE-8C4F-29A32501D272}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

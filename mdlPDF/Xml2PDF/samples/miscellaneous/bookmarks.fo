@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format" font-family="Helvetica" font-size="10pt">
+	<fo:layout-master-set>
+		<fo:simple-page-master master-name="all-pages" page-height="29.7cm" page-width="21cm" margin="1cm">
+			<fo:region-body region-name="xsl-region-body" background-color="white" margin-bottom="2cm" margin-top="2cm"/>
+			<fo:region-before region-name="xsl-region-before" background-color="#EFF0D7" extent="1cm" border="1pt solid #660000"/>
+			<fo:region-after region-name="xsl-region-after" background-color="#EFF0D7" extent="1cm" border="1pt solid #660000"/>
+		</fo:simple-page-master>
+	</fo:layout-master-set>
+	<fo:page-sequence master-reference="all-pages">
+		<fo:static-content flow-name="xsl-region-before">
+			<fo:block text-align="justify" text-align-last="justify" padding="0.25cm">
+				<fo:wrapper color="#660000" font-size="12pt" font-weight="bold">ALTSOFT</fo:wrapper>
+				<fo:leader/>XSL-FO testsuite
+			</fo:block>
+		</fo:static-content>
+		<fo:static-content flow-name="xsl-region-after">
+			<fo:block text-align="justify" text-align-last="justify" padding="0.25cm">
+				<fo:basic-link external-destination="url(http://www.alt-soft.com/)">
+					<fo:inline color="#660000" text-decoration="underline">http://www.alt-soft.com/</fo:inline>
+				</fo:basic-link>
+				<fo:leader/>
+				<fo:inline wrap-option="no-wrap">© Altsoft, 2003</fo:inline>
+			</fo:block>
+		</fo:static-content>
+		<fo:flow flow-name="xsl-region-body" font-family="Courier" font-size="10pt">
+			<fo:block margin-left="1.5cm" margin-right="1.5cm" text-align="justify" text-align-last="left">
+<fo:block font-size="18pt" font-weight="bold" text-align="center"
+space-before="16pt" space-after="16pt" id="s:1">
+Typical Xml2PDF workflow
+</fo:block>
+
+<fo:block font-size="14pt" font-family="Courier" text-align="left"
+space-after="14pt">
+This test demonstrates dynamic effects of XSL-FO including
+hyperlinks and bookmarks.
+</fo:block>
+
+
+<fo:block font-size="16pt" font-weight="bold" text-align="left"
+space-after="14pt" id="ss:1_0">
+Table of Contents
+</fo:block>
+
+<fo:block font-size="14pt" color="blue" text-align="left" 
+space-after="14pt" padding="10pt">
+<fo:block space-after="10pt">
+<fo:basic-link internal-destination="ss:1_1">Why XML</fo:basic-link>
+</fo:block>
+<fo:block space-after="10pt">
+<fo:basic-link internal-destination="ss:1_2">Why PDF</fo:basic-link>
+</fo:block>
+<fo:block space-after="10pt">
+<fo:basic-link internal-destination="ss:1_3">What are Formatting Objects</fo:basic-link>
+</fo:block>
+</fo:block>
+
+<fo:block font-size="16pt" font-weight="bold" text-align="left"
+space-after="14pt" break-before="page" id="ss:1_1">
+Why XML
+</fo:block>
+
+<fo:block font-size="14pt" text-align="justify" space-after="12pt">Extensible Markup 
+Language (XML) is a simple and very flexible text format for describing hierarchical 
+data, applicable to a wide range of applications such as databases, e-commerce, web
+development, searching any many others. It does not matter if the data
+is exchanged between companies, between company and individual, inside
+company or among branch office, sales office, local office, and head
+office; in all cases XML is an obvious choice.</fo:block>
+
+<fo:block font-size="14pt" text-align="justify"  space-after="12pt">Moreover, there
+is a variety of free and commercial XML tool that allow you saving any
+data in XML format and retrieving them on the other side of the
+communication. For example, Microsoft .NET platform includes a
+standard XML parser ready for use in any .NET solution.</fo:block>
+
+<fo:block font-size="14pt" text-align="justify"  space-after="12pt">Although XML has
+a very simple structure, it is aimed mostly for computers. Most users
+prefer a more convenient data representation in form of readable text,
+diagram or just table. However, to share this view with other person,
+one needs to either synchronize the data and client software or have a
+data presentation in the persistent form. And this is what PDF format
+is aimed for.</fo:block>
+
+<fo:block font-size="16pt" font-weight="bold" text-align="left"
+space-after="14pt" break-before="page" id="ss:1_2">
+Why PDF
+</fo:block>
+
+<fo:block font-size="14pt" text-align="justify"  space-after="12pt">
+Free Adobe Reader guarantees that PDF will be viewed identically on
+virtually any operating system including Microsoft Windows, Linux,
+MacOS or even PalmOS. On top of that PDF has an extended security
+mechanism, which guarantees that your document will not be forged and
+the recipient will be sure that it came right from you.
+</fo:block>
+
+<fo:block font-size="14pt" text-align="justify"  space-after="12pt">
+So, in short, XML is data exchange format while PDF is a persistent
+and robust way to distribute, view or print your data.
+</fo:block>
+
+<fo:block font-size="16pt" font-weight="bold" text-align="left"
+space-after="14pt" break-before="page" id="ss:1_3">
+What are Formatting Objects
+</fo:block>
+
+<fo:block font-size="14pt" text-align="justify" space-after="12pt">
+XSL Formatting Objects (XSL-FO) is a free W3C (World Wide Web
+Consortium) standard. It is a special vocabulary that specifies how to
+layout text and other objects on the page. This includes page layouts,
+fonts, colors, footers and headers and many other things needed for
+high-end formatting.</fo:block>
+
+<fo:block font-size="14pt" text-align="justify"  space-after="12pt">
+In practice XSL-FO is not used directly but via XSL transform that
+defines the presentation style of your XML data.
+</fo:block>
+</fo:block>
+</fo:flow>
+</fo:page-sequence>
+
+<fo:bookmark-tree>
+  <fo:bookmark internal-destination="s:1" starting-state="show">
+    <fo:bookmark-title>Typical Xml2PDF workflow</fo:bookmark-title>
+    <fo:bookmark internal-destination="ss:1_0">
+      <fo:bookmark-title>Contents</fo:bookmark-title>
+    </fo:bookmark>
+    <fo:bookmark internal-destination="ss:1_1">
+      <fo:bookmark-title>Why XML</fo:bookmark-title>
+    </fo:bookmark>
+    <fo:bookmark internal-destination="ss:1_2">
+      <fo:bookmark-title>Why PDF</fo:bookmark-title>
+    </fo:bookmark>
+    <fo:bookmark internal-destination="ss:1_3">
+      <fo:bookmark-title>What are Formatting Objects</fo:bookmark-title>
+    </fo:bookmark>
+  </fo:bookmark>
+</fo:bookmark-tree>
+
+</fo:root>
+
+
+

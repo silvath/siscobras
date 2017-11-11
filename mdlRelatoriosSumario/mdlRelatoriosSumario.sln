@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{1285F2F2-21A8-4467-A303-1B9668988308}"
+	ProjectSection(ProjectDependencies) = postProject
+		{930F5628-7374-43ED-86E8-31F7A9A80CCB} = {930F5628-7374-43ED-86E8-31F7A9A80CCB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlRelatoriosSumario", "mdlRelatoriosSumario\mdlRelatoriosSumario.csproj", "{930F5628-7374-43ED-86E8-31F7A9A80CCB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {7E216F69-5CA5-4412-A8E9-435251E819A8}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlRelatoriosSumario\\mdlRelatoriosSumario.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlRelatoriosSumario\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{1285F2F2-21A8-4467-A303-1B9668988308}.Debug.ActiveCfg = Debug|.NET
+		{1285F2F2-21A8-4467-A303-1B9668988308}.Debug.Build.0 = Debug|.NET
+		{1285F2F2-21A8-4467-A303-1B9668988308}.Release.ActiveCfg = Release|.NET
+		{1285F2F2-21A8-4467-A303-1B9668988308}.Release.Build.0 = Release|.NET
+		{930F5628-7374-43ED-86E8-31F7A9A80CCB}.Debug.ActiveCfg = Debug|.NET
+		{930F5628-7374-43ED-86E8-31F7A9A80CCB}.Debug.Build.0 = Debug|.NET
+		{930F5628-7374-43ED-86E8-31F7A9A80CCB}.Release.ActiveCfg = Release|.NET
+		{930F5628-7374-43ED-86E8-31F7A9A80CCB}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		mdlRelatoriosSumario\mdlRelatoriosSumario.vsd = mdlRelatoriosSumario\mdlRelatoriosSumario.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

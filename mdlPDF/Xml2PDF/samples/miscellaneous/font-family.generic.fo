@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format" font-family="Helvetica" font-size="10pt">
+	<fo:layout-master-set>
+		<fo:simple-page-master master-name="all-pages" page-height="29.7cm" page-width="21cm" margin="1cm">
+			<fo:region-body region-name="xsl-region-body" background-color="white" margin-bottom="2cm" margin-top="2cm"/>
+			<fo:region-before region-name="xsl-region-before" background-color="#EFF0D7" extent="1cm" border="1pt solid #660000"/>
+			<fo:region-after region-name="xsl-region-after" background-color="#EFF0D7" extent="1cm" border="1pt solid #660000"/>
+		</fo:simple-page-master>
+	</fo:layout-master-set>
+	<fo:page-sequence master-reference="all-pages">
+		<fo:static-content flow-name="xsl-region-before">
+			<fo:block text-align="justify" text-align-last="justify" padding="0.25cm">
+				<fo:wrapper color="#660000" font-size="12pt" font-weight="bold">ALTSOFT</fo:wrapper>
+				<fo:leader/>XSL-FO testsuite
+			</fo:block>
+		</fo:static-content>
+		<fo:static-content flow-name="xsl-region-after">
+			<fo:block text-align="justify" text-align-last="justify" padding="0.25cm">
+				<fo:basic-link external-destination="url(http://www.alt-soft.com/)">
+					<fo:inline color="#660000" text-decoration="underline">http://www.alt-soft.com/</fo:inline>
+				</fo:basic-link>
+				<fo:leader/>
+				<fo:inline wrap-option="no-wrap">© Altsoft, 2003</fo:inline>
+			</fo:block>
+		</fo:static-content>
+		<fo:flow flow-name="xsl-region-body" font-family="Courier" font-size="10pt">
+			<fo:block margin-left="1.5cm" margin-right="1.5cm" text-align="justify" text-align-last="left">
+				<fo:block padding-bottom="1cm">XSL-FO specification has 5 predifined font-families. In the list below you might see all of them written in 36pt/24pt/20pt/16pt/12pt/10pt/8pt sizes.</fo:block>
+				<fo:block break-after="page">
+					<fo:block space-before="10pt" padding="5pt">
+						<fo:inline font-weight="bold" font-size="12pt">1. Serif. Basic sets of symbols with predefined font size </fo:inline>
+						<fo:block padding-top="0.5cm" font-family="serif">
+							<fo:block>abcdefghijklmnopqrstuvwxyz</fo:block>
+							<fo:block>ABCDEFGHIJKLMNOPQRSTUVWXYZ</fo:block>
+							<fo:block>1234567890.:,;(!?*#@%')</fo:block>
+						</fo:block>
+					</fo:block>
+					<fo:block space-before="10pt" padding="5pt">
+						<fo:block font-family="serif">
+							<fo:table>
+								<fo:table-column column-width="20%"/>
+								<fo:table-column column-width="80%"/>								
+								<fo:table-body>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Serif 8pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="8pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Serif 10pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="10pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Serif 12pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="12pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Serif 16pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="16pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Serif 20pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="20pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Serif 24pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="24pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Serif 36pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="36pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+								</fo:table-body>
+							</fo:table>
+						</fo:block>
+					</fo:block>
+				</fo:block>
+				<fo:block break-after="page">
+					<fo:block space-before="10pt" padding="5pt">
+						<fo:inline font-weight="bold" font-size="12pt">2. Sans-Serif. Basic sets of symbols with predefined font size </fo:inline>
+						<fo:block padding-top="0.5cm" font-family="sans-serif">
+							<fo:block>abcdefghijklmnopqrstuvwxyz</fo:block>
+							<fo:block>ABCDEFGHIJKLMNOPQRSTUVWXYZ</fo:block>
+							<fo:block>1234567890.:,;(!?*#@%')</fo:block>
+						</fo:block>
+					</fo:block>
+					<fo:block space-before="10pt" padding="5pt">
+						<fo:block font-family="sans-serif">
+							<fo:table>
+								<fo:table-column column-width="20%"/>
+								<fo:table-column column-width="80%"/>								
+								<fo:table-body>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Sans-Serif 8pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="8pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Sans-Serif 10pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="10pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Sans-Serif 12pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="12pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Sans-Serif 16pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="16pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Sans-Serif 20pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="20pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Sans-Serif 24pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="24pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Sans-Serif 36pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="36pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+								</fo:table-body>
+							</fo:table>
+						</fo:block>
+					</fo:block>
+				</fo:block>
+				<fo:block break-after="page">
+					<fo:block space-before="10pt" padding="5pt">
+						<fo:inline font-weight="bold" font-size="12pt">3. Cursive. Basic sets of symbols with predefined font size </fo:inline>
+						<fo:block padding-top="0.5cm" font-family="cursive">
+							<fo:block>abcdefghijklmnopqrstuvwxyz</fo:block>
+							<fo:block>ABCDEFGHIJKLMNOPQRSTUVWXYZ</fo:block>
+							<fo:block>1234567890.:,;(!?*#@%')</fo:block>
+						</fo:block>
+					</fo:block>
+					<fo:block space-before="10pt" padding="5pt">
+						<fo:block font-family="cursive">
+							<fo:table>
+								<fo:table-column column-width="20%"/>
+								<fo:table-column column-width="80%"/>								
+								<fo:table-body>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Cursive 8pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="8pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Cursive 10pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="10pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Cursive 12pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="12pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Cursive 16pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="16pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Cursive 20pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="20pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Cursive 24pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="24pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Cursive 36pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="36pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+								</fo:table-body>
+							</fo:table>
+						</fo:block>
+					</fo:block>
+				</fo:block>
+				<fo:block break-after="page">
+					<fo:block space-before="10pt" padding="5pt">
+						<fo:inline font-weight="bold" font-size="12pt">4. Fantasy. Basic sets of symbols with predefined font size </fo:inline>
+						<fo:block padding-top="0.5cm" font-family="fantasy">
+							<fo:block>abcdefghijklmnopqrstuvwxyz</fo:block>
+							<fo:block>ABCDEFGHIJKLMNOPQRSTUVWXYZ</fo:block>
+							<fo:block>1234567890.:,;(!?*#@%')</fo:block>
+						</fo:block>
+					</fo:block>
+					<fo:block space-before="10pt" padding="5pt">
+						<fo:block font-family="fantasy">
+							<fo:table>
+								<fo:table-column column-width="20%"/>
+								<fo:table-column column-width="80%"/>								
+								<fo:table-body>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Fantasy 8pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="8pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Fantasy 10pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="10pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Fantasy 12pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="12pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Fantasy 16pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="16pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Fantasy 20pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="20pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Fantasy 24pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="24pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Fantasy 36pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="36pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+								</fo:table-body>
+							</fo:table>
+						</fo:block>
+					</fo:block>
+				</fo:block>
+				<fo:block break-after="page">
+					<fo:block space-before="10pt" padding="5pt">
+						<fo:inline font-weight="bold" font-size="12pt">5. Monospace. Basic sets of symbols with predefined font size </fo:inline>
+						<fo:block padding-top="0.5cm" font-family="monospace">
+							<fo:block>abcdefghijklmnopqrstuvwxyz</fo:block>
+							<fo:block>ABCDEFGHIJKLMNOPQRSTUVWXYZ</fo:block>
+							<fo:block>1234567890.:,;(!?*#@%')</fo:block>
+						</fo:block>
+					</fo:block>
+					<fo:block space-before="10pt" padding="5pt">
+						<fo:block font-family="monospace">
+							<fo:table>
+								<fo:table-column column-width="22%"/>
+								<fo:table-column column-width="80%"/>								
+								<fo:table-body>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Monospace 8pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="8pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Monospace 10pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="10pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Monospace 12pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="12pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Monospace 16pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="16pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Monospace 20pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="20pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Monospace 24pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="24pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+									<fo:table-row>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-weight="bold" font-size="8pt">Monospace 36pt:</fo:block>
+										</fo:table-cell>
+										<fo:table-cell>
+											<fo:block margin="12pt" font-size="36pt">The quick brown fox jumps over the lazy dog!</fo:block>
+										</fo:table-cell>
+									</fo:table-row>
+								</fo:table-body>
+							</fo:table>
+						</fo:block>
+					</fo:block>
+				</fo:block>
+			</fo:block>
+		</fo:flow>
+	</fo:page-sequence>
+</fo:root>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mdlRelatoriosJanelas>
+	<frmFRelatoriosCaneta>
+		<Tarefas>03-06-2003#Thiago#OK</Tarefas>
+		<Problemas></Problemas>
+	</frmFRelatoriosCaneta>
+	<frmFRelatoriosCores>
+		<Tarefas>03-06-2003#Thiago#Copiar do modelo em VB retirando a dependência do banco de dados </Tarefas>
+		<Problemas></Problemas>
+	</frmFRelatoriosCores>
+	<frmFRelatoriosImagens>
+		<Tarefas>03-06-2003#Thiago#Copiar do modelo em VB retirando a dependência do banco de dados </Tarefas>
+		<Problemas></Problemas>
+	</frmFRelatoriosImagens>
+	<frmFRelatoriosImportar>
+		<Tarefas>03-06-2003#Thiago#Copiar do modelo em VB retirando a dependência do banco de dados </Tarefas>
+		<Problemas></Problemas>
+	</frmFRelatoriosImportar>
+	<frmFRelatoriosMargens>
+		<Tarefas>03-06-2003#Thiago#Copiar do modelo em VB retirando a dependência do banco de dados </Tarefas>
+		<Problemas></Problemas>
+	</frmFRelatoriosMargens>
+	<frmFRelatoriosPropriedadesObjetoCirculo>
+		<Tarefas>03-06-2003#Thiago#Copiar do modelo em VB retirando a dependência do banco de dados </Tarefas>
+		<Problemas></Problemas>
+	</frmFRelatoriosPropriedadesObjetoCirculo>
+	<frmFRelatoriosPropriedadesObjetoLinha>
+		<Tarefas>03-06-2003#Thiago#Copiar do modelo em VB retirando a dependência do banco de dados </Tarefas>
+		<Problemas></Problemas>
+	</frmFRelatoriosPropriedadesObjetoLinha>
+	<frmFRelatoriosPropriedadesObjetoRetangulo>
+		<Tarefas>03-06-2003#Thiago#Copiar do modelo em VB retirando a dependência do banco de dados </Tarefas>
+		<Problemas></Problemas>
+	</frmFRelatoriosPropriedadesObjetoRetangulo>
+	<frmFRelatoriosPropriedadesObjetoTexto>
+		<Tarefas>03-06-2003#Thiago#Copiar do modelo em VB retirando a dependência do banco de dados </Tarefas>
+		<Problemas></Problemas>
+	</frmFRelatoriosPropriedadesObjetoTexto>
+	<frmFRelatoriosPropriedadesObjetoTextoDB>
+		<Tarefas>03-06-2003#Thiago#Copiar do modelo em VB retirando a dependência do banco de dados </Tarefas>
+		<Problemas></Problemas>
+	</frmFRelatoriosPropriedadesObjetoTextoDB>
+	<frmFRelatoriosPropriedadesRelatorio>
+		<Tarefas>03-06-2003#Thiago#Copiar do modelo em VB retirando a dependência do banco de dados </Tarefas>
+		<Problemas></Problemas>
+	</frmFRelatoriosPropriedadesRelatorio>
+	<frmFRelatoriosSalvarComo>
+		<Tarefas>03-06-2003#Thiago#Copiar do modelo em VB retirando a dependência do banco de dados </Tarefas>
+		<Problemas></Problemas>
+	</frmFRelatoriosSalvarComo>
+	<frmFRelatoriosTeclasAtalho>
+		<Tarefas>03-06-2003#Thiago#Copiar do modelo em VB retirando a dependência do banco de dados </Tarefas>
+		<Problemas></Problemas>
+	</frmFRelatoriosTeclasAtalho>
+	<frmFRelatoriosTrocaRelatorio>
+		<Tarefas>03-06-2003#Thiago#Copiar do modelo em VB retirando a dependência do banco de dados </Tarefas>
+		<Problemas></Problemas>
+	</frmFRelatoriosTrocaRelatorio>
+	<frmFRelatoriosVisualizacaoItens>
+		<Tarefas>03-06-2003#Thiago#Copiar do modelo em VB retirando a dependência do banco de dados </Tarefas>
+		<Problemas></Problemas>
+	</frmFRelatoriosVisualizacaoItens>
+	<frmFRelatoriosCores>
+		<Tarefas>03-06-2003#Thiago#OK</Tarefas>
+	</frmFRelatoriosCores>
+	<frmFRelatoriosImagens>
+		<Tarefas>04-06-2003#Thiago#Ok</Tarefas>
+	</frmFRelatoriosImagens>
+	<frmFRelatoriosImportar>
+		<Tarefas>04-06-2003#Thiago#Ok</Tarefas>
+	</frmFRelatoriosImportar>
+	<frmFRelatoriosMargens>
+		<Tarefas>04-06-2003#Thiago#Ok</Tarefas>
+	</frmFRelatoriosMargens>
+	<frmFRelatoriosPropriedadesObjetoCirculo>
+		<Tarefas>04-06-2003#Thiago#Ok</Tarefas>
+	</frmFRelatoriosPropriedadesObjetoCirculo>
+	<frmFRelatoriosPropriedadesObjetoLinha>
+		<Tarefas>04-06-2003#Thiago#Ok</Tarefas>
+	</frmFRelatoriosPropriedadesObjetoLinha>
+	<frmFRelatoriosPropriedadesObjetoRetangulo>
+		<Tarefas>04-06-2003#Thiago#OK</Tarefas>
+	</frmFRelatoriosPropriedadesObjetoRetangulo>
+	<frmFRelatoriosPropriedadesObjetoTextoDB>
+		<Tarefas>05-06-2003#Thiago#Ok</Tarefas>
+	</frmFRelatoriosPropriedadesObjetoTextoDB>
+	<frmFRelatoriosPropriedadesRelatorio>
+		<Tarefas>05-06-2003#Thiago#OK</Tarefas>
+	</frmFRelatoriosPropriedadesRelatorio>
+	<frmFRelatoriosSalvarComo>
+		<Tarefas>05-06-2003#Thiago#Ok</Tarefas>
+	</frmFRelatoriosSalvarComo>
+	<frmFRelatoriosPropriedadesObjetoTexto>
+		<Tarefas>05-06-2003#Thiago#Ok</Tarefas>
+	</frmFRelatoriosPropriedadesObjetoTexto>
+	<frmFRelatoriosVisualizacaoItens>
+		<Tarefas>05-06-2003#Thiago#Ok</Tarefas>
+	</frmFRelatoriosVisualizacaoItens>
+	<frmFRelatoriosTeclasAtalho>
+		<Tarefas>05-06-2003#Thiago#Restam algums métodos inacabados ainda.</Tarefas>
+	</frmFRelatoriosTeclasAtalho>
+	<frmFRelatoriosTeclasAtalho>
+		<Tarefas>06-06-2003#Thiago#Ok</Tarefas>
+	</frmFRelatoriosTeclasAtalho>
+	<frmFRelatoriosTrocaRelatorio>
+		<Tarefas>06-06-2003#Thiago#Ok</Tarefas>
+	</frmFRelatoriosTrocaRelatorio>
+</mdlRelatoriosJanelas>

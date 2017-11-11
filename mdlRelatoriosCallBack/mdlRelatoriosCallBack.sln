@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{738186CD-E14D-4FC2-A098-9F1178EA7322}"
+	ProjectSection(ProjectDependencies) = postProject
+		{20FEB87E-2D66-43EB-AF54-732931EC5B47} = {20FEB87E-2D66-43EB-AF54-732931EC5B47}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlRelatoriosCallBack", "mdlRelatoriosCallBack\mdlRelatoriosCallBack.csproj", "{20FEB87E-2D66-43EB-AF54-732931EC5B47}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {3C87E68D-A443-42BC-AE28-66CD482B7154}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlRelatoriosCallBack\\mdlRelatoriosCallBack.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlRelatoriosCallBack\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{738186CD-E14D-4FC2-A098-9F1178EA7322}.Debug.ActiveCfg = Debug|.NET
+		{738186CD-E14D-4FC2-A098-9F1178EA7322}.Debug.Build.0 = Debug|.NET
+		{738186CD-E14D-4FC2-A098-9F1178EA7322}.Release.ActiveCfg = Release|.NET
+		{738186CD-E14D-4FC2-A098-9F1178EA7322}.Release.Build.0 = Release|.NET
+		{20FEB87E-2D66-43EB-AF54-732931EC5B47}.Debug.ActiveCfg = Debug|.NET
+		{20FEB87E-2D66-43EB-AF54-732931EC5B47}.Debug.Build.0 = Debug|.NET
+		{20FEB87E-2D66-43EB-AF54-732931EC5B47}.Release.ActiveCfg = Release|.NET
+		{20FEB87E-2D66-43EB-AF54-732931EC5B47}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		mdlRelatoriosCallBack.vsd = mdlRelatoriosCallBack.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

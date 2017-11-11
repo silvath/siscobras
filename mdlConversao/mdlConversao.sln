@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{70F442D3-3974-4E96-98DE-E8ED455F2026}"
+	ProjectSection(ProjectDependencies) = postProject
+		{21EEC70C-4434-4CFD-8762-F5EC12E4CF0A} = {21EEC70C-4434-4CFD-8762-F5EC12E4CF0A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlConversao", "mdlConversao\mdlConversao.csproj", "{21EEC70C-4434-4CFD-8762-F5EC12E4CF0A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {5B514A4F-1867-4FE7-949A-19A2F137A5A1}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlConversao\\mdlConversao.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlConversao\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{70F442D3-3974-4E96-98DE-E8ED455F2026}.Debug.ActiveCfg = Debug|.NET
+		{70F442D3-3974-4E96-98DE-E8ED455F2026}.Debug.Build.0 = Debug|.NET
+		{70F442D3-3974-4E96-98DE-E8ED455F2026}.Release.ActiveCfg = Release|.NET
+		{70F442D3-3974-4E96-98DE-E8ED455F2026}.Release.Build.0 = Release|.NET
+		{21EEC70C-4434-4CFD-8762-F5EC12E4CF0A}.Debug.ActiveCfg = Debug|.NET
+		{21EEC70C-4434-4CFD-8762-F5EC12E4CF0A}.Debug.Build.0 = Debug|.NET
+		{21EEC70C-4434-4CFD-8762-F5EC12E4CF0A}.Release.ActiveCfg = Release|.NET
+		{21EEC70C-4434-4CFD-8762-F5EC12E4CF0A}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

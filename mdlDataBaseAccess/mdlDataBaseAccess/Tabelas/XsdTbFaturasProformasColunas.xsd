@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbFaturasProformasColunas" targetNamespace="http://tempuri.org/XsdTbFaturasProformasColunas.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbFaturasProformasColunas.xsd"
+	xmlns:mstns="http://tempuri.org/XsdTbFaturasProformasColunas.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbFaturasProformasColunas" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbFaturasProformasColunas">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nIdExportador" type="xs:int" />
+							<xs:element name="strIdPe" type="xs:string" />
+							<xs:element name="nIdColuna" type="xs:int" />
+							<xs:element name="strNome" type="xs:string" minOccurs="0" />
+							<xs:element name="nTamanho" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbFaturasProformasColunasKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbFaturasProformasColunas" />
+			<xs:field xpath="mstns:nIdExportador" />
+			<xs:field xpath="mstns:strIdPe" />
+			<xs:field xpath="mstns:nIdColuna" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

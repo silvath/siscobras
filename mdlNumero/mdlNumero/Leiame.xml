@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mdlNumero>
+	<clsNumero>
+		<Tarefas>17-06-2003#Roberto#Arrumado erro na montagem dos Labels dinâmicos!</Tarefas>
+		<Problemas>OK!</Problemas>
+	</clsNumero>
+	<frmFNumero>
+		<Tarefas></Tarefas>
+		<Problemas></Problemas>
+	</frmFNumero>
+	<frmFNumeroConfiguracao>
+		<Tarefas></Tarefas>
+		<Problemas></Problemas>
+	</frmFNumeroConfiguracao>
+	<clsNumero>
+		<Tarefas>17-10-2003#Roberto#Verificar caso necessite proibir dois números iguais. Verificar todas as classes.</Tarefas>
+		<Problemas>OK!</Problemas>
+	</clsNumero>
+</mdlNumero>

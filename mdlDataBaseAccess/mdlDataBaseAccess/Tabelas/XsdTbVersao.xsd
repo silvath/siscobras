@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbVersao" targetNamespace="http://tempuri.org/XsdTbVersao.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbVersao.xsd" xmlns:mstns="http://tempuri.org/XsdTbVersao.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbVersao" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbVersao">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="strVersao" type="xs:string" />
+							<xs:element name="dtAtualizacao" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="strVersaoAnterior" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbVersaoKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbVersao" />
+			<xs:field xpath="mstns:strVersao" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

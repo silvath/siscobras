@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>mdlBancos</name>
+    </assembly>
+    <members>
+        <member name="T:mdlBancos.BancoExportador.clsBancoExportadorBordero">
+            <summary>
+            Summary description for clsBancoExportadorBordero.
+            </summary>
+        </member>
+        <member name="T:mdlBancos.clsBancoExportador">
+            <summary>
+            Summary description for clsBancoExportador.
+            </summary>
+        </member>
+        <member name="T:mdlBancos.BancoExportador.clsBancoExportadorComercial">
+            <summary>
+            Summary description for clsBancoExportadorComercial.
+            </summary>
+        </member>
+        <member name="T:mdlBancos.BancoExportador.clsBancoExportadorCotacao">
+            <summary>
+            Summary description for clsBancoExportadorCotacao.
+            </summary>
+        </member>
+        <member name="T:mdlBancos.BancoExportador.clsBancoExportadorGeral">
+            <summary>
+            Summary description for clsBancoExportadorGeral.
+            </summary>
+        </member>
+        <member name="T:mdlBancos.BancoExportador.clsBancoExportadorProforma">
+            <summary>
+            Summary description for clsBancoExportadorProforma.
+            </summary>
+        </member>
+        <member name="T:mdlBancos.BancoImportador.clsBancoImportadorComercial">
+            <summary>
+            Summary description for clsBancoImportadorComercial.
+            </summary>
+        </member>
+        <member name="T:mdlBancos.clsBancoImportador">
+            <summary>
+            Summary description for clsBancoImportador.
+            </summary>
+        </member>
+        <member name="T:mdlBancos.BancoImportador.clsBancoImportadorCotacao">
+            <summary>
+            Summary description for clsBancoImportadorCotacao.
+            </summary>
+        </member>
+        <member name="T:mdlBancos.BancoImportador.clsBancoImportadorGeral">
+            <summary>
+            Summary description for clsBancoImportadorGeral.
+            </summary>
+        </member>
+        <member name="T:mdlBancos.BancoImportador.clsBancoImportadorProforma">
+            <summary>
+            Summary description for clsBancoImportadorProforma.
+            </summary>
+        </member>
+        <member name="T:mdlBancos.frmFBancoExportador">
+            <summary>
+            Summary description for frmFBancoExportador.
+            </summary>
+        </member>
+        <member name="M:mdlBancos.frmFBancoExportador.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:mdlBancos.frmFBancoExportador.trocaCor">
+            <summary>
+            Troca a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="M:mdlBancos.frmFBancoExportador.mostraCor">
+            <summary>
+            Mostra a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="M:mdlBancos.frmFBancoExportador.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:mdlBancos.frmFBancoExportadorCadEdit">
+            <summary>
+            Summary description for frmFBancoExportadorCadEdit.
+            </summary>
+        </member>
+        <member name="M:mdlBancos.frmFBancoExportadorCadEdit.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:mdlBancos.frmFBancoExportadorCadEdit.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:mdlBancos.frmFBancoExportadorCadEdit.trocaCor">
+            <summary>
+            Troca a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="M:mdlBancos.frmFBancoExportadorCadEdit.mostraCor">
+            <summary>
+            Mostra a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="T:mdlBancos.frmFBancoImportador">
+            <summary>
+            Summary description for frmFBancoImportador.
+            </summary>
+        </member>
+        <member name="M:mdlBancos.frmFBancoImportador.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:mdlBancos.frmFBancoImportador.trocaCor">
+            <summary>
+            Troca a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="M:mdlBancos.frmFBancoImportador.mostraCor">
+            <summary>
+            Mostra a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="M:mdlBancos.frmFBancoImportador.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:mdlBancos.frmFBancoImportadorCadEdit">
+            <summary>
+            Summary description for frmFBancoImportadorCadEdit.
+            </summary>
+        </member>
+        <member name="M:mdlBancos.frmFBancoImportadorCadEdit.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:mdlBancos.frmFBancoImportadorCadEdit.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:mdlBancos.frmFBancoImportadorCadEdit.trocaCor">
+            <summary>
+            Troca a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="M:mdlBancos.frmFBancoImportadorCadEdit.mostraCor">
+            <summary>
+            Mostra a cor do Formulario Controlado
+            </summary>
+        </member>
+    </members>
+</doc>

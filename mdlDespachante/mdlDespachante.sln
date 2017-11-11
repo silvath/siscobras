@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{1602AE53-D2A7-4CA4-8466-810C877BA5E8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{77D57401-AE47-4F74-8651-D8675C05C12D} = {77D57401-AE47-4F74-8651-D8675C05C12D}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlDespachante", "mdlDespachante\mdlDespachante.csproj", "{77D57401-AE47-4F74-8651-D8675C05C12D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {A6CBEAE7-AFCB-462A-AEFB-C47D5FCFA35C}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlDespachante\\mdlDespachante.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlDespachante\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{1602AE53-D2A7-4CA4-8466-810C877BA5E8}.Debug.ActiveCfg = Debug|.NET
+		{1602AE53-D2A7-4CA4-8466-810C877BA5E8}.Debug.Build.0 = Debug|.NET
+		{1602AE53-D2A7-4CA4-8466-810C877BA5E8}.Release.ActiveCfg = Release|.NET
+		{1602AE53-D2A7-4CA4-8466-810C877BA5E8}.Release.Build.0 = Release|.NET
+		{77D57401-AE47-4F74-8651-D8675C05C12D}.Debug.ActiveCfg = Debug|.NET
+		{77D57401-AE47-4F74-8651-D8675C05C12D}.Debug.Build.0 = Debug|.NET
+		{77D57401-AE47-4F74-8651-D8675C05C12D}.Release.ActiveCfg = Release|.NET
+		{77D57401-AE47-4F74-8651-D8675C05C12D}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		mdlDespachante\mdlDespachante.vsd = mdlDespachante\mdlDespachante.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

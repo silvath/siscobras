@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbCertificadosOrigem" targetNamespace="http://tempuri.org/XsdTbCertificadosOrigem.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbCertificadosOrigem.xsd"
+	xmlns:mstns="http://tempuri.org/XsdTbCertificadosOrigem.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbCertificadosOrigem" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbCertificadosOrigem">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="idExportador" type="xs:int" />
+							<xs:element name="idPE" type="xs:string" />
+							<xs:element name="nIdTipoCO" type="xs:int" />
+							<xs:element name="nIdRelatorio" type="xs:int" minOccurs="0" />
+							<xs:element name="mstrNmConsignatarioCO" type="xs:string" minOccurs="0" />
+							<xs:element name="dtDataCO" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="mstrObsCO" type="xs:string" minOccurs="0" />
+							<xs:element name="strNumeroCertificadoOrigem" type="xs:string" minOccurs="0" />
+							<xs:element name="strFormatoDatas" type="xs:string" minOccurs="0" />
+							<xs:element name="nImpressoes" type="xs:int" minOccurs="0" />
+							<xs:element name="nEspacamento" type="xs:int" minOccurs="0" />
+							<xs:element name="dPesoLiquido" type="xs:double" minOccurs="0" />
+							<xs:element name="dPesoBruto" type="xs:double" minOccurs="0" />
+							<xs:element name="nUnidadeMassaPesoLiquido" type="xs:int" minOccurs="0" />
+							<xs:element name="nUnidadeMassaPesoBruto" type="xs:int" minOccurs="0" />
+							<xs:element name="mstrVolumes" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrDestino" type="xs:string" minOccurs="0" />
+							<xs:element name="bMostrarProdutos" type="xs:boolean" minOccurs="0" />
+							<xs:element name="bMostrarProdutosFilhos" type="xs:boolean" minOccurs="0" />
+							<xs:element name="mstrMeioTransporte" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrLocalData" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbCertificadosOrigemKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbCertificadosOrigem" />
+			<xs:field xpath="mstns:idExportador" />
+			<xs:field xpath="mstns:idPE" />
+			<xs:field xpath="mstns:nIdTipoCO" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

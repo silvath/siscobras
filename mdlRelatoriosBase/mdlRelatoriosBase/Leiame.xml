@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mdlRelatoriosBase>
+	<frmRelatoriosBase>
+		<Tarefas>06-06-2003#Thiago#Ligacao com o frmRelatorioJanelas feita</Tarefas>
+		<Problemas>07-08-2003#Thiago#Desconfio que a System.Drawing.Font tenha algum problema com o metodo Clone. Sempre ocorrem problemas em diversos lugares </Problemas>
+	</frmRelatoriosBase>
+	<frmRelatoriosBase>
+		<Tarefas>06-06-2003#Thiago#Conversao para o VS.NET 2003</Tarefas>
+	</frmRelatoriosBase>
+	<frmRelatoriosBase>
+		<Tarefas>06-06-2003#Thiago#Falta fazer a importação e exportação dos relatorios e testar a ligacao com as janelas</Tarefas>
+	</frmRelatoriosBase>
+	<frmRelatoriosBase>
+		<Tarefas>24-06-2003#Roberto#Tirado o idExportador do SELECT no método idcarregaIdRelatorioPadrao()</Tarefas>
+		<Problemas></Problemas>
+	</frmRelatoriosBase>
+	<ProjetoVisio>
+		<Tarefas></Tarefas>
+		<Problemas></Problemas>
+	</ProjetoVisio>
+</mdlRelatoriosBase>

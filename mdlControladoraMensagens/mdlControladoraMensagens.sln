@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{24E15618-0924-42DB-A3D1-730760AA092B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5CFAACE4-81AD-40D4-8887-EAA3274382A4} = {5CFAACE4-81AD-40D4-8887-EAA3274382A4}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlControladoraMensagens", "mdlControladoraMensagens\mdlControladoraMensagens.csproj", "{5CFAACE4-81AD-40D4-8887-EAA3274382A4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {992312C8-9899-4613-8060-DE220EBA64ED}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlControladoraMensagens\\mdlControladoraMensagens.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlControladoraMensagens\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{24E15618-0924-42DB-A3D1-730760AA092B}.Debug.ActiveCfg = Debug|.NET
+		{24E15618-0924-42DB-A3D1-730760AA092B}.Debug.Build.0 = Debug|.NET
+		{24E15618-0924-42DB-A3D1-730760AA092B}.Release.ActiveCfg = Release|.NET
+		{24E15618-0924-42DB-A3D1-730760AA092B}.Release.Build.0 = Release|.NET
+		{5CFAACE4-81AD-40D4-8887-EAA3274382A4}.Debug.ActiveCfg = Debug|.NET
+		{5CFAACE4-81AD-40D4-8887-EAA3274382A4}.Debug.Build.0 = Debug|.NET
+		{5CFAACE4-81AD-40D4-8887-EAA3274382A4}.Release.ActiveCfg = Release|.NET
+		{5CFAACE4-81AD-40D4-8887-EAA3274382A4}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

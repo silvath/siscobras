@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{8F1D0524-428B-4D7E-8ED8-E62FFC59FE8B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D1B1E039-A37A-40D4-AC7C-58092E1FA7DC} = {D1B1E039-A37A-40D4-AC7C-58092E1FA7DC}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlTec", "mdlTec\mdlTec.csproj", "{D1B1E039-A37A-40D4-AC7C-58092E1FA7DC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {CD05DA92-97A1-44AF-B4CF-163F5BA3E549}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlTec\\mdlTec.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlTec\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{8F1D0524-428B-4D7E-8ED8-E62FFC59FE8B}.Debug.ActiveCfg = Debug|.NET
+		{8F1D0524-428B-4D7E-8ED8-E62FFC59FE8B}.Debug.Build.0 = Debug|.NET
+		{8F1D0524-428B-4D7E-8ED8-E62FFC59FE8B}.Release.ActiveCfg = Release|.NET
+		{8F1D0524-428B-4D7E-8ED8-E62FFC59FE8B}.Release.Build.0 = Release|.NET
+		{D1B1E039-A37A-40D4-AC7C-58092E1FA7DC}.Debug.ActiveCfg = Debug|.NET
+		{D1B1E039-A37A-40D4-AC7C-58092E1FA7DC}.Debug.Build.0 = Debug|.NET
+		{D1B1E039-A37A-40D4-AC7C-58092E1FA7DC}.Release.ActiveCfg = Release|.NET
+		{D1B1E039-A37A-40D4-AC7C-58092E1FA7DC}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

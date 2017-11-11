@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mdlUsuarios>
+<clsUsuarios>
+<Tarefas>08-07-2003#Roberto#Criando MDL!!!!!!
+</Tarefas>
+<Problemas>OK
+</Problemas>
+</clsUsuarios>
+<clsUsuariosConcessoesPermissoes>
+<Tarefas>14-07-2003#Roberto#Falta criar mais dois metodos de busca, que usem as cincos chaves!!!!
+</Tarefas>
+<Problemas>Falta a tabela ser alterada para ter 5 chaves e a interface gráfica também muda junto com a tabela!
+</Problemas>
+</clsUsuariosConcessoesPermissoes>
+<frmFLoginUsuarios>
+<Tarefas>08-07-2003#Roberto#Criando MDL!!!!!!
+</Tarefas>
+<Problemas>OK
+</Problemas>
+</frmFLoginUsuarios>
+</mdlUsuarios>

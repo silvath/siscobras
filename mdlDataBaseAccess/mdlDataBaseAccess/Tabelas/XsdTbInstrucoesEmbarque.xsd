@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbInstrucoesEmbarque" targetNamespace="http://tempuri.org/XsdTbInstrucoesEmbarque.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbInstrucoesEmbarque.xsd"
+	xmlns:mstns="http://tempuri.org/XsdTbInstrucoesEmbarque.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbInstrucoesEmbarque" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbInstrucoesEmbarque">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="idExportador" type="xs:int" />
+							<xs:element name="idPE" type="xs:string" />
+							<xs:element name="nIdRelatorio" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdDespachante" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdAgente" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdContato" type="xs:int" minOccurs="0" />
+							<xs:element name="dtDataEmissao" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="strNumero" type="xs:string" minOccurs="0" />
+							<xs:element name="strNumeroReserva" type="xs:string" minOccurs="0" />
+							<xs:element name="strNotificacao1" type="xs:string" minOccurs="0" />
+							<xs:element name="strNotificacao2" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrDescricaoGeralMercadorias" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrCodigoTarifario" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrObservacao" type="xs:string" minOccurs="0" />
+							<xs:element name="nIdAssinatura" type="xs:int" minOccurs="0" />
+							<xs:element name="nTransitTimePrevisto" type="xs:int" minOccurs="0" />
+							<xs:element name="dtDeadLineInstrucaoEmbarque" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="dtDeadLineEspelho" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="dtDeadLineLiberacao" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="dtReserva" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="bPermitirEmbarquesParciais" type="xs:boolean" minOccurs="0" />
+							<xs:element name="bPermitirTransbordo" type="xs:boolean" minOccurs="0" />
+							<xs:element name="mstrInstrucoesProcedimento" type="xs:string" minOccurs="0" />
+							<xs:element name="nImpressoes" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbInstrucoesEmbarqueKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbInstrucoesEmbarque" />
+			<xs:field xpath="mstns:idExportador" />
+			<xs:field xpath="mstns:idPE" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

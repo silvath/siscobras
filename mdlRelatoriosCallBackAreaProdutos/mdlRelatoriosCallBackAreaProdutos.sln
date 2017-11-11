@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{ED2E0CAE-66C9-4660-BE2B-0B8854F61CBE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6D485976-1E6D-44BB-BFF5-9D3142B7C58C} = {6D485976-1E6D-44BB-BFF5-9D3142B7C58C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlRelatoriosCallBackAreaProdutos", "mdlRelatoriosCallBackAreaProdutos\mdlRelatoriosCallBackAreaProdutos.csproj", "{6D485976-1E6D-44BB-BFF5-9D3142B7C58C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {A72B43A0-7128-4141-ACA9-F59D8600812E}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlRelatoriosCallBackAreaProdutos\\mdlRelatoriosCallBackAreaProdutos.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlRelatoriosCallBackAreaProdutos\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{ED2E0CAE-66C9-4660-BE2B-0B8854F61CBE}.Debug.ActiveCfg = Debug|.NET
+		{ED2E0CAE-66C9-4660-BE2B-0B8854F61CBE}.Debug.Build.0 = Debug|.NET
+		{ED2E0CAE-66C9-4660-BE2B-0B8854F61CBE}.Release.ActiveCfg = Release|.NET
+		{ED2E0CAE-66C9-4660-BE2B-0B8854F61CBE}.Release.Build.0 = Release|.NET
+		{6D485976-1E6D-44BB-BFF5-9D3142B7C58C}.Debug.ActiveCfg = Debug|.NET
+		{6D485976-1E6D-44BB-BFF5-9D3142B7C58C}.Debug.Build.0 = Debug|.NET
+		{6D485976-1E6D-44BB-BFF5-9D3142B7C58C}.Release.ActiveCfg = Release|.NET
+		{6D485976-1E6D-44BB-BFF5-9D3142B7C58C}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		mdlRelatoriosCallBackAreaProdutos.vsd = mdlRelatoriosCallBackAreaProdutos.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

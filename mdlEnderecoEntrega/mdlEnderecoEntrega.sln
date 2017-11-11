@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlEnderecoEntrega", "mdlEnderecoEntrega\mdlEnderecoEntrega.csproj", "{F7E72F37-A2F2-41E2-8282-BF3FCD333763}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{02EC4C5D-8836-466A-B69B-6CAD9C1D189D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F7E72F37-A2F2-41E2-8282-BF3FCD333763} = {F7E72F37-A2F2-41E2-8282-BF3FCD333763}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {ACEAD2E7-5AF4-4A00-BD10-A1D60E553FD3}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlEnderecoEntrega\\mdlEnderecoEntrega.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlEnderecoEntrega\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F7E72F37-A2F2-41E2-8282-BF3FCD333763}.Debug.ActiveCfg = Debug|.NET
+		{F7E72F37-A2F2-41E2-8282-BF3FCD333763}.Debug.Build.0 = Debug|.NET
+		{F7E72F37-A2F2-41E2-8282-BF3FCD333763}.Release.ActiveCfg = Release|.NET
+		{F7E72F37-A2F2-41E2-8282-BF3FCD333763}.Release.Build.0 = Release|.NET
+		{02EC4C5D-8836-466A-B69B-6CAD9C1D189D}.Debug.ActiveCfg = Debug|.NET
+		{02EC4C5D-8836-466A-B69B-6CAD9C1D189D}.Debug.Build.0 = Debug|.NET
+		{02EC4C5D-8836-466A-B69B-6CAD9C1D189D}.Release.ActiveCfg = Release|.NET
+		{02EC4C5D-8836-466A-B69B-6CAD9C1D189D}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		mdlEnderecoEntrega\mdlEnderecoEntrega.vsd = mdlEnderecoEntrega\mdlEnderecoEntrega.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

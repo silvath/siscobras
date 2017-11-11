@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{9BECCD10-3B6B-4280-A562-5E3C730CB393}"
+	ProjectSection(ProjectDependencies) = postProject
+		{130315B0-8DAB-4CDD-982F-D48308664FEB} = {130315B0-8DAB-4CDD-982F-D48308664FEB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlWebServiceEnviaDados", "mdlWebServiceEnviaDados\mdlWebServiceEnviaDados.csproj", "{130315B0-8DAB-4CDD-982F-D48308664FEB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {5C7CDF03-F5E5-43BA-BFEB-5A6E85E8368F}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlWebServiceEnviaDados\\mdlWebServiceEnviaDados.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlWebServiceEnviaDados\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{9BECCD10-3B6B-4280-A562-5E3C730CB393}.Debug.ActiveCfg = Debug|.NET
+		{9BECCD10-3B6B-4280-A562-5E3C730CB393}.Debug.Build.0 = Debug|.NET
+		{9BECCD10-3B6B-4280-A562-5E3C730CB393}.Release.ActiveCfg = Release|.NET
+		{9BECCD10-3B6B-4280-A562-5E3C730CB393}.Release.Build.0 = Release|.NET
+		{130315B0-8DAB-4CDD-982F-D48308664FEB}.Debug.ActiveCfg = Debug|.NET
+		{130315B0-8DAB-4CDD-982F-D48308664FEB}.Debug.Build.0 = Debug|.NET
+		{130315B0-8DAB-4CDD-982F-D48308664FEB}.Release.ActiveCfg = Release|.NET
+		{130315B0-8DAB-4CDD-982F-D48308664FEB}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		mdlWebServiceEnviaDados.vsd = mdlWebServiceEnviaDados.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

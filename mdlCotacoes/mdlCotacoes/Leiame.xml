@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mdlCotacoes>
+	<clsCotacoes>
+		<Tarefas>10-06-2003#Roberto#Criado método Close e alterado o nome do método ShowDialog para Show e também invocado SendToBack quando chamado o show do formulário</Tarefas>
+		<Problemas>Testar no principal</Problemas>
+	</clsCotacoes>
+	<frmFCotacoes>
+		<Tarefas></Tarefas>
+		<Problemas></Problemas>
+	</frmFCotacoes>
+</mdlCotacoes>

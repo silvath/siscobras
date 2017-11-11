@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbUsuarios" targetNamespace="http://tempuri.org/XsdTbUsuarios.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbUsuarios.xsd" xmlns:mstns="http://tempuri.org/XsdTbUsuarios.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbUsuarios" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbUsuarios">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nIdUsuario" type="xs:int" />
+							<xs:element name="strNome" type="xs:string" minOccurs="0" />
+							<xs:element name="strSenha" type="xs:string" minOccurs="0" />
+							<xs:element name="strEmail" type="xs:string" minOccurs="0" />
+							<xs:element name="strSMTP" type="xs:string" minOccurs="0" />
+							<xs:element name="strUser" type="xs:string" minOccurs="0" />
+							<xs:element name="strPassword" type="xs:string" minOccurs="0" />
+							<xs:element name="nSMTPAutenticacao" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbUsuariosKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbUsuarios" />
+			<xs:field xpath="mstns:nIdUsuario" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeDoc", "MakeDoc.csproj", "{C731CEE1-B003-43D9-9E41-2832BD139C89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfCreatorLib", "..\PdfCreatorLib\PdfCreatorLib.csproj", "{C073CBDD-4A12-4B66-B503-28AA8BBD6CD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{C731CEE1-B003-43D9-9E41-2832BD139C89}.Debug.ActiveCfg = Debug|.NET
+		{C731CEE1-B003-43D9-9E41-2832BD139C89}.Debug.Build.0 = Debug|.NET
+		{C731CEE1-B003-43D9-9E41-2832BD139C89}.Release.ActiveCfg = Release|.NET
+		{C731CEE1-B003-43D9-9E41-2832BD139C89}.Release.Build.0 = Release|.NET
+		{C073CBDD-4A12-4B66-B503-28AA8BBD6CD5}.Debug.ActiveCfg = Debug|.NET
+		{C073CBDD-4A12-4B66-B503-28AA8BBD6CD5}.Debug.Build.0 = Debug|.NET
+		{C073CBDD-4A12-4B66-B503-28AA8BBD6CD5}.Release.ActiveCfg = Release|.NET
+		{C073CBDD-4A12-4B66-B503-28AA8BBD6CD5}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

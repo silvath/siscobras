@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbProdutosCertificadoOrigem" targetNamespace="http://tempuri.org/XsdTbProdutosCertificadoOrigem.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbProdutosCertificadoOrigem.xsd"
+	xmlns:mstns="http://tempuri.org/XsdTbProdutosCertificadoOrigem.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbProdutosCertificadoOrigem" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbProdutosCertificadoOrigem">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="idExportador" type="xs:int" />
+							<xs:element name="idPE" type="xs:string" />
+							<xs:element name="idTipoCO" type="xs:int" />
+							<xs:element name="idOrdemProduto" type="xs:int" />
+							<xs:element name="idNorma" type="xs:int" minOccurs="0" />
+							<xs:element name="idOrdem" type="xs:int" minOccurs="0" />
+							<xs:element name="mstrNorma" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrDescricao" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrDenominacao" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbProdutosCertificadoOrigemKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbProdutosCertificadoOrigem" />
+			<xs:field xpath="mstns:idExportador" />
+			<xs:field xpath="mstns:idPE" />
+			<xs:field xpath="mstns:idTipoCO" />
+			<xs:field xpath="mstns:idOrdemProduto" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

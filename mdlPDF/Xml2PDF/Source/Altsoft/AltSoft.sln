@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFO", "PDFO\PDFO.csproj", "{8A2CB31E-4B0E-472D-96F0-1D9A0D55D600}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{8A2CB31E-4B0E-472D-96F0-1D9A0D55D600}.Debug.ActiveCfg = Debug|.NET
+		{8A2CB31E-4B0E-472D-96F0-1D9A0D55D600}.Debug.Build.0 = Debug|.NET
+		{8A2CB31E-4B0E-472D-96F0-1D9A0D55D600}.Release.ActiveCfg = Release|.NET
+		{8A2CB31E-4B0E-472D-96F0-1D9A0D55D600}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

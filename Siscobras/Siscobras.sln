@@ -1,0 +1,34 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Siscobras", "Siscobras\Siscobras.csproj", "{351AA38D-B847-452F-9856-42195FBFB3DA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {3A269EB8-F6D9-4C79-BA7A-249DA1033EDD}
+		SccProjectUniqueName1 = Siscobras\\Siscobras.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = Siscobras\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{351AA38D-B847-452F-9856-42195FBFB3DA}.Debug.ActiveCfg = Debug|.NET
+		{351AA38D-B847-452F-9856-42195FBFB3DA}.Debug.Build.0 = Debug|.NET
+		{351AA38D-B847-452F-9856-42195FBFB3DA}.Release.ActiveCfg = Release|.NET
+		{351AA38D-B847-452F-9856-42195FBFB3DA}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		Siscobras.vsd = Siscobras.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

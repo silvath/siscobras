@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>mdlAssinatura</name>
+    </assembly>
+    <members>
+        <member name="T:mdlAssinatura.Bordero.clsAssinaturaBordero">
+            <summary>
+            Summary description for clsAssinaturaBordero.
+            </summary>
+        </member>
+        <member name="T:mdlAssinatura.clsAssinatura">
+            <summary>
+            Summary description for clsAssinatura.
+            </summary>
+        </member>
+        <member name="T:mdlAssinatura.Romaneio.clsAssinaturaRomaneio">
+            <summary>
+            Summary description for clsAssinaturaRomaneio.
+            </summary>
+        </member>
+        <member name="T:mdlAssinatura.clsAssinaturaComercial">
+            <summary>
+            Summary description for clsAssinaturaComercial.
+            </summary>
+        </member>
+        <member name="T:mdlAssinatura.clsAssinaturaCotacao">
+            <summary>
+            Summary description for clsAssinaturaCotacao.
+            </summary>
+        </member>
+        <member name="T:mdlAssinatura.clsAssinaturaInstrucoesEmbarque">
+            <summary>
+            Summary description for clsAssinaturaInstrucoesEmbarque.
+            </summary>
+        </member>
+        <member name="T:mdlAssinatura.clsAssinaturaProforma">
+            <summary>
+            Summary description for clsAssinaturaProforma.
+            </summary>
+        </member>
+        <member name="T:mdlAssinatura.frmFAssinatura">
+            <summary>
+            Summary description for frmFAssinatura.
+            </summary>
+        </member>
+        <member name="M:mdlAssinatura.frmFAssinatura.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:mdlAssinatura.frmFAssinatura.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:mdlAssinatura.frmFAssinatura.trocaCor">
+            <summary>
+            Troca a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="M:mdlAssinatura.frmFAssinatura.mostraCor">
+            <summary>
+            Mostra a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="T:mdlAssinatura.frmFAssinaturaCadEdit">
+            <summary>
+            Summary description for frmFAssinaturaCadEdit.
+            </summary>
+        </member>
+        <member name="M:mdlAssinatura.frmFAssinaturaCadEdit.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:mdlAssinatura.frmFAssinaturaCadEdit.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:mdlAssinatura.frmFAssinaturaCadEdit.trocaCor">
+            <summary>
+            Troca a cor do Formulario Controlado
+            </summary>
+        </member>
+        <member name="M:mdlAssinatura.frmFAssinaturaCadEdit.mostraCor">
+            <summary>
+            Mostra a cor do Formulario Controlado
+            </summary>
+        </member>
+    </members>
+</doc>

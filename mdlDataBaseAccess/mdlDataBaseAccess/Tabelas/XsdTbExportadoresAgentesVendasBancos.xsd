@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbExportadoresAgentesVendasBancos" targetNamespace="http://tempuri.org/XsdTbExportadoresAgentesVendasBancos.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbExportadoresAgentesVendasBancos.xsd"
+	xmlns:mstns="http://tempuri.org/XsdTbExportadoresAgentesVendasBancos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbExportadoresAgentesVendasBancos" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbExportadoresAgentesVendasBancos">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nIdExportador" type="xs:int" />
+							<xs:element name="nIdAgente" type="xs:int" />
+							<xs:element name="nIdBanco" type="xs:int" />
+							<xs:element name="strNome" type="xs:string" minOccurs="0" />
+							<xs:element name="strEndereco" type="xs:string" minOccurs="0" />
+							<xs:element name="strCidade" type="xs:string" minOccurs="0" />
+							<xs:element name="nIdPais" type="xs:int" minOccurs="0" />
+							<xs:element name="strAgencia" type="xs:string" minOccurs="0" />
+							<xs:element name="strConta" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrInstrucaoPagamento" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbExportadoresAgentesVendasBancosKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbExportadoresAgentesVendasBancos" />
+			<xs:field xpath="mstns:nIdExportador" />
+			<xs:field xpath="mstns:nIdAgente" />
+			<xs:field xpath="mstns:nIdBanco" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

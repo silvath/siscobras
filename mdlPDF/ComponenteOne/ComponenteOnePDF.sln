@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComponenteOnePDF", "ComponenteOnePDF\ComponenteOnePDF.csproj", "{8BC7A2EA-52D7-4ED0-A0A3-074A5BBFF441}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c1pdf", "c1pdf\c1pdf.csproj", "{55E9E7EC-DD27-4C5E-97F8-0A18380C471C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{8BC7A2EA-52D7-4ED0-A0A3-074A5BBFF441}.Debug.ActiveCfg = Debug|.NET
+		{8BC7A2EA-52D7-4ED0-A0A3-074A5BBFF441}.Debug.Build.0 = Debug|.NET
+		{8BC7A2EA-52D7-4ED0-A0A3-074A5BBFF441}.Release.ActiveCfg = Release|.NET
+		{8BC7A2EA-52D7-4ED0-A0A3-074A5BBFF441}.Release.Build.0 = Release|.NET
+		{55E9E7EC-DD27-4C5E-97F8-0A18380C471C}.Debug.ActiveCfg = Debug|.NET
+		{55E9E7EC-DD27-4C5E-97F8-0A18380C471C}.Debug.Build.0 = Debug|.NET
+		{55E9E7EC-DD27-4C5E-97F8-0A18380C471C}.Release.ActiveCfg = Release|.NET
+		{55E9E7EC-DD27-4C5E-97F8-0A18380C471C}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

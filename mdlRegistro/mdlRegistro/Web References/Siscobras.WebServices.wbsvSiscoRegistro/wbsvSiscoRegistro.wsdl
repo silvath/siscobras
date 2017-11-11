@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://tempuri.org/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="nCadastraPessoaJuridica">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="nIdTipo" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCodigo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strRazaoSocial" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strNomeFantasia" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strEmail" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strSite" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="nSetorAtividadeOuServicos" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="strSetorAtividadeOuServicos" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="nQuantidadeExportacoesAnuaisOuClientesExportadores" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="nQuantidadeFuncionarios" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="dtPrimeiraExportacao" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="bRealizaImportacao" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="nMeioRealizacaoPEs" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="strMeioRealizacaoPEs" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="nComoTomouConhecimentoSiscobras" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="strComoTomouConhecimentoSiscobras" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strFuncionarioNome" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="nFuncionarioIdCargos" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="bFuncionarioSexoMasculino" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="dtFuncionarioNascimento" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="bFuncionarioDecisor" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="dtFuncionarioIngressoEmpresa" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="strFuncionarioRamal" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strFuncionarioEmail" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="nFuncionarioIdDepartamento" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="nFuncionarioIdAdeptoTecnologia" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLocalizacaoCNPJ" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLocalizacaoEndereco" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLocalizacaoComplemento" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLocalizacaoBairro" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLocalizacaoCEP" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLocalizacaoCidade" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="nLocalizacaoIdEstado" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLocalizacaoEmail" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLocalizacaoSite" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="nLocalizacaoIdRamoAtividade" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="nLocalizacaoQuantidadeFuncionarios" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="nLocalizacaoIdVolumeExportacao" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="nLocalizacaoFrequenciaProcessos" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="bLocalizacaoFinanceiro" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLocalizacaoFaxNumero" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLocalizacaoTelefoneNumero" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="nCadastraPessoaJuridicaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="nCadastraPessoaJuridicaResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="nCadastraPessoaFisica">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="nIdTipo" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCodigo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strNome" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCPF" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="bSexoMasculino" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="dtNascimento" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLogradouro" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strComplemento" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strBairro" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCidade" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="nIdEstado" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCEP" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strTelefone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strFax" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strEmail" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strSite" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="nSetorAtividadeOuServicos" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="strSetorAtividadeOuServicos" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="nQuantidadeExportacoesAnuaisOuClientesExportadores" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="dtPrimeiraExportacao" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="bRealizaImportacao" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="strInstituicaoEnsino" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCurso" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strFase" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="nMeioRealizacaoPEs" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="strMeioRealizacaoPEs" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="nComoTomouConhecimentoSiscobras" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="strComoTomouConhecimentoSiscobras" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="nCadastraPessoaFisicaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="nCadastraPessoaFisicaResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="nRequisicaoDadosVencimentoCliente">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCodigoCliente" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="nRequisicaoDadosVencimentoClienteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="nRequisicaoDadosVencimentoClienteResult" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="dtHoje" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="dtAtualizacao" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="dtVencimento" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="nRequisicaoTipoVersao">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="nIdCliente" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="nRequisicaoTipoVersaoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="nRequisicaoTipoVersaoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="nRequisicaoDadosVencimentoClienteMaquina">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="nIdCliente" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="strNomeMaquina" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="nRequisicaoDadosVencimentoClienteMaquinaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="nRequisicaoDadosVencimentoClienteMaquinaResult" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="dtHoje" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="dtAtualizacao" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="dtVencimento" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="nSincronismoQuantidadeHoje">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="nIdCliente" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="nSincronismoQuantidadeHojeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="nSincronismoQuantidadeHojeResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="nSincronismoQuantidade">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="nIdCliente" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="strSincronismo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="nSincronismoQuantidadeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="nSincronismoQuantidadeResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="bSincronismoAdiciona">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="nIdCliente" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="strSincronismo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="bSincronismoAdicionaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="bSincronismoAdicionaResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="int" type="s:int" />
+      <s:element name="boolean" type="s:boolean" />
+    </s:schema>
+  </types>
+  <message name="nCadastraPessoaJuridicaSoapIn">
+    <part name="parameters" element="s0:nCadastraPessoaJuridica" />
+  </message>
+  <message name="nCadastraPessoaJuridicaSoapOut">
+    <part name="parameters" element="s0:nCadastraPessoaJuridicaResponse" />
+  </message>
+  <message name="nCadastraPessoaFisicaSoapIn">
+    <part name="parameters" element="s0:nCadastraPessoaFisica" />
+  </message>
+  <message name="nCadastraPessoaFisicaSoapOut">
+    <part name="parameters" element="s0:nCadastraPessoaFisicaResponse" />
+  </message>
+  <message name="nRequisicaoDadosVencimentoClienteSoapIn">
+    <part name="parameters" element="s0:nRequisicaoDadosVencimentoCliente" />
+  </message>
+  <message name="nRequisicaoDadosVencimentoClienteSoapOut">
+    <part name="parameters" element="s0:nRequisicaoDadosVencimentoClienteResponse" />
+  </message>
+  <message name="nRequisicaoTipoVersaoSoapIn">
+    <part name="parameters" element="s0:nRequisicaoTipoVersao" />
+  </message>
+  <message name="nRequisicaoTipoVersaoSoapOut">
+    <part name="parameters" element="s0:nRequisicaoTipoVersaoResponse" />
+  </message>
+  <message name="nRequisicaoDadosVencimentoClienteMaquinaSoapIn">
+    <part name="parameters" element="s0:nRequisicaoDadosVencimentoClienteMaquina" />
+  </message>
+  <message name="nRequisicaoDadosVencimentoClienteMaquinaSoapOut">
+    <part name="parameters" element="s0:nRequisicaoDadosVencimentoClienteMaquinaResponse" />
+  </message>
+  <message name="nSincronismoQuantidadeHojeSoapIn">
+    <part name="parameters" element="s0:nSincronismoQuantidadeHoje" />
+  </message>
+  <message name="nSincronismoQuantidadeHojeSoapOut">
+    <part name="parameters" element="s0:nSincronismoQuantidadeHojeResponse" />
+  </message>
+  <message name="nSincronismoQuantidadeSoapIn">
+    <part name="parameters" element="s0:nSincronismoQuantidade" />
+  </message>
+  <message name="nSincronismoQuantidadeSoapOut">
+    <part name="parameters" element="s0:nSincronismoQuantidadeResponse" />
+  </message>
+  <message name="bSincronismoAdicionaSoapIn">
+    <part name="parameters" element="s0:bSincronismoAdiciona" />
+  </message>
+  <message name="bSincronismoAdicionaSoapOut">
+    <part name="parameters" element="s0:bSincronismoAdicionaResponse" />
+  </message>
+  <message name="nCadastraPessoaJuridicaHttpGetIn">
+    <part name="nIdTipo" type="s:string" />
+    <part name="strCodigo" type="s:string" />
+    <part name="strRazaoSocial" type="s:string" />
+    <part name="strNomeFantasia" type="s:string" />
+    <part name="strEmail" type="s:string" />
+    <part name="strSite" type="s:string" />
+    <part name="nSetorAtividadeOuServicos" type="s:string" />
+    <part name="strSetorAtividadeOuServicos" type="s:string" />
+    <part name="nQuantidadeExportacoesAnuaisOuClientesExportadores" type="s:string" />
+    <part name="nQuantidadeFuncionarios" type="s:string" />
+    <part name="dtPrimeiraExportacao" type="s:string" />
+    <part name="bRealizaImportacao" type="s:string" />
+    <part name="nMeioRealizacaoPEs" type="s:string" />
+    <part name="strMeioRealizacaoPEs" type="s:string" />
+    <part name="nComoTomouConhecimentoSiscobras" type="s:string" />
+    <part name="strComoTomouConhecimentoSiscobras" type="s:string" />
+    <part name="strFuncionarioNome" type="s:string" />
+    <part name="nFuncionarioIdCargos" type="s:string" />
+    <part name="bFuncionarioSexoMasculino" type="s:string" />
+    <part name="dtFuncionarioNascimento" type="s:string" />
+    <part name="bFuncionarioDecisor" type="s:string" />
+    <part name="dtFuncionarioIngressoEmpresa" type="s:string" />
+    <part name="strFuncionarioRamal" type="s:string" />
+    <part name="strFuncionarioEmail" type="s:string" />
+    <part name="nFuncionarioIdDepartamento" type="s:string" />
+    <part name="nFuncionarioIdAdeptoTecnologia" type="s:string" />
+    <part name="strLocalizacaoCNPJ" type="s:string" />
+    <part name="strLocalizacaoEndereco" type="s:string" />
+    <part name="strLocalizacaoComplemento" type="s:string" />
+    <part name="strLocalizacaoBairro" type="s:string" />
+    <part name="strLocalizacaoCEP" type="s:string" />
+    <part name="strLocalizacaoCidade" type="s:string" />
+    <part name="nLocalizacaoIdEstado" type="s:string" />
+    <part name="strLocalizacaoEmail" type="s:string" />
+    <part name="strLocalizacaoSite" type="s:string" />
+    <part name="nLocalizacaoIdRamoAtividade" type="s:string" />
+    <part name="nLocalizacaoQuantidadeFuncionarios" type="s:string" />
+    <part name="nLocalizacaoIdVolumeExportacao" type="s:string" />
+    <part name="nLocalizacaoFrequenciaProcessos" type="s:string" />
+    <part name="bLocalizacaoFinanceiro" type="s:string" />
+    <part name="strLocalizacaoFaxNumero" type="s:string" />
+    <part name="strLocalizacaoTelefoneNumero" type="s:string" />
+  </message>
+  <message name="nCadastraPessoaJuridicaHttpGetOut">
+    <part name="Body" element="s0:int" />
+  </message>
+  <message name="nCadastraPessoaFisicaHttpGetIn">
+    <part name="nIdTipo" type="s:string" />
+    <part name="strCodigo" type="s:string" />
+    <part name="strNome" type="s:string" />
+    <part name="strCPF" type="s:string" />
+    <part name="bSexoMasculino" type="s:string" />
+    <part name="dtNascimento" type="s:string" />
+    <part name="strLogradouro" type="s:string" />
+    <part name="strComplemento" type="s:string" />
+    <part name="strBairro" type="s:string" />
+    <part name="strCidade" type="s:string" />
+    <part name="nIdEstado" type="s:string" />
+    <part name="strCEP" type="s:string" />
+    <part name="strTelefone" type="s:string" />
+    <part name="strFax" type="s:string" />
+    <part name="strEmail" type="s:string" />
+    <part name="strSite" type="s:string" />
+    <part name="nSetorAtividadeOuServicos" type="s:string" />
+    <part name="strSetorAtividadeOuServicos" type="s:string" />
+    <part name="nQuantidadeExportacoesAnuaisOuClientesExportadores" type="s:string" />
+    <part name="dtPrimeiraExportacao" type="s:string" />
+    <part name="bRealizaImportacao" type="s:string" />
+    <part name="strInstituicaoEnsino" type="s:string" />
+    <part name="strCurso" type="s:string" />
+    <part name="strFase" type="s:string" />
+    <part name="nMeioRealizacaoPEs" type="s:string" />
+    <part name="strMeioRealizacaoPEs" type="s:string" />
+    <part name="nComoTomouConhecimentoSiscobras" type="s:string" />
+    <part name="strComoTomouConhecimentoSiscobras" type="s:string" />
+  </message>
+  <message name="nCadastraPessoaFisicaHttpGetOut">
+    <part name="Body" element="s0:int" />
+  </message>
+  <message name="nRequisicaoTipoVersaoHttpGetIn">
+    <part name="nIdCliente" type="s:string" />
+  </message>
+  <message name="nRequisicaoTipoVersaoHttpGetOut">
+    <part name="Body" element="s0:int" />
+  </message>
+  <message name="nSincronismoQuantidadeHojeHttpGetIn">
+    <part name="nIdCliente" type="s:string" />
+  </message>
+  <message name="nSincronismoQuantidadeHojeHttpGetOut">
+    <part name="Body" element="s0:int" />
+  </message>
+  <message name="nSincronismoQuantidadeHttpGetIn">
+    <part name="nIdCliente" type="s:string" />
+    <part name="strSincronismo" type="s:string" />
+  </message>
+  <message name="nSincronismoQuantidadeHttpGetOut">
+    <part name="Body" element="s0:int" />
+  </message>
+  <message name="bSincronismoAdicionaHttpGetIn">
+    <part name="nIdCliente" type="s:string" />
+    <part name="strSincronismo" type="s:string" />
+  </message>
+  <message name="bSincronismoAdicionaHttpGetOut">
+    <part name="Body" element="s0:boolean" />
+  </message>
+  <message name="nCadastraPessoaJuridicaHttpPostIn">
+    <part name="nIdTipo" type="s:string" />
+    <part name="strCodigo" type="s:string" />
+    <part name="strRazaoSocial" type="s:string" />
+    <part name="strNomeFantasia" type="s:string" />
+    <part name="strEmail" type="s:string" />
+    <part name="strSite" type="s:string" />
+    <part name="nSetorAtividadeOuServicos" type="s:string" />
+    <part name="strSetorAtividadeOuServicos" type="s:string" />
+    <part name="nQuantidadeExportacoesAnuaisOuClientesExportadores" type="s:string" />
+    <part name="nQuantidadeFuncionarios" type="s:string" />
+    <part name="dtPrimeiraExportacao" type="s:string" />
+    <part name="bRealizaImportacao" type="s:string" />
+    <part name="nMeioRealizacaoPEs" type="s:string" />
+    <part name="strMeioRealizacaoPEs" type="s:string" />
+    <part name="nComoTomouConhecimentoSiscobras" type="s:string" />
+    <part name="strComoTomouConhecimentoSiscobras" type="s:string" />
+    <part name="strFuncionarioNome" type="s:string" />
+    <part name="nFuncionarioIdCargos" type="s:string" />
+    <part name="bFuncionarioSexoMasculino" type="s:string" />
+    <part name="dtFuncionarioNascimento" type="s:string" />
+    <part name="bFuncionarioDecisor" type="s:string" />
+    <part name="dtFuncionarioIngressoEmpresa" type="s:string" />
+    <part name="strFuncionarioRamal" type="s:string" />
+    <part name="strFuncionarioEmail" type="s:string" />
+    <part name="nFuncionarioIdDepartamento" type="s:string" />
+    <part name="nFuncionarioIdAdeptoTecnologia" type="s:string" />
+    <part name="strLocalizacaoCNPJ" type="s:string" />
+    <part name="strLocalizacaoEndereco" type="s:string" />
+    <part name="strLocalizacaoComplemento" type="s:string" />
+    <part name="strLocalizacaoBairro" type="s:string" />
+    <part name="strLocalizacaoCEP" type="s:string" />
+    <part name="strLocalizacaoCidade" type="s:string" />
+    <part name="nLocalizacaoIdEstado" type="s:string" />
+    <part name="strLocalizacaoEmail" type="s:string" />
+    <part name="strLocalizacaoSite" type="s:string" />
+    <part name="nLocalizacaoIdRamoAtividade" type="s:string" />
+    <part name="nLocalizacaoQuantidadeFuncionarios" type="s:string" />
+    <part name="nLocalizacaoIdVolumeExportacao" type="s:string" />
+    <part name="nLocalizacaoFrequenciaProcessos" type="s:string" />
+    <part name="bLocalizacaoFinanceiro" type="s:string" />
+    <part name="strLocalizacaoFaxNumero" type="s:string" />
+    <part name="strLocalizacaoTelefoneNumero" type="s:string" />
+  </message>
+  <message name="nCadastraPessoaJuridicaHttpPostOut">
+    <part name="Body" element="s0:int" />
+  </message>
+  <message name="nCadastraPessoaFisicaHttpPostIn">
+    <part name="nIdTipo" type="s:string" />
+    <part name="strCodigo" type="s:string" />
+    <part name="strNome" type="s:string" />
+    <part name="strCPF" type="s:string" />
+    <part name="bSexoMasculino" type="s:string" />
+    <part name="dtNascimento" type="s:string" />
+    <part name="strLogradouro" type="s:string" />
+    <part name="strComplemento" type="s:string" />
+    <part name="strBairro" type="s:string" />
+    <part name="strCidade" type="s:string" />
+    <part name="nIdEstado" type="s:string" />
+    <part name="strCEP" type="s:string" />
+    <part name="strTelefone" type="s:string" />
+    <part name="strFax" type="s:string" />
+    <part name="strEmail" type="s:string" />
+    <part name="strSite" type="s:string" />
+    <part name="nSetorAtividadeOuServicos" type="s:string" />
+    <part name="strSetorAtividadeOuServicos" type="s:string" />
+    <part name="nQuantidadeExportacoesAnuaisOuClientesExportadores" type="s:string" />
+    <part name="dtPrimeiraExportacao" type="s:string" />
+    <part name="bRealizaImportacao" type="s:string" />
+    <part name="strInstituicaoEnsino" type="s:string" />
+    <part name="strCurso" type="s:string" />
+    <part name="strFase" type="s:string" />
+    <part name="nMeioRealizacaoPEs" type="s:string" />
+    <part name="strMeioRealizacaoPEs" type="s:string" />
+    <part name="nComoTomouConhecimentoSiscobras" type="s:string" />
+    <part name="strComoTomouConhecimentoSiscobras" type="s:string" />
+  </message>
+  <message name="nCadastraPessoaFisicaHttpPostOut">
+    <part name="Body" element="s0:int" />
+  </message>
+  <message name="nRequisicaoTipoVersaoHttpPostIn">
+    <part name="nIdCliente" type="s:string" />
+  </message>
+  <message name="nRequisicaoTipoVersaoHttpPostOut">
+    <part name="Body" element="s0:int" />
+  </message>
+  <message name="nSincronismoQuantidadeHojeHttpPostIn">
+    <part name="nIdCliente" type="s:string" />
+  </message>
+  <message name="nSincronismoQuantidadeHojeHttpPostOut">
+    <part name="Body" element="s0:int" />
+  </message>
+  <message name="nSincronismoQuantidadeHttpPostIn">
+    <part name="nIdCliente" type="s:string" />
+    <part name="strSincronismo" type="s:string" />
+  </message>
+  <message name="nSincronismoQuantidadeHttpPostOut">
+    <part name="Body" element="s0:int" />
+  </message>
+  <message name="bSincronismoAdicionaHttpPostIn">
+    <part name="nIdCliente" type="s:string" />
+    <part name="strSincronismo" type="s:string" />
+  </message>
+  <message name="bSincronismoAdicionaHttpPostOut">
+    <part name="Body" element="s0:boolean" />
+  </message>
+  <portType name="wbsvSiscoRegistroSoap">
+    <operation name="nCadastraPessoaJuridica">
+      <input message="s0:nCadastraPessoaJuridicaSoapIn" />
+      <output message="s0:nCadastraPessoaJuridicaSoapOut" />
+    </operation>
+    <operation name="nCadastraPessoaFisica">
+      <input message="s0:nCadastraPessoaFisicaSoapIn" />
+      <output message="s0:nCadastraPessoaFisicaSoapOut" />
+    </operation>
+    <operation name="nRequisicaoDadosVencimentoCliente">
+      <input message="s0:nRequisicaoDadosVencimentoClienteSoapIn" />
+      <output message="s0:nRequisicaoDadosVencimentoClienteSoapOut" />
+    </operation>
+    <operation name="nRequisicaoTipoVersao">
+      <input message="s0:nRequisicaoTipoVersaoSoapIn" />
+      <output message="s0:nRequisicaoTipoVersaoSoapOut" />
+    </operation>
+    <operation name="nRequisicaoDadosVencimentoClienteMaquina">
+      <input message="s0:nRequisicaoDadosVencimentoClienteMaquinaSoapIn" />
+      <output message="s0:nRequisicaoDadosVencimentoClienteMaquinaSoapOut" />
+    </operation>
+    <operation name="nSincronismoQuantidadeHoje">
+      <input message="s0:nSincronismoQuantidadeHojeSoapIn" />
+      <output message="s0:nSincronismoQuantidadeHojeSoapOut" />
+    </operation>
+    <operation name="nSincronismoQuantidade">
+      <input message="s0:nSincronismoQuantidadeSoapIn" />
+      <output message="s0:nSincronismoQuantidadeSoapOut" />
+    </operation>
+    <operation name="bSincronismoAdiciona">
+      <input message="s0:bSincronismoAdicionaSoapIn" />
+      <output message="s0:bSincronismoAdicionaSoapOut" />
+    </operation>
+  </portType>
+  <portType name="wbsvSiscoRegistroHttpGet">
+    <operation name="nCadastraPessoaJuridica">
+      <input message="s0:nCadastraPessoaJuridicaHttpGetIn" />
+      <output message="s0:nCadastraPessoaJuridicaHttpGetOut" />
+    </operation>
+    <operation name="nCadastraPessoaFisica">
+      <input message="s0:nCadastraPessoaFisicaHttpGetIn" />
+      <output message="s0:nCadastraPessoaFisicaHttpGetOut" />
+    </operation>
+    <operation name="nRequisicaoTipoVersao">
+      <input message="s0:nRequisicaoTipoVersaoHttpGetIn" />
+      <output message="s0:nRequisicaoTipoVersaoHttpGetOut" />
+    </operation>
+    <operation name="nSincronismoQuantidadeHoje">
+      <input message="s0:nSincronismoQuantidadeHojeHttpGetIn" />
+      <output message="s0:nSincronismoQuantidadeHojeHttpGetOut" />
+    </operation>
+    <operation name="nSincronismoQuantidade">
+      <input message="s0:nSincronismoQuantidadeHttpGetIn" />
+      <output message="s0:nSincronismoQuantidadeHttpGetOut" />
+    </operation>
+    <operation name="bSincronismoAdiciona">
+      <input message="s0:bSincronismoAdicionaHttpGetIn" />
+      <output message="s0:bSincronismoAdicionaHttpGetOut" />
+    </operation>
+  </portType>
+  <portType name="wbsvSiscoRegistroHttpPost">
+    <operation name="nCadastraPessoaJuridica">
+      <input message="s0:nCadastraPessoaJuridicaHttpPostIn" />
+      <output message="s0:nCadastraPessoaJuridicaHttpPostOut" />
+    </operation>
+    <operation name="nCadastraPessoaFisica">
+      <input message="s0:nCadastraPessoaFisicaHttpPostIn" />
+      <output message="s0:nCadastraPessoaFisicaHttpPostOut" />
+    </operation>
+    <operation name="nRequisicaoTipoVersao">
+      <input message="s0:nRequisicaoTipoVersaoHttpPostIn" />
+      <output message="s0:nRequisicaoTipoVersaoHttpPostOut" />
+    </operation>
+    <operation name="nSincronismoQuantidadeHoje">
+      <input message="s0:nSincronismoQuantidadeHojeHttpPostIn" />
+      <output message="s0:nSincronismoQuantidadeHojeHttpPostOut" />
+    </operation>
+    <operation name="nSincronismoQuantidade">
+      <input message="s0:nSincronismoQuantidadeHttpPostIn" />
+      <output message="s0:nSincronismoQuantidadeHttpPostOut" />
+    </operation>
+    <operation name="bSincronismoAdiciona">
+      <input message="s0:bSincronismoAdicionaHttpPostIn" />
+      <output message="s0:bSincronismoAdicionaHttpPostOut" />
+    </operation>
+  </portType>
+  <binding name="wbsvSiscoRegistroSoap" type="s0:wbsvSiscoRegistroSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="nCadastraPessoaJuridica">
+      <soap:operation soapAction="http://tempuri.org/nCadastraPessoaJuridica" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="nCadastraPessoaFisica">
+      <soap:operation soapAction="http://tempuri.org/nCadastraPessoaFisica" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="nRequisicaoDadosVencimentoCliente">
+      <soap:operation soapAction="http://tempuri.org/nRequisicaoDadosVencimentoCliente" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="nRequisicaoTipoVersao">
+      <soap:operation soapAction="http://tempuri.org/nRequisicaoTipoVersao" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="nRequisicaoDadosVencimentoClienteMaquina">
+      <soap:operation soapAction="http://tempuri.org/nRequisicaoDadosVencimentoClienteMaquina" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="nSincronismoQuantidadeHoje">
+      <soap:operation soapAction="http://tempuri.org/nSincronismoQuantidadeHoje" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="nSincronismoQuantidade">
+      <soap:operation soapAction="http://tempuri.org/nSincronismoQuantidade" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="bSincronismoAdiciona">
+      <soap:operation soapAction="http://tempuri.org/bSincronismoAdiciona" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="wbsvSiscoRegistroHttpGet" type="s0:wbsvSiscoRegistroHttpGet">
+    <http:binding verb="GET" />
+    <operation name="nCadastraPessoaJuridica">
+      <http:operation location="/nCadastraPessoaJuridica" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="nCadastraPessoaFisica">
+      <http:operation location="/nCadastraPessoaFisica" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="nRequisicaoTipoVersao">
+      <http:operation location="/nRequisicaoTipoVersao" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="nSincronismoQuantidadeHoje">
+      <http:operation location="/nSincronismoQuantidadeHoje" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="nSincronismoQuantidade">
+      <http:operation location="/nSincronismoQuantidade" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="bSincronismoAdiciona">
+      <http:operation location="/bSincronismoAdiciona" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="wbsvSiscoRegistroHttpPost" type="s0:wbsvSiscoRegistroHttpPost">
+    <http:binding verb="POST" />
+    <operation name="nCadastraPessoaJuridica">
+      <http:operation location="/nCadastraPessoaJuridica" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="nCadastraPessoaFisica">
+      <http:operation location="/nCadastraPessoaFisica" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="nRequisicaoTipoVersao">
+      <http:operation location="/nRequisicaoTipoVersao" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="nSincronismoQuantidadeHoje">
+      <http:operation location="/nSincronismoQuantidadeHoje" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="nSincronismoQuantidade">
+      <http:operation location="/nSincronismoQuantidade" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="bSincronismoAdiciona">
+      <http:operation location="/bSincronismoAdiciona" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <service name="wbsvSiscoRegistro">
+    <port name="wbsvSiscoRegistroSoap" binding="s0:wbsvSiscoRegistroSoap">
+      <soap:address location="http://cron/wbsvSiscoRegistro/wbsvSiscoRegistro.asmx" />
+    </port>
+    <port name="wbsvSiscoRegistroHttpGet" binding="s0:wbsvSiscoRegistroHttpGet">
+      <http:address location="http://cron/wbsvSiscoRegistro/wbsvSiscoRegistro.asmx" />
+    </port>
+    <port name="wbsvSiscoRegistroHttpPost" binding="s0:wbsvSiscoRegistroHttpPost">
+      <http:address location="http://cron/wbsvSiscoRegistro/wbsvSiscoRegistro.asmx" />
+    </port>
+  </service>
+</definitions>

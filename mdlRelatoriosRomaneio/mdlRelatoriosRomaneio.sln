@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{05740135-806D-4D8C-89EE-508EBF01825C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{38DBC4DE-5E18-449D-A8E3-5737F6CC72AE} = {38DBC4DE-5E18-449D-A8E3-5737F6CC72AE}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlRelatoriosRomaneio", "mdlRelatoriosRomaneio\mdlRelatoriosRomaneio.csproj", "{38DBC4DE-5E18-449D-A8E3-5737F6CC72AE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {C064370C-EEB8-498A-93FE-D716163A15F7}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlRelatoriosRomaneio\\mdlRelatoriosRomaneio.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlRelatoriosRomaneio\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{05740135-806D-4D8C-89EE-508EBF01825C}.Debug.ActiveCfg = Debug|.NET
+		{05740135-806D-4D8C-89EE-508EBF01825C}.Debug.Build.0 = Debug|.NET
+		{05740135-806D-4D8C-89EE-508EBF01825C}.Release.ActiveCfg = Release|.NET
+		{05740135-806D-4D8C-89EE-508EBF01825C}.Release.Build.0 = Release|.NET
+		{38DBC4DE-5E18-449D-A8E3-5737F6CC72AE}.Debug.ActiveCfg = Debug|.NET
+		{38DBC4DE-5E18-449D-A8E3-5737F6CC72AE}.Debug.Build.0 = Debug|.NET
+		{38DBC4DE-5E18-449D-A8E3-5737F6CC72AE}.Release.ActiveCfg = Release|.NET
+		{38DBC4DE-5E18-449D-A8E3-5737F6CC72AE}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		mdlRelatoriosRomaneio\mdlRelatoriosRomaneio.vsd = mdlRelatoriosRomaneio\mdlRelatoriosRomaneio.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

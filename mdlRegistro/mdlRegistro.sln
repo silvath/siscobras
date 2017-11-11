@@ -1,0 +1,61 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{7C0604AE-E94A-45B8-A724-035C5C4B3EC9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AC6FDB20-83D8-4942-AEB5-6CEBA4EBCCFE} = {AC6FDB20-83D8-4942-AEB5-6CEBA4EBCCFE}
+		{4B2EF877-1E05-45AA-8CE8-1834CAF63527} = {4B2EF877-1E05-45AA-8CE8-1834CAF63527}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlRegistro", "mdlRegistro\mdlRegistro.csproj", "{AC6FDB20-83D8-4942-AEB5-6CEBA4EBCCFE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlRegistroTeste", "mdlRegistroTeste\mdlRegistroTeste.csproj", "{4B2EF877-1E05-45AA-8CE8-1834CAF63527}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AC6FDB20-83D8-4942-AEB5-6CEBA4EBCCFE} = {AC6FDB20-83D8-4942-AEB5-6CEBA4EBCCFE}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 4
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {DF547B74-BFA4-43C3-A7FB-8D4F6A7412F0}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlRegistro\\mdlRegistro.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlRegistro\\
+		SccProjectUniqueName3 = mdlRegistroTeste\\mdlRegistroTeste.csproj
+		SccLocalPath3 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection3 = mdlRegistroTeste\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{7C0604AE-E94A-45B8-A724-035C5C4B3EC9}.Debug.ActiveCfg = Debug|.NET
+		{7C0604AE-E94A-45B8-A724-035C5C4B3EC9}.Debug.Build.0 = Debug|.NET
+		{7C0604AE-E94A-45B8-A724-035C5C4B3EC9}.Release.ActiveCfg = Release|.NET
+		{7C0604AE-E94A-45B8-A724-035C5C4B3EC9}.Release.Build.0 = Release|.NET
+		{AC6FDB20-83D8-4942-AEB5-6CEBA4EBCCFE}.Debug.ActiveCfg = Debug|.NET
+		{AC6FDB20-83D8-4942-AEB5-6CEBA4EBCCFE}.Debug.Build.0 = Debug|.NET
+		{AC6FDB20-83D8-4942-AEB5-6CEBA4EBCCFE}.Release.ActiveCfg = Release|.NET
+		{AC6FDB20-83D8-4942-AEB5-6CEBA4EBCCFE}.Release.Build.0 = Release|.NET
+		{4B2EF877-1E05-45AA-8CE8-1834CAF63527}.Debug.ActiveCfg = Debug|.NET
+		{4B2EF877-1E05-45AA-8CE8-1834CAF63527}.Debug.Build.0 = Debug|.NET
+		{4B2EF877-1E05-45AA-8CE8-1834CAF63527}.Release.ActiveCfg = Release|.NET
+		{4B2EF877-1E05-45AA-8CE8-1834CAF63527}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		mdlRegistro.vsd = mdlRegistro.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

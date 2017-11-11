@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbProdutosCertificadoOrigemFormARE" targetNamespace="http://tempuri.org/XsdTbProdutosCertificadoOrigemFormARE.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbProdutosCertificadoOrigemFormARE.xsd"
+	xmlns:mstns="http://tempuri.org/XsdTbProdutosCertificadoOrigemFormARE.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbProdutosCertificadoOrigemFormARE" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbProdutosCertificadoOrigemFormARE">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nIdExportador" type="xs:int" />
+							<xs:element name="strIdPE" type="xs:string" />
+							<xs:element name="nIdOrdem" type="xs:int" />
+							<xs:element name="mstrNumeroRE" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrREData" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrClassiTarifaria" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrValorFOB" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrPesoLiquido" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbProdutosCertificadoOrigemFormAREKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbProdutosCertificadoOrigemFormARE" />
+			<xs:field xpath="mstns:nIdExportador" />
+			<xs:field xpath="mstns:strIdPE" />
+			<xs:field xpath="mstns:nIdOrdem" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbRomaneios" targetNamespace="http://tempuri.org/XsdTbRomaneios.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbRomaneios.xsd" xmlns:mstns="http://tempuri.org/XsdTbRomaneios.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbRomaneios" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbRomaneios">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="idExportador" type="xs:int" />
+							<xs:element name="idPE" type="xs:string" />
+							<xs:element name="idRelatorio" type="xs:int" minOccurs="0" />
+							<xs:element name="dtDataEmissao" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="nIdIdioma" type="xs:int" minOccurs="0" />
+							<xs:element name="strObservacao" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrObservacao" type="xs:string" minOccurs="0" />
+							<xs:element name="strNumero" type="xs:string" minOccurs="0" />
+							<xs:element name="strTotalVolumes" type="xs:string" minOccurs="0" />
+							<xs:element name="nIdAssinatura" type="xs:int" minOccurs="0" />
+							<xs:element name="nTipoOrdenacao" type="xs:int" minOccurs="0" />
+							<xs:element name="bMostrarEmbalagensConsecutivas" type="xs:boolean" minOccurs="0" />
+							<xs:element name="bMostrarVolumesConsecutivos" type="xs:boolean" minOccurs="0" />
+							<xs:element name="nImpressoes" type="xs:int" minOccurs="0" />
+							<xs:element name="bMostrarTotalVolumes" type="xs:boolean" minOccurs="0" />
+							<xs:element name="strFormatoDataEmissao" type="xs:string" minOccurs="0" />
+							<xs:element name="nUnidadeMassaPesoLiquido" type="xs:int" minOccurs="0" />
+							<xs:element name="nUnidadeMassaPesoBruto" type="xs:int" minOccurs="0" />
+							<xs:element name="bEmbalagensIntermediarias" type="xs:boolean" minOccurs="0" />
+							<xs:element name="bOtimizarEspaco" type="xs:boolean" minOccurs="0" />
+							<xs:element name="bReplicarInformacoesVolumes" type="xs:boolean" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbRomaneiosKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbRomaneios" />
+			<xs:field xpath="mstns:idExportador" />
+			<xs:field xpath="mstns:idPE" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

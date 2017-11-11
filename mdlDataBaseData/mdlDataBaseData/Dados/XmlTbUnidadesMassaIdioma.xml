@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="yes"?>
+<XsdTbUnidadesMassaIdioma xmlns="http://tempuri.org/XsdTbUnidadesMassaIdioma.xsd">
+  <tbUnidadesMassaIdioma>
+    <nIdUnidadeMassa>5</nIdUnidadeMassa>
+    <nIdIdioma>3</nIdIdioma>
+    <strNome>Pound</strNome>
+    <strSigla>pd</strSigla>
+  </tbUnidadesMassaIdioma>
+</XsdTbUnidadesMassaIdioma>

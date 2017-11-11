@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mdlClassificacao>
+	<clsClassificacao>
+		<Tarefas>01-07-2003#Roberto#Criando solução</Tarefas>
+		<Problemas>OK!</Problemas>
+	</clsClassificacao>
+	<frmFClassificacao>
+		<Tarefas>01-07-2003#Roberto#Criando solução</Tarefas>
+		<Problemas>OK!</Problemas>
+	</frmFClassificacao>
+	<clsClassificacao>
+		<Tarefas>01-07-2003#Roberto#Classe e métodos criados. Falta possibilidade de criar novo e editar classificação</Tarefas>
+		<Problemas>OK!</Problemas>
+	</clsClassificacao>
+	<frmFClassificacao>
+		<Tarefas>01-07-2003#Roberto#Frame criado!!!!</Tarefas>
+		<Problemas>OK!</Problemas>
+	</frmFClassificacao>
+</mdlClassificacao>

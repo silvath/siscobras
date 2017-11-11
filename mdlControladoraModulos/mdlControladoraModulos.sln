@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{EDEB73E7-66C6-450D-8C8F-ED96647B4A5D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7B98EE5E-43BE-412B-ADA5-38B0B6CBE7AC} = {7B98EE5E-43BE-412B-ADA5-38B0B6CBE7AC}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlControladoraModulos", "mdlControladoraModulos\mdlControladoraModulos.csproj", "{7B98EE5E-43BE-412B-ADA5-38B0B6CBE7AC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {7D55E2EB-239C-45FA-A82D-5186A9E78DD6}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlControladoraModulos\\mdlControladoraModulos.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlControladoraModulos\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{EDEB73E7-66C6-450D-8C8F-ED96647B4A5D}.Debug.ActiveCfg = Debug|.NET
+		{EDEB73E7-66C6-450D-8C8F-ED96647B4A5D}.Debug.Build.0 = Debug|.NET
+		{EDEB73E7-66C6-450D-8C8F-ED96647B4A5D}.Release.ActiveCfg = Release|.NET
+		{EDEB73E7-66C6-450D-8C8F-ED96647B4A5D}.Release.Build.0 = Release|.NET
+		{7B98EE5E-43BE-412B-ADA5-38B0B6CBE7AC}.Debug.ActiveCfg = Debug|.NET
+		{7B98EE5E-43BE-412B-ADA5-38B0B6CBE7AC}.Debug.Build.0 = Debug|.NET
+		{7B98EE5E-43BE-412B-ADA5-38B0B6CBE7AC}.Release.ActiveCfg = Release|.NET
+		{7B98EE5E-43BE-412B-ADA5-38B0B6CBE7AC}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		mdlControladoraModulos.vsd = mdlControladoraModulos.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

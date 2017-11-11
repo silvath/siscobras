@@ -1,0 +1,303 @@
+<?xml version="1.0" standalone="yes"?>
+<XsdTbVolumes xmlns="http://tempuri.org/XsdTbVolumes.xsd">
+  <tbVolumes>
+    <nIdVolume>1</nIdVolume>
+    <strDescricao>AMARRADO/ATADO/FEIXE</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>2</nIdVolume>
+    <strDescricao>BARRICA DE FERRO</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>3</nIdVolume>
+    <strDescricao>BARRICA DE FIBRA DE VIDRO</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>4</nIdVolume>
+    <strDescricao>BARRICA DE PAPELAO</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>5</nIdVolume>
+    <strDescricao>BARRICA DE PLASTICO</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>6</nIdVolume>
+    <strDescricao>BARRICA DE OUTROS MATERIAIS</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>7</nIdVolume>
+    <strDescricao>BAU DE MADEIRA</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>8</nIdVolume>
+    <strDescricao>BAU DE METAL</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>9</nIdVolume>
+    <strDescricao>BAU DE OUTROS MATERIAIS</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>10</nIdVolume>
+    <strDescricao>BIG BAG</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>11</nIdVolume>
+    <strDescricao>BLOCO</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>12</nIdVolume>
+    <strDescricao>BOBINA</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>13</nIdVolume>
+    <strDescricao>BOMBONA</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>14</nIdVolume>
+    <strDescricao>BOTIJAO</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>15</nIdVolume>
+    <strDescricao>CAIXA CORRUGADA</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>16</nIdVolume>
+    <strDescricao>CAIXA DE ISOPOR</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>17</nIdVolume>
+    <strDescricao>CAIXA DE MADEIRA</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>18</nIdVolume>
+    <strDescricao>CAIXA DE METAL</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>19</nIdVolume>
+    <strDescricao>CAIXA DE PAPELAO</strDescricao>
+    <nIdImagem>1</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>20</nIdVolume>
+    <strDescricao>CAIXA DE PLASTICO</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>21</nIdVolume>
+    <strDescricao>CAIXA DE OUTROS MATERIAIS</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>22</nIdVolume>
+    <strDescricao>CANUDO</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>23</nIdVolume>
+    <strDescricao>CARRETEL</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>24</nIdVolume>
+    <strDescricao>CILINDRO</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>25</nIdVolume>
+    <strDescricao>CINTADO</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>26</nIdVolume>
+    <strDescricao>ENGRADADO DE MADEIRA</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>27</nIdVolume>
+    <strDescricao>ENGRADADO DE PLASTICO</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>28</nIdVolume>
+    <strDescricao>ENGRADADO DE OUTROS MATERIAIS</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>29</nIdVolume>
+    <strDescricao>ENVELOPE</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>30</nIdVolume>
+    <strDescricao>ESTOJO</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>31</nIdVolume>
+    <strDescricao>ESTRADO (PALLET)</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>32</nIdVolume>
+    <strDescricao>FARDO</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>33</nIdVolume>
+    <strDescricao>FRASCO</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>34</nIdVolume>
+    <strDescricao>GALAO DE METAL</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>35</nIdVolume>
+    <strDescricao>GALAO DE PLASTICO</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>36</nIdVolume>
+    <strDescricao>GALAO DE OUTROS MATERIAIS</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>37</nIdVolume>
+    <strDescricao>GRANEL</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>38</nIdVolume>
+    <strDescricao>LATA</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>39</nIdVolume>
+    <strDescricao>MALA</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>40</nIdVolume>
+    <strDescricao>MALETA</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>41</nIdVolume>
+    <strDescricao>PACOTE</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>42</nIdVolume>
+    <strDescricao>PECA</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>43</nIdVolume>
+    <strDescricao>QUARTOLA</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>44</nIdVolume>
+    <strDescricao>ROLO</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>45</nIdVolume>
+    <strDescricao>SACA</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>46</nIdVolume>
+    <strDescricao>SACO DE ANIAGEM</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>47</nIdVolume>
+    <strDescricao>SACO DE COURO</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>48</nIdVolume>
+    <strDescricao>SACO DE LONA</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>49</nIdVolume>
+    <strDescricao>SACO DE NYLON</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>50</nIdVolume>
+    <strDescricao>SACO DE PAPEL</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>51</nIdVolume>
+    <strDescricao>SACO DE PAPELAO</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>52</nIdVolume>
+    <strDescricao>SACO DE PLASTICO</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>53</nIdVolume>
+    <strDescricao>SACO DE OUTROS MATERIAIS</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>54</nIdVolume>
+    <strDescricao>SACOLA</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>55</nIdVolume>
+    <strDescricao>SAN BAG</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>56</nIdVolume>
+    <strDescricao>TAMBOR DE METAL</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>57</nIdVolume>
+    <strDescricao>TAMBOR DE PAPELAO</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>58</nIdVolume>
+    <strDescricao>TAMBOR DE PLASTICO</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>59</nIdVolume>
+    <strDescricao>TAMBOR DE OUTROS MATERIAIS</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+  <tbVolumes>
+    <nIdVolume>99</nIdVolume>
+    <strDescricao>OUTROS</strDescricao>
+    <nIdImagem>0</nIdImagem>
+  </tbVolumes>
+</XsdTbVolumes>

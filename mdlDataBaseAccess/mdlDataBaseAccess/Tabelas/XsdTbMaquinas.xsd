@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbMaquinas" targetNamespace="http://tempuri.org/XsdTbMaquinas.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbMaquinas.xsd" xmlns:mstns="http://tempuri.org/XsdTbMaquinas.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbMaquinas" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbMaquinas">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nIdMaquina" type="xs:int" />
+							<xs:element name="strNome" type="xs:string" minOccurs="0" />
+							<xs:element name="strKeyFile" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbMaquinasKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbMaquinas" />
+			<xs:field xpath="mstns:nIdMaquina" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

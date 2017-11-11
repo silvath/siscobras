@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{9CCF5476-BF1A-4FC1-9C20-4F701FD34525}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3976C82A-EFF6-4340-AF42-2B7C0208C9BB} = {3976C82A-EFF6-4340-AF42-2B7C0208C9BB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlComponentesColecoes", "mdlComponentesColecoes\mdlComponentesColecoes.csproj", "{3976C82A-EFF6-4340-AF42-2B7C0208C9BB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {034E5D9D-F0C1-4157-9D3C-73A6A1B92551}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlComponentesColecoes\\mdlComponentesColecoes.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlComponentesColecoes\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{9CCF5476-BF1A-4FC1-9C20-4F701FD34525}.Debug.ActiveCfg = Debug|.NET
+		{9CCF5476-BF1A-4FC1-9C20-4F701FD34525}.Debug.Build.0 = Debug|.NET
+		{9CCF5476-BF1A-4FC1-9C20-4F701FD34525}.Release.ActiveCfg = Release|.NET
+		{9CCF5476-BF1A-4FC1-9C20-4F701FD34525}.Release.Build.0 = Release|.NET
+		{3976C82A-EFF6-4340-AF42-2B7C0208C9BB}.Debug.ActiveCfg = Debug|.NET
+		{3976C82A-EFF6-4340-AF42-2B7C0208C9BB}.Debug.Build.0 = Debug|.NET
+		{3976C82A-EFF6-4340-AF42-2B7C0208C9BB}.Release.ActiveCfg = Release|.NET
+		{3976C82A-EFF6-4340-AF42-2B7C0208C9BB}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		mdlComponentesColecoes.vsd = mdlComponentesColecoes.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

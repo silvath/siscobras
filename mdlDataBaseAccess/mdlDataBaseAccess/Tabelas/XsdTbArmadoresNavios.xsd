@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbArmadoresNavios" targetNamespace="http://tempuri.org/XsdTbArmadoresNavios.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbArmadoresNavios.xsd"
+	xmlns:mstns="http://tempuri.org/XsdTbArmadoresNavios.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbArmadoresNavios" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbArmadoresNavios">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nIdArmador" type="xs:int" />
+							<xs:element name="nIdNavio" type="xs:int" />
+							<xs:element name="strNome" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbArmadoresNaviosKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbArmadoresNavios" />
+			<xs:field xpath="mstns:nIdArmador" />
+			<xs:field xpath="mstns:nIdNavio" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

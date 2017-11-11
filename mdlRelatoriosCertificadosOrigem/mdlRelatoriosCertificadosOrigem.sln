@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{D863D6F8-C09B-4E3A-919C-C7AA34FA8457}"
+	ProjectSection(ProjectDependencies) = postProject
+		{271DD168-2AEA-4B8C-94F2-CF6356393154} = {271DD168-2AEA-4B8C-94F2-CF6356393154}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlRelatoriosCertificadosOrigem", "mdlRelatoriosCertificadosOrigem\mdlRelatoriosCertificadosOrigem.csproj", "{271DD168-2AEA-4B8C-94F2-CF6356393154}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {CFAE05F2-8EDE-449F-A98A-B38A4960F521}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlRelatoriosCertificadosOrigem\\mdlRelatoriosCertificadosOrigem.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlRelatoriosCertificadosOrigem\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D863D6F8-C09B-4E3A-919C-C7AA34FA8457}.Debug.ActiveCfg = Debug|.NET
+		{D863D6F8-C09B-4E3A-919C-C7AA34FA8457}.Debug.Build.0 = Debug|.NET
+		{D863D6F8-C09B-4E3A-919C-C7AA34FA8457}.Release.ActiveCfg = Release|.NET
+		{D863D6F8-C09B-4E3A-919C-C7AA34FA8457}.Release.Build.0 = Release|.NET
+		{271DD168-2AEA-4B8C-94F2-CF6356393154}.Debug.ActiveCfg = Debug|.NET
+		{271DD168-2AEA-4B8C-94F2-CF6356393154}.Debug.Build.0 = Debug|.NET
+		{271DD168-2AEA-4B8C-94F2-CF6356393154}.Release.ActiveCfg = Release|.NET
+		{271DD168-2AEA-4B8C-94F2-CF6356393154}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		mdlRelatoriosCertificadosOrigem\mdlRelatoriosCertificadosOrigem.vsd = mdlRelatoriosCertificadosOrigem\mdlRelatoriosCertificadosOrigem.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

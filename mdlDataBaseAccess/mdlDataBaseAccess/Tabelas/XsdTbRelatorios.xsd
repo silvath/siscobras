@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbRelatorios" targetNamespace="http://tempuri.org/XsdTbRelatorios.xsd" elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbRelatorios.xsd" xmlns:mstns="http://tempuri.org/XsdTbRelatorios.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbRelatorios" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbRelatorios">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nIdExportador" type="xs:int" />
+							<xs:element name="nIdTipo" type="xs:int" />
+							<xs:element name="nIdRelatorio" type="xs:int" />
+							<xs:element name="strNomeRelatorio" type="xs:string" minOccurs="0" />
+							<xs:element name="nWidth" type="xs:int" minOccurs="0" />
+							<xs:element name="nHeight" type="xs:int" minOccurs="0" />
+							<xs:element name="nOrientacao" type="xs:short" minOccurs="0" />
+							<xs:element name="nMargemAcima" type="xs:int" minOccurs="0" />
+							<xs:element name="nMargemDireita" type="xs:int" minOccurs="0" />
+							<xs:element name="nMargemAbaixo" type="xs:int" minOccurs="0" />
+							<xs:element name="nMargemEsquerda" type="xs:int" minOccurs="0" />
+							<xs:element name="nTipoFolha" type="xs:int" minOccurs="0" />
+							<xs:element name="bPossuiAreaProdutos" type="xs:boolean" minOccurs="0" />
+							<xs:element name="nAreaProdutosInicio" type="xs:int" minOccurs="0" />
+							<xs:element name="nAreaProdutosFinal" type="xs:int" minOccurs="0" />
+							<xs:element name="bVerGrade" type="xs:boolean" minOccurs="0" />
+							<xs:element name="bVerMargens" type="xs:boolean" minOccurs="0" />
+							<xs:element name="bVerAreaProdutos" type="xs:boolean" minOccurs="0" />
+							<xs:element name="bVerLinhas" type="xs:boolean" minOccurs="0" />
+							<xs:element name="bVerCirculos" type="xs:boolean" minOccurs="0" />
+							<xs:element name="bVerRetangulos" type="xs:boolean" minOccurs="0" />
+							<xs:element name="bVerImagens" type="xs:boolean" minOccurs="0" />
+							<xs:element name="bVerEtiquetas" type="xs:boolean" minOccurs="0" />
+							<xs:element name="bVerCamposBD" type="xs:boolean" minOccurs="0" />
+							<xs:element name="bVerCamposBDDados" type="xs:boolean" minOccurs="0" />
+							<xs:element name="nlCorCampoBD" type="xs:int" minOccurs="0" />
+							<xs:element name="nlCorObjetosFocados" type="xs:int" minOccurs="0" />
+							<xs:element name="nlCorObjetosNaoImpressos" type="xs:int" minOccurs="0" />
+							<xs:element name="nlCorAreaProdutos" type="xs:int" minOccurs="0" />
+							<xs:element name="nlCorMargem" type="xs:int" minOccurs="0" />
+							<xs:element name="nlCorFundo" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbRelatoriosKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbRelatorios" />
+			<xs:field xpath="mstns:nIdExportador" />
+			<xs:field xpath="mstns:nIdTipo" />
+			<xs:field xpath="mstns:nIdRelatorio" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

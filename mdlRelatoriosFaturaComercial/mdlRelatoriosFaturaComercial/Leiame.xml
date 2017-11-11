@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mdlRelatoriosFaturaComercial>
+	<frmRelatorioFaturaComercial>
+		<Tarefas>12-06-2003#Roberto#Independência do BD
+</Tarefas>
+		<Problemas>Falta definir o mdlProdutosVinculacao
+</Problemas>
+	</frmRelatorioFaturaComercial>
+</mdlRelatoriosFaturaComercial>

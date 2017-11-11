@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbWebServiceServidores" targetNamespace="http://tempuri.org/XsdTbWebServiceServidores.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbWebServiceServidores.xsd"
+	xmlns:mstns="http://tempuri.org/XsdTbWebServiceServidores.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbWebServiceServidores" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbWebServiceServidores">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nIdServidor" type="xs:int" />
+							<xs:element name="strHost" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbWebServiceServidoresKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbWebServiceServidores" />
+			<xs:field xpath="mstns:nIdServidor" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

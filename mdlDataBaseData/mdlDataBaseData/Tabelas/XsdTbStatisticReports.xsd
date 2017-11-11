@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbStatisticReports" targetNamespace="http://tempuri.org/XsdTbStatisticReports.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbStatisticReports.xsd"
+	xmlns:mstns="http://tempuri.org/XsdTbStatisticReports.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbStatisticReports" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbStatisticReports">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nIdReport" type="xs:int" />
+							<xs:element name="strName" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrData" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbStatisticReportsKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbStatisticReports" />
+			<xs:field xpath="mstns:nIdReport" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,2867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format" font-family="Helvetica" font-size="10pt">
+	<fo:layout-master-set>
+		<fo:simple-page-master master-name="all-pages" page-height="29.7cm" page-width="21cm" margin="1cm">
+			<fo:region-body region-name="xsl-region-body" background-color="white" margin-bottom="2cm" margin-top="2cm"/>
+			<fo:region-before region-name="xsl-region-before" background-color="#EFF0D7" extent="1cm" border="1pt solid #660000"/>
+			<fo:region-after region-name="xsl-region-after" background-color="#EFF0D7" extent="1cm" border="1pt solid #660000"/>
+		</fo:simple-page-master>
+	</fo:layout-master-set>
+	<fo:page-sequence master-reference="all-pages">
+		<fo:static-content flow-name="xsl-region-before">
+			<fo:block text-align="justify" text-align-last="justify" padding="0.25cm">
+				<fo:wrapper color="#660000" font-size="12pt" font-weight="bold">ALTSOFT</fo:wrapper>
+				<fo:leader/>XSL-FO testsuite
+			</fo:block>
+		</fo:static-content>
+		<fo:static-content flow-name="xsl-region-after">
+			<fo:block text-align="justify" text-align-last="justify" padding="0.25cm">
+				<fo:basic-link external-destination="url(http://www.alt-soft.com/)">
+					<fo:inline color="#660000" text-decoration="underline">http://www.alt-soft.com/</fo:inline>
+				</fo:basic-link>
+				<fo:leader/>
+				<fo:inline wrap-option="no-wrap">© Altsoft, 2003</fo:inline>
+			</fo:block>
+		</fo:static-content>
+		<fo:flow flow-name="xsl-region-body" font-family="Courier" font-size="10pt">
+			<fo:block margin-left="1.5cm" margin-right="1.5cm" text-align="justify" text-align-last="left">
+				<fo:block padding-bottom="1cm">Altsoft Xml2NET has advanced named colors support and in the table below you can find the list of all named colors supported by. The decimal values are written for the reference and easy of use.</fo:block>
+				<fo:table table-layout="fixed" border-separation="0.2cm" border-collapse="separate" width="100%">
+					<fo:table-header>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none black" text-align-last="center" color="white" background-color="black">Named</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" text-align-last="center" color="white" background-color="black">Numeric</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" text-align-last="center" color="white" background-color="black">Color Name</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" text-align-last="center" color="white" background-color="black">Decimal</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+					</fo:table-header>
+					<fo:table-body>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none aliceblue" color="aliceblue" background-color="aliceblue">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(240,248,255)" color="rgb(240,248,255)" background-color="rgb(240,248,255)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">aliceblue</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">240,248,255</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none antiquewhite" color="antiquewhite" background-color="antiquewhite">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(250,235,215)" color="rgb(250,235,215)" background-color="rgb(250,235,215)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">antiquewhite</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">250,235,215</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none aqua" color="aqua" background-color="aqua">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(0,255,255)" color="rgb(0,255,255)" background-color="rgb(0,255,255)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">aqua</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">0,255,255</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none aquamarine" color="aquamarine" background-color="aquamarine">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(127,255,212)" color="rgb(127,255,212)" background-color="rgb(127,255,212)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">aquamarine</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">127,255,212</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none azure" color="azure" background-color="azure">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(240,255,255)" color="rgb(240,255,255)" background-color="rgb(240,255,255)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">azure</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">240,255,255</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none beige" color="beige" background-color="beige">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(245,245,220)" color="rgb(245,245,220)" background-color="rgb(245,245,220)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">beige</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">245,245,220</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none bisque" color="bisque" background-color="bisque">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(255,228,196)" color="rgb(255,228,196)" background-color="rgb(255,228,196)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">bisque</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">255,228,196</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none black" color="black" background-color="black">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(0,0,0)" color="rgb(0,0,0)" background-color="rgb(0,0,0)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">black</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">0,0,0</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none blanchedalmond" color="blanchedalmond" background-color="blanchedalmond">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(255,235,205)" color="rgb(255,235,205)" background-color="rgb(255,235,205)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">blanchedalmond</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">255,235,205</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none blue" color="blue" background-color="blue">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(0,0,255)" color="rgb(0,0,255)" background-color="rgb(0,0,255)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">blue</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">0,0,255</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none blueviolet" color="blueviolet" background-color="blueviolet">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(138,43,226)" color="rgb(138,43,226)" background-color="rgb(138,43,226)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">blueviolet</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">138,43,226</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none brown" color="brown" background-color="brown">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(165,42,42)" color="rgb(165,42,42)" background-color="rgb(165,42,42)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">brown</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">165,42,42</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none burlywood" color="burlywood" background-color="burlywood">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(222,184,135)" color="rgb(222,184,135)" background-color="rgb(222,184,135)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">burlywood</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">222,184,135</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none cadetblue" color="cadetblue" background-color="cadetblue">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(95,158,160)" color="rgb(95,158,160)" background-color="rgb(95,158,160)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">cadetblue</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">95,158,160</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none chartreuse" color="chartreuse" background-color="chartreuse">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(127,255,0)" color="rgb(127,255,0)" background-color="rgb(127,255,0)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">chartreuse</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">127,255,0</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none chocolate" color="chocolate" background-color="chocolate">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(210,105,30)" color="rgb(210,105,30)" background-color="rgb(210,105,30)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">chocolate</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">210,105,30</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none coral" color="coral" background-color="coral">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(255,127,80)" color="rgb(255,127,80)" background-color="rgb(255,127,80)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">coral</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">255,127,80</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none cornflowerblue" color="cornflowerblue" background-color="cornflowerblue">
+a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(100,149,237)" color="rgb(100,149,237)" background-color="rgb(100,149,237)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">cornflowerblue</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">100,149,237</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none cornsilk" color="cornsilk" background-color="cornsilk">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(255,248,220)" color="rgb(255,248,220)" background-color="rgb(255,248,220)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">cornsilk
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">255,248,220		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none crimson" color="crimson" background-color="crimson">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(220,20,60)" color="rgb(220,20,60)" background-color="rgb(220,20,60)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">crimson
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">220,20,60		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none cyan" color="cyan" background-color="cyan">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(0,255,255)" color="rgb(0,255,255)" background-color="rgb(0,255,255)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">cyan
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">0,255,255		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none darkblue" color="darkblue" background-color="darkblue">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(0,0,139)" color="rgb(0,0,139)" background-color="rgb(0,0,139)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">darkblue
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">0,0,139		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none darkcyan" color="darkcyan" background-color="darkcyan">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(0,139,139)" color="rgb(0,139,139)" background-color="rgb(0,139,139)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">darkcyan
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">0,139,139		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none darkgoldenrod" color="darkgoldenrod" background-color="darkgoldenrod">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(184,134,11)" color="rgb(184,134,11)" background-color="rgb(184,134,11)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">darkgoldenrod
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">184,134,11		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none darkgray" color="darkgray" background-color="darkgray">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(169,169,169)" color="rgb(169,169,169)" background-color="rgb(169,169,169)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">darkgray
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">169,169,169		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none darkgreen" color="darkgreen" background-color="darkgreen">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(0,100,0)" color="rgb(0,100,0)" background-color="rgb(0,100,0)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">darkgreen
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">0,100,0		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none darkkhaki" color="darkkhaki" background-color="darkkhaki">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(189,183,107)" color="rgb(189,183,107)" background-color="rgb(189,183,107)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">darkkhaki
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">189,183,107		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none darkmagenta" color="darkmagenta" background-color="darkmagenta">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(139,0,139)" color="rgb(139,0,139)" background-color="rgb(139,0,139)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">darkmagenta
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">139,0,139		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none darkolivegreen" color="darkolivegreen" background-color="darkolivegreen">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(85,107,47)" color="rgb(85,107,47)" background-color="rgb(85,107,47)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">darkolivegreen
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">85,107,47		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none darkorange" color="darkorange" background-color="darkorange">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(255,140,0)" color="rgb(255,140,0)" background-color="rgb(255,140,0)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">darkorange
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">255,140,0		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none darkorchid" color="darkorchid" background-color="darkorchid">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(153,50,204)" color="rgb(153,50,204)" background-color="rgb(153,50,204)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">darkorchid
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">153,50,204		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none darkred" color="darkred" background-color="darkred">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(139,0,0)" color="rgb(139,0,0)" background-color="rgb(139,0,0)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">darkred
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">139,0,0		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none darksalmon" color="darksalmon" background-color="darksalmon">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(233,150,122)" color="rgb(233,150,122)" background-color="rgb(233,150,122)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">darksalmon
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">233,150,122		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none darkseagreen" color="darkseagreen" background-color="darkseagreen">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(143,188,143)" color="rgb(143,188,143)" background-color="rgb(143,188,143)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">darkseagreen
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">143,188,143		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none darkslateblue" color="darkslateblue" background-color="darkslateblue">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(72,61,139)" color="rgb(72,61,139)" background-color="rgb(72,61,139)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">darkslateblue
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">72,61,139		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none darkslategray" color="darkslategray" background-color="darkslategray">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(47,79,79)" color="rgb(47,79,79)" background-color="rgb(47,79,79)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">darkslategray
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">47,79,79		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none darkturquoise" color="darkturquoise" background-color="darkturquoise">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(0,206,209)" color="rgb(0,206,209)" background-color="rgb(0,206,209)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">darkturquoise
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">0,206,209		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none darkviolet" color="darkviolet" background-color="darkviolet">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(148,0,211)" color="rgb(148,0,211)" background-color="rgb(148,0,211)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">darkviolet
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">148,0,211		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none deeppink" color="deeppink" background-color="deeppink">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(255,20,147)" color="rgb(255,20,147)" background-color="rgb(255,20,147)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">deeppink
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">255,20,147		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none deepskyblue" color="deepskyblue" background-color="deepskyblue">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(0,191,255)" color="rgb(0,191,255)" background-color="rgb(0,191,255)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">deepskyblue
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">0,191,255		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none dimgray" color="dimgray" background-color="dimgray">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(105,105,105)" color="rgb(105,105,105)" background-color="rgb(105,105,105)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">dimgray
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">105,105,105		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none dodgerblue" color="dodgerblue" background-color="dodgerblue">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(30,144,255)" color="rgb(30,144,255)" background-color="rgb(30,144,255)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">dodgerblue
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">30,144,255		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none firebrick" color="firebrick" background-color="firebrick">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(178,34,34)" color="rgb(178,34,34)" background-color="rgb(178,34,34)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">firebrick
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">178,34,34		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none floralwhite" color="floralwhite" background-color="floralwhite">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(255,250,240)" color="rgb(255,250,240)" background-color="rgb(255,250,240)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">floralwhite
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">255,250,240		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none forestgreen" color="forestgreen" background-color="forestgreen">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(34,139,34)" color="rgb(34,139,34)" background-color="rgb(34,139,34)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">forestgreen
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">34,139,34		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none fuchsia" color="fuchsia" background-color="fuchsia">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(255,0,255)" color="rgb(255,0,255)" background-color="rgb(255,0,255)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">fuchsia
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">255,0,255		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none gainsboro" color="gainsboro" background-color="gainsboro">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(220,220,220)" color="rgb(220,220,220)" background-color="rgb(220,220,220)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">gainsboro
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">220,220,220		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none ghostwhite" color="ghostwhite" background-color="ghostwhite">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(248,248,255)" color="rgb(248,248,255)" background-color="rgb(248,248,255)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">ghostwhite
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">248,248,255		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none gold" color="gold" background-color="gold">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(255,215,0)" color="rgb(255,215,0)" background-color="rgb(255,215,0)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">gold
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">255,215,0		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none goldenrod" color="goldenrod" background-color="goldenrod">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(218,165,32)" color="rgb(218,165,32)" background-color="rgb(218,165,32)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">goldenrod
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">218,165,32		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none gray" color="gray" background-color="gray">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(128,128,128)" color="rgb(128,128,128)" background-color="rgb(128,128,128)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">gray
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">128,128,128		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none green" color="green" background-color="green">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(0,128,0)" color="rgb(0,128,0)" background-color="rgb(0,128,0)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">green
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">0,128,0		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none greenyellow" color="greenyellow" background-color="greenyellow">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(173,255,47)" color="rgb(173,255,47)" background-color="rgb(173,255,47)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">greenyellow
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">173,255,47		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none honeydew" color="honeydew" background-color="honeydew">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(240,255,240)" color="rgb(240,255,240)" background-color="rgb(240,255,240)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">honeydew
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">240,255,240		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none hotpink" color="hotpink" background-color="hotpink">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(255,105,180)" color="rgb(255,105,180)" background-color="rgb(255,105,180)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">hotpink
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">255,105,180		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none indianred" color="indianred" background-color="indianred">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(205,92,92)" color="rgb(205,92,92)" background-color="rgb(205,92,92)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">indianred
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">205,92,92		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none indigo" color="indigo" background-color="indigo">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(75,0,130)" color="rgb(75,0,130)" background-color="rgb(75,0,130)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">indigo
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">75,0,130		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none ivory" color="ivory" background-color="ivory">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(255,255,240)" color="rgb(255,255,240)" background-color="rgb(255,255,240)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">ivory
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">255,255,240		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none khaki" color="khaki" background-color="khaki">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(240,230,140)" color="rgb(240,230,140)" background-color="rgb(240,230,140)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">khaki
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">240,230,140		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none lavender" color="lavender" background-color="lavender">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(230,230,250)" color="rgb(230,230,250)" background-color="rgb(230,230,250)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">lavender
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">230,230,250		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none lavenderblush" color="lavenderblush" background-color="lavenderblush">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(255,240,245)" color="rgb(255,240,245)" background-color="rgb(255,240,245)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">lavenderblush
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">255,240,245		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none lawngreen" color="lawngreen" background-color="lawngreen">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(124,252,0)" color="rgb(124,252,0)" background-color="rgb(124,252,0)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">lawngreen
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">124,252,0		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none lemonchiffon" color="lemonchiffon" background-color="lemonchiffon">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(255,250,205)" color="rgb(255,250,205)" background-color="rgb(255,250,205)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">lemonchiffon
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">255,250,205		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none lightblue" color="lightblue" background-color="lightblue">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(173,216,230)" color="rgb(173,216,230)" background-color="rgb(173,216,230)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">lightblue
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">173,216,230		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none lightcoral" color="lightcoral" background-color="lightcoral">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(240,128,128)" color="rgb(240,128,128)" background-color="rgb(240,128,128)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">lightcoral
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">240,128,128		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none lightcyan" color="lightcyan" background-color="lightcyan">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(224,255,255)" color="rgb(224,255,255)" background-color="rgb(224,255,255)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">lightcyan
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">224,255,255		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none lightgoldenrodyellow" color="lightgoldenrodyellow" background-color="lightgoldenrodyellow">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(250,250,210)" color="rgb(250,250,210)" background-color="rgb(250,250,210)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">lightgoldenrodyellow
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">250,250,210		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none lightgreen" color="lightgreen" background-color="lightgreen">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(144,238,144)" color="rgb(144,238,144)" background-color="rgb(144,238,144)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">lightgreen
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">144,238,144		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none lightgrey" color="lightgrey" background-color="lightgrey">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(211,211,211)" color="rgb(211,211,211)" background-color="rgb(211,211,211)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">lightgrey
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">211,211,211		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none lightpink" color="lightpink" background-color="lightpink">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(255,182,193)" color="rgb(255,182,193)" background-color="rgb(255,182,193)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">lightpink
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">255,182,193		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none lightsalmon" color="lightsalmon" background-color="lightsalmon">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(255,160,122)" color="rgb(255,160,122)" background-color="rgb(255,160,122)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">lightsalmon
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">255,160,122		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none lightseagreen" color="lightseagreen" background-color="lightseagreen">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(32,178,170)" color="rgb(32,178,170)" background-color="rgb(32,178,170)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">lightseagreen
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">32,178,170		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none lightskyblue" color="lightskyblue" background-color="lightskyblue">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(135,206,250)" color="rgb(135,206,250)" background-color="rgb(135,206,250)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">lightskyblue
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">135,206,250		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none lightslategray" color="lightslategray" background-color="lightslategray">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(119,136,153)" color="rgb(119,136,153)" background-color="rgb(119,136,153)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">lightslategray
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">119,136,153		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none lightsteelblue" color="lightsteelblue" background-color="lightsteelblue">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(176,196,222)" color="rgb(176,196,222)" background-color="rgb(176,196,222)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">lightsteelblue
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">176,196,222		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none lightyellow" color="lightyellow" background-color="lightyellow">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(255,255,224)" color="rgb(255,255,224)" background-color="rgb(255,255,224)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">lightyellow
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">255,255,224		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none lime" color="lime" background-color="lime">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(0,255,0)" color="rgb(0,255,0)" background-color="rgb(0,255,0)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">lime
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">0,255,0		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none limegreen" color="limegreen" background-color="limegreen">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(50,205,50)" color="rgb(50,205,50)" background-color="rgb(50,205,50)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">limegreen
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">50,205,50		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none linen" color="linen" background-color="linen">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(250,240,230)" color="rgb(250,240,230)" background-color="rgb(250,240,230)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">linen
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">250,240,230		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none magenta" color="magenta" background-color="magenta">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(255,0,255)" color="rgb(255,0,255)" background-color="rgb(255,0,255)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">magenta
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">255,0,255		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none maroon" color="maroon" background-color="maroon">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(128,0,0)" color="rgb(128,0,0)" background-color="rgb(128,0,0)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">maroon
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">128,0,0		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none mediumaquamarine" color="mediumaquamarine" background-color="mediumaquamarine">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(102,205,170)" color="rgb(102,205,170)" background-color="rgb(102,205,170)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">mediumaquamarine
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">102,205,170		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none mediumblue" color="mediumblue" background-color="mediumblue">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(0,0,205)" color="rgb(0,0,205)" background-color="rgb(0,0,205)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">mediumblue
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">0,0,205		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none mediumorchid" color="mediumorchid" background-color="mediumorchid">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(186,85,211)" color="rgb(186,85,211)" background-color="rgb(186,85,211)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">mediumorchid
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">186,85,211		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none mediumpurple" color="mediumpurple" background-color="mediumpurple">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(147,112,219)" color="rgb(147,112,219)" background-color="rgb(147,112,219)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">mediumpurple
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">147,112,219		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none mediumseagreen" color="mediumseagreen" background-color="mediumseagreen">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(60,179,113)" color="rgb(60,179,113)" background-color="rgb(60,179,113)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">mediumseagreen
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">60,179,113		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none mediumslateblue" color="mediumslateblue" background-color="mediumslateblue">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(123,104,238)" color="rgb(123,104,238)" background-color="rgb(123,104,238)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">mediumslateblue
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">123,104,238		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none mediumspringgreen" color="mediumspringgreen" background-color="mediumspringgreen">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(0,250,154)" color="rgb(0,250,154)" background-color="rgb(0,250,154)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">mediumspringgreen
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">0,250,154		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none mediumturquoise" color="mediumturquoise" background-color="mediumturquoise">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(72,209,204)" color="rgb(72,209,204)" background-color="rgb(72,209,204)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">mediumturquoise
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">72,209,204		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none mediumvioletred" color="mediumvioletred" background-color="mediumvioletred">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(199,21,133)" color="rgb(199,21,133)" background-color="rgb(199,21,133)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">mediumvioletred
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">199,21,133		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none midnightblue" color="midnightblue" background-color="midnightblue">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(25,25,112)" color="rgb(25,25,112)" background-color="rgb(25,25,112)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">midnightblue
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">25,25,112		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none mintcream" color="mintcream" background-color="mintcream">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(245,255,250)" color="rgb(245,255,250)" background-color="rgb(245,255,250)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">mintcream
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">245,255,250		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none mistyrose" color="mistyrose" background-color="mistyrose">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(255,228,225)" color="rgb(255,228,225)" background-color="rgb(255,228,225)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">mistyrose
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">255,228,225		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none moccasin" color="moccasin" background-color="moccasin">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(255,228,181)" color="rgb(255,228,181)" background-color="rgb(255,228,181)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">moccasin
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">255,228,181		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none navajowhite" color="navajowhite" background-color="navajowhite">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(255,222,173)" color="rgb(255,222,173)" background-color="rgb(255,222,173)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">navajowhite
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">255,222,173		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none navy" color="navy" background-color="navy">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(0,0,128)" color="rgb(0,0,128)" background-color="rgb(0,0,128)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">navy
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">0,0,128		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none oldlace" color="oldlace" background-color="oldlace">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(253,245,230)" color="rgb(253,245,230)" background-color="rgb(253,245,230)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">oldlace
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">253,245,230		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none olive" color="olive" background-color="olive">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(128,128,0)" color="rgb(128,128,0)" background-color="rgb(128,128,0)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">olive
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">128,128,0		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none olivedrab" color="olivedrab" background-color="olivedrab">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(107,142,35)" color="rgb(107,142,35)" background-color="rgb(107,142,35)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">olivedrab
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">107,142,35		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none orange" color="orange" background-color="orange">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(255,165,0)" color="rgb(255,165,0)" background-color="rgb(255,165,0)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">orange
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">255,165,0		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none orangered" color="orangered" background-color="orangered">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(255,69,0)" color="rgb(255,69,0)" background-color="rgb(255,69,0)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">orangered
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">255,69,0		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none orchid" color="orchid" background-color="orchid">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(218,112,214)" color="rgb(218,112,214)" background-color="rgb(218,112,214)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">orchid
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">218,112,214		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none palegoldenrod" color="palegoldenrod" background-color="palegoldenrod">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(238,232,170)" color="rgb(238,232,170)" background-color="rgb(238,232,170)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">palegoldenrod
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">238,232,170		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none palegreen" color="palegreen" background-color="palegreen">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(152,251,152)" color="rgb(152,251,152)" background-color="rgb(152,251,152)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">palegreen
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">152,251,152		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none paleturquoise" color="paleturquoise" background-color="paleturquoise">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(175,238,238)" color="rgb(175,238,238)" background-color="rgb(175,238,238)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">paleturquoise
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">175,238,238		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none palevioletred" color="palevioletred" background-color="palevioletred">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(219,112,147)" color="rgb(219,112,147)" background-color="rgb(219,112,147)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">palevioletred
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">219,112,147		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none papayawhip" color="papayawhip" background-color="papayawhip">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(255,239,213)" color="rgb(255,239,213)" background-color="rgb(255,239,213)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">papayawhip
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">255,239,213		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none peachpuff" color="peachpuff" background-color="peachpuff">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(255,218,185)" color="rgb(255,218,185)" background-color="rgb(255,218,185)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">peachpuff
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">255,218,185		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none peru" color="peru" background-color="peru">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(205,133,63)" color="rgb(205,133,63)" background-color="rgb(205,133,63)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">peru
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">205,133,63		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none pink" color="pink" background-color="pink">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(255,192,203)" color="rgb(255,192,203)" background-color="rgb(255,192,203)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">pink
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">255,192,203		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none plum" color="plum" background-color="plum">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(221,160,221)" color="rgb(221,160,221)" background-color="rgb(221,160,221)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">plum
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">221,160,221		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none powderblue" color="powderblue" background-color="powderblue">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(176,224,230)" color="rgb(176,224,230)" background-color="rgb(176,224,230)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">powderblue
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">176,224,230		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none purple" color="purple" background-color="purple">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(128,0,128)" color="rgb(128,0,128)" background-color="rgb(128,0,128)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">purple
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">128,0,128		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none red" color="red" background-color="red">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(255,0,0)" color="rgb(255,0,0)" background-color="rgb(255,0,0)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">red
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">255,0,0		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none rosybrown" color="rosybrown" background-color="rosybrown">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(188,143,143)" color="rgb(188,143,143)" background-color="rgb(188,143,143)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">rosybrown
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">188,143,143		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none royalblue" color="royalblue" background-color="royalblue">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(65,105,225)" color="rgb(65,105,225)" background-color="rgb(65,105,225)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">royalblue
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">65,105,225		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none saddlebrown" color="saddlebrown" background-color="saddlebrown">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(139,69,19)" color="rgb(139,69,19)" background-color="rgb(139,69,19)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">saddlebrown
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">139,69,19		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none salmon" color="salmon" background-color="salmon">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(250,128,114)" color="rgb(250,128,114)" background-color="rgb(250,128,114)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">salmon
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">250,128,114		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none sandybrown" color="sandybrown" background-color="sandybrown">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(244,164,96)" color="rgb(244,164,96)" background-color="rgb(244,164,96)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">sandybrown
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">244,164,96		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none seagreen" color="seagreen" background-color="seagreen">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(46,139,87)" color="rgb(46,139,87)" background-color="rgb(46,139,87)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">seagreen
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">46,139,87		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none seashell" color="seashell" background-color="seashell">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(255,245,238)" color="rgb(255,245,238)" background-color="rgb(255,245,238)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">seashell
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">255,245,238		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none sienna" color="sienna" background-color="sienna">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(160,82,45)" color="rgb(160,82,45)" background-color="rgb(160,82,45)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">sienna
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">160,82,45		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none silver" color="silver" background-color="silver">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(192,192,192)" color="rgb(192,192,192)" background-color="rgb(192,192,192)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">silver
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">192,192,192		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none skyblue" color="skyblue" background-color="skyblue">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(135,206,235)" color="rgb(135,206,235)" background-color="rgb(135,206,235)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">skyblue
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">135,206,235		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none slateblue" color="slateblue" background-color="slateblue">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(106,90,205)" color="rgb(106,90,205)" background-color="rgb(106,90,205)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">slateblue
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">106,90,205		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none slategray" color="slategray" background-color="slategray">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(112,128,144)" color="rgb(112,128,144)" background-color="rgb(112,128,144)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">slategray
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">112,128,144		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none snow" color="snow" background-color="snow">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(255,250,250)" color="rgb(255,250,250)" background-color="rgb(255,250,250)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">snow
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">255,250,250		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none springgreen" color="springgreen" background-color="springgreen">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(0,255,127)" color="rgb(0,255,127)" background-color="rgb(0,255,127)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">springgreen
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">0,255,127		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none steelblue" color="steelblue" background-color="steelblue">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(70,130,180)" color="rgb(70,130,180)" background-color="rgb(70,130,180)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">steelblue
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">70,130,180		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none tan" color="tan" background-color="tan">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(210,180,140)" color="rgb(210,180,140)" background-color="rgb(210,180,140)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">tan
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">210,180,140		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none teal" color="teal" background-color="teal">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(0,128,128)" color="rgb(0,128,128)" background-color="rgb(0,128,128)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">teal
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">0,128,128		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none thistle" color="thistle" background-color="thistle">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(216,191,216)" color="rgb(216,191,216)" background-color="rgb(216,191,216)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">thistle
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">216,191,216		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none tomato" color="tomato" background-color="tomato">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(255,99,71)" color="rgb(255,99,71)" background-color="rgb(255,99,71)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">tomato
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">255,99,71		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none turquoise" color="turquoise" background-color="turquoise">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(64,224,208)" color="rgb(64,224,208)" background-color="rgb(64,224,208)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">turquoise
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">64,224,208		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none violet" color="violet" background-color="violet">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(238,130,238)" color="rgb(238,130,238)" background-color="rgb(238,130,238)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">violet
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">238,130,238		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none wheat" color="wheat" background-color="wheat">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(245,222,179)" color="rgb(245,222,179)" background-color="rgb(245,222,179)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">wheat
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">245,222,179		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none white" color="white" background-color="white">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(255,255,255)" color="rgb(255,255,255)" background-color="rgb(255,255,255)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">white
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">255,255,255		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none whitesmoke" color="whitesmoke" background-color="whitesmoke">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(245,245,245)" color="rgb(245,245,245)" background-color="rgb(245,245,245)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">whitesmoke
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">245,245,245		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none yellow" color="yellow" background-color="yellow">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(255,255,0)" color="rgb(255,255,0)" background-color="rgb(255,255,0)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">yellow
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">255,255,0		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none yellowgreen" color="yellowgreen" background-color="yellowgreen">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(154,205,50)" color="rgb(154,205,50)" background-color="rgb(154,205,50)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">yellowgreen
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">154,205,50		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none darkgrey" color="darkgrey" background-color="darkgrey">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(169,169,169)" color="rgb(169,169,169)" background-color="rgb(169,169,169)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">darkgrey
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">169,169,169		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none darkslategrey" color="darkslategrey" background-color="darkslategrey">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(47,79,79)" color="rgb(47,79,79)" background-color="rgb(47,79,79)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">darkslategrey
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">47,79,79		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none dimgrey" color="dimgrey" background-color="dimgrey">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(105,105,105)" color="rgb(105,105,105)" background-color="rgb(105,105,105)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">dimgrey
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">105,105,105		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" color="grey" background-color="grey">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(128,128,128)" color="rgb(128,128,128)" background-color="rgb(128,128,128)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">grey
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">128,128,128		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none lightgray" color="lightgray" background-color="lightgray">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(211,211,211)" color="rgb(211,211,211)" background-color="rgb(211,211,211)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">lightgray
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">211,211,211		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none lightslategrey" color="lightslategrey" background-color="lightslategrey">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(119,136,153)" color="rgb(119,136,153)" background-color="rgb(119,136,153)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">lightslategrey
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">119,136,153		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none slategrey" color="slategrey" background-color="slategrey">
+a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none rgb(112,128,144)" color="rgb(112,128,144)" background-color="rgb(112,128,144)">a
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">slategrey
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none grey" font-size="12pt" color="black">112,128,144		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+					</fo:table-body>
+				</fo:table>
+			</fo:block>
+			<fo:block margin="1.5cm" text-align="justify" text-align-last="left" break-before="page">
+				<fo:block padding-bottom="1cm">Altsoft Xml2NET has complete support for XSL-FO system-color function. This file shows the list of the all possible results for system-color function call. The output may vary from system to system depending on the windows theme of the active user.</fo:block>
+				<fo:table table-layout="fixed" border-separation="0.2cm" border-collapse="separate" width="100%">
+					<fo:table-column column-width="7cm" column-number="1"/>
+					<fo:table-header>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none black" color="white" background-color="black" text-align-last="center">Named</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" color="white" background-color="black" text-align-last="center">System Color name</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+					</fo:table-header>
+					<fo:table-body>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none system-color(activeborder)" color="system-color(activeborder)" background-color="system-color(activeborder)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">activeborder</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none system-color(activecaption)" color="system-color(activecaption)" background-color="system-color(activecaption)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">activecaption</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none system-color(appworkspace)" color="system-color(appworkspace)" background-color="system-color(appworkspace)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">appworkspace</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none system-color(background)" color="system-color(background)" background-color="system-color(background)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">background</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none system-color(buttonface)" color="system-color(buttonface)" background-color="system-color(buttonface)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">buttonface</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none system-color(buttonhighlight)" color="system-color(buttonhighlight)" background-color="system-color(buttonhighlight)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">buttonhighlight</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none system-color(buttonshadow)" color="system-color(buttonshadow)" background-color="system-color(buttonshadow)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">buttonshadow</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none system-color(buttontext)" color="system-color(buttontext)" background-color="system-color(buttontext)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">buttontext</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none system-color(captiontext)" color="system-color(captiontext)" background-color="system-color(captiontext)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">captiontext</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none system-color(graytext)" color="system-color(graytext)" background-color="system-color(graytext)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">graytext</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none system-color(highlight)" color="system-color(highlight)" background-color="system-color(highlight)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">highlight</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none system-color(highlighttext)" color="system-color(highlighttext)" background-color="system-color(highlighttext)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">highlighttext</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none system-color(inactiveborder)" color="system-color(inactiveborder)" background-color="system-color(inactiveborder)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">inactiveborder</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none system-color(inactivecaption)" color="system-color(inactivecaption)" background-color="system-color(inactivecaption)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">inactivecaption</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none system-color(inactivecaptiontext)" color="system-color(inactivecaptiontext)" background-color="system-color(inactivecaptiontext)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">inactivecaptiontext</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none system-color(infobackground)" color="system-color(infobackground)" background-color="system-color(infobackground)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">infobackground</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none system-color(infotext)" color="system-color(infotext)" background-color="system-color(infotext)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">inactivecaptiontext</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none system-color(menu)" color="system-color(menu)" background-color="system-color(menu)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">menu</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none system-color(menutext)" color="system-color(menutext)" background-color="system-color(menutext)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">menutext</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none system-color(scrollbar)" color="system-color(scrollbar)" background-color="system-color(scrollbar)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">scrollbar</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none system-color(threeddarkshadow)" color="system-color(threeddarkshadow)" background-color="system-color(threeddarkshadow)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">threeddarkshadow</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none system-color(threedface)" color="system-color(threedface)" background-color="system-color(threedface)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">threedface</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none system-color(threedhighlight)" color="system-color(threedhighlight)" background-color="system-color(threedhighlight)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">threedhighlight</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none system-color(threedlightshadow)" color="system-color(threedlightshadow)" background-color="system-color(threedlightshadow)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">threedlightshadow</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none system-color(threedshadow)" color="system-color(threedshadow)" background-color="system-color(threedshadow)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">threedshadow</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none system-color(window)" color="system-color(window)" background-color="system-color(window)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">window</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none system-color(windowframe)" color="system-color(windowframe)" background-color="system-color(windowframe)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">windowframe</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none system-color(windowtext)" color="system-color(windowtext)" background-color="system-color(windowtext)">a</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" font-size="10pt" color="black">windowtext</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+					</fo:table-body>
+				</fo:table>
+			</fo:block>
+		</fo:flow>
+	</fo:page-sequence>
+</fo:root>

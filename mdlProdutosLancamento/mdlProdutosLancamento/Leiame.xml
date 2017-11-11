@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mdlProdutosLancamento>
+	<frmFColunas>
+		<Tarefas>30-06-2003#Thiago#Objeto criado no VS2003</Tarefas>
+		<Problemas>25-11-2003#Thiago#Bug Reportado, ao percorrer a coluna descricao com deslocamento vertical nao eh possivel editar os produtos</Problemas>
+	</frmFColunas>
+	<frmFPergunta>
+		<Tarefas>30-06-2003#Thiago#Objeto criado no VS2003</Tarefas>
+		<Problemas></Problemas>
+	</frmFPergunta>
+	<frmFProdutos>
+		<Tarefas>30-06-2003#Thiago#Objeto criado no VS2003</Tarefas>
+		<Problemas></Problemas>
+	</frmFProdutos>
+	<clsManipuladorColunas>
+		<Tarefas>07-07-2003#Thiago#Objeto criado no VS2003</Tarefas>
+		<Problemas></Problemas>
+	</clsManipuladorColunas>
+	<clsLancamentoProdutos>
+		<Tarefas>27-06-2003#Thiago#Objeto criado no VS2003</Tarefas>
+		<Problemas></Problemas>
+	</clsLancamentoProdutos>
+	<clsLancamentoProdutosComercial>
+		<Tarefas>27-06-2003#Thiago#Objeto criado no VS2003</Tarefas>
+		<Problemas></Problemas>
+	</clsLancamentoProdutosComercial>
+	<clsLancamentoProdutosCotacao>
+		<Tarefas>27-06-2003#Thiago#Objeto criado no VS2003</Tarefas>
+		<Problemas></Problemas>
+	</clsLancamentoProdutosCotacao>
+	<ProjetoVisio>
+		<Tarefas>27-06-2003#Thiago#Objeto criado no VS2003</Tarefas>
+		<Problemas></Problemas>
+	</ProjetoVisio>
+</mdlProdutosLancamento>

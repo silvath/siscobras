@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<email>
+	<header>
+		<to>customer@alt-soft.com</to>
+		<cc></cc>
+		<bcc></bcc>
+		<subject>XML solutions at Altsoft</subject>
+	</header>
+	<body>
+		<p><b>Xml2PDF</b></p>
+		<p>Altsoft Xml2PDF is a formatting engine designed to convert XML-based data into a PDF document following the formatting rules known as Formatting Objects.</p>
+		<p><b>Why XML</b></p>
+		<p>Extensible Markup Language (XML) is a simple and very flexible text format for describing hierarchical data, applicable to a wide range of applications such as databases, e-commerce, web development, searching any many others. It does not matter if the data is exchanged between companies, between company and individual, inside company or among branch office, sales office, local office, and head office; in all cases XML is an obvious choice.</p>
+		<p>Moreover, there is a variety of free and commercial XML tool that allow you saving any data in XML format and retrieving them on the other side of the communication. For example, Microsoft .NET platform includes a standard XML parser ready for use in any .NET solution.</p>
+		<p>Although XML has a very simple structure, it is aimed mostly for computers. Most users prefer a more convenient data representation in form of readable text, diagram or just table. However, to share this view with other person, one needs to either synchronize the data and client software or have a data presentation in the persistent form. And this is what PDF format is aimed for.</p>
+		<p><b>Why PDF</b></p>
+		<p>Free Adobe Reader guarantees that PDF will be viewed identically on virtually any operating system including Microsoft Windows, Linux, MacOS or even PalmOS. On top of that PDF has an extended security mechanism, which guarantees that your document will not be forged and the recipient will be sure that it came right from you.</p>
+		<p>So, in short, XML is data exchange format while PDF is a persistent and robust way to distribute, view or print your data.</p>
+		<p><b>What are formatting objects</b></p>
+		<p>XSL Formatting Objects (XSL-FO) is a free W3C (World Wide Web Consortium) standard. It is a special vocabulary that specifies how to layout text and other objects on the page. This includes page layouts, fonts, colors, footers and headers and many other things needed for high-end formatting.</p>
+		<p>In practice XSL-FO is not used directly but via XSL transform that defines the presentation style of your XML data.</p>
+		<p><b>Typical workflow</b></p>
+		<p>Summarizing the technology described above the typical workflow using Altsoft Xml2PDF would contain:</p>
+		<p>• A database server where all information is stored in the relational database.<br/>• SQL queries for reports generation in XML format. This is where data is exported into XML format for the future interchange.<br/>• XML data preview in some web application or some custom client user interface. This is needed for user-friendly data input/output.<br/>• Altsoft XML formatter for persistent XML-based data presentation in PDF format.</p>
+	</body>
+</email>

@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format" font-family="Helvetica" font-size="10pt">
+	<fo:layout-master-set>
+		<fo:simple-page-master master-name="all-pages" page-height="29.7cm" page-width="21cm" margin="1cm">
+			<fo:region-body region-name="xsl-region-body" background-color="white" margin-bottom="2cm" margin-top="2cm"/>
+			<fo:region-before region-name="xsl-region-before" background-color="#EFF0D7" extent="1cm" border="1pt solid #660000"/>
+			<fo:region-after region-name="xsl-region-after" background-color="#EFF0D7" extent="1cm" border="1pt solid #660000"/>
+		</fo:simple-page-master>
+	</fo:layout-master-set>
+	<fo:page-sequence master-reference="all-pages">
+		<fo:static-content flow-name="xsl-region-before">
+			<fo:block text-align="justify" text-align-last="justify" padding="0.25cm">
+				<fo:wrapper color="#660000" font-size="12pt" font-weight="bold">ALTSOFT</fo:wrapper>
+				<fo:leader/>XSL-FO testsuite
+			</fo:block>
+		</fo:static-content>
+		<fo:static-content flow-name="xsl-region-after">
+			<fo:block text-align="justify" text-align-last="justify" padding="0.25cm">
+				<fo:basic-link external-destination="url(http://www.alt-soft.com/)">
+					<fo:inline color="#660000" text-decoration="underline">http://www.alt-soft.com/</fo:inline>
+				</fo:basic-link>
+				<fo:leader/>
+				<fo:inline wrap-option="no-wrap">© Altsoft, 2003</fo:inline>
+			</fo:block>
+		</fo:static-content>
+		<fo:flow flow-name="xsl-region-body" font-family="Courier" font-size="10pt">
+			<fo:block margin-left="1.5cm" margin-right="1.5cm" text-align="justify" text-align-last="left">
+				<fo:block padding-bottom="1cm">In this file you can see how 3D borders are formatted in various colors.</fo:block>
+				<fo:table table-layout="fixed" border-separation="0.2cm" border-collapse="separate" width="100%">
+					<fo:table-column column-width="5cm" column-number="1"/>
+					<fo:table-header>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none black" color="white" background-color="black" text-align-last="center">Preview</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" color="white" background-color="black" text-align-last="center" wrap-option="no-wrap">Name of the border style</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" color="white" background-color="black" text-align-last="center">Color</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+					</fo:table-header>
+					<fo:table-body>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm groove red">2mm groove red</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">groove</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">red</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm ridge red">2mm ridge red</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">ridge</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">red</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm inset red">2mm inset red</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">inset</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">red</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm outset red">2mm outset red</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">outset</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">red</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm groove black">2mm groove black</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">groove</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">black</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm ridge black">2mm ridge black</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">ridge</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">black</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm inset black">2mm inset black</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">inset</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">black</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm outset black">2mm outset black</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">outset</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">black</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm groove green">2mm groove green</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">groove</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">green</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm ridge green">2mm ridge green</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">ridge</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">green</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm inset green">2mm inset green</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">inset</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">green</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm outset green">2mm outset green</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">outset</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">green</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm groove blue">2mm groove blue</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">groove</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">blue</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm ridge blue">2mm ridge blue</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">ridge</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">blue</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm inset blue">2mm inset blue</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">inset</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">blue</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm outset blue">2mm outset blue</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">outset</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">blue</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm groove aqua">2mm groove aqua</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		groove 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		aqua
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm ridge aqua">
+	2mm ridge aqua
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		ridge 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		aqua
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm inset aqua">
+	2mm inset aqua
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		inset 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		aqua
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm outset aqua">
+	2mm outset aqua
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		outset 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		aqua
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm groove fuchsia">
+	2mm groove fuchsia
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		groove 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		fuchsia
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm ridge fuchsia">
+	2mm ridge fuchsia
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		ridge 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		fuchsia
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm inset fuchsia">
+	2mm inset fuchsia
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		inset 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		fuchsia
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm outset fuchsia">
+	2mm outset fuchsia
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		outset 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		fuchsia
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm groove gray">
+	2mm groove gray
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		groove 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		gray
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm ridge gray">
+	2mm ridge gray
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		ridge 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		gray
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm inset gray">
+	2mm inset gray
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		inset 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		gray
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm outset gray">
+	2mm outset gray
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		outset 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		gray
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm groove lime">
+	2mm groove lime
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		groove 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		lime
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm ridge lime">
+	2mm ridge lime
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		ridge 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		lime
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm inset lime">
+	2mm inset lime
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		inset 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		lime
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm outset lime">
+	2mm outset lime
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		outset 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		lime
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm groove maroon">
+	2mm groove maroon
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		groove 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		maroon
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm ridge maroon">
+	2mm ridge maroon
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		ridge 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		maroon
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm inset maroon">
+	2mm inset maroon
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		inset 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		maroon
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm outset maroon">
+	2mm outset maroon
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		outset 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		maroon
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm groove navy">
+	2mm groove navy
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		groove 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+				navy
+			</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm ridge navy">
+	2mm ridge navy
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		ridge 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		navy
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm inset navy">
+	2mm inset navy
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		inset 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		navy
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm outset navy">
+	2mm outset navy
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		outset 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		navy
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm groove olive">
+	2mm groove olive
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		groove 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+				olive
+			</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm ridge olive">
+	2mm ridge olive
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		ridge 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		olive
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm inset olive">
+	2mm inset olive
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		inset 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		olive
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm outset olive">
+	2mm outset olive
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		outset 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		olive
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm groove purple">
+	2mm groove purple
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		groove 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+				purple
+			</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm ridge purple">
+	2mm ridge purple
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		ridge 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		purple
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm inset purple">
+	2mm inset purple
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		inset 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		purple
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm outset purple">
+	2mm outset purple
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		outset 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		purple
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm groove silver">
+	2mm groove silver
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		groove 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+				silver
+			</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm ridge silver">
+	2mm ridge silver
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		ridge 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		silver
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm inset silver">
+	2mm inset silver
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		silver
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		purple
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm outset silver">
+	2mm outset silver
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		silver
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		purple
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm groove teal">
+	2mm groove teal
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		groove 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+				teal
+			</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm ridge teal">
+	2mm ridge teal
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		ridge 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		teal
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm inset teal">
+	2mm inset teal
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		silver
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		teal
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm outset teal">
+	2mm outset teal
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		silver
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		teal
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm groove white">
+	2mm groove white
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		groove 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+				white
+			</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm ridge white">
+	2mm ridge white
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		ridge 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		white
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm inset white">
+	2mm inset white
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		silver
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		white
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm outset white">
+	2mm outset white
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		silver
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		white
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm groove yellow">
+	2mm groove yellow
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		groove 
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+				yellow
+			</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm ridge yellow">
+	2mm ridge yellow
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		yellow
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		white
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm inset yellow">
+	2mm inset yellow
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		yellow
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		white
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm outset yellow">
+	2mm outset yellow
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		yellow
+		</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none red">
+		white
+		</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+					</fo:table-body>
+				</fo:table>
+			</fo:block>
+		</fo:flow>
+	</fo:page-sequence>
+</fo:root>

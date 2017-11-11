@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<XsdTbUnidadesEspaco xmlns="http://tempuri.org/XsdTbUnidadesEspaco.xsd">
+  <tbUnidadesEspaco>
+    <nIdUnidadeEspaco>1</nIdUnidadeEspaco>
+    <strNome>Milimetro</strNome>
+    <strSigla>mm</strSigla>
+  </tbUnidadesEspaco>
+  <tbUnidadesEspaco>
+    <nIdUnidadeEspaco>2</nIdUnidadeEspaco>
+    <strNome>Centimetro</strNome>
+    <strSigla>cm</strSigla>
+  </tbUnidadesEspaco>
+  <tbUnidadesEspaco>
+    <nIdUnidadeEspaco>3</nIdUnidadeEspaco>
+    <strNome>Decimetro</strNome>
+    <strSigla>dm</strSigla>
+  </tbUnidadesEspaco>
+  <tbUnidadesEspaco>
+    <nIdUnidadeEspaco>4</nIdUnidadeEspaco>
+    <strNome>Metro</strNome>
+    <strSigla>m</strSigla>
+  </tbUnidadesEspaco>
+  <tbUnidadesEspaco>
+    <nIdUnidadeEspaco>5</nIdUnidadeEspaco>
+    <strNome>Kilometro</strNome>
+    <strSigla>km</strSigla>
+  </tbUnidadesEspaco>
+</XsdTbUnidadesEspaco>

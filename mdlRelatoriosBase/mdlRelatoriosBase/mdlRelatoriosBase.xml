@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>mdlRelatoriosBase</name>
+    </assembly>
+    <members>
+        <member name="T:mdlRelatoriosBase.frmRelatoriosBase">
+            <summary>
+            Summary description for frmRelatoriosBase.
+            </summary>
+        </member>
+        <member name="M:mdlRelatoriosBase.frmRelatoriosBase.frmRelatoriosBase_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+            <summary>
+            Tratando as Teclas pressinadas peloUsuario
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:mdlRelatoriosBase.frmRelatoriosBase.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:mdlRelatoriosBase.frmRelatoriosBase.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:mdlRelatoriosBase.frmRelatoriosBase.bExecutaTeclaAtalho(System.Int32)">
+            <summary>
+            Executa a Acao referente a Tecla de Atalho 
+            </summary>
+            <param name="idAcao"></param>
+        </member>
+        <member name="M:mdlRelatoriosBase.frmRelatoriosBase.carregaTeclasAtalho">
+            <summary>
+            Carregando as Teclas de Atalho do Relatorio 
+            </summary>
+        </member>
+        <member name="M:mdlRelatoriosBase.frmRelatoriosBase.salvaTeclasAtalho">
+            <summary>
+            Salvando as Teclas de Atalho do Relatorio 
+            </summary>
+        </member>
+        <member name="M:mdlRelatoriosBase.frmRelatoriosBase.m_btExportar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Exportando Relatorios.
+            </summary>
+        </member>
+        <member name="M:mdlRelatoriosBase.frmRelatoriosBase.m_btImportar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Importando Relatorio Botao.
+            </summary>
+        </member>
+        <member name="M:mdlRelatoriosBase.frmRelatoriosBase.bRelatorioImportar">
+            <summary>
+            Importando Relatorio.
+            </summary>
+        </member>
+        <member name="M:mdlRelatoriosBase.frmRelatoriosBase.m_btImprimir_Click(System.Object,System.EventArgs)">
+            <summary>
+            Retornando o SQL do RecordSet atual.
+            </summary>
+        </member>
+    </members>
+</doc>

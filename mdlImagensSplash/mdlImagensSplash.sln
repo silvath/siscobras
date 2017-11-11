@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{CF8CABBF-3BED-491C-B9EC-DD40F42467F4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4829C32E-406B-49FA-88E4-BE9314229BF4} = {4829C32E-406B-49FA-88E4-BE9314229BF4}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlImagensSplash", "mdlImagensSplash\mdlImagensSplash.csproj", "{4829C32E-406B-49FA-88E4-BE9314229BF4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {42C3B49C-6238-4116-B6BA-5036BD4F79D8}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlImagensSplash\\mdlImagensSplash.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlImagensSplash\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{CF8CABBF-3BED-491C-B9EC-DD40F42467F4}.Debug.ActiveCfg = Debug|.NET
+		{CF8CABBF-3BED-491C-B9EC-DD40F42467F4}.Debug.Build.0 = Debug|.NET
+		{CF8CABBF-3BED-491C-B9EC-DD40F42467F4}.Release.ActiveCfg = Release|.NET
+		{CF8CABBF-3BED-491C-B9EC-DD40F42467F4}.Release.Build.0 = Release|.NET
+		{4829C32E-406B-49FA-88E4-BE9314229BF4}.Debug.ActiveCfg = Debug|.NET
+		{4829C32E-406B-49FA-88E4-BE9314229BF4}.Debug.Build.0 = Debug|.NET
+		{4829C32E-406B-49FA-88E4-BE9314229BF4}.Release.ActiveCfg = Release|.NET
+		{4829C32E-406B-49FA-88E4-BE9314229BF4}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mdlContas>
+	<clsContas>
+		<Tarefas>09/06/2003#Roberto#Compilando no VS2003!</Tarefas>
+		<Problemas>Aparentemente nenhum!</Problemas>
+	</clsContas>
+	<frmFContas>
+		<Tarefas></Tarefas>
+		<Problemas></Problemas>
+	</frmFContas>
+	<frmFContasCadEdit>
+		<Tarefas></Tarefas>
+		<Problemas></Problemas>
+	</frmFContasCadEdit>
+	<clsContas>
+		<Tarefas>10/06/2003#Roberto#Criado método Close e invocado sendToBack quando chamado o Show</Tarefas>
+		<Problemas>Testar no módulo principal</Problemas>
+	</clsContas>
+</mdlContas>

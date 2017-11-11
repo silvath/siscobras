@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbRomaneiosSecundarios" targetNamespace="http://tempuri.org/XsdTbRomaneiosSecundarios.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbRomaneiosSecundarios.xsd"
+	xmlns:mstns="http://tempuri.org/XsdTbRomaneiosSecundarios.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbRomaneiosSecundarios" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbRomaneiosSecundarios">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nIdExportador" type="xs:int" />
+							<xs:element name="strIdPE" type="xs:string" />
+							<xs:element name="nIdTipo" type="xs:int" />
+							<xs:element name="nIdRelatorio" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbRomaneiosSecundariosKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbRomaneiosSecundarios" />
+			<xs:field xpath="mstns:nIdExportador" />
+			<xs:field xpath="mstns:strIdPE" />
+			<xs:field xpath="mstns:nIdTipo" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

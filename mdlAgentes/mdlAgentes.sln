@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0EB40332-D9E1-445C-941F-403761F230E6}"
+	ProjectSection(SolutionItems) = preProject
+		mdlAgentes\mdlAgentes.vsd = mdlAgentes\mdlAgentes.vsd
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{3E202589-2485-4720-9BE9-6AD22CE1BA22}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0093BC67-A68C-463E-9283-FD2668D27F7D} = {0093BC67-A68C-463E-9283-FD2668D27F7D}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlAgentes", "mdlAgentes\mdlAgentes.csproj", "{0093BC67-A68C-463E-9283-FD2668D27F7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E202589-2485-4720-9BE9-6AD22CE1BA22}.Debug|Default.ActiveCfg = Debug|Any CPU
+		{3E202589-2485-4720-9BE9-6AD22CE1BA22}.Debug|Default.Build.0 = Debug|Any CPU
+		{3E202589-2485-4720-9BE9-6AD22CE1BA22}.Release|Default.ActiveCfg = Release|Any CPU
+		{3E202589-2485-4720-9BE9-6AD22CE1BA22}.Release|Default.Build.0 = Release|Any CPU
+		{0093BC67-A68C-463E-9283-FD2668D27F7D}.Debug|Default.ActiveCfg = Debug|Any CPU
+		{0093BC67-A68C-463E-9283-FD2668D27F7D}.Debug|Default.Build.0 = Debug|Any CPU
+		{0093BC67-A68C-463E-9283-FD2668D27F7D}.Release|Default.ActiveCfg = Release|Any CPU
+		{0093BC67-A68C-463E-9283-FD2668D27F7D}.Release|Default.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CF5E2F5-39D5-40D2-B4A4-C740140BC402}
+	EndGlobalSection
+EndGlobal

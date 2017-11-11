@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbUnidadesMassaIdioma" targetNamespace="http://tempuri.org/XsdTbUnidadesMassaIdioma.xsd" elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbUnidadesMassaIdioma.xsd" xmlns:mstns="http://tempuri.org/XsdTbUnidadesMassaIdioma.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbUnidadesMassaIdioma" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbUnidadesMassaIdioma">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nIdUnidadeMassa" type="xs:int" />
+							<xs:element name="nIdIdioma" type="xs:int" />
+							<xs:element name="strNome" type="xs:string" minOccurs="0" />
+							<xs:element name="strSigla" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbUnidadesMassaIdiomaKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbUnidadesMassaIdioma" />
+			<xs:field xpath="mstns:nIdUnidadeMassa" />
+			<xs:field xpath="mstns:nIdIdioma" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

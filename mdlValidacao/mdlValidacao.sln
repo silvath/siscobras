@@ -1,0 +1,60 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{832327A8-F735-477D-AF8D-946AAD630C5F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BF84050D-A6BB-4C2E-AE3A-814739FFD5C1} = {BF84050D-A6BB-4C2E-AE3A-814739FFD5C1}
+		{C1073321-231A-41D3-B17F-D5279F0EA9B0} = {C1073321-231A-41D3-B17F-D5279F0EA9B0}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlValidacao", "mdlValidacao\mdlValidacao.csproj", "{BF84050D-A6BB-4C2E-AE3A-814739FFD5C1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlValidacaoTeste", "mdlValidacaoTeste\mdlValidacaoTeste.csproj", "{C1073321-231A-41D3-B17F-D5279F0EA9B0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 4
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {6E628DB3-6329-439D-8A95-8613DD1DA62C}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlValidacao\\mdlValidacao.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlValidacao\\
+		SccProjectUniqueName3 = mdlValidacaoTeste\\mdlValidacaoTeste.csproj
+		SccLocalPath3 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection3 = mdlValidacaoTeste\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{832327A8-F735-477D-AF8D-946AAD630C5F}.Debug.ActiveCfg = Debug|.NET
+		{832327A8-F735-477D-AF8D-946AAD630C5F}.Debug.Build.0 = Debug|.NET
+		{832327A8-F735-477D-AF8D-946AAD630C5F}.Release.ActiveCfg = Release|.NET
+		{832327A8-F735-477D-AF8D-946AAD630C5F}.Release.Build.0 = Release|.NET
+		{BF84050D-A6BB-4C2E-AE3A-814739FFD5C1}.Debug.ActiveCfg = Debug|.NET
+		{BF84050D-A6BB-4C2E-AE3A-814739FFD5C1}.Debug.Build.0 = Debug|.NET
+		{BF84050D-A6BB-4C2E-AE3A-814739FFD5C1}.Release.ActiveCfg = Release|.NET
+		{BF84050D-A6BB-4C2E-AE3A-814739FFD5C1}.Release.Build.0 = Release|.NET
+		{C1073321-231A-41D3-B17F-D5279F0EA9B0}.Debug.ActiveCfg = Debug|.NET
+		{C1073321-231A-41D3-B17F-D5279F0EA9B0}.Debug.Build.0 = Debug|.NET
+		{C1073321-231A-41D3-B17F-D5279F0EA9B0}.Release.ActiveCfg = Release|.NET
+		{C1073321-231A-41D3-B17F-D5279F0EA9B0}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		mdlValidacao\mdlValidacao.vsd = mdlValidacao\mdlValidacao.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

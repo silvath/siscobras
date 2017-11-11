@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbProcessosContainers" targetNamespace="http://tempuri.org/XsdTbProcessosContainers.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbProcessosContainers.xsd"
+	xmlns:mstns="http://tempuri.org/XsdTbProcessosContainers.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbProcessosContainers" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbProcessosContainers">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nIdExportador" type="xs:int" />
+							<xs:element name="strIdPe" type="xs:string" />
+							<xs:element name="nIdContainer" type="xs:int" />
+							<xs:element name="strNumero" type="xs:string" minOccurs="0" />
+							<xs:element name="nIdContainerTipo" type="xs:int" minOccurs="0" />
+							<xs:element name="strContainerTipo" type="xs:string" minOccurs="0" />
+							<xs:element name="strTamanho" type="xs:string" minOccurs="0" />
+							<xs:element name="dTara" type="xs:double" minOccurs="0" />
+							<xs:element name="nUnidadeTara" type="xs:int" minOccurs="0" />
+							<xs:element name="strLacre" type="xs:string" minOccurs="0" />
+							<xs:element name="strLacreArmador" type="xs:string" minOccurs="0" />
+							<xs:element name="dExcessoCargaAltura" type="xs:double" minOccurs="0" />
+							<xs:element name="dExcessoCargaLargura" type="xs:double" minOccurs="0" />
+							<xs:element name="dExcessoCargaComprimento" type="xs:double" minOccurs="0" />
+							<xs:element name="nUnidadeExcessoCargaAltura" type="xs:int" minOccurs="0" />
+							<xs:element name="nUnidadeExcessoCargaLargura" type="xs:int" minOccurs="0" />
+							<xs:element name="nUnidadeExcessoCargaComprimento" type="xs:int" minOccurs="0" />
+							<xs:element name="strTemperaturaMinima" type="xs:string" minOccurs="0" />
+							<xs:element name="strTemperaturaMaxima" type="xs:string" minOccurs="0" />
+							<xs:element name="strIMO" type="xs:string" minOccurs="0" />
+							<xs:element name="strUNO" type="xs:string" minOccurs="0" />
+							<xs:element name="nIdTransportadora" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdTransportadoraContato" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdTransportadoraMotorista" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdTransportadoraVeiculo" type="xs:int" minOccurs="0" />
+							<xs:element name="strISO" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbProcessosContainersKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbProcessosContainers" />
+			<xs:field xpath="mstns:nIdExportador" />
+			<xs:field xpath="mstns:strIdPe" />
+			<xs:field xpath="mstns:nIdContainer" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

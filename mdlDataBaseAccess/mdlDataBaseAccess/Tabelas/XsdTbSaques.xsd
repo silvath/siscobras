@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbSaques" targetNamespace="http://tempuri.org/XsdTbSaques.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbSaques.xsd" xmlns:mstns="http://tempuri.org/XsdTbSaques.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbSaques" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbSaques">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="idExportador" type="xs:int" />
+							<xs:element name="idPE" type="xs:string" />
+							<xs:element name="nIdRelatorio" type="xs:int" minOccurs="0" />
+							<xs:element name="dtDataEmissao" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="nIdIdioma" type="xs:int" minOccurs="0" />
+							<xs:element name="strNumeroSaque" type="xs:string" minOccurs="0" />
+							<xs:element name="bCondicaoPagamentoAvista" type="xs:boolean" minOccurs="0" />
+							<xs:element name="mstrObservacoes" type="xs:string" minOccurs="0" />
+							<xs:element name="nImpressoes" type="xs:int" minOccurs="0" />
+							<xs:element name="strFormatoDataEmissao" type="xs:string" minOccurs="0" />
+							<xs:element name="dValor" type="xs:double" minOccurs="0" />
+							<xs:element name="mstrCondicaoPagamento" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrDataVencimento" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrValor" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbSaquesKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbSaques" />
+			<xs:field xpath="mstns:idExportador" />
+			<xs:field xpath="mstns:idPE" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

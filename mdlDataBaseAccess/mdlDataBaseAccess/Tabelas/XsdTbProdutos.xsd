@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbProdutos" targetNamespace="http://tempuri.org/XsdTbProdutos.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbProdutos.xsd" xmlns:mstns="http://tempuri.org/XsdTbProdutos.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbProdutos" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbProdutos">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="idExportador" type="xs:int" />
+							<xs:element name="idProduto" type="xs:int" />
+							<xs:element name="mstrCodigoProduto" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrDescricao" type="xs:string" minOccurs="0" />
+							<xs:element name="idCategoria" type="xs:int" minOccurs="0" />
+							<xs:element name="strNcm" type="xs:string" minOccurs="0" />
+							<xs:element name="strNaladi" type="xs:string" minOccurs="0" />
+							<xs:element name="bDetalharChilds" type="xs:boolean" minOccurs="0" />
+							<xs:element name="dPrecoUnitario" type="xs:double" minOccurs="0" />
+							<xs:element name="strUnidade" type="xs:string" minOccurs="0" />
+							<xs:element name="bPossuiMaterialImportado" type="xs:boolean" minOccurs="0" />
+							<xs:element name="dPorcentagemValorNacional" type="xs:double" minOccurs="0" />
+							<xs:element name="dPesoLiquido" type="xs:double" minOccurs="0" />
+							<xs:element name="nUnidadeMassaPesoLiquido" type="xs:int" minOccurs="0" />
+							<xs:element name="dPesoBruto" type="xs:double" minOccurs="0" />
+							<xs:element name="nUnidadeMassaPesoBruto" type="xs:int" minOccurs="0" />
+							<xs:element name="dLargura" type="xs:double" minOccurs="0" />
+							<xs:element name="dAltura" type="xs:double" minOccurs="0" />
+							<xs:element name="dComprimento" type="xs:double" minOccurs="0" />
+							<xs:element name="nUnidadeLargura" type="xs:int" minOccurs="0" />
+							<xs:element name="nUnidadeAltura" type="xs:int" minOccurs="0" />
+							<xs:element name="nUnidadeComprimento" type="xs:int" minOccurs="0" />
+							<xs:element name="nlTipoVolume" type="xs:int" minOccurs="0" />
+							<xs:element name="strTipoPopular" type="xs:string" minOccurs="0" />
+							<xs:element name="dQuantidadeVolume" type="xs:double" minOccurs="0" />
+							<xs:element name="dQuantidadeEmbalagem" type="xs:double" minOccurs="0" />
+							<xs:element name="dQuantidadeEmbalagensVolume" type="xs:double" minOccurs="0" />
+							<xs:element name="dVolumeLargura" type="xs:double" minOccurs="0" />
+							<xs:element name="dVolumeAltura" type="xs:double" minOccurs="0" />
+							<xs:element name="dVolumeComprimento" type="xs:double" minOccurs="0" />
+							<xs:element name="nVolumeUnidadeLargura" type="xs:int" minOccurs="0" />
+							<xs:element name="nVolumeUnidadeAltura" type="xs:int" minOccurs="0" />
+							<xs:element name="nVolumeUnidadeComprimento" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbProdutosKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbProdutos" />
+			<xs:field xpath="mstns:idExportador" />
+			<xs:field xpath="mstns:idProduto" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,521 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.2292"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{D7FF726E-B1F9-4E92-9C05-FDB1EEF87627}"
+        SccProjectName = "SAK"
+        SccLocalPath = "SAK"
+        SccAuxPath = "SAK"
+        SccProvider = "SAK"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "mdlCriacaoDocumentos"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = "sn -R $(TargetPath) $(TargetDir)..\\Siscobras.snk"
+                RootNamespace = "mdlCriacaoDocumentos"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "..\..\BINARIOS\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "..\..\BINARIOS\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "mdlTratamentoErro"
+                    AssemblyName = "mdlTratamentoErro"
+                    HintPath = "..\..\BINARIOS\mdlTratamentoErro.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlDataBaseAccess"
+                    AssemblyName = "mdlDataBaseAccess"
+                    HintPath = "..\..\BINARIOS\mdlDataBaseAccess.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlComponentesGraficos"
+                    AssemblyName = "mdlComponentesGraficos"
+                    HintPath = "..\..\BINARIOS\mdlComponentesGraficos.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "mdlPaletaDeCores"
+                    AssemblyName = "mdlPaletaDeCores"
+                    HintPath = "..\..\BINARIOS\mdlPaletaDeCores.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlNumero"
+                    AssemblyName = "mdlNumero"
+                    HintPath = "..\..\BINARIOS\mdlNumero.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlIdioma"
+                    AssemblyName = "mdlIdioma"
+                    HintPath = "..\..\BINARIOS\mdlIdioma.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlMoeda"
+                    AssemblyName = "mdlMoeda"
+                    HintPath = "..\..\BINARIOS\mdlMoeda.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlImportador"
+                    AssemblyName = "mdlImportador"
+                    HintPath = "..\..\BINARIOS\mdlImportador.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlPesos"
+                    AssemblyName = "mdlPesos"
+                    HintPath = "..\..\BINARIOS\mdlPesos.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlIncoterm"
+                    AssemblyName = "mdlIncoterm"
+                    HintPath = "..\..\BINARIOS\mdlIncoterm.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlObservacoes"
+                    AssemblyName = "mdlObservacoes"
+                    HintPath = "..\..\BINARIOS\mdlObservacoes.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlLocais"
+                    AssemblyName = "mdlLocais"
+                    HintPath = "..\..\BINARIOS\mdlLocais.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlBancos"
+                    AssemblyName = "mdlBancos"
+                    HintPath = "..\..\BINARIOS\mdlBancos.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlNumeroOrdemCompra"
+                    AssemblyName = "mdlNumeroOrdemCompra"
+                    HintPath = "..\..\BINARIOS\mdlNumeroOrdemCompra.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlProdutosLancamento"
+                    AssemblyName = "mdlProdutosLancamento"
+                    HintPath = "..\..\BINARIOS\mdlProdutosLancamento.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlEsquemaPagamento"
+                    AssemblyName = "mdlEsquemaPagamento"
+                    HintPath = "..\..\BINARIOS\mdlEsquemaPagamento.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlMensagens"
+                    AssemblyName = "mdlMensagens"
+                    HintPath = "..\..\BINARIOS\mdlMensagens.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlDocumentacao"
+                    AssemblyName = "mdlDocumentacao"
+                    HintPath = "..\..\BINARIOS\mdlDocumentacao.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlData"
+                    AssemblyName = "mdlData"
+                    HintPath = "..\..\BINARIOS\mdlData.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlAgentes"
+                    AssemblyName = "mdlAgentes"
+                    HintPath = "..\..\Binarios\mdlAgentes.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlConsignatario"
+                    AssemblyName = "mdlConsignatario"
+                    HintPath = "..\..\Binarios\mdlConsignatario.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlProdutosVinculacao"
+                    AssemblyName = "mdlProdutosVinculacao"
+                    HintPath = "..\..\Binarios\mdlProdutosVinculacao.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlDespachante"
+                    AssemblyName = "mdlDespachante"
+                    HintPath = "..\..\Binarios\mdlDespachante.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlAssinatura"
+                    AssemblyName = "mdlAssinatura"
+                    HintPath = "..\..\Binarios\mdlAssinatura.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlControladoraImagens"
+                    AssemblyName = "mdlControladoraImagens"
+                    HintPath = "..\..\Binarios\mdlControladoraImagens.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlProdutosRomaneio"
+                    AssemblyName = "mdlProdutosRomaneio"
+                    HintPath = "..\..\Binarios\mdlProdutosRomaneio.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlProdutosBordero"
+                    AssemblyName = "mdlProdutosBordero"
+                    HintPath = "..\..\Binarios\mdlProdutosBordero.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlBorderoCobranca"
+                    AssemblyName = "mdlBorderoCobranca"
+                    HintPath = "..\..\Binarios\mdlBorderoCobranca.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlConstantes"
+                    AssemblyName = "mdlConstantes"
+                    HintPath = "..\..\Binarios\mdlConstantes.dll"
+                />
+                <Reference
+                    Name = "mdlArmadores"
+                    AssemblyName = "mdlArmadores"
+                    HintPath = "..\..\Binarios\mdlArmadores.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlContainers"
+                    AssemblyName = "mdlContainers"
+                    HintPath = "..\..\Binarios\mdlContainers.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlTransportadoras"
+                    AssemblyName = "mdlTransportadoras"
+                    HintPath = "..\..\Binarios\mdlTransportadoras.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlNotaFiscal"
+                    AssemblyName = "mdlNotaFiscal"
+                    HintPath = "..\..\Binarios\mdlNotaFiscal.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "mdlProdutosCertificadoOrigem"
+                    AssemblyName = "mdlProdutosCertificadoOrigem"
+                    HintPath = "..\..\Binarios\mdlProdutosCertificadoOrigem.dll"
+                    Private = "False"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "clsCriacao.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Leiame.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Assistentes\clsAssistente.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Assistentes\clsAssistenteBordero.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Assistentes\clsAssistenteCOAladiAce39.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Assistentes\clsAssistenteCOAladiAptr04.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Assistentes\clsAssistenteCOBolivia.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Assistentes\clsAssistenteCOComum.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Assistentes\clsAssistenteCOMercosul.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Assistentes\clsAssistenteCOMercosulChile.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Assistentes\clsAssistenteFaturaComercial.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Assistentes\clsAssistenteFaturaCotacao.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Assistentes\clsAssistenteGuiaEntrada.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Assistentes\clsAssistenteItem.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Assistentes\clsAssistenteOrdemEmbarque.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Assistentes\clsAssistenteReserva.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Assistentes\clsAssistenteRomaneioProdutos.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Assistentes\clsAssistenteRomaneioSimplificado.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Assistentes\clsAssistenteRomaneioVolumes.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Assistentes\clsAssistenteSaque.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Assistentes\frmFAssistente.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Assistentes\frmFAssistente.resx"
+                    DependentUpon = "frmFAssistente.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Bordero\clsCriacaoBordero.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Faturas\clsCriacaoCotacao.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Faturas\clsCriacaoProcesso.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Frames\frmFAssistenteBordero.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Frames\frmFAssistenteBordero.resx"
+                    DependentUpon = "frmFAssistenteBordero.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Frames\frmFAssistenteInstrucoesEmbarque.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Frames\frmFAssistenteInstrucoesEmbarque.resx"
+                    DependentUpon = "frmFAssistenteInstrucoesEmbarque.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Frames\frmFAssistentePrincipal.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Frames\frmFAssistentePrincipal.resx"
+                    DependentUpon = "frmFAssistentePrincipal.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Frames\frmFAssistenteRomaneio.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Frames\frmFAssistenteRomaneio.resx"
+                    DependentUpon = "frmFAssistenteRomaneio.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Frames\frmFCadastro.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Frames\frmFCadastro.resx"
+                    DependentUpon = "frmFCadastro.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Frames\frmFLista.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Frames\frmFLista.resx"
+                    DependentUpon = "frmFLista.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Frames\frmFNumeroPE.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Frames\frmFNumeroPE.resx"
+                    DependentUpon = "frmFNumeroPE.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "InstrucoesEmbarque\clsCriacaoInstrucoesEmbarque.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PE\clsProcessoExportacaoCopia.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Romaneio\clsCriacaoRomaneio.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

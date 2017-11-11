@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbProdutosRomaneioVolumes" targetNamespace="http://tempuri.org/XsdTbProdutosRomaneioVolumes.xsd" elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbProdutosRomaneioVolumes.xsd" xmlns:mstns="http://tempuri.org/XsdTbProdutosRomaneioVolumes.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbProdutosRomaneioVolumes" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbProdutosRomaneioVolumes">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="idExportador" type="xs:int" />
+							<xs:element name="idPE" type="xs:string" />
+							<xs:element name="strNumeroVolume" type="xs:string" />
+							<xs:element name="nlTipoVolume" type="xs:int" minOccurs="0" />
+							<xs:element name="strTipoPopular" type="xs:string" minOccurs="0" />
+							<xs:element name="dLargura" type="xs:double" minOccurs="0" />
+							<xs:element name="dAltura" type="xs:double" minOccurs="0" />
+							<xs:element name="dComprimento" type="xs:double" minOccurs="0" />
+							<xs:element name="dVolume" type="xs:double" minOccurs="0" />
+							<xs:element name="dPesoLiquido" type="xs:double" minOccurs="0" />
+							<xs:element name="dPesoBruto" type="xs:double" minOccurs="0" />
+							<xs:element name="nUnidadeLargura" type="xs:int" minOccurs="0" />
+							<xs:element name="nUnidadeAltura" type="xs:int" minOccurs="0" />
+							<xs:element name="nUnidadeComprimento" type="xs:int" minOccurs="0" />
+							<xs:element name="nUnidadeVolume" type="xs:int" minOccurs="0" />
+							<xs:element name="nUnidadeMassaPesoLiquido" type="xs:int" minOccurs="0" />
+							<xs:element name="nUnidadeMassaPesoBruto" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbProdutosRomaneioVolumesKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbProdutosRomaneioVolumes" />
+			<xs:field xpath="mstns:idExportador" />
+			<xs:field xpath="mstns:idPE" />
+			<xs:field xpath="mstns:strNumeroVolume" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

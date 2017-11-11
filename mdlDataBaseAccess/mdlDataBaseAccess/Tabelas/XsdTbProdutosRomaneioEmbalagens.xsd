@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbProdutosRomaneioEmbalagens" targetNamespace="http://tempuri.org/XsdTbProdutosRomaneioEmbalagens.xsd" elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbProdutosRomaneioEmbalagens.xsd" xmlns:mstns="http://tempuri.org/XsdTbProdutosRomaneioEmbalagens.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbProdutosRomaneioEmbalagens" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbProdutosRomaneioEmbalagens">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="idExportador" type="xs:int" />
+							<xs:element name="idPE" type="xs:string" />
+							<xs:element name="strIdEmbalagem" type="xs:string" />
+							<xs:element name="strNumeroVolume" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbProdutosRomaneioEmbalagensKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbProdutosRomaneioEmbalagens" />
+			<xs:field xpath="mstns:idExportador" />
+			<xs:field xpath="mstns:idPE" />
+			<xs:field xpath="mstns:strIdEmbalagem" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

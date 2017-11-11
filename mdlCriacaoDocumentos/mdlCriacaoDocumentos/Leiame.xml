@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mdlCriacaoDocumentos>
+	<clsCriacao>
+		<Tarefas>12-06-2003#Roberto#Criando mdl
+		</Tarefas>
+		<Problemas></Problemas>
+	</clsCriacao>
+	<clsCriacaoProcesso>
+		<Tarefas>17-06-2003#Roberto#Testar
+	</Tarefas>
+		<Problemas>Descobrir com testes! Falta criar possibilidade do usuário voltar!
+	</Problemas>
+	</clsCriacaoProcesso>
+	<clsCriacaoCotacao>
+		<Tarefas>17-06-2003#Roberto#Testar
+	</Tarefas>
+		<Problemas>Descobrir com testes! Falta criar possibilidade do usuário voltar!
+	</Problemas>
+	</clsCriacaoCotacao>
+	<frmFLista>
+		<Tarefas>17-06-2003#Roberto#Testar
+	</Tarefas>
+		<Problemas>Descobrir com testes! Falta criar possibilidade do usuário voltar!
+	</Problemas>
+	</frmFLista>
+	<frmFCadastro>
+		<Tarefas>17-06-2003#Roberto#Testar
+	</Tarefas>
+		<Problemas>Descobrir com testes! Falta criar possibilidade do usuário voltar!
+	</Problemas>
+	</frmFCadastro>
+	<frmFNumeroPE>
+		<Tarefas>17-06-2003#Roberto#Testar
+	</Tarefas>
+		<Problemas>Descobrir com testes! Falta criar possibilidade do usuário voltar!
+	</Problemas>
+	</frmFNumeroPE>
+	<frmFAssistentePrincipal>
+		<Tarefas>18-06-2003#Roberto#Atualizando
+	</Tarefas>
+		<Problemas>Falta não obrigar usuário a preencher tudo e fazer as janelas abrirem em seqüência
+	</Problemas>
+	</frmFAssistentePrincipal>
+	<clsCriacao>
+		<Tarefas>16-06-2003#Roberto#Atualizado com sucesso</Tarefas>
+		<Problemas>Falta Módulo Produtos e Esquema de Pagamento</Problemas>
+	</clsCriacao>
+	<clsCriacao>
+		<Tarefas>OK!</Tarefas>
+		<Problemas>Sem problemas aparentes!</Problemas>
+	</clsCriacao>
+	<clsCriacaoProcesso>
+		<Tarefas></Tarefas>
+	</clsCriacaoProcesso>
+</mdlCriacaoDocumentos>

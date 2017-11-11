@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlDataBaseData", "mdlDataBaseData\mdlDataBaseData.csproj", "{B0878FE2-CF46-4048-BA37-0DEBDE9AABCC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {1F082EBF-B1EE-4A97-918D-F286B3DE93F7}
+		SccProjectUniqueName1 = mdlDataBaseData\\mdlDataBaseData.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = mdlDataBaseData\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B0878FE2-CF46-4048-BA37-0DEBDE9AABCC}.Debug.ActiveCfg = Debug|.NET
+		{B0878FE2-CF46-4048-BA37-0DEBDE9AABCC}.Debug.Build.0 = Debug|.NET
+		{B0878FE2-CF46-4048-BA37-0DEBDE9AABCC}.Release.ActiveCfg = Release|.NET
+		{B0878FE2-CF46-4048-BA37-0DEBDE9AABCC}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

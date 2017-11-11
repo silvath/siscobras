@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbDespachantes" targetNamespace="http://tempuri.org/XsdTbDespachantes.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbDespachantes.xsd"
+	xmlns:mstns="http://tempuri.org/XsdTbDespachantes.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbDespachantes" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbDespachantes">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nIdDespachante" type="xs:int" />
+							<xs:element name="strNome" type="xs:string" minOccurs="0" />
+							<xs:element name="strEmail" type="xs:string" minOccurs="0" />
+							<xs:element name="strTelefone" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrEndereco" type="xs:string" minOccurs="0" />
+							<xs:element name="strCEP" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrCidade" type="xs:string" minOccurs="0" />
+							<xs:element name="nIdEstado" type="xs:short" minOccurs="0" />
+							<xs:element name="strBairro" type="xs:string" minOccurs="0" />
+							<xs:element name="strFax" type="xs:string" minOccurs="0" />
+							<xs:element name="strSite" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrRDA" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbDespachantesKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbDespachantes" />
+			<xs:field xpath="mstns:nIdDespachante" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mdlEsquemaPagamento>
+	<clsEsquemaPagamento>
+		<Tarefas>20-06-2003#Thiago#Conversao para VS2003</Tarefas>
+		<Problemas></Problemas>
+	</clsEsquemaPagamento>
+	<clsEsquemaPagamentoFaturaComercial>
+		<Tarefas>20-06-2003#Thiago#Conversao para VS2003</Tarefas>
+		<Problemas></Problemas>
+	</clsEsquemaPagamentoFaturaComercial>
+	<clsEsquemaPagamentoFaturaCotacao>
+		<Tarefas>20-06-2003#Thiago#Conversao para VS2003</Tarefas>
+		<Problemas></Problemas>
+	</clsEsquemaPagamentoFaturaCotacao>
+	<clsEsquemaPagamentoFaturaProforma>
+		<Tarefas>20-06-2003#Thiago#Conversao para VS2003</Tarefas>
+		<Problemas></Problemas>
+	</clsEsquemaPagamentoFaturaProforma>
+	<ProjetoVisio>
+		<Tarefas>20-06-2003#Thiago#Conversao para VS2003</Tarefas>
+		<Problemas></Problemas>
+	</ProjetoVisio>
+</mdlEsquemaPagamento>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mdlRelatoriosSaque>
+	<frmRelatoriosSaque>
+		<Tarefas>12-06-2003#Roberto#Independência BD
+</Tarefas>
+		<Problemas>Problemas no método bMostrarRelatorio da classe RelatorioBase
+</Problemas>
+	</frmRelatoriosSaque>
+	<frmRelatoriosSaque>
+		<Tarefas>04-08-2003#Thiago#Idioma setado sempre como ingles (3)</Tarefas>
+	</frmRelatoriosSaque>
+</mdlRelatoriosSaque>

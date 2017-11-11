@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbProdutosFaturaCotacaoPropriedades" targetNamespace="http://tempuri.org/XsdTbProdutosFaturaCotacaoPropriedades.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbProdutosFaturaCotacaoPropriedades.xsd"
+	xmlns:mstns="http://tempuri.org/XsdTbProdutosFaturaCotacaoPropriedades.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbProdutosFaturaCotacaoPropriedades" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbProdutosFaturaCotacaoPropriedades">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nIdExportador" type="xs:int" />
+							<xs:element name="strIdCotacao" type="xs:string" />
+							<xs:element name="nIdOrdem" type="xs:int" />
+							<xs:element name="nIdIdioma" type="xs:int" />
+							<xs:element name="nIdPropriedade" type="xs:int" />
+							<xs:element name="mstrDescricao" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbProdutosFaturaCotacaoPropriedadesKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbProdutosFaturaCotacaoPropriedades" />
+			<xs:field xpath="mstns:nIdExportador" />
+			<xs:field xpath="mstns:strIdCotacao" />
+			<xs:field xpath="mstns:nIdOrdem" />
+			<xs:field xpath="mstns:nIdIdioma" />
+			<xs:field xpath="mstns:nIdPropriedade" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

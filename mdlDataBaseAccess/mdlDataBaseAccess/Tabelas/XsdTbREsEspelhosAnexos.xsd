@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbREsEspelhosAnexos" targetNamespace="http://tempuri.org/XsdTbREsEspelhosAnexos.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbREsEspelhosAnexos.xsd"
+	xmlns:mstns="http://tempuri.org/XsdTbREsEspelhosAnexos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbREsEspelhosAnexos" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbREsEspelhosAnexos">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nIdExportador" type="xs:int" />
+							<xs:element name="nIdReEspelho" type="xs:int" />
+							<xs:element name="nIdAnexo" type="xs:int" />
+							<xs:element name="mstrImagem010" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrImagem014" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrImagem024" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrImagem025" type="xs:string" minOccurs="0" />
+							<xs:element name="strNCM" type="xs:string" minOccurs="0" />
+							<xs:element name="strNaladi" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrDescricaoMercadoria" type="xs:string" minOccurs="0" />
+							<xs:element name="strCategoriaTextil" type="xs:string" minOccurs="0" />
+							<xs:element name="strEstadoProdutor" type="xs:string" minOccurs="0" />
+							<xs:element name="dtValdiadeEmbarque" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="dcPesoLiquido" type="xs:double" minOccurs="0" />
+							<xs:element name="dcComercializacaoQuantidade" type="xs:double" minOccurs="0" />
+							<xs:element name="strComercializacaoUnidade" type="xs:string" minOccurs="0" />
+							<xs:element name="dcMercadoriaQuantidade" type="xs:double" minOccurs="0" />
+							<xs:element name="dcPrecoTotalCondicaoVenda" type="xs:double" minOccurs="0" />
+							<xs:element name="dcPrecoTotalLocalEmbarque" type="xs:double" minOccurs="0" />
+							<xs:element name="dcCondicaoVendaComercializacao" type="xs:double" minOccurs="0" />
+							<xs:element name="dcCondicaoVendaMercadoria" type="xs:double" minOccurs="0" />
+							<xs:element name="dcLocalEmbarqueComercializacao" type="xs:double" minOccurs="0" />
+							<xs:element name="dcLocalEmbarqueMercadoria" type="xs:double" minOccurs="0" />
+							<xs:element name="dcAgenteComissao" type="xs:double" minOccurs="0" />
+							<xs:element name="strAgenteForma" type="xs:string" minOccurs="0" />
+							<xs:element name="strAgenteValor" type="xs:string" minOccurs="0" />
+							<xs:element name="strFinalidade" type="xs:string" minOccurs="0" />
+							<xs:element name="bExportadorFabricante" type="xs:boolean" minOccurs="0" />
+							<xs:element name="bObservacao" type="xs:boolean" minOccurs="0" />
+							<xs:element name="mstrObservacao" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbREsEspelhosAnexosKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbREsEspelhosAnexos" />
+			<xs:field xpath="mstns:nIdExportador" />
+			<xs:field xpath="mstns:nIdReEspelho" />
+			<xs:field xpath="mstns:nIdAnexo" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

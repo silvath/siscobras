@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{69EF6755-52BB-4120-A569-DDECFAC12CF4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D7FF726E-B1F9-4E92-9C05-FDB1EEF87627} = {D7FF726E-B1F9-4E92-9C05-FDB1EEF87627}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlCriacaoDocumentos", "mdlCriacaoDocumentos\mdlCriacaoDocumentos.csproj", "{D7FF726E-B1F9-4E92-9C05-FDB1EEF87627}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {14022DB2-2D2D-4F9A-9F29-0B4BC1A7E6F5}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlCriacaoDocumentos\\mdlCriacaoDocumentos.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlCriacaoDocumentos\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{69EF6755-52BB-4120-A569-DDECFAC12CF4}.Debug.ActiveCfg = Debug|.NET
+		{69EF6755-52BB-4120-A569-DDECFAC12CF4}.Debug.Build.0 = Debug|.NET
+		{69EF6755-52BB-4120-A569-DDECFAC12CF4}.Release.ActiveCfg = Release|.NET
+		{69EF6755-52BB-4120-A569-DDECFAC12CF4}.Release.Build.0 = Release|.NET
+		{D7FF726E-B1F9-4E92-9C05-FDB1EEF87627}.Debug.ActiveCfg = Debug|.NET
+		{D7FF726E-B1F9-4E92-9C05-FDB1EEF87627}.Debug.Build.0 = Debug|.NET
+		{D7FF726E-B1F9-4E92-9C05-FDB1EEF87627}.Release.ActiveCfg = Release|.NET
+		{D7FF726E-B1F9-4E92-9C05-FDB1EEF87627}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		mdlCriacaoDocumentos\mdlCriacaoDocumentos.vsd = mdlCriacaoDocumentos\mdlCriacaoDocumentos.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://tempuri.org/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ClienteCadastrado">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCodigoCliente" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ClienteCadastradoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ClienteCadastradoResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ClienteCadastraPessoaFisica">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCPF" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strNome" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strEmail" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ClienteCadastraPessoaFisicaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ClienteCadastraPessoaFisicaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ClienteCadastraPessoaJuridica">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCNPJ" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strRazaoSocial" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strSite" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strNome" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strEmail" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strTelefone" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ClienteCadastraPessoaJuridicaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ClienteCadastraPessoaJuridicaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ClienteLiberado">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCodigoCliente" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ClienteLiberadoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ClienteLiberadoResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetVersao">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetVersaoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetVersaoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataAtualizacao">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetDataAtualizacaoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetDataAtualizacaoResult" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataAtualizacaoNCM">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetDataAtualizacaoNCMResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetDataAtualizacaoNCMResult" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataAtualizacaoNaladi">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetDataAtualizacaoNaladiResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetDataAtualizacaoNaladiResult" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataAtualizacaoNesh">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetDataAtualizacaoNeshResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetDataAtualizacaoNeshResult" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataAtualizacaoAliquotas">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetDataAtualizacaoAliquotasResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetDataAtualizacaoAliquotasResult" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPesquisaNcm">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strTexto" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPesquisaNcmResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPesquisaNcmResult" type="s0:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetNcmDescricao">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCodigo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNcmDescricaoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetNcmDescricaoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNcmSubNiveis">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCodigo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNcmSubNiveisResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetNcmSubNiveisResult" type="s0:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNcmNesh">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCodigo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNcmNeshResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetNcmNeshResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPesquisaNaladi">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strTexto" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPesquisaNaladiResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPesquisaNaladiResult" type="s0:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNaladiDescricao">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCodigo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNaladiDescricaoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetNaladiDescricaoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNaladiSubNiveis">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCodigo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNaladiSubNiveisResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetNaladiSubNiveisResult" type="s0:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNcmAliquotaIPI">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCodigo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNcmAliquotaIPIResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetNcmAliquotaIPIResult" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="strValor" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="dtInicio" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="dtFim" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNcmAliquotaImpostoImportacao">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCodigo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNcmAliquotaImpostoImportacaoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetNcmAliquotaImpostoImportacaoResult" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="strValor" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="dtInicio" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="dtFim" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNcmAliquotaImpostoImportacaoMercosul">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCodigo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNcmAliquotaImpostoImportacaoMercosulResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetNcmAliquotaImpostoImportacaoMercosulResult" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="strValor" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="dtInicio" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="dtFim" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </types>
+  <message name="ClienteCadastradoSoapIn">
+    <part name="parameters" element="s0:ClienteCadastrado" />
+  </message>
+  <message name="ClienteCadastradoSoapOut">
+    <part name="parameters" element="s0:ClienteCadastradoResponse" />
+  </message>
+  <message name="ClienteCadastraPessoaFisicaSoapIn">
+    <part name="parameters" element="s0:ClienteCadastraPessoaFisica" />
+  </message>
+  <message name="ClienteCadastraPessoaFisicaSoapOut">
+    <part name="parameters" element="s0:ClienteCadastraPessoaFisicaResponse" />
+  </message>
+  <message name="ClienteCadastraPessoaJuridicaSoapIn">
+    <part name="parameters" element="s0:ClienteCadastraPessoaJuridica" />
+  </message>
+  <message name="ClienteCadastraPessoaJuridicaSoapOut">
+    <part name="parameters" element="s0:ClienteCadastraPessoaJuridicaResponse" />
+  </message>
+  <message name="ClienteLiberadoSoapIn">
+    <part name="parameters" element="s0:ClienteLiberado" />
+  </message>
+  <message name="ClienteLiberadoSoapOut">
+    <part name="parameters" element="s0:ClienteLiberadoResponse" />
+  </message>
+  <message name="GetVersaoSoapIn">
+    <part name="parameters" element="s0:GetVersao" />
+  </message>
+  <message name="GetVersaoSoapOut">
+    <part name="parameters" element="s0:GetVersaoResponse" />
+  </message>
+  <message name="GetDataAtualizacaoSoapIn">
+    <part name="parameters" element="s0:GetDataAtualizacao" />
+  </message>
+  <message name="GetDataAtualizacaoSoapOut">
+    <part name="parameters" element="s0:GetDataAtualizacaoResponse" />
+  </message>
+  <message name="GetDataAtualizacaoNCMSoapIn">
+    <part name="parameters" element="s0:GetDataAtualizacaoNCM" />
+  </message>
+  <message name="GetDataAtualizacaoNCMSoapOut">
+    <part name="parameters" element="s0:GetDataAtualizacaoNCMResponse" />
+  </message>
+  <message name="GetDataAtualizacaoNaladiSoapIn">
+    <part name="parameters" element="s0:GetDataAtualizacaoNaladi" />
+  </message>
+  <message name="GetDataAtualizacaoNaladiSoapOut">
+    <part name="parameters" element="s0:GetDataAtualizacaoNaladiResponse" />
+  </message>
+  <message name="GetDataAtualizacaoNeshSoapIn">
+    <part name="parameters" element="s0:GetDataAtualizacaoNesh" />
+  </message>
+  <message name="GetDataAtualizacaoNeshSoapOut">
+    <part name="parameters" element="s0:GetDataAtualizacaoNeshResponse" />
+  </message>
+  <message name="GetDataAtualizacaoAliquotasSoapIn">
+    <part name="parameters" element="s0:GetDataAtualizacaoAliquotas" />
+  </message>
+  <message name="GetDataAtualizacaoAliquotasSoapOut">
+    <part name="parameters" element="s0:GetDataAtualizacaoAliquotasResponse" />
+  </message>
+  <message name="GetPesquisaNcmSoapIn">
+    <part name="parameters" element="s0:GetPesquisaNcm" />
+  </message>
+  <message name="GetPesquisaNcmSoapOut">
+    <part name="parameters" element="s0:GetPesquisaNcmResponse" />
+  </message>
+  <message name="GetNcmDescricaoSoapIn">
+    <part name="parameters" element="s0:GetNcmDescricao" />
+  </message>
+  <message name="GetNcmDescricaoSoapOut">
+    <part name="parameters" element="s0:GetNcmDescricaoResponse" />
+  </message>
+  <message name="GetNcmSubNiveisSoapIn">
+    <part name="parameters" element="s0:GetNcmSubNiveis" />
+  </message>
+  <message name="GetNcmSubNiveisSoapOut">
+    <part name="parameters" element="s0:GetNcmSubNiveisResponse" />
+  </message>
+  <message name="GetNcmNeshSoapIn">
+    <part name="parameters" element="s0:GetNcmNesh" />
+  </message>
+  <message name="GetNcmNeshSoapOut">
+    <part name="parameters" element="s0:GetNcmNeshResponse" />
+  </message>
+  <message name="GetPesquisaNaladiSoapIn">
+    <part name="parameters" element="s0:GetPesquisaNaladi" />
+  </message>
+  <message name="GetPesquisaNaladiSoapOut">
+    <part name="parameters" element="s0:GetPesquisaNaladiResponse" />
+  </message>
+  <message name="GetNaladiDescricaoSoapIn">
+    <part name="parameters" element="s0:GetNaladiDescricao" />
+  </message>
+  <message name="GetNaladiDescricaoSoapOut">
+    <part name="parameters" element="s0:GetNaladiDescricaoResponse" />
+  </message>
+  <message name="GetNaladiSubNiveisSoapIn">
+    <part name="parameters" element="s0:GetNaladiSubNiveis" />
+  </message>
+  <message name="GetNaladiSubNiveisSoapOut">
+    <part name="parameters" element="s0:GetNaladiSubNiveisResponse" />
+  </message>
+  <message name="GetNcmAliquotaIPISoapIn">
+    <part name="parameters" element="s0:GetNcmAliquotaIPI" />
+  </message>
+  <message name="GetNcmAliquotaIPISoapOut">
+    <part name="parameters" element="s0:GetNcmAliquotaIPIResponse" />
+  </message>
+  <message name="GetNcmAliquotaImpostoImportacaoSoapIn">
+    <part name="parameters" element="s0:GetNcmAliquotaImpostoImportacao" />
+  </message>
+  <message name="GetNcmAliquotaImpostoImportacaoSoapOut">
+    <part name="parameters" element="s0:GetNcmAliquotaImpostoImportacaoResponse" />
+  </message>
+  <message name="GetNcmAliquotaImpostoImportacaoMercosulSoapIn">
+    <part name="parameters" element="s0:GetNcmAliquotaImpostoImportacaoMercosul" />
+  </message>
+  <message name="GetNcmAliquotaImpostoImportacaoMercosulSoapOut">
+    <part name="parameters" element="s0:GetNcmAliquotaImpostoImportacaoMercosulResponse" />
+  </message>
+  <portType name="wbsvSiscoTecSoap">
+    <operation name="ClienteCadastrado">
+      <input message="s0:ClienteCadastradoSoapIn" />
+      <output message="s0:ClienteCadastradoSoapOut" />
+    </operation>
+    <operation name="ClienteCadastraPessoaFisica">
+      <input message="s0:ClienteCadastraPessoaFisicaSoapIn" />
+      <output message="s0:ClienteCadastraPessoaFisicaSoapOut" />
+    </operation>
+    <operation name="ClienteCadastraPessoaJuridica">
+      <input message="s0:ClienteCadastraPessoaJuridicaSoapIn" />
+      <output message="s0:ClienteCadastraPessoaJuridicaSoapOut" />
+    </operation>
+    <operation name="ClienteLiberado">
+      <input message="s0:ClienteLiberadoSoapIn" />
+      <output message="s0:ClienteLiberadoSoapOut" />
+    </operation>
+    <operation name="GetVersao">
+      <input message="s0:GetVersaoSoapIn" />
+      <output message="s0:GetVersaoSoapOut" />
+    </operation>
+    <operation name="GetDataAtualizacao">
+      <input message="s0:GetDataAtualizacaoSoapIn" />
+      <output message="s0:GetDataAtualizacaoSoapOut" />
+    </operation>
+    <operation name="GetDataAtualizacaoNCM">
+      <input message="s0:GetDataAtualizacaoNCMSoapIn" />
+      <output message="s0:GetDataAtualizacaoNCMSoapOut" />
+    </operation>
+    <operation name="GetDataAtualizacaoNaladi">
+      <input message="s0:GetDataAtualizacaoNaladiSoapIn" />
+      <output message="s0:GetDataAtualizacaoNaladiSoapOut" />
+    </operation>
+    <operation name="GetDataAtualizacaoNesh">
+      <input message="s0:GetDataAtualizacaoNeshSoapIn" />
+      <output message="s0:GetDataAtualizacaoNeshSoapOut" />
+    </operation>
+    <operation name="GetDataAtualizacaoAliquotas">
+      <input message="s0:GetDataAtualizacaoAliquotasSoapIn" />
+      <output message="s0:GetDataAtualizacaoAliquotasSoapOut" />
+    </operation>
+    <operation name="GetPesquisaNcm">
+      <input message="s0:GetPesquisaNcmSoapIn" />
+      <output message="s0:GetPesquisaNcmSoapOut" />
+    </operation>
+    <operation name="GetNcmDescricao">
+      <input message="s0:GetNcmDescricaoSoapIn" />
+      <output message="s0:GetNcmDescricaoSoapOut" />
+    </operation>
+    <operation name="GetNcmSubNiveis">
+      <input message="s0:GetNcmSubNiveisSoapIn" />
+      <output message="s0:GetNcmSubNiveisSoapOut" />
+    </operation>
+    <operation name="GetNcmNesh">
+      <input message="s0:GetNcmNeshSoapIn" />
+      <output message="s0:GetNcmNeshSoapOut" />
+    </operation>
+    <operation name="GetPesquisaNaladi">
+      <input message="s0:GetPesquisaNaladiSoapIn" />
+      <output message="s0:GetPesquisaNaladiSoapOut" />
+    </operation>
+    <operation name="GetNaladiDescricao">
+      <input message="s0:GetNaladiDescricaoSoapIn" />
+      <output message="s0:GetNaladiDescricaoSoapOut" />
+    </operation>
+    <operation name="GetNaladiSubNiveis">
+      <input message="s0:GetNaladiSubNiveisSoapIn" />
+      <output message="s0:GetNaladiSubNiveisSoapOut" />
+    </operation>
+    <operation name="GetNcmAliquotaIPI">
+      <input message="s0:GetNcmAliquotaIPISoapIn" />
+      <output message="s0:GetNcmAliquotaIPISoapOut" />
+    </operation>
+    <operation name="GetNcmAliquotaImpostoImportacao">
+      <input message="s0:GetNcmAliquotaImpostoImportacaoSoapIn" />
+      <output message="s0:GetNcmAliquotaImpostoImportacaoSoapOut" />
+    </operation>
+    <operation name="GetNcmAliquotaImpostoImportacaoMercosul">
+      <input message="s0:GetNcmAliquotaImpostoImportacaoMercosulSoapIn" />
+      <output message="s0:GetNcmAliquotaImpostoImportacaoMercosulSoapOut" />
+    </operation>
+  </portType>
+  <binding name="wbsvSiscoTecSoap" type="s0:wbsvSiscoTecSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="ClienteCadastrado">
+      <soap:operation soapAction="http://tempuri.org/ClienteCadastrado" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ClienteCadastraPessoaFisica">
+      <soap:operation soapAction="http://tempuri.org/ClienteCadastraPessoaFisica" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ClienteCadastraPessoaJuridica">
+      <soap:operation soapAction="http://tempuri.org/ClienteCadastraPessoaJuridica" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ClienteLiberado">
+      <soap:operation soapAction="http://tempuri.org/ClienteLiberado" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetVersao">
+      <soap:operation soapAction="http://tempuri.org/GetVersao" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetDataAtualizacao">
+      <soap:operation soapAction="http://tempuri.org/GetDataAtualizacao" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetDataAtualizacaoNCM">
+      <soap:operation soapAction="http://tempuri.org/GetDataAtualizacaoNCM" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetDataAtualizacaoNaladi">
+      <soap:operation soapAction="http://tempuri.org/GetDataAtualizacaoNaladi" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetDataAtualizacaoNesh">
+      <soap:operation soapAction="http://tempuri.org/GetDataAtualizacaoNesh" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetDataAtualizacaoAliquotas">
+      <soap:operation soapAction="http://tempuri.org/GetDataAtualizacaoAliquotas" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetPesquisaNcm">
+      <soap:operation soapAction="http://tempuri.org/GetPesquisaNcm" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetNcmDescricao">
+      <soap:operation soapAction="http://tempuri.org/GetNcmDescricao" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetNcmSubNiveis">
+      <soap:operation soapAction="http://tempuri.org/GetNcmSubNiveis" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetNcmNesh">
+      <soap:operation soapAction="http://tempuri.org/GetNcmNesh" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetPesquisaNaladi">
+      <soap:operation soapAction="http://tempuri.org/GetPesquisaNaladi" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetNaladiDescricao">
+      <soap:operation soapAction="http://tempuri.org/GetNaladiDescricao" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetNaladiSubNiveis">
+      <soap:operation soapAction="http://tempuri.org/GetNaladiSubNiveis" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetNcmAliquotaIPI">
+      <soap:operation soapAction="http://tempuri.org/GetNcmAliquotaIPI" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetNcmAliquotaImpostoImportacao">
+      <soap:operation soapAction="http://tempuri.org/GetNcmAliquotaImpostoImportacao" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetNcmAliquotaImpostoImportacaoMercosul">
+      <soap:operation soapAction="http://tempuri.org/GetNcmAliquotaImpostoImportacaoMercosul" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="wbsvSiscoTec">
+    <port name="wbsvSiscoTecSoap" binding="s0:wbsvSiscoTecSoap">
+      <soap:address location="http://10.1.1.51/wbsvSiscoTec/wbsvSiscoTec.asmx" />
+    </port>
+  </service>
+</definitions>

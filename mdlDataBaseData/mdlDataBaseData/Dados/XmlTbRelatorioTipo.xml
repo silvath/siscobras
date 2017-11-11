@@ -1,0 +1,91 @@
+<?xml version="1.0" standalone="yes"?>
+<XsdTbRelatorioTipo xmlns="http://tempuri.org/XsdTbRelatorioTipo.xsd">
+  <tbRelatorioTipo>
+    <nIdTipo>1</nIdTipo>
+    <strNomeRelatorio>Cotação</strNomeRelatorio>
+  </tbRelatorioTipo>
+  <tbRelatorioTipo>
+    <nIdTipo>2</nIdTipo>
+    <strNomeRelatorio>Fatura Proforma</strNomeRelatorio>
+  </tbRelatorioTipo>
+  <tbRelatorioTipo>
+    <nIdTipo>3</nIdTipo>
+    <strNomeRelatorio>Fatura Comercial</strNomeRelatorio>
+  </tbRelatorioTipo>
+  <tbRelatorioTipo>
+    <nIdTipo>4</nIdTipo>
+    <strNomeRelatorio>Certificado de Origem Mercosul</strNomeRelatorio>
+  </tbRelatorioTipo>
+  <tbRelatorioTipo>
+    <nIdTipo>5</nIdTipo>
+    <strNomeRelatorio>Certificado de Origem Mercosul / Bolivia</strNomeRelatorio>
+  </tbRelatorioTipo>
+  <tbRelatorioTipo>
+    <nIdTipo>6</nIdTipo>
+    <strNomeRelatorio>Certificado de Origem Mercosul / Chile</strNomeRelatorio>
+  </tbRelatorioTipo>
+  <tbRelatorioTipo>
+    <nIdTipo>7</nIdTipo>
+    <strNomeRelatorio>Certificado de Origem Aladi Aptr04</strNomeRelatorio>
+  </tbRelatorioTipo>
+  <tbRelatorioTipo>
+    <nIdTipo>8</nIdTipo>
+    <strNomeRelatorio>Certificado de Origem Aladi Ace39</strNomeRelatorio>
+  </tbRelatorioTipo>
+  <tbRelatorioTipo>
+    <nIdTipo>9</nIdTipo>
+    <strNomeRelatorio>Certificado de Origem AnexoIII</strNomeRelatorio>
+  </tbRelatorioTipo>
+  <tbRelatorioTipo>
+    <nIdTipo>10</nIdTipo>
+    <strNomeRelatorio>Certificado de Origem Comum</strNomeRelatorio>
+  </tbRelatorioTipo>
+  <tbRelatorioTipo>
+    <nIdTipo>11</nIdTipo>
+    <strNomeRelatorio>Romaneio</strNomeRelatorio>
+  </tbRelatorioTipo>
+  <tbRelatorioTipo>
+    <nIdTipo>12</nIdTipo>
+    <strNomeRelatorio>Documentos Bancarios  - Bordero</strNomeRelatorio>
+  </tbRelatorioTipo>
+  <tbRelatorioTipo>
+    <nIdTipo>13</nIdTipo>
+    <strNomeRelatorio>Documentos Bancarios - Instrucoes de ACC</strNomeRelatorio>
+  </tbRelatorioTipo>
+  <tbRelatorioTipo>
+    <nIdTipo>14</nIdTipo>
+    <strNomeRelatorio>Documentos Bancarios - Saque</strNomeRelatorio>
+  </tbRelatorioTipo>
+  <tbRelatorioTipo>
+    <nIdTipo>15</nIdTipo>
+    <strNomeRelatorio>Instrucao de Embarque</strNomeRelatorio>
+  </tbRelatorioTipo>
+  <tbRelatorioTipo>
+    <nIdTipo>16</nIdTipo>
+    <strNomeRelatorio>Transporte</strNomeRelatorio>
+  </tbRelatorioTipo>
+  <tbRelatorioTipo>
+    <nIdTipo>17</nIdTipo>
+    <strNomeRelatorio>Liberacao</strNomeRelatorio>
+  </tbRelatorioTipo>
+  <tbRelatorioTipo>
+    <nIdTipo>18</nIdTipo>
+    <strNomeRelatorio>Despesas</strNomeRelatorio>
+  </tbRelatorioTipo>
+  <tbRelatorioTipo>
+    <nIdTipo>19</nIdTipo>
+    <strNomeRelatorio>Certificado de Seguro</strNomeRelatorio>
+  </tbRelatorioTipo>
+  <tbRelatorioTipo>
+    <nIdTipo>20</nIdTipo>
+    <strNomeRelatorio>Nota Fiscal</strNomeRelatorio>
+  </tbRelatorioTipo>
+  <tbRelatorioTipo>
+    <nIdTipo>21</nIdTipo>
+    <strNomeRelatorio>Sumario</strNomeRelatorio>
+  </tbRelatorioTipo>
+  <tbRelatorioTipo>
+    <nIdTipo>22</nIdTipo>
+    <strNomeRelatorio>Certificado de Origem Form A</strNomeRelatorio>
+  </tbRelatorioTipo>
+</XsdTbRelatorioTipo>

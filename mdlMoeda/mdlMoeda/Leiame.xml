@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mdlMoeda>
+	<clsMoeda>
+		<Tarefas></Tarefas>
+		<Problemas></Problemas>
+	</clsMoeda>
+	<clsMoedaComercial>
+		<Tarefas>17-06-2003#Roberto#Corrigido erro no carredaDadosMoedaBD()</Tarefas>
+		<Problemas>Aparentemente nenhum!</Problemas>
+	</clsMoedaComercial>
+	<clsMoedaCotacao>
+		<Tarefas>17-06-2003#Roberto#Corrigido erro no carredaDadosMoedaBD()</Tarefas>
+		<Problemas>Aparentemente nenhum!</Problemas>
+	</clsMoedaCotacao>
+	<clsMoedaProforma>
+		<Tarefas>17-06-2003#Roberto#Corrigido erro no carredaDadosMoedaBD()</Tarefas>
+		<Problemas>Aparentemente nenhum!</Problemas>
+	</clsMoedaProforma>
+	<frmFMoeda>
+		<Tarefas></Tarefas>
+		<Problemas></Problemas>
+	</frmFMoeda>
+</mdlMoeda>

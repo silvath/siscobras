@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{3BCC50FF-9C9B-4033-9558-7AF6244D93E2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{506EB4D8-9E2B-4D5E-A0C8-6BA39DEBB395} = {506EB4D8-9E2B-4D5E-A0C8-6BA39DEBB395}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlControladoraWindowsServices", "mdlControladoraWindowsServices\mdlControladoraWindowsServices.csproj", "{506EB4D8-9E2B-4D5E-A0C8-6BA39DEBB395}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {6E773717-7662-40EB-8A72-E709E17167D0}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlControladoraWindowsServices\\mdlControladoraWindowsServices.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlControladoraWindowsServices\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3BCC50FF-9C9B-4033-9558-7AF6244D93E2}.Debug.ActiveCfg = Debug|.NET
+		{3BCC50FF-9C9B-4033-9558-7AF6244D93E2}.Debug.Build.0 = Debug|.NET
+		{3BCC50FF-9C9B-4033-9558-7AF6244D93E2}.Release.ActiveCfg = Release|.NET
+		{3BCC50FF-9C9B-4033-9558-7AF6244D93E2}.Release.Build.0 = Release|.NET
+		{506EB4D8-9E2B-4D5E-A0C8-6BA39DEBB395}.Debug.ActiveCfg = Debug|.NET
+		{506EB4D8-9E2B-4D5E-A0C8-6BA39DEBB395}.Debug.Build.0 = Debug|.NET
+		{506EB4D8-9E2B-4D5E-A0C8-6BA39DEBB395}.Release.ActiveCfg = Release|.NET
+		{506EB4D8-9E2B-4D5E-A0C8-6BA39DEBB395}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

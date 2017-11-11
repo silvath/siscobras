@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format" font-family="Helvetica" font-size="10pt">
+	<fo:layout-master-set>
+		<fo:simple-page-master master-name="all-pages" page-height="29.7cm" page-width="21cm" margin="1cm">
+			<fo:region-body region-name="xsl-region-body" background-color="white" margin-bottom="2cm" margin-top="2cm"/>
+			<fo:region-before region-name="xsl-region-before" background-color="#EFF0D7" extent="1cm" border="1pt solid #660000"/>
+			<fo:region-after region-name="xsl-region-after" background-color="#EFF0D7" extent="1cm" border="1pt solid #660000"/>
+		</fo:simple-page-master>
+	</fo:layout-master-set>
+	<fo:page-sequence master-reference="all-pages">
+		<fo:static-content flow-name="xsl-region-before">
+			<fo:block text-align="justify" text-align-last="justify" padding="0.25cm">
+				<fo:wrapper color="#660000" font-size="12pt" font-weight="bold">ALTSOFT</fo:wrapper>
+				<fo:leader/>XSL-FO testsuite
+			</fo:block>
+		</fo:static-content>
+		<fo:static-content flow-name="xsl-region-after">
+			<fo:block text-align="justify" text-align-last="justify" padding="0.25cm">
+				<fo:basic-link external-destination="url(http://www.alt-soft.com/)">
+					<fo:inline color="#660000" text-decoration="underline">http://www.alt-soft.com/</fo:inline>
+				</fo:basic-link>
+				<fo:leader/>
+				<fo:inline wrap-option="no-wrap">© Altsoft, 2003</fo:inline>
+			</fo:block>
+		</fo:static-content>
+		<fo:flow flow-name="xsl-region-body" font-family="Courier" font-size="10pt">
+			<fo:block margin-left="1.5cm" margin-right="1.5cm" text-align="justify" text-align-last="left">
+				<fo:block padding-bottom="1cm">Here you can see how borders with different styles and colors are connected. Best viewed in zoom over 800% due to Adobe Acrobat specific issues.</fo:block>
+				<fo:table width="100%" border-separation="0.2cm" border-collapse="separate">
+					<fo:table-column column-number="1" width="50%"/>
+					<fo:table-column column-number="2" width="50%"/>
+					<fo:table-header>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block border="2mm none black" color="white" background-color="black" text-align-last="center">Single Color</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block border="2mm none black" color="white" background-color="black" text-align-last="center">Multiple Colors</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+					</fo:table-header>
+					<fo:table-body linefeed-treatment="preserve" font-size="10pt">
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block color="black" border-top="1pt solid black" border-bottom="1pt double black" border-left="1pt dashed black" border-right="1pt dotted black">border-top="1pt solid black"
+border-bottom="1pt double black"
+border-left="1pt dashed black"
+border-right="1pt dotted black"</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block color="black" border-top="1pt solid green" border-bottom="1pt double red" border-left="1pt dashed blue" border-right="1pt dotted green">border-top="1pt solid green"
+border-bottom="1pt double red"
+border-left="1pt dashed blue"
+border-right="1pt dotted green"</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block color="black" border-top="2pt solid black" border-bottom="2pt double black" border-left="2pt dashed black" border-right="2pt dotted black">border-top="2pt solid black"
+border-bottom="2pt double black"
+border-left="2pt dashed black"
+border-right="2pt dotted black"</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block color="black" border-top="2pt solid green" border-bottom="2pt double red" border-left="2pt dashed blue" border-right="2pt dotted green">border-top="2pt solid green"
+border-bottom="2pt double red"
+border-left="2pt dashed blue"
+border-right="2pt dotted green"</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block color="black" border-top="3pt solid black" border-bottom="3pt double black" border-left="3pt dashed black" border-right="3pt dotted black">border-top="3pt solid black"
+border-bottom="3pt double black"
+border-left="3pt dashed black"
+border-right="3pt dotted black"</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block color="black" border-top="3pt solid green" border-bottom="3pt double red" border-left="3pt dashed blue" border-right="3pt dotted green">border-top="3pt solid green"
+border-bottom="3pt double red"border-left="3pt dashed blue"
+border-right="3pt dotted green"</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block color="black" border-top="4pt solid black" border-bottom="4pt double black" border-left="4pt dashed black" border-right="4pt dotted black">border-top="4pt solid black"
+border-bottom="4pt double black"
+border-left="4pt dashed black"
+border-right="4pt dotted black"</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block color="black" border-top="4pt solid green" border-bottom="4pt double red" border-left="4pt dashed blue" border-right="4pt dotted green">border-top="4pt solid green"
+border-bottom="4pt double red"
+border-left="4pt dashed blue"
+border-right="4pt dotted green"</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block color="black" border-top="5pt solid black" border-bottom="5pt double black" border-left="5pt dashed black" border-right="5pt dotted black">border-top="5pt solid black"
+border-bottom="5pt double black"
+border-left="5pt dashed black"
+border-right="5pt dotted black"</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block color="black" border-top="5pt solid green" border-bottom="5pt double red" border-left="5pt dashed blue" border-right="5pt dotted green">border-top="5pt solid green"
+border-bottom="5pt double red"
+border-left="5pt dashed blue"
+border-right="5pt dotted green"</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block color="black" border-top="6pt solid black" border-bottom="6pt double black" border-left="6pt dashed black" border-right="6pt dotted black">border-top="6pt solid black"
+border-bottom="6pt double black"
+border-left="6pt dashed black"
+border-right="6pt dotted black"</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block color="black" border-top="6pt solid green" border-bottom="6pt double red" border-left="6pt dashed blue" border-right="6pt dotted green">border-top="6pt solid green"
+border-bottom="6pt double red"
+border-left="6pt dashed blue"
+border-right="6pt dotted green"</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block color="black" border-top="7pt solid black" border-bottom="7pt double black" border-left="7pt dashed black" border-right="7pt dotted black">border-top="7pt solid black"
+border-bottom="7pt double black"
+border-left="7pt dashed black"
+border-right="7pt dotted black"</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block color="black" border-top="7pt solid green" border-bottom="7pt double red" border-left="7pt dashed blue" border-right="7pt dotted green">border-top="7pt solid green"
+border-bottom="7pt double red"
+border-left="7pt dashed blue"
+border-right="7pt dotted green"</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block color="black" border-top="8pt solid black" border-bottom="8pt double black" border-left="8pt dashed black" border-right="8pt dotted black">border-top="8pt solid black"
+border-bottom="8pt double black"
+border-left="8pt dashed black"
+border-right="8pt dotted black"</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block color="black" border-top="8pt solid green" border-bottom="8pt double red" border-left="8pt dashed blue" border-right="8pt dotted green">border-top="8pt solid green"
+border-bottom="8pt double red"
+border-left="8pt dashed blue"
+border-right="8pt dotted green"</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block color="black" border-top="9pt solid black" border-bottom="9pt double black" border-left="9pt dashed black" border-right="9pt dotted black">border-top="9pt solid black"
+border-bottom="9pt double black"
+border-left="9pt dashed black"
+border-right="9pt dotted black"</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block color="black" border-top="9pt solid green" border-bottom="9pt double red" border-left="9pt dashed blue" border-right="9pt dotted green">border-top="9pt solid green"
+border-bottom="9pt double red"
+border-left="9pt dashed blue"
+border-right="9pt dotted green"</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell>
+								<fo:block color="black" border-top="10pt solid black" border-bottom="10pt double black" border-left="10pt dashed black" border-right="10pt dotted black">border-top="10pt solid black"
+border-bottom="10pt double black"
+border-left="10pt dashed black"
+border-right="10pt dotted black"</fo:block>
+							</fo:table-cell>
+							<fo:table-cell>
+								<fo:block color="black" border-top="10pt solid green" border-bottom="10pt double red" border-left="10pt dashed blue" border-right="10pt dotted green">border-top="10pt solid green"
+border-bottom="10pt double red"
+border-left="10pt dashed blue"
+border-right="10pt dotted green"</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+					</fo:table-body>
+				</fo:table>
+			</fo:block>
+		</fo:flow>
+	</fo:page-sequence>
+</fo:root>

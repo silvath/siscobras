@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbReservas" targetNamespace="http://tempuri.org/XsdTbReservas.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbReservas.xsd" xmlns:mstns="http://tempuri.org/XsdTbReservas.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbReservas" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbReservas">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nIdExportador" type="xs:int" />
+							<xs:element name="strIdPe" type="xs:string" />
+							<xs:element name="nIdRelatorio" type="xs:int" minOccurs="0" />
+							<xs:element name="dtEmissao" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="mstrObservacao" type="xs:string" minOccurs="0" />
+							<xs:element name="nImpressoes" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdAssinatura" type="xs:int" minOccurs="0" />
+							<xs:element name="strNumero" type="xs:string" minOccurs="0" />
+							<xs:element name="strFormatDateEmissao" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbReservasKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbReservas" />
+			<xs:field xpath="mstns:nIdExportador" />
+			<xs:field xpath="mstns:strIdPe" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

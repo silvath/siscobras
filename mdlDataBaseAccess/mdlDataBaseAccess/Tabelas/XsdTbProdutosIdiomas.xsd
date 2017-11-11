@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbProdutosIdiomas" targetNamespace="http://tempuri.org/XsdTbProdutosIdiomas.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbProdutosIdiomas.xsd"
+	xmlns:mstns="http://tempuri.org/XsdTbProdutosIdiomas.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbProdutosIdiomas" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbProdutosIdiomas">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="idExportador" type="xs:int" />
+							<xs:element name="idIdioma" type="xs:int" />
+							<xs:element name="idProduto" type="xs:int" />
+							<xs:element name="strDescricao" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrDescricao" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbProdutosIdiomasKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbProdutosIdiomas" />
+			<xs:field xpath="mstns:idExportador" />
+			<xs:field xpath="mstns:idIdioma" />
+			<xs:field xpath="mstns:idProduto" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

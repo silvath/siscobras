@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{16F38522-6C0D-4CF6-8A96-47C634692BC0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6F93D632-5358-402A-BFA2-5699C5C37453} = {6F93D632-5358-402A-BFA2-5699C5C37453}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlTrocaBooleano", "mdlTrocaBooleano\mdlTrocaBooleano.csproj", "{6F93D632-5358-402A-BFA2-5699C5C37453}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {2764B08B-2411-4836-81D3-47AEAB66E9ED}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlTrocaBooleano\\mdlTrocaBooleano.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlTrocaBooleano\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{16F38522-6C0D-4CF6-8A96-47C634692BC0}.Debug.ActiveCfg = Debug|.NET
+		{16F38522-6C0D-4CF6-8A96-47C634692BC0}.Debug.Build.0 = Debug|.NET
+		{16F38522-6C0D-4CF6-8A96-47C634692BC0}.Release.ActiveCfg = Release|.NET
+		{16F38522-6C0D-4CF6-8A96-47C634692BC0}.Release.Build.0 = Release|.NET
+		{6F93D632-5358-402A-BFA2-5699C5C37453}.Debug.ActiveCfg = Debug|.NET
+		{6F93D632-5358-402A-BFA2-5699C5C37453}.Debug.Build.0 = Debug|.NET
+		{6F93D632-5358-402A-BFA2-5699C5C37453}.Release.ActiveCfg = Release|.NET
+		{6F93D632-5358-402A-BFA2-5699C5C37453}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		mdlTrocaBooleano\mdlTrocaBooleano.vsd = mdlTrocaBooleano\mdlTrocaBooleano.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

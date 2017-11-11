@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="yes"?>
+<XsdTbMoedas xmlns="http://tempuri.org/XsdTbMoedas.xsd">
+  <tbMoedas>
+    <idMoeda>24</idMoeda>
+    <mstrDescricao>Coroa Norueguesa</mstrDescricao>
+    <simbolo>Nkr</simbolo>
+  </tbMoedas>
+  <tbMoedas>
+    <idMoeda>25</idMoeda>
+    <mstrDescricao>Coroa Sueca</mstrDescricao>
+    <simbolo>Skr</simbolo>
+  </tbMoedas>
+  <tbMoedas>
+    <idMoeda>26</idMoeda>
+    <mstrDescricao>Dólar Australiano</mstrDescricao>
+    <simbolo>$A</simbolo>
+  </tbMoedas>
+  <tbMoedas>
+    <idMoeda>28</idMoeda>
+    <mstrDescricao>Dólar dos Estados Unidos</mstrDescricao>
+    <simbolo>US$</simbolo>
+  </tbMoedas>
+  <tbMoedas>
+    <idMoeda>29</idMoeda>
+    <mstrDescricao>Euro</mstrDescricao>
+    <simbolo>€</simbolo>
+  </tbMoedas>
+  <tbMoedas>
+    <idMoeda>31</idMoeda>
+    <mstrDescricao>Iene Japonês</mstrDescricao>
+    <simbolo>¥</simbolo>
+  </tbMoedas>
+  <tbMoedas>
+    <idMoeda>32</idMoeda>
+    <mstrDescricao>Libra Esterlina</mstrDescricao>
+    <simbolo>£</simbolo>
+  </tbMoedas>
+  <tbMoedas>
+    <idMoeda>33</idMoeda>
+    <mstrDescricao>Dólar Canadense</mstrDescricao>
+    <simbolo>Can.$</simbolo>
+  </tbMoedas>
+  <tbMoedas>
+    <idMoeda>34</idMoeda>
+    <mstrDescricao>Franco Suíço</mstrDescricao>
+    <simbolo>Sw.Fr.</simbolo>
+  </tbMoedas>
+</XsdTbMoedas>

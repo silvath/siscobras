@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram>
+	<title>Population of the earth</title>
+	<description>There are approximately six billion people in the world today.  Nearly 2/3 of them are Asians living on less than 1/3 of the land. Only about 5% of the world's people live in North America. 
+(Source: U.S. Census Bureau 1997)</description>
+	<values>
+		<item>
+			<name>Asia</name>
+			<value>55.9</value>
+			<color>red</color>
+		</item>
+		<item>
+			<name>Africa</name>
+			<value>12.8</value>
+			<color>orange</color>
+		</item>
+		<item>
+			<name>Europe</name>
+			<value>8.7</value>
+			<color>yellow</color>
+		</item>
+		<item>
+			<name>Latin America and Caribbean</name>
+			<value>8.5</value>
+			<color>green</color>
+		</item>
+		<item>
+			<name>North America (U.S. and Canada)</name>
+			<value>5.1</value>
+			<color>blue</color>
+		</item>
+		<item>
+			<name>Near East</name>
+			<value>2.7</value>
+			<color>navy</color>
+		</item>
+		<item>
+			<name>Oceania (Pacific Islands)</name>
+			<value>0.5</value>
+			<color>violet</color>
+		</item>
+  </values>
+</diagram>

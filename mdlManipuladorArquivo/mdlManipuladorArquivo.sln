@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executavel", "executavel\executavel.csproj", "{EE98EC63-DD6F-4A15-A0BB-2F4EAA7FC914}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F9527F73-C6D3-4B29-A1A7-2D2EB1F5024C} = {F9527F73-C6D3-4B29-A1A7-2D2EB1F5024C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdlManipuladorArquivo", "mdlManipuladorArquivo\mdlManipuladorArquivo.csproj", "{F9527F73-C6D3-4B29-A1A7-2D2EB1F5024C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {C031F497-903D-428F-9AC8-EFA034B3E010}
+		SccProjectUniqueName1 = executavel\\executavel.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = executavel\\
+		SccProjectUniqueName2 = mdlManipuladorArquivo\\mdlManipuladorArquivo.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = mdlManipuladorArquivo\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{EE98EC63-DD6F-4A15-A0BB-2F4EAA7FC914}.Debug.ActiveCfg = Debug|.NET
+		{EE98EC63-DD6F-4A15-A0BB-2F4EAA7FC914}.Debug.Build.0 = Debug|.NET
+		{EE98EC63-DD6F-4A15-A0BB-2F4EAA7FC914}.Release.ActiveCfg = Release|.NET
+		{EE98EC63-DD6F-4A15-A0BB-2F4EAA7FC914}.Release.Build.0 = Release|.NET
+		{F9527F73-C6D3-4B29-A1A7-2D2EB1F5024C}.Debug.ActiveCfg = Debug|.NET
+		{F9527F73-C6D3-4B29-A1A7-2D2EB1F5024C}.Debug.Build.0 = Debug|.NET
+		{F9527F73-C6D3-4B29-A1A7-2D2EB1F5024C}.Release.ActiveCfg = Release|.NET
+		{F9527F73-C6D3-4B29-A1A7-2D2EB1F5024C}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		mdlManipuladorArquivo.vsd = mdlManipuladorArquivo.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

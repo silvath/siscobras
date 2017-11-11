@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbPes" targetNamespace="http://tempuri.org/XsdTbPes.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbPes.xsd" xmlns:mstns="http://tempuri.org/XsdTbPes.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbPes" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbPEs">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="idExportador" type="xs:int" />
+							<xs:element name="idPE" type="xs:string" />
+							<xs:element name="dtDataCriacao" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="mstrRE" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrSD" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrDSE" type="xs:string" minOccurs="0" />
+							<xs:element name="nIdRelatorioCotacao" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdRelatorioFaturaComercial" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdRelatorioFaturaProforma" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdRelatorioCOMercosul" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdRelatorioCOMercosulChile" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdRelatorioCOMercosulBolivia" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdRelatorioCOAladiAptr04" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdRelatorioCOAladiAce39" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdRelatorioCOAnexoIII" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdRelatorioCOComum" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdRelatorioRomaneio" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdRelatorioBordero" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdRelatorioSaque" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdRelatorioInstrucaoEmbarque" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdRelatorioDocBancInstrucaoDeRemessa" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdRelatorioIndefinido" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdConsignatario" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdUltimoPaisImportador" type="xs:int" minOccurs="0" />
+							<xs:element name="dtDataConclusao" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="bConcluido" type="xs:boolean" minOccurs="0" />
+							<xs:element name="strIdConhecimentoEmbarque" type="xs:string" minOccurs="0" />
+							<xs:element name="strIdSeguro" type="xs:string" minOccurs="0" />
+							<xs:element name="strIdCertificadoPeso" type="xs:string" minOccurs="0" />
+							<xs:element name="strIdCertificadoAnalise" type="xs:string" minOccurs="0" />
+							<xs:element name="strIdFitossanitario" type="xs:string" minOccurs="0" />
+							<xs:element name="nIdAgenteVenda" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdAgenteVendaBanco" type="xs:int" minOccurs="0" />
+							<xs:element name="dAgenteVendaValorComissao" type="xs:double" minOccurs="0" />
+							<xs:element name="dAgenteVendaValorComissaoPorcentagem" type="xs:double" minOccurs="0" />
+							<xs:element name="nAgenteVendaFormaPagamento" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdCartaCredito" type="xs:int" minOccurs="0" />
+							<xs:element name="nCartaCreditoSaldoRestante" type="xs:int" minOccurs="0" />
+							<xs:element name="mstrClassificaoTarifaria" type="xs:string" minOccurs="0" />
+							<xs:element name="dtEmissaoRE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="dtEmissaoSD" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="dtEmissaoDSE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="dtEmissaoFitoSanitario" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="dtEmissaoCertificadoPeso" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="dtEmissaoCertificadoAnalise" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="dtEmissaoSeguro" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="dtEmissaoOrdemCompra" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="strUltimoDocumentoUtilizado" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrContainerNumero" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrContainerTipo" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrContainerTamanho" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrContainerTara" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrContainerLacre" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrContainerLacreArmador" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrContainerExcessoCargaAltura" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrContainerExcessoCargaLargura" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrContainerExcessoCargaComprimento" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrContainerTemperaturaMinima" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrContainerTemperaturaMaxima" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrContainerIMO" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrContainerUNO" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrContainerISO" type="xs:string" minOccurs="0" />
+							<xs:element name="nIdArmador" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdNavio" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdTerminal" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdTerminalContato" type="xs:int" minOccurs="0" />
+							<xs:element name="mstrDescricaoGeralProdutos" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrViagem" type="xs:string" minOccurs="0" />
+							<xs:element name="dtDeadlineChegadaPrevistaTransporte" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="dtDeadlineListaCarga" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="dtDeadLineEspelhoBL" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="dtDeadlineRetiradaContainerTerminal" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="dtAberturaPortao" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="dtDeadlineFechamentoPortao" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="dtDeadlineLiberacaoRF" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="dtDeadlineOutro" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="strDeadlineOutro" type="xs:string" minOccurs="0" />
+							<xs:element name="nIdAgenteCarga" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdAgenteCargaContato" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdTransportadora" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdTransportadoraContato" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdTransportadoraMotorista" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdTransportadoraVeiculo" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdDespachante" type="xs:int" minOccurs="0" />
+							<xs:element name="nIdDespachanteContato" type="xs:int" minOccurs="0" />
+							<xs:element name="mstrLocalOva" type="xs:string" minOccurs="0" />
+							<xs:element name="strFormatDeadlineChegadaPrevistaTransporte" type="xs:string" minOccurs="0" />
+							<xs:element name="strFormatDeadlineListaCarga" type="xs:string" minOccurs="0" />
+							<xs:element name="strFormatDeadLineEspelhoBL" type="xs:string" minOccurs="0" />
+							<xs:element name="strFormatDeadlineRetiradaContainerTerminal" type="xs:string" minOccurs="0" />
+							<xs:element name="strFormatAberturaPortao" type="xs:string" minOccurs="0" />
+							<xs:element name="strFormatDeadlineFechamentoPortao" type="xs:string" minOccurs="0" />
+							<xs:element name="strFormatDeadlineLiberacaoRF" type="xs:string" minOccurs="0" />
+							<xs:element name="strFormatDeadlineOutro" type="xs:string" minOccurs="0" />
+							<xs:element name="bTransbordo" type="xs:boolean" minOccurs="0" />
+							<xs:element name="mstrLocalTransbordo" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrDataEmissaoRE" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrDataEmissaoSD" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrDataEmissaoDSE" type="xs:string" minOccurs="0" />
+							<xs:element name="mstrObservacoes" type="xs:string" minOccurs="0" />
+							<xs:element name="nIdDespachanteContatoDespachante" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbPesKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbPEs" />
+			<xs:field xpath="mstns:idExportador" />
+			<xs:field xpath="mstns:idPE" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

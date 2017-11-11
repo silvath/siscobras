@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>mdlContratoCambio</name>
+    </assembly>
+    <members>
+        <member name="T:mdlContratoCambio.frmFConfiguracoes">
+            <summary>
+            Summary description for frmFConfiguracoes.
+            </summary>
+        </member>
+        <member name="M:mdlContratoCambio.frmFConfiguracoes.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:mdlContratoCambio.frmFConfiguracoes.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:mdlContratoCambio.frmFContratoCambio">
+            <summary>
+            Summary description for frmFContratoCambio.
+            </summary>
+        </member>
+        <member name="M:mdlContratoCambio.frmFContratoCambio.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:mdlContratoCambio.frmFContratoCambio.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:mdlContratoCambio.frmFContratoCambioInformacoes">
+            <summary>
+            Summary description for frmFContratoCambioInformacoes.
+            </summary>
+        </member>
+        <member name="M:mdlContratoCambio.frmFContratoCambioInformacoes.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:mdlContratoCambio.frmFContratoCambioInformacoes.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:mdlContratoCambio.frmFContratoCambioNovo">
+            <summary>
+            Summary description for frmFContratoCambioNovo.
+            </summary>
+        </member>
+        <member name="M:mdlContratoCambio.frmFContratoCambioNovo.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:mdlContratoCambio.frmFContratoCambioNovo.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:mdlContratoCambio.clsContratoCambio">
+            <summary>
+            Summary description for clsContratoCambio.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XsdTbUsuariosPermissoes" targetNamespace="http://tempuri.org/XsdTbUsuariosPermissoes.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/XsdTbUsuariosPermissoes.xsd"
+	xmlns:mstns="http://tempuri.org/XsdTbUsuariosPermissoes.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="XsdTbUsuariosPermissoes" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tbUsuariosPermissoes">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nIdPermissao" type="xs:int" />
+							<xs:element name="strNome" type="xs:string" minOccurs="0" />
+							<xs:element name="strDescricao" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="XsdTbUsuariosPermissoesKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:tbUsuariosPermissoes" />
+			<xs:field xpath="mstns:nIdPermissao" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mdlImportador>
+	<clsImportador>
+		<Tarefas>10-06-2003#Roberto#Compilando em VS2003</Tarefas>
+		<Problemas>Nenhum</Problemas>
+	</clsImportador>
+	<clsImportadorComercial>
+		<Tarefas>10-06-2003#Roberto#Compilando em VS2003</Tarefas>
+		<Problemas>Nenhum</Problemas>
+	</clsImportadorComercial>
+	<clsImportadorCotacao>
+		<Tarefas>10-06-2003#Roberto#Compilando em VS2003</Tarefas>
+		<Problemas>Nenhum</Problemas>
+	</clsImportadorCotacao>
+	<clsImportadorProforma>
+		<Tarefas>10-06-2003#Roberto#Compilando em VS2003</Tarefas>
+		<Problemas>Nenhum</Problemas>
+	</clsImportadorProforma>
+	<frmFImportador>
+		<Tarefas>10-06-2003#Roberto#Compilando em VS2003 e padronizando os Frames</Tarefas>
+		<Problemas>Nenhum</Problemas>
+	</frmFImportador>
+	<frmFImportadorCadEdit>
+		<Tarefas>10-06-2003#Roberto#Compilando em VS2003 e padronizando os Frames</Tarefas>
+		<Problemas>Nenhum</Problemas>
+	</frmFImportadorCadEdit>
+	<clsImportador>
+		<Tarefas>16-06-2003#Roberto#Corrigindo o método retornaValores</Tarefas>
+		<Problemas>Nenhum</Problemas>
+	</clsImportador>
+</mdlImportador>
